@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudserviceconfigs="[[]]"
+        cq:lastModified="{Date}2018-11-20T08:33:35.879+11:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/screens/core/templates/project"
+        jcr:mixinTypes="[]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Fisher &amp; Paykel"
+        sling:resourceType="screens/core/components/project"/>
+    <schedules/>
+    <locations/>
+    <devices/>
+    <channels/>
+</jcr:root>

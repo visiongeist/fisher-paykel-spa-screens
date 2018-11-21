@@ -2,6 +2,7 @@
 <workspaceFilter version="1.0">
     <filter root="/conf/spa-screens"/>
     <filter root="/content/spa-screens" mode="merge"/>
+    <filter root="/content/screens/fisher-paykel" mode="merge"/>
     <filter root="/content/_cq_tags/fishers" mode="merge"/>
     <filter root="/content/dam/fishers" mode="merge"/>
     <filter root="/content/dam/spa-screens" mode="merge"/>
