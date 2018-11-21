@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="2e4fe16c-bd9c-450d-9bb2-3bfa4eb1f57a">
+    <jcr:content
+        cq:name="WH2424F1-fabricsmart-quiet-performer-side-panels-GAL.jpg"
+        cq:parentPath="/content/dam/fishers/images/laundry"
+        dam:assetState="processed"
+        dam:relativePath="fishers/images/laundry/WH2424F1-fabricsmart-quiet-performer-side-panels-GAL.jpg"
+        jcr:lastModified="{Date}2018-10-12T15:53:13.751+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            cq:productReference="/var/commerce/products/fishers/laundry/wash/wash2"
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2018-10-12T15:52:08.308+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:productID="RF610ADUSZ4-27"
+            dam:Progressive="yes"
+            dam:sha1="8018c8daf144ef7f5a6fedcf9790d8387e06bb76"
+            dam:size="{Long}46019"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2018-10-12T15:53:13.684+05:30"
+            jcr:lastModified="{Date}2018-10-12T15:53:13.684+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}1920"
+            tiff:ImageWidth="{Long}1600"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

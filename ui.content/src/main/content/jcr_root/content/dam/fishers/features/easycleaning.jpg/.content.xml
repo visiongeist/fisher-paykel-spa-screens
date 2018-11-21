@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="eba5d0b7-5af2-4aa3-bd56-2777e582c8d6">
+    <jcr:content
+        cq:name="easycleaning.jpg"
+        cq:parentPath="/content/dam/fishers/features"
+        dam:assetState="processed"
+        dam:relativePath="fishers/features/easycleaning.jpg"
+        jcr:lastModified="{Date}2018-10-08T14:50:40.726+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            cq:productReference="/var/commerce/products/fishers/activesmart_fridge_7"
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2018-10-04T16:20:53.373+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}0"
+            dam:Physicalheightininches="Infinity"
+            dam:Physicalwidthindpi="{Long}0"
+            dam:Physicalwidthininches="Infinity"
+            dam:productID="RF522ADUSX4-534"
+            dam:Progressive="no"
+            dam:sha1="0a7be0b5f8f10e24b16be6c1187d0156a445cbe2"
+            dam:size="{Long}74637"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2018-09-26T14:16:06.785+05:30"
+            jcr:lastModified="{Date}2018-10-08T14:50:38.976+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}1350"
+            tiff:ImageWidth="{Long}2400"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

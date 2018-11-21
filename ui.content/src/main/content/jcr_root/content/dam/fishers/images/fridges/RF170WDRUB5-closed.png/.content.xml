@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="3b217fcc-aad3-4aa8-a852-69ce789a129b">
+    <jcr:content
+        cq:name="RF170WDRUB5-closed.png"
+        cq:parentPath="/content/dam/fishers/images/fridges"
+        dam:assetState="processed"
+        dam:relativePath="fishers/images/fridges/RF170WDRUB5-closed.png"
+        jcr:lastModified="{Date}2018-10-15T13:49:02.307+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            cq:productReference="/var/commerce/products/fishers/black_stainless_stee"
+            dam:Bitsperpixel="{Long}32"
+            dam:extracted="{Date}2018-10-15T13:42:21.093+05:30"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}100"
+            dam:Physicalheightininches="{Decimal}38.40007781982422"
+            dam:Physicalwidthindpi="{Long}100"
+            dam:Physicalwidthininches="{Decimal}21.60004234313965"
+            dam:productID="RF170WDRUB5-484"
+            dam:Progressive="no"
+            dam:sha1="a85fc16c15b0e6c8a1e3968d2266d0f99c2ca6e4"
+            dam:size="{Long}2844463"
+            dc:format="image/png"
+            dc:modified="{Date}2018-10-15T13:49:02.071+05:30"
+            exif:ColorSpace="{Long}65535"
+            exif:PixelXDimension="{Long}4320"
+            exif:PixelYDimension="{Long}7680"
+            jcr:lastModified="{Date}2018-10-15T13:49:02.071+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            photoshop:DocumentAncestors="[10880620FD926B37722094531ED21A24,32DE6B0C69080849ECDF80D18484B5DA,3B839FED0888772BCE46B5ECD5F11E28,468A51412ED56EF78D3BDC910F338AC4,4E72070DFECD2AEBEF99137181413ECA,50630283430BFBBD227590E73BE02445,5F5E93F22AA634C9691960E7615FB434,637B2FD3FE3975C23656A9D9D3DC29D1,64DCF97AF09C53567FF1A65ED4ACC92F,704BF4F99E6236BAA7245A7A1C33381E,7AE94334BB250C0D41628054C6BE56F8,8A0C2A1181AC96A10A01E50A65CC4A1A,8C8855B2C53C3FFD257F3FD43293C045,AE28EEECA9BCD8F397F35F790EDF44A3,AE8C8AF532316982A2D63B3041A3F791,BC0902B1D7304A15DE654CC5FB888E1A,adobe:docid:photoshop:00204e73-f83c-1177-99e8-bb3ec7d311cf,adobe:docid:photoshop:05c2a30d-9199-1178-a72c-b184c5d832e7,adobe:docid:photoshop:06785dbd-5950-117a-b3a8-e96bf3ff615e,adobe:docid:photoshop:072e14ac-b41d-1178-8f9b-855de003778a,adobe:docid:photoshop:0e6c08aa-a91a-1178-b3c2-fb77e739597b,adobe:docid:photoshop:11832d66-9bb9-1178-92f7-92def7b7dfb1,adobe:docid:photoshop:124a1499-ca04-1177-b47c-861ab75c18cc,adobe:docid:photoshop:1b871f5b-c7bd-1178-80b6-f8bb24e4df47,adobe:docid:photoshop:1cc1bd77-60c6-1178-92b9-ffa46f75a6ca,adobe:docid:photoshop:1e16a39e-61a9-1178-9f49-cf1fab3187ed,adobe:docid:photoshop:1fa20619-a38b-1178-bf3d-9a6a3f5fd5f8,adobe:docid:photoshop:28154b12-b760-1178-ad0f-c131de62c560,adobe:docid:photoshop:28480a5b-bf05-1178-b4c2-a48fcf0f7673,adobe:docid:photoshop:29f871e3-a300-1178-9872-a9af068af463,adobe:docid:photoshop:2a040b89-cab1-1177-9e4e-88ccb403f627,adobe:docid:photoshop:2aaf87f6-61a7-1178-9f49-cf1fab3187ed,adobe:docid:photoshop:2f01c072-6009-1178-bb6e-f2524d262ade,adobe:docid:photoshop:331c930a-f6a8-11d8-94b1-93ae8daefb1d,adobe:docid:photoshop:3504c9d3-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:36ae648d-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:373434a2-4fe1-117a-a04e-cfe23b59179b,adobe:docid:photoshop:37b6bf91-c12a-1177-bac2-dbaec656b625,adobe:docid:photoshop:37dcfa4d-90df-1178-aacd-d25b3714ca17,adobe:docid:photoshop:394f106c-ca03-1177-b47c-861ab75c18cc,adobe:docid:photoshop:39d2e747-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:3bb44c81-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:3ea76f36-61a8-1178-9f49-cf1fab3187ed,adobe:docid:photoshop:3ec40c09-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:3fd2d99f-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:4213392f-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:43c82271-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:444365f3-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:451bf54f-b685-1178-b537-8e8091f8f4d3,adobe:docid:photoshop:45fa3b6d-c148-1177-bac2-dbaec656b625,adobe:docid:photoshop:46785829-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:483cb83d-e01e-1178-9991-b3db2c32894f,adobe:docid:photoshop:48f25def-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:4a43e6af-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:4af16560-bd72-1178-aa29-ae31e222a120,adobe:docid:photoshop:4bddd533-b1c1-1178-974c-ef031cf26bc5,adobe:docid:photoshop:4c77e3e5-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:4d275c33-59da-1178-860e-c9964fbf5af6,adobe:docid:photoshop:4dd49daf-77f2-1179-8683-a80d4caa07e7,adobe:docid:photoshop:4e6457d3-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:4e7afe8a-7d28-1179-a689-b2e25badf795,adobe:docid:photoshop:4ebb8a13-9c89-1178-ae7d-87cfb39bbedd,adobe:docid:photoshop:4f421a1c-d17e-117a-ad4b-d86e725de9f8,adobe:docid:photoshop:5036b78b-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:50e195b1-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:51993e7d-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:53a3af4b-5936-1179-a8f0-d8440db6fc1d,adobe:docid:photoshop:54b34a54-eb34-1179-9d80-d0bcadaf6f7f,adobe:docid:photoshop:55ee344c-eb2f-1179-9d80-d0bcadaf6f7f,adobe:docid:photoshop:5797f4de-a91a-1178-b3c2-fb77e739597b,adobe:docid:photoshop:582dffe0-7f8b-1178-9aef-c20444bf5440,adobe:docid:photoshop:58be42a3-9baf-1178-92f7-92def7b7dfb1,adobe:docid:photoshop:591d9411-b756-1178-ad0f-c131de62c560,adobe:docid:photoshop:5a3088cb-c6e4-1177-b445-e27bfab8d4d7,adobe:docid:photoshop:5c2e9315-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:5c399867-e4ff-1179-b48a-c7b6773cd126,adobe:docid:photoshop:5d4c8b42-c626-1177-bbde-fcc1965a0878,adobe:docid:photoshop:5d9768eb-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:5e45d3a9-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:5f69d915-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:62cd26b1-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:630cefe4-b697-1178-b537-8e8091f8f4d3,adobe:docid:photoshop:63868386-7936-1179-8683-a80d4caa07e7,adobe:docid:photoshop:639ed508-d4a1-1179-9eab-b6c49f1893b0,adobe:docid:photoshop:63e2462b-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:64ff44a5-e51b-1179-bc03-fa907b2feee8,adobe:docid:photoshop:662cc695-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:6a8e3619-bf21-1178-9712-df39e23cbff5,adobe:docid:photoshop:6b25e0aa-b802-1178-8d10-ec6e9768d02e,adobe:docid:photoshop:6b4bb1f4-c229-1178-9437-93de77f70dcc,adobe:docid:photoshop:6f57987b-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:708c38ff-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:70a3e23c-b7fd-1178-8d10-ec6e9768d02e,adobe:docid:photoshop:70d1612a-992c-11d9-8c49-85b99c6931f3,adobe:docid:photoshop:7109ec1b-b1c1-1178-974c-ef031cf26bc5,adobe:docid:photoshop:750d30ed-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:75457b61-e51c-1179-bc03-fa907b2feee8,adobe:docid:photoshop:7581528b-9bb4-1178-92f7-92def7b7dfb1,adobe:docid:photoshop:761d29d9-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:77afb934-992e-11d9-8c49-85b99c6931f3]"
+            photoshop:DocumentAncestors_xmpArrayType="rdf:Bag"
+            photoshop:History="2017-03-23T07:39:17+13:00 File E522BRXFDU5_External Mug_RGB_84_New Logo.psd opened 2017-03-23T08:28:36+13:00 File E522BRXFDU5_External Mug_RGB_84_New Logo.psd closed 2017-03-23T08:28:36+13:00 File E522BRXFDU5_External Mug_RGB_84_New Logo.psd saved 2017-03-23T09:45:55+13:00 File E522BRXFDU5_External Mug_RGB_84_New Logo.psd opened 2017-03-24T12:18:36+13:00 File E522BRXFDU5_External Mug_RGB_84_New Logo.psd closed 2017-03-24T12:18:36+13:00 File E522BRXFDU5_External Mug_RGB_84_New Logo.psd saved 2017-03-24T17:58:33+13:00 File E522BRXFDU5_External Mug_RGB_84_New Logo.psd closed 2017-03-24T17:58:33+13:00 File E522BRXFDU5_External Mug_RGB_84_New Logo.psd saved 2017-04-07T14:46:23+12:00 File E522BRXFDU5_External Mug_RGB_84_New Logo.psd opened 2017-04-07T14:51:56+12:00 File E522BRXFDU5_External Mug_RGB_84_New Logo.psd saved 2017-04-07T14:52:17+12:00 File E522BRXFDU5_External Mug_RGB_84_Mirrored Logo.psd saved "
+            photoshop:ICCProfile="Adobe RGB (1998)"
+            tiff:ImageLength="{Long}3840"
+            tiff:ImageWidth="{Long}2160"
+            tiff:Orientation="{Long}1"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="1000000/10000"
+            tiff:YResolution="1000000/10000"
+            xmp:CreateDate="{Date}2015-09-01T10:45:33.000+12:00"
+            xmp:CreatorTool="Adobe Photoshop CC 2018 (Macintosh)"
+            xmp:MetadataDate="{Date}2018-07-12T13:17:34.000+12:00"
+            xmp:ModifyDate="{Date}2018-07-12T13:17:34.000+12:00"
+            xmpMM:DocumentID="adobe:docid:photoshop:41853bfe-ab86-7e4c-9eb2-af96687f5303"
+            xmpMM:InstanceID="xmp.iid:d673c19f-3bbc-491c-b718-62df36cfdcc0"
+            xmpMM:OriginalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d">
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}6"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="created"
+                    stEvt:instanceID="xmp.iid:7459337f-ed8a-4a05-a92f-7e799602ac5d"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2015-09-01T10:45:33.000+12:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:dfd67d3b-7bc0-4c99-be09-820810e6558e"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2015-09-01T11:20:30.000+12:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:b2eab7d7-12b6-49d2-97a3-b7405e37bf4d"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2018 (Macintosh)"
+                    stEvt:when="{Date}2018-07-12T13:17:34.000+12:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0034_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="converted"
+                    stEvt:parameters="from application/vnd.adobe.photoshop to image/png"
+                    xmpNodeType="xmpStruct"/>
+                <_x0035_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from application/vnd.adobe.photoshop to image/png"
+                    xmpNodeType="xmpStruct"/>
+                <_x0036_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:d673c19f-3bbc-491c-b718-62df36cfdcc0"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2018 (Macintosh)"
+                    stEvt:when="{Date}2018-07-12T13:17:34.000+12:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:a5c6d4ba-5bcb-117a-b3a8-e96bf3ff615e"
+                stRef:instanceID="xmp.iid:b2eab7d7-12b6-49d2-97a3-b7405e37bf4d"
+                stRef:originalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

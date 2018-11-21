@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="b99fe623-24cc-4cc9-a3b2-367a3af8da71">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="fishers/images/ovens/OS24NDB1-combi-steam-oven-opened.png"
+        jcr:lastModified="{Date}2018-10-15T20:14:32.501+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}32"
+            dam:extracted="{Date}2018-10-15T20:14:31.983+05:30"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}100"
+            dam:Physicalheightininches="{Decimal}38.40007781982422"
+            dam:Physicalwidthindpi="{Long}100"
+            dam:Physicalwidthininches="{Decimal}21.60004234313965"
+            dam:Progressive="no"
+            dam:sha1="57670be62bc7fe710844be2a7aa1e08ae14e486b"
+            dam:size="{Long}1619483"
+            dc:format="image/png"
+            exif:ColorSpace="{Long}65535"
+            exif:PixelXDimension="{Long}7680"
+            exif:PixelYDimension="{Long}7680"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            photoshop:DocumentAncestors="[05574E988FBDDC6FD85B8B2E31126E67,10880620FD926B37722094531ED21A24,1614324237E2E456A3CAEE74850E8794,32DE6B0C69080849ECDF80D18484B5DA,3B839FED0888772BCE46B5ECD5F11E28,468A51412ED56EF78D3BDC910F338AC4,4E72070DFECD2AEBEF99137181413ECA,552A07D23C71FBE41FD738FAF6197DBB,5F5E93F22AA634C9691960E7615FB434,637B2FD3FE3975C23656A9D9D3DC29D1,64DCF97AF09C53567FF1A65ED4ACC92F,688854EACAC45DE9D7A63E9615079630,7025694F285FE3E33691A5C869140B23,704BF4F99E6236BAA7245A7A1C33381E,79619A6B8A87BBAD9F4745D51D2C076A,7B4EC7DDDBB1DAE80368D6A50C7F22BC,7C6E8A004F8F5435F16940D3C7B53227,8A0C2A1181AC96A10A01E50A65CC4A1A,8C8855B2C53C3FFD257F3FD43293C045,AB6B3C6663E70EC384DBC3E204F1056C,AC44E1D9DEFBB46732D91D000C5293BC,AE28EEECA9BCD8F397F35F790EDF44A3,AE8C8AF532316982A2D63B3041A3F791,B50001AE8122D0943FD665E118664A7F,BC0902B1D7304A15DE654CC5FB888E1A,C3466FEB01077D9BBEC8AE5C90A57F00,ED5AD983C93351B5085317565991A1D4,FB67C03AB338B760B5F7CE133E6A655B,adobe:docid:photoshop:00204e73-f83c-1177-99e8-bb3ec7d311cf,adobe:docid:photoshop:02bb61f5-97bb-1178-bb6b-9635a8a1c9de,adobe:docid:photoshop:04deabc9-f93a-1177-99e8-bb3ec7d311cf,adobe:docid:photoshop:050398c9-40af-1179-b507-a3a6ede8fb26,adobe:docid:photoshop:05c2a30d-9199-1178-a72c-b184c5d832e7,adobe:docid:photoshop:078e8ea9-9d47-1178-8a37-a7a0ebcf7a35,adobe:docid:photoshop:09c050cc-9d6d-1178-8a37-a7a0ebcf7a35,adobe:docid:photoshop:0b4b6d6b-d479-1179-9eab-b6c49f1893b0,adobe:docid:photoshop:0eb65fb6-d4b8-117a-8841-b3677b2ec1a9,adobe:docid:photoshop:0f89f696-21ec-1178-ae05-92956623560b,adobe:docid:photoshop:112cacb0-3ccb-1177-8abf-aba73e84439d,adobe:docid:photoshop:124a1499-ca04-1177-b47c-861ab75c18cc,adobe:docid:photoshop:15510b7c-da3c-11dc-96cc-c3a2afb82431,adobe:docid:photoshop:165fa742-3ccb-1177-8abf-aba73e84439d,adobe:docid:photoshop:172b1240-d22d-1179-8af0-ebbbcd92a946,adobe:docid:photoshop:1cbf57a9-a918-1178-9823-ac0ced5a92be,adobe:docid:photoshop:1cc1bd77-60c6-1178-92b9-ffa46f75a6ca,adobe:docid:photoshop:1fc053be-ddbc-1178-aa00-f2881955485b,adobe:docid:photoshop:22b322ac-13d6-1178-9eb3-cc3b60957132,adobe:docid:photoshop:293cf058-d48d-1179-9eab-b6c49f1893b0,adobe:docid:photoshop:2a040b89-cab1-1177-9e4e-88ccb403f627,adobe:docid:photoshop:2f01c072-6009-1178-bb6e-f2524d262ade,adobe:docid:photoshop:37b6bf91-c12a-1177-bac2-dbaec656b625,adobe:docid:photoshop:37dcfa4d-90df-1178-aacd-d25b3714ca17,adobe:docid:photoshop:38776e28-90dd-1178-aacd-d25b3714ca17,adobe:docid:photoshop:394f106c-ca03-1177-b47c-861ab75c18cc,adobe:docid:photoshop:3bb44c81-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:422d9b10-fdf6-ca47-a009-829b8dad12d4,adobe:docid:photoshop:45fa3b6d-c148-1177-bac2-dbaec656b625,adobe:docid:photoshop:46785829-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:49245d6d-21eb-1178-ae05-92956623560b,adobe:docid:photoshop:4c6ea7b7-12f5-1178-be64-aabe285418e2,adobe:docid:photoshop:4d4d3814-3c14-1179-8796-fe10a220519a,adobe:docid:photoshop:4daf5b9a-0679-1178-91da-ba10c0143bc3,adobe:docid:photoshop:4e6457d3-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:5140c782-a5fd-1178-b86a-dc2f5a87495b,adobe:docid:photoshop:582dffe0-7f8b-1178-9aef-c20444bf5440,adobe:docid:photoshop:5a3088cb-c6e4-1177-b445-e27bfab8d4d7,adobe:docid:photoshop:5a72c02e-812a-1178-9935-d16d6ebcd1f5,adobe:docid:photoshop:5d29b3e8-3d49-1177-8986-87abc636b864,adobe:docid:photoshop:5d4c8b42-c626-1177-bbde-fcc1965a0878,adobe:docid:photoshop:5e6fa432-ac5c-1178-a2ba-e95527265c28,adobe:docid:photoshop:5ecb6f19-ddbb-1178-aa00-f2881955485b,adobe:docid:photoshop:5f69d915-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:63e2462b-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:662cc695-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:687d96ae-186b-1178-a72d-e81a7a376728,adobe:docid:photoshop:6cff5b60-2ddb-1178-97b7-e0989eca3ee1,adobe:docid:photoshop:6e934bb7-1876-1178-a72d-e81a7a376728,adobe:docid:photoshop:7170996b-8685-1178-9096-98b4a76a9fa9,adobe:docid:photoshop:72fe19a6-21ef-1178-ae05-92956623560b,adobe:docid:photoshop:761d29d9-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:7c8cac2f-f855-1177-99e8-bb3ec7d311cf,adobe:docid:photoshop:7e5b1421-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:81196ab9-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:8124354f-9d4d-1178-8a37-a7a0ebcf7a35,adobe:docid:photoshop:81ef0509-f83e-1177-99e8-bb3ec7d311cf,adobe:docid:photoshop:892188ac-9e12-1178-97c5-da9e93418530,adobe:docid:photoshop:89c1a940-da0c-11dc-96cc-c3a2afb82431,adobe:docid:photoshop:8b6c5160-7f88-1178-9aef-c20444bf5440,adobe:docid:photoshop:8d890c3f-7f8b-1178-9aef-c20444bf5440,adobe:docid:photoshop:90adb3d3-5f70-1178-9713-fe4adb2d9463,adobe:docid:photoshop:93dcde0b-21e5-1178-ae05-92956623560b,adobe:docid:photoshop:94e0c01d-7f8c-1178-9aef-c20444bf5440,adobe:docid:photoshop:950f5250-59e0-1178-860e-c9964fbf5af6,adobe:docid:photoshop:955747e5-ca03-1177-b47c-861ab75c18cc,adobe:docid:photoshop:968e96d4-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:96ade68d-59e0-1178-860e-c9964fbf5af6,adobe:docid:photoshop:97e0efd4-59e0-1178-860e-c9964fbf5af6,adobe:docid:photoshop:99dcb17e-59e0-1178-860e-c9964fbf5af6,adobe:docid:photoshop:9a72832e-f8fc-1177-99e8-bb3ec7d311cf,adobe:docid:photoshop:9aa68570-13d4-1178-9eb3-cc3b60957132]"
+            photoshop:DocumentAncestors_xmpArrayType="rdf:Bag"
+            photoshop:History="2018-03-02T10:37:04+13:00 File OB24SCDEPX1-pyrolytic-walloven-mug-Internal.psd opened 2018-03-02T10:47:34+13:00 File OB24SCDEPX1-pyrolytic-walloven-mug-Internal.png saved "
+            photoshop:ICCProfile="Adobe RGB (1998)"
+            tiff:ImageLength="{Long}3840"
+            tiff:ImageWidth="{Long}2160"
+            tiff:Orientation="{Long}1"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="1000000/10000"
+            tiff:YResolution="1000000/10000"
+            xmp:CreateDate="{Date}2015-11-26T12:12:16.000+13:00"
+            xmp:CreatorTool="Adobe Photoshop CC (Macintosh)"
+            xmp:MetadataDate="{Date}2018-03-02T10:47:34.000+13:00"
+            xmp:ModifyDate="{Date}2018-03-02T10:47:34.000+13:00"
+            xmpMM:DocumentID="adobe:docid:photoshop:cc25a76c-5260-594b-97f5-d7b734092922"
+            xmpMM:InstanceID="xmp.iid:cb7fcd6d-a554-46fd-a118-9c1eac805f54"
+            xmpMM:OriginalDocumentID="xmp.did:65589c04-a7be-4793-8693-837727d53f8e">
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}6"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="created"
+                    stEvt:instanceID="xmp.iid:65589c04-a7be-4793-8693-837727d53f8e"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2015-11-26T12:12:16.000+13:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:944c3349-ac97-4bda-ae1e-510e25c88fd4"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2015-11-26T12:15:00.000+13:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:92a9d888-b537-4cb5-b7df-87751b82125e"
+                    stEvt:softwareAgent="Adobe Photoshop CC (Macintosh)"
+                    stEvt:when="{Date}2018-03-02T10:47:34.000+13:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0034_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="converted"
+                    stEvt:parameters="from application/vnd.adobe.photoshop to image/png"
+                    xmpNodeType="xmpStruct"/>
+                <_x0035_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from application/vnd.adobe.photoshop to image/png"
+                    xmpNodeType="xmpStruct"/>
+                <_x0036_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:cb7fcd6d-a554-46fd-a118-9c1eac805f54"
+                    stEvt:softwareAgent="Adobe Photoshop CC (Macintosh)"
+                    stEvt:when="{Date}2018-03-02T10:47:34.000+13:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:94651bd3-fc03-dc44-b486-9ee9aff0b455"
+                stRef:instanceID="xmp.iid:92a9d888-b537-4cb5-b7df-87751b82125e"
+                stRef:originalDocumentID="xmp.did:65589c04-a7be-4793-8693-837727d53f8e"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

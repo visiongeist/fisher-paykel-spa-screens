@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="425dcb2f-d447-45e7-be72-1ab109bccbb9">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="fishers/images/fridges/fridge-373.jpg"
+        jcr:lastModified="{Date}2018-10-04T16:20:53.340+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2018-10-04T16:20:53.226+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}0"
+            dam:Physicalheightininches="Infinity"
+            dam:Physicalwidthindpi="{Long}0"
+            dam:Physicalwidthininches="Infinity"
+            dam:Progressive="no"
+            dam:sha1="eec822588445ec4e9775521c782a213987be89e0"
+            dam:size="{Long}16870"
+            dc:format="image/jpeg"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}960"
+            tiff:ImageWidth="{Long}800"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

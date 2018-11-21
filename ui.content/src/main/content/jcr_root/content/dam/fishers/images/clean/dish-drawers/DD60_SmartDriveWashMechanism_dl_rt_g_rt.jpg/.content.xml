@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a12548a6-2897-484a-9c94-159d7c75b312">
+    <jcr:content
+        cq:name="DD60_SmartDriveWashMechanism_dl_rt_g_rt.jpg"
+        cq:parentPath="/content/dam/fishers/images/clean/dish-drawers"
+        dam:assetState="processed"
+        dam:relativePath="fishers/images/clean/dish-drawers/DD60_SmartDriveWashMechanism_dl_rt_g_rt.jpg"
+        jcr:lastModified="{Date}2018-10-12T12:53:13.401+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            cq:productReference="/var/commerce/products/fishers/clean/dish_drawers/BLACKactivesmart_fridge_9"
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2018-10-12T11:38:52.689+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}0"
+            dam:Physicalheightininches="Infinity"
+            dam:Physicalwidthindpi="{Long}0"
+            dam:Physicalwidthininches="Infinity"
+            dam:productID="RF610ADUSZ4-599"
+            dam:Progressive="no"
+            dam:sha1="792e863c3ffc7138923e65ae878ae3f0952798d6"
+            dam:size="{Long}124962"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2018-10-12T11:46:39.461+05:30"
+            jcr:lastModified="{Date}2018-10-12T12:53:13.302+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}1350"
+            tiff:ImageWidth="{Long}2400"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

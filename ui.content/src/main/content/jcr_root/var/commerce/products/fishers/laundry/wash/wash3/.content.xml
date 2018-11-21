@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:commerceType="product"
+    cq:tags="[fishers:Laundry/Wash]"
+    jcr:created="{Date}2018-09-26T13:58:03.841+05:30"
+    jcr:customtitle="ActiveSmart™ Fridge"
+    jcr:description="Stacking kit.&#xd;&#xa;&#xd;&#xa;Fits Dryers: DE6060P, DE6060G, DE5060G, DE5060M, DE4060M&#xd;&#xa;&#xd;&#xa;Fits Front Loaders: WH8560P, WH8560J, WH7560Pm WH7560J, WH8060P, WH8060F"
+    jcr:lastModified="{Date}2018-10-12T16:05:51.485+05:30"
+    jcr:mixinTypes="[cq:Taggable]"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Stacking Kit Vented Dryer"
+    sling:resourceType="commerce/components/product"
+    color="Stainless Steel"
+    featureDescription="[,Fruit and vegetable quality can be maintained at the right humidity and temperature level. The Humidity Control System\, together with the cool and consistent temperature delivered by ActiveSmart™ Technology\, creates the perfect microclimate in each produce bin. Two humidity control slides offer settings for both fruit and vegetables to retain optimal moisture and freshness.,Uninterrupted wide-open spaces and numerous shelving options enable easy customisation for different uses. Quality extension runners allow you to slide out trays fully for easy loading and unloading in the fridge and freezer. The storage bins are also removable\, making food preparation and cleaning easier.,These fridges adapt to suit your lifestyle by streamlining food preparation and organisation with SmartTouch controls\, flexible shelving and storage options and slide out bins and trays.]"
+    featureTitle="[,Humidity Control System,Ergonomic,Easy Living]"
+    identifier="RF610ADUSZ4"
+    price="{Decimal}3100"
+    size="27"
+    splFeatures="&lt;p>&lt;/p>&lt;div class=&quot;twelve columns&quot;>&lt;div class=&quot;row&quot;>&lt;div class=&quot;twelve columns&quot;>&lt;dl>&#xd;&#xa;&lt;dt>Cleaning&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Easy clean drip tray&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Dimensions&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Overall height of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>1068&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Overall width of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>900&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Overall depth of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>480&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Max height of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>1036&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Width of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>220&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Depth of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>200&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Height of control panel/handle&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>32&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Size of air outlet&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>150&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>General Features&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Able to be recirculated&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Controls&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>Soft touch buttons&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Easy to reach controls at front of unit&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Lighting&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>2 x 20W Halogen&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Installation accessories&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Charcoal filters&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Chimney extension&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Ducting accessories&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;div class=&quot;twelve columns&quot;>&lt;dl>&#xd;&#xa;&lt;dt>Performance Features&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Air movement m &lt;sup>3&lt;/sup>/hr (max)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>863&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Decibel rating (dBA) max&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>65&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Number of fan speeds&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>3&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Type of fan&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>Centifugal&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Warranty&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>1 year parts &amp;amp; labour warranty&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;/div>&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&lt;div class=&quot;clear&quot;> &lt;/div>&#xd;&#xa;&#xd;&#xa;&lt;p>&lt;/p>&#xd;&#xa;"
+    textIsRich="[true,true]">
+    <assets jcr:primaryType="nt:unstructured">
+        <asset
+            jcr:lastModified="{Date}2018-10-12T16:05:51.365+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="commerce/components/product/image"
+            featureDescription=""
+            featureTitle=""
+            fileReference="/content/dam/fishers/images/laundry/cq_ck_1517770690700.png"/>
+        <asset0
+            jcr:lastModified="{Date}2018-10-12T16:05:51.388+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="commerce/components/product/image"
+            featureDescription="This machine has a cycle to suit every type of load including Allergy, Delicate and Sheets. Select a cycle with the easy to use SmartTouch™ control dial."
+            featureTitle="Easy To Use"
+            fileReference="/content/dam/fishers/images/laundry/WL4027P1-control-dial-hand-gal.jpg"/>
+        <asset1
+            jcr:lastModified="{Date}2018-10-12T16:05:51.434+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="commerce/components/product/image"
+            featureDescription="The large 22lb capacity is ideal for larger families and can wash bulky items with ease."
+            featureTitle="Large Capacity"
+            fileReference="/content/dam/fishers/images/laundry/WA1068GW1_Range-Feature_429_RGB_2400.jpg"/>
+        <asset2
+            jcr:lastModified="{Date}2018-10-12T16:05:51.467+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="commerce/components/product/image"
+            featureDescription="Eco-Active™ boosts soil removal while saving energy. Its unique technology recirculates water and detergent through the clothes, rapidly removing stains, dirt and killing bacteria."
+            featureTitle="Energy saving"
+            fileReference="/content/dam/fishers/images/laundry/WL4027P1-powder-gal.jpg"/>
+    </assets>
+</jcr:root>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="7969ab85-e14d-4dea-b1a7-3ff34aa7bdd1">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="fishers/images/chimneys/120cmwallcanopy.png"
+        jcr:lastModified="{Date}2018-10-16T18:19:13.562+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}32"
+            dam:extracted="{Date}2018-10-16T18:19:13.180+05:30"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}100"
+            dam:Physicalheightininches="{Decimal}38.40007781982422"
+            dam:Physicalwidthindpi="{Long}100"
+            dam:Physicalwidthininches="{Decimal}21.60004234313965"
+            dam:Progressive="no"
+            dam:sha1="ae24a34ee4338d0ce6c32c3938dd6ab0bae2ee72"
+            dam:size="{Long}550550"
+            dc:format="image/png"
+            exif:ColorSpace="{Long}65535"
+            exif:PixelXDimension="{Long}2160"
+            exif:PixelYDimension="{Long}3840"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            photoshop:DocumentAncestors="[05574E988FBDDC6FD85B8B2E31126E67,10880620FD926B37722094531ED21A24,1614324237E2E456A3CAEE74850E8794,2E5142F036FE67CA3BE93FAC113504B7,32DE6B0C69080849ECDF80D18484B5DA,34D8A4F71FB16BD573F807F4A59868E8,3B839FED0888772BCE46B5ECD5F11E28,468A51412ED56EF78D3BDC910F338AC4,4E72070DFECD2AEBEF99137181413ECA,552A07D23C71FBE41FD738FAF6197DBB,5F5E93F22AA634C9691960E7615FB434,637B2FD3FE3975C23656A9D9D3DC29D1,64DCF97AF09C53567FF1A65ED4ACC92F,688854EACAC45DE9D7A63E9615079630,704BF4F99E6236BAA7245A7A1C33381E,7B4EC7DDDBB1DAE80368D6A50C7F22BC,8A0C2A1181AC96A10A01E50A65CC4A1A,8C8855B2C53C3FFD257F3FD43293C045,AB6B3C6663E70EC384DBC3E204F1056C,AC44E1D9DEFBB46732D91D000C5293BC,AE28EEECA9BCD8F397F35F790EDF44A3,AE8C8AF532316982A2D63B3041A3F791,BC0902B1D7304A15DE654CC5FB888E1A,F8C7F5BA02D8C6AB9F0D3E8A06B05032,FB67C03AB338B760B5F7CE133E6A655B,adobe:docid:photoshop:00204e73-f83c-1177-99e8-bb3ec7d311cf,adobe:docid:photoshop:05c2a30d-9199-1178-a72c-b184c5d832e7,adobe:docid:photoshop:107f7394-875e-1178-a376-89bdbb2512ad,adobe:docid:photoshop:124a1499-ca04-1177-b47c-861ab75c18cc,adobe:docid:photoshop:15510b7c-da3c-11dc-96cc-c3a2afb82431,adobe:docid:photoshop:2a040b89-cab1-1177-9e4e-88ccb403f627,adobe:docid:photoshop:2a4cfdc8-7804-11dc-a615-ba7b5728e27c,adobe:docid:photoshop:37b6bf91-c12a-1177-bac2-dbaec656b625,adobe:docid:photoshop:394f106c-ca03-1177-b47c-861ab75c18cc,adobe:docid:photoshop:45fa3b6d-c148-1177-bac2-dbaec656b625,adobe:docid:photoshop:4a63a643-85e8-1178-8570-94539a1a4cc4,adobe:docid:photoshop:582dffe0-7f8b-1178-9aef-c20444bf5440,adobe:docid:photoshop:5a3088cb-c6e4-1177-b445-e27bfab8d4d7,adobe:docid:photoshop:5d4c8b42-c626-1177-bbde-fcc1965a0878,adobe:docid:photoshop:620a08ff-85ef-1178-a858-a5dd92004e28,adobe:docid:photoshop:63e2462b-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:70211fa4-77e5-11dc-a615-ba7b5728e27c,adobe:docid:photoshop:7c8cac2f-f855-1177-99e8-bb3ec7d311cf,adobe:docid:photoshop:7cba0de7-854f-1178-befa-d2d66b4017b2,adobe:docid:photoshop:81ef0509-f83e-1177-99e8-bb3ec7d311cf,adobe:docid:photoshop:89c1a940-da0c-11dc-96cc-c3a2afb82431,adobe:docid:photoshop:8b6c5160-7f88-1178-9aef-c20444bf5440,adobe:docid:photoshop:8d890c3f-7f8b-1178-9aef-c20444bf5440,adobe:docid:photoshop:90adb3d3-5f70-1178-9713-fe4adb2d9463,adobe:docid:photoshop:94e0c01d-7f8c-1178-9aef-c20444bf5440,adobe:docid:photoshop:955747e5-ca03-1177-b47c-861ab75c18cc,adobe:docid:photoshop:a5b2a7fa-7f8a-1178-9aef-c20444bf5440,adobe:docid:photoshop:a6d79c44-2dcd-1178-97b7-e0989eca3ee1,adobe:docid:photoshop:b115ad45-59c3-1178-860e-c9964fbf5af6,adobe:docid:photoshop:b1b8d01f-59c3-1178-860e-c9964fbf5af6,adobe:docid:photoshop:b2928107-59c3-1178-860e-c9964fbf5af6,adobe:docid:photoshop:b36281db-59c3-1178-860e-c9964fbf5af6,adobe:docid:photoshop:c18efe39-7f8a-1178-9aef-c20444bf5440,adobe:docid:photoshop:c2515eca-7f89-1178-9aef-c20444bf5440,adobe:docid:photoshop:c5bf3419-c539-1177-af30-b5bb26765e3e,adobe:docid:photoshop:c605c4d5-2dcd-1178-97b7-e0989eca3ee1,adobe:docid:photoshop:c95d93fb-c60f-1177-be84-c010e7353117,adobe:docid:photoshop:cab7ced7-7f8c-1178-9aef-c20444bf5440,adobe:docid:photoshop:cf16f81a-7f88-1178-9aef-c20444bf5440,adobe:docid:photoshop:d94951f6-7f8a-1178-9aef-c20444bf5440,adobe:docid:photoshop:ddb22d18-c474-1177-b09b-95a6f19926c7,adobe:docid:photoshop:de25ab54-c5fd-1177-be84-c010e7353117,adobe:docid:photoshop:e25acccc-f852-1177-99e8-bb3ec7d311cf,adobe:docid:photoshop:e4162c69-c626-1177-bbde-fcc1965a0878,adobe:docid:photoshop:ed129e4b-7f8a-1178-9aef-c20444bf5440,adobe:docid:photoshop:eea241a8-f851-1177-99e8-bb3ec7d311cf,adobe:docid:photoshop:f8a858c8-ca04-1177-b47c-861ab75c18cc,adobe:docid:photoshop:fb5a9251-f83f-1177-99e8-bb3ec7d311cf,adobe:docid:photoshop:ffc18b8d-c6c7-1177-b445-e27bfab8d4d7,uuid:083774c4-8c1d-374d-abb6-f711c8491f84,uuid:08c88846-aa0c-402b-86fd-83e4170dc3bf,uuid:1B2C3BC2FF26E211B445B1BE3A7C16BC,uuid:1CEBB34C002A11DEB50FE32D8E1F1200,uuid:1D2ADE047E61DE11BCE2A8A2DCEFAD38,uuid:1F091DCED18ADE11B4DCC682A44A0C21,uuid:2ED7C70356FBE01195D0B38793D8C1D1,uuid:2ba491c8-bed1-46bc-b708-83c67b20a70b,uuid:30490453AB3DDF11A3B6AA74CC3E14F7,uuid:379B46498761DE11BCE2A8A2DCEFAD38,uuid:3BF856C0FE26E211B445B1BE3A7C16BC,uuid:4FAFB094DE1811DB930A854C3785ABCB,uuid:55E95A0154CAE1119519DE4459F7D106,uuid:60A0A0FA510E11DEBA4495F5A6461B5D,uuid:62CE967118F4E211B80E94CA1DCA2F50,uuid:636EA5BE002B11DEB50FE32D8E1F1200,uuid:63EE7700C20BDE1182E4DCD2867D8B32,uuid:6D3467412C9CDE11A249AE8488214DB7,uuid:7D4B57BD5D1DE211AA79FD35E5456DDF,uuid:858577B9455E11DE8F2783A8D120E29E,uuid:8897EFF3033011DE8B2FF8DD9BA5D300,uuid:89ADD8B8A74FDF11A352F2704AC15B4B,uuid:8B48BEDFE808DF11B338E14B1B3DA717,uuid:9F6C931DC07BDF11B20FCFED7D3B548C,uuid:BCBAEEB5032F11DE8B2FF8DD9BA5D300,uuid:C0DBF875327211DEB7DFDF8D09A1541E]"
+            photoshop:DocumentAncestors_xmpArrayType="rdf:Bag"
+            photoshop:ICCProfile="Adobe RGB (1998)"
+            tiff:ImageLength="{Long}3840"
+            tiff:ImageWidth="{Long}2160"
+            tiff:Orientation="{Long}1"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="1000000/10000"
+            tiff:YResolution="1000000/10000"
+            xmp:CreateDate="{Date}2015-08-17T21:04:20.000+12:00"
+            xmp:CreatorTool="Adobe Photoshop CC 2015 (Macintosh)"
+            xmp:MetadataDate="{Date}2015-11-24T09:03:19.000+13:00"
+            xmp:ModifyDate="{Date}2015-11-24T09:03:19.000+13:00"
+            xmpMM:DocumentID="adobe:docid:photoshop:ab005dae-d2ab-1178-9902-d1cabed987c5"
+            xmpMM:InstanceID="xmp.iid:a04f0331-b9fa-45f7-a22a-3985b405462f"
+            xmpMM:OriginalDocumentID="xmp.did:505d3ad3-ffab-470e-bf58-6ac219f215b4">
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}6"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="created"
+                    stEvt:instanceID="xmp.iid:505d3ad3-ffab-470e-bf58-6ac219f215b4"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2015-08-17T21:04:20.000+12:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:d9a822bf-ff77-4a8b-ab17-9d58598e93c8"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2015-08-17T21:11:18.000+12:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:080fa2ff-5541-4f3e-b6f2-1f16b0c54309"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2015-11-24T09:03:19.000+13:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0034_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="converted"
+                    stEvt:parameters="from application/vnd.adobe.photoshop to image/png"
+                    xmpNodeType="xmpStruct"/>
+                <_x0035_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from application/vnd.adobe.photoshop to image/png"
+                    xmpNodeType="xmpStruct"/>
+                <_x0036_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:a04f0331-b9fa-45f7-a22a-3985b405462f"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2015-11-24T09:03:19.000+13:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:7cba0de7-854f-1178-befa-d2d66b4017b2"
+                stRef:instanceID="xmp.iid:080fa2ff-5541-4f3e-b6f2-1f16b0c54309"
+                stRef:originalDocumentID="xmp.did:505d3ad3-ffab-470e-bf58-6ac219f215b4"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

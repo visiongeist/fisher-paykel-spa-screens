@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="c6bf5b05-53d6-48d9-a08f-1c1b3f32e402">
+    <jcr:content
+        cq:name="cq_ck_1517770690700.png"
+        cq:parentPath="/content/dam/fishers/images/laundry"
+        dam:assetState="processed"
+        dam:relativePath="fishers/images/laundry/cq_ck_1517770690700.png"
+        jcr:lastModified="{Date}2018-10-12T16:05:51.497+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            cq:productReference="/var/commerce/products/fishers/laundry/wash/wash3"
+            dam:Bitsperpixel="{Long}32"
+            dam:extracted="{Date}2018-10-12T16:04:57.083+05:30"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:productID="RF610ADUSZ4-27"
+            dam:Progressive="no"
+            dam:sha1="f19a49ee20d718d9a19c0538cec62af3c0449999"
+            dam:size="{Long}413287"
+            dc:format="image/png"
+            dc:modified="{Date}2018-10-12T16:05:51.384+05:30"
+            jcr:lastModified="{Date}2018-10-12T16:05:51.383+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}1280"
+            tiff:ImageWidth="{Long}1066"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

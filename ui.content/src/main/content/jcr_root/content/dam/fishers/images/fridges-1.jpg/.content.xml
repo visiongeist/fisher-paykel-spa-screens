@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="58df4f38-ae87-452c-8460-29b85bb1fda1">
+    <jcr:content
+        cq:name="fridges-1.jpg"
+        cq:parentPath="/content/dam/fishers/images"
+        dam:assetState="processed"
+        dam:relativePath="fishers/images/fridges-1.jpg"
+        jcr:lastModified="{Date}2018-10-04T16:20:53.247+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            cq:productReference="/var/commerce/products/fishers/sdhskds"
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2018-10-04T16:20:53.179+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:productID="sdsdsdhsd"
+            dam:Progressive="no"
+            dam:sha1="f80d56b14d4948f76c4ec9118ef157c68a7badc1"
+            dam:size="{Long}10623"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2018-09-20T11:28:13.751+05:30"
+            jcr:lastModified="{Date}2018-09-21T17:40:04.353+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}480"
+            tiff:ImageWidth="{Long}400"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

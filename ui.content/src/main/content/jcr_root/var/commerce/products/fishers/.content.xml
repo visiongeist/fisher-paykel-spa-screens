@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder"
+    jcr:title="fishers">
+    <wine_cabinet_83_bott
+        cq:commerceType="product"
+        jcr:created="{Date}2018-09-21T17:09:52.758+05:30"
+        jcr:customtitle="Contemporary"
+        jcr:description="Fisher &amp; Paykel Wine Cabinets are designed for the discerning customer, combining sophisticated, practical design with optimal storage and display solutions for their wine collection."
+        jcr:lastModified="{Date}2018-09-26T14:10:43.751+05:30"
+        jcr:mixinTypes="[cq:Taggable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Wine Cabinet - 83 Bottle Dual Zone"
+        sling:resourceType="commerce/components/product"
+        color="Stainless Steel"
+        identifier="RF206RDWX1"
+        price="{Decimal}789"
+        size="22"
+        splFeatures="&lt;p>&lt;section id=&quot;full-specs&quot; class=&quot;row&quot; style=&quot;display: block; overflow: hidden;&quot;>&lt;div class=&quot;twelve columns&quot;>&lt;div class=&quot;row&quot;>&lt;div class=&quot;twelve columns&quot;>&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>Cleaning&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>&lt;g class=&quot;gr_ gr_45 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; id=&quot;45&quot; data-gr-id=&quot;45&quot;>Easy clean&lt;/g> drip tray&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>Dimensions&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>Overall height of product&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>1068&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Overall width of product&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>900&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Overall depth of product&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>480&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Max height of decorative chimney flue (mm)&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>1036&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Width of decorative chimney flue (mm)&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>220&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Depth of decorative chimney flue (mm)&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>200&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Height of control panel/handle&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>32&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Size of air outlet&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>150&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>General Features&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>Able to be recirculated&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Controls&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>Soft touch buttons&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Easy to reach controls at front of unit&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Lighting&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>2 x 20W Halogen&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>Installation accessories&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>Charcoal filters&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Chimney extension&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Ducting accessories&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;/div>&#xa;&lt;div class=&quot;twelve columns&quot;>&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>Performance Features&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>Air movement m &lt;sup>3&lt;/sup>/hr (max)&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>863&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Decibel rating (dBA) max&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>65&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Number of fan speeds&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>3&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Type of fan&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>Centifugal&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>Warranty&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>1 year parts &amp;amp; labour warranty&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;/div>&#xa;&lt;/div>&#xa;&lt;/div>&#xa;&#xa;&lt;/div>&#xa;&lt;/div>&#xa;&lt;div class=&quot;clear&quot;>&amp;nbsp;&lt;/div>&#xa;&#xa;&lt;/section>&lt;/p>&#xa;"
+        subTitle="&lt;p>&lt;b>Contemporary&lt;/b>&lt;/p>&#xd;&#xa;"
+        textIsRich="[true,true]">
+        <assets jcr:primaryType="nt:unstructured">
+            <asset
+                jcr:lastModified="{Date}2018-09-26T14:10:43.506+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription=""
+                featureTitle=""
+                fileReference="/content/dam/fishers/images/winestorage-83.jpg"/>
+            <asset0
+                jcr:lastModified="{Date}2018-09-26T14:10:43.566+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="As white and red wine require different temperatures for ideal storage, the wine cabinet has dual zones that can be easily set between 5°C and 20°C using the touch control panel which also controls the LED lighting and fans."
+                featureTitle="Perfect Control"
+                fileReference="/content/dam/fishers/features/PerfectControl.jpg"/>
+            <asset2
+                jcr:lastModified="{Date}2018-09-26T14:10:43.642+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="Your wine collection is clearly visible at all times through the UV tempered glass door with externally controlled LED lighting. The solid oak slide out shelves allow access without scratching bottles or labels. A presentation shelf in the upper zone can be tilted to display your favourite bottles."
+                featureTitle="Total Visibility"
+                fileReference="/content/dam/fishers/features/visibility.jpg"/>
+            <asset3
+                jcr:lastModified="{Date}2018-09-26T14:10:43.698+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="Fan assisted ventilation control ensures even air circulation and minimises musty smells. A low vibration compressor and solid oak shelves ensure minimum vibration for optimal wine storage; while the UV tempered glass door reduces the risk of external, direct light affecting the wine."
+                featureTitle="Optimal Storage"
+                fileReference="/content/dam/fishers/features/optimalstorage.jpg"/>
+        </assets>
+    </wine_cabinet_83_bott>
+    <jcr:content jcr:primaryType="nt:unstructured">
+        <folderThumbnail/>
+    </jcr:content>
+    <wine_cabinet_127_bott
+        cq:commerceType="product"
+        cq:tags="[fishers:Cool/WineCabinets/127bottles]"
+        jcr:created="{Date}2018-09-21T17:09:52.758+05:30"
+        jcr:customtitle="Contemporary"
+        jcr:description="Fisher &amp; Paykel Wine Cabinets are designed for the discerning customer, combining sophisticated, practical design with optimal storage and display solutions for their wine collection."
+        jcr:lastModified="{Date}2018-10-04T14:18:46.286+05:30"
+        jcr:mixinTypes="[cq:Taggable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Wine Cabinet - 127 Bottle Dual Zone"
+        sling:resourceType="commerce/components/product"
+        color="Stainless Steel"
+        identifier="RF306RDWX1"
+        price="{Decimal}1200"
+        size="24"
+        splFeatures="&lt;p>&lt;section id=&quot;full-specs&quot; class=&quot;row&quot; style=&quot;display: block; overflow: hidden;&quot;>&lt;div class=&quot;twelve columns&quot;>&lt;div class=&quot;row&quot;>&lt;div class=&quot;twelve columns&quot;>&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>Cleaning&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>&lt;g class=&quot;gr_ gr_45 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; id=&quot;45&quot; data-gr-id=&quot;45&quot;>Easy clean&lt;/g> drip tray&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>Dimensions&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>Overall height of product&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>1068&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Overall width of product&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>900&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Overall depth of product&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>480&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Max height of decorative chimney flue (mm)&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>1036&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Width of decorative chimney flue (mm)&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>220&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Depth of decorative chimney flue (mm)&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>200&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Height of control panel/handle&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>32&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Size of air outlet&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>150&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>General Features&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>Able to be recirculated&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Controls&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>Soft touch buttons&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Easy to reach controls at front of unit&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Lighting&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>2 x 20W Halogen&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>Installation accessories&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>Charcoal filters&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Chimney extension&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Ducting accessories&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;/div>&#xa;&lt;div class=&quot;twelve columns&quot;>&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>Performance Features&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>Air movement m &lt;sup>3&lt;/sup>/hr (max)&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>863&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Decibel rating (dBA) max&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>65&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Number of fan speeds&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>3&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Type of fan&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>Centifugal&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>Warranty&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>1 year parts &amp;amp; labour warranty&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;/div>&#xa;&lt;/div>&#xa;&lt;/div>&#xa;&#xa;&lt;/div>&#xa;&lt;/div>&#xa;&lt;div class=&quot;clear&quot;>&amp;nbsp;&lt;/div>&#xa;&#xa;&lt;/section>&lt;/p>&#xa;"
+        subTitle="Contemporary"
+        textIsRich="[true,true]">
+        <assets jcr:primaryType="nt:unstructured">
+            <asset
+                jcr:lastModified="{Date}2018-10-04T14:18:45.967+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription=""
+                featureTitle=""
+                fileReference="/content/dam/fishers/images/winestorage-127.jpg"/>
+            <asset0
+                jcr:lastModified="{Date}2018-10-04T14:18:46.024+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="As white and red wine require different temperatures for ideal storage, the wine cabinet has dual zones that can be easily set between 5°C and 20°C using the touch control panel which also controls the LED lighting and fans."
+                featureTitle="Perfect Control"
+                fileReference="/content/dam/fishers/features/PerfectControl.jpg"/>
+            <asset2
+                jcr:lastModified="{Date}2018-10-04T14:18:46.125+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="Your wine collection is clearly visible at all times through the UV tempered glass door with externally controlled LED lighting. The solid oak slide out shelves allow access without scratching bottles or labels. A presentation shelf in the upper zone can be tilted to display your favourite bottles."
+                featureTitle="Total Visibility"
+                fileReference="/content/dam/fishers/features/visibility.jpg"/>
+            <asset3
+                jcr:lastModified="{Date}2018-10-04T14:18:46.210+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="Fan assisted ventilation control ensures even air circulation and minimises musty smells. A low vibration compressor and solid oak shelves ensure minimum vibration for optimal wine storage; while the UV tempered glass door reduces the risk of external, direct light affecting the wine."
+                featureTitle="Optimal Storage"
+                fileReference="/content/dam/fishers/features/optimalstorage.jpg"/>
+        </assets>
+    </wine_cabinet_127_bott>
+    <wine_cabinet_50_bott
+        cq:commerceType="product"
+        jcr:created="{Date}2018-09-21T17:09:52.758+05:30"
+        jcr:customtitle="Contemporary"
+        jcr:description="Fisher &amp; Paykel Wine Cabinets are designed for the discerning customer, combining sophisticated, practical design with optimal storage and display solutions for their wine collection."
+        jcr:lastModified="{Date}2018-09-26T11:12:00.309+05:30"
+        jcr:mixinTypes="[cq:Taggable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Wine Cabinet - 50 Bottle Dual Zone"
+        sling:resourceType="commerce/components/product"
+        color="Stainless Steel"
+        identifier="RF106RDWX1"
+        price="{Decimal}680"
+        size="24"
+        splFeatures="&lt;p>&lt;section id=&quot;full-specs&quot; class=&quot;row&quot; style=&quot;display: block; overflow: hidden;&quot;>&lt;div class=&quot;twelve columns&quot;>&lt;div class=&quot;row&quot;>&lt;div class=&quot;twelve columns&quot;>&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>Cleaning&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>&lt;g class=&quot;gr_ gr_45 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; id=&quot;45&quot; data-gr-id=&quot;45&quot;>Easy clean&lt;/g> drip tray&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>Dimensions&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>Overall height of product&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>1068&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Overall width of product&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>900&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Overall depth of product&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>480&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Max height of decorative chimney flue (mm)&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>1036&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Width of decorative chimney flue (mm)&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>220&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Depth of decorative chimney flue (mm)&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>200&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Height of control panel/handle&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>32&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Size of air outlet&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>150&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>General Features&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>Able to be recirculated&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Controls&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>Soft touch buttons&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Easy to reach controls at front of unit&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Lighting&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>2 x 20W Halogen&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>Installation accessories&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>Charcoal filters&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Chimney extension&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Ducting accessories&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;/div>&#xa;&lt;div class=&quot;twelve columns&quot;>&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>Performance Features&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>Air movement m &lt;sup>3&lt;/sup>/hr (max)&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>863&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Decibel rating (dBA) max&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>65&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Number of fan speeds&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>3&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Type of fan&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>Centifugal&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>Warranty&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>1 year parts &amp;amp; labour warranty&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;/div>&#xa;&lt;/div>&#xa;&lt;/div>&#xa;&#xa;&lt;/div>&#xa;&lt;/div>&#xa;&lt;div class=&quot;clear&quot;>&amp;nbsp;&lt;/div>&#xa;&#xa;&lt;/section>&lt;/p>&#xa;"
+        subTitle="Contemporary">
+        <assets jcr:primaryType="nt:unstructured">
+            <asset
+                jcr:lastModified="{Date}2018-09-26T11:12:00.050+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription=""
+                featureTitle=""
+                fileReference="/content/dam/fishers/images/winestorage-50.jpg"/>
+            <asset0
+                jcr:lastModified="{Date}2018-09-26T11:12:00.105+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="As white and red wine require different temperatures for ideal storage, the wine cabinet has dual zones that can be easily set between 5°C and 20°C using the touch control panel which also controls the LED lighting and fans."
+                featureTitle="Perfect Control"
+                fileReference="/content/dam/fishers/features/PerfectControl.jpg"/>
+            <asset2
+                jcr:lastModified="{Date}2018-09-26T11:12:00.165+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="Your wine collection is clearly visible at all times through the UV tempered glass door with externally controlled LED lighting. The solid oak slide out shelves allow access without scratching bottles or labels. A presentation shelf in the upper zone can be tilted to display your favourite bottles."
+                featureTitle="Total Visibility"
+                fileReference="/content/dam/fishers/features/visibility.jpg"/>
+            <asset3
+                jcr:lastModified="{Date}2018-09-26T11:12:00.228+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="Fan assisted ventilation control ensures even air circulation and minimises musty smells. A low vibration compressor and solid oak shelves ensure minimum vibration for optimal wine storage; while the UV tempered glass door reduces the risk of external, direct light affecting the wine."
+                featureTitle="Optimal Storage"
+                fileReference="/content/dam/fishers/features/optimalstorage.jpg"/>
+        </assets>
+    </wine_cabinet_50_bott>
+    <wine_cabinet_32_bott
+        cq:commerceType="product"
+        cq:tags="[fishers:Cool/WineCabinets/32bottles]"
+        jcr:created="{Date}2018-09-21T17:09:52.758+05:30"
+        jcr:customtitle="Contemporary"
+        jcr:description="Fisher &amp; Paykel Wine Cabinets are designed for the discerning customer, combining sophisticated, practical design with optimal storage and display solutions for their wine collection."
+        jcr:lastModified="{Date}2018-10-04T14:19:01.235+05:30"
+        jcr:mixinTypes="[cq:Taggable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Wine Cabinet - 32 Bottle Dual Zone"
+        sling:resourceType="commerce/components/product"
+        color="Stainless Steel"
+        identifier="RS60RDWX1"
+        price="{Decimal}600"
+        size="20"
+        splFeatures="&lt;p>&lt;section id=&quot;full-specs&quot; class=&quot;row&quot; style=&quot;display: block; overflow: hidden;&quot;>&lt;div class=&quot;twelve columns&quot;>&lt;div class=&quot;row&quot;>&lt;div class=&quot;twelve columns&quot;>&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>Cleaning&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>&lt;g class=&quot;gr_ gr_45 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; id=&quot;45&quot; data-gr-id=&quot;45&quot;>Easy clean&lt;/g> drip tray&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>Dimensions&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>Overall height of product&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>1068&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Overall width of product&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>900&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Overall depth of product&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>480&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Max height of decorative chimney flue (mm)&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>1036&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Width of decorative chimney flue (mm)&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>220&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Depth of decorative chimney flue (mm)&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>200&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Height of control panel/handle&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>32&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Size of air outlet&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>150&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>General Features&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>Able to be recirculated&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Controls&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>Soft touch buttons&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Easy to reach controls at front of unit&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Lighting&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>2 x 20W Halogen&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>Installation accessories&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>Charcoal filters&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Chimney extension&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Ducting accessories&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;/div>&#xa;&lt;div class=&quot;twelve columns&quot;>&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>Performance Features&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>Air movement m &lt;sup>3&lt;/sup>/hr (max)&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>863&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Decibel rating (dBA) max&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>65&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Number of fan speeds&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>3&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>Type of fan&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>Centifugal&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;dl class=&quot;three columns&quot;>&#xa;&lt;dt>Warranty&lt;/dt> &lt;dd>&lt;table>&#xa;&lt;tbody>&lt;tr>&lt;td>1 year parts &amp;amp; labour warranty&lt;/td>&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;/dd>&lt;/dl>&#xa;&lt;/div>&#xa;&lt;/div>&#xa;&lt;/div>&#xa;&#xa;&lt;/div>&#xa;&lt;/div>&#xa;&lt;div class=&quot;clear&quot;>&amp;nbsp;&lt;/div>&#xa;&#xa;&lt;/section>&lt;/p>&#xa;"
+        subTitle="Contemporary"
+        textIsRich="[true,true]">
+        <assets jcr:primaryType="nt:unstructured">
+            <asset
+                jcr:lastModified="{Date}2018-10-04T14:19:00.950+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription=""
+                featureTitle=""
+                fileReference="/content/dam/fishers/images/winestorage-32.jpg"/>
+            <asset0
+                jcr:lastModified="{Date}2018-10-04T14:19:01.054+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="As white and red wine require different temperatures for ideal storage, the wine cabinet has dual zones that can be easily set between 5°C and 20°C using the touch control panel which also controls the LED lighting and fans."
+                featureTitle="Perfect Control"
+                fileReference="/content/dam/fishers/features/PerfectControl.jpg"/>
+            <asset2
+                jcr:lastModified="{Date}2018-10-04T14:19:01.114+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="Your wine collection is clearly visible at all times through the UV tempered glass door with externally controlled LED lighting. The solid oak slide out shelves allow access without scratching bottles or labels. A presentation shelf in the upper zone can be tilted to display your favourite bottles."
+                featureTitle="Total Visibility"
+                fileReference="/content/dam/fishers/features/visibility.jpg"/>
+            <asset3
+                jcr:lastModified="{Date}2018-10-04T14:19:01.178+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="Fan assisted ventilation control ensures even air circulation and minimises musty smells. A low vibration compressor and solid oak shelves ensure minimum vibration for optimal wine storage; while the UV tempered glass door reduces the risk of external, direct light affecting the wine."
+                featureTitle="Optimal Storage"
+                fileReference="/content/dam/fishers/features/optimalstorage.jpg"/>
+        </assets>
+    </wine_cabinet_32_bott>
+    <activesmart_fridge_7
+        cq:commerceType="product"
+        cq:tags="[fishers:Cool/Freezers/534L]"
+        jcr:created="{Date}2018-09-26T13:54:16.766+05:30"
+        jcr:customtitle="ActiveSmart™ Technology"
+        jcr:description="This range has been designed to maximise space as well as access. French Door refrigerators bring theatre into the kitchen with unobstructed access to wide-open shelf spaces. Below, a spacious full-extension drawer and storage bins provide ergonomic solutions for freezer items."
+        jcr:lastModified="{Date}2018-10-08T14:50:39.094+05:30"
+        jcr:mixinTypes="[cq:Taggable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="ActiveSmart™ Fridge - 790mm French Door with Ice &amp; Water 534L"
+        sling:resourceType="commerce/components/product"
+        color="silver"
+        featureDescription="[,ActiveSmart™ consists of a microprocessor\, interior temperature sensors\, independently controlled variable speed fans and multiple air ducts. The microprocessor controls how the refrigerator operates based on changing patterns of use. The sensors continuously send information to the microprocessor\, which analyses and adjusts the fan speed and compressor operations accordingly to deliver a consistent and stable temperature. Continuous feedback means that ActiveSmart™ adjusts to the way you live. Its ability to respond to daily use means that it only uses the energy needed to keep your food fresher for longer.,Removable\, spill safe glass shelves are easy to clean and contain drips and spills. Storage bins and EZKleen stainless steel doors just need a wipe to keep spotless.,ActiveSmart™ fridges intelligently adapt to daily use to save energy\, cooling\, defrosting and using energy only when they need to\, without compromising on foodcare.]"
+        featureTitle="[,ActiveSmart™,Easy Cleaning,Efficient]"
+        identifier="RF522ADUSX4"
+        price="{Decimal}2000"
+        size="534"
+        splFeatures="&lt;p>&lt;/p>&lt;div class=&quot;twelve columns&quot;>&lt;div class=&quot;row&quot;>&lt;div class=&quot;twelve columns&quot;>&lt;dl>&#xd;&#xa;&lt;dt>Cleaning&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Easy clean drip tray&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Dimensions&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Overall height of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>1068&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Overall width of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>900&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Overall depth of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>480&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Max height of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>1036&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Width of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>220&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Depth of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>200&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Height of control panel/handle&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>32&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Size of air outlet&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>150&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>General Features&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Able to be recirculated&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Controls&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>Soft touch buttons&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Easy to reach controls at front of unit&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Lighting&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>2 x 20W Halogen&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Installation accessories&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Charcoal filters&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Chimney extension&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Ducting accessories&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;div class=&quot;twelve columns&quot;>&lt;dl>&#xd;&#xa;&lt;dt>Performance Features&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Air movement m &lt;sup>3&lt;/sup>/hr (max)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>863&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Decibel rating (dBA) max&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>65&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Number of fan speeds&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>3&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Type of fan&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>Centifugal&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Warranty&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>1 year parts &amp;amp; labour warranty&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;/div>&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&lt;div class=&quot;clear&quot;> &lt;/div>&#xd;&#xa;&#xd;&#xa;&lt;p>&lt;/p>&#xd;&#xa;"
+        textIsRich="[true,true]">
+        <assets jcr:primaryType="nt:unstructured">
+            <asset
+                jcr:lastModified="{Date}2018-10-08T14:50:38.822+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription=""
+                featureTitle=""
+                fileReference="/content/dam/fishers/images/fridges/fridge-534L.png"/>
+            <asset0
+                jcr:lastModified="{Date}2018-10-08T14:50:38.902+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="ActiveSmart™ consists of a microprocessor, interior temperature sensors, independently controlled variable speed fans and multiple air ducts. The microprocessor controls how the refrigerator operates based on changing patterns of use."
+                featureTitle="ActiveSmart™ Technology"
+                fileReference="/content/dam/fishers/features/activesmart.png"/>
+            <asset1
+                jcr:lastModified="{Date}2018-10-08T14:50:38.965+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="Removable, spill safe glass shelves are easy to clean and contain drips and spills. Storage bins and EZKleen stainless steel doors just need a wipe to keep spotless."
+                featureTitle="Easy Cleaning"
+                fileReference="/content/dam/fishers/features/easycleaning.jpg"/>
+            <asset2
+                jcr:lastModified="{Date}2018-10-08T14:50:39.027+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="The high quality stainless steel, unique surround kits, black finish and the chrome strip detail of the slimline water dispenser, all reflect the styling of our family of kitchen appliances."
+                featureTitle="Designed to Match"
+                fileReference="/content/dam/fishers/features/design.png"/>
+        </assets>
+    </activesmart_fridge_7>
+    <activesmart_fridge_9
+        cq:commerceType="product"
+        cq:tags="[fishers:Cool/Freezers/614L]"
+        jcr:created="{Date}2018-09-26T13:58:03.841+05:30"
+        jcr:customtitle="ActiveSmart™ Fridge"
+        jcr:description="This range has been designed to maximise space as well as access. French Door refrigerators bring theatre into the kitchen with unobstructed access to wide-open shelf spaces. Below, a spacious full-extension drawer and storage bins provide ergonomic solutions for freezer items.&#xd;&#xa;&#xd;&#xa;"
+        jcr:lastModified="{Date}2018-10-08T14:48:24.672+05:30"
+        jcr:mixinTypes="[cq:Taggable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="ActiveSmart™ Fridge - 900mm French Door with Ice &amp; Water 614L"
+        sling:resourceType="commerce/components/product"
+        color="Stainless Steel"
+        featureDescription="[,Fruit and vegetable quality can be maintained at the right humidity and temperature level. The Humidity Control System\, together with the cool and consistent temperature delivered by ActiveSmart™ Technology\, creates the perfect microclimate in each produce bin. Two humidity control slides offer settings for both fruit and vegetables to retain optimal moisture and freshness.,Uninterrupted wide-open spaces and numerous shelving options enable easy customisation for different uses. Quality extension runners allow you to slide out trays fully for easy loading and unloading in the fridge and freezer. The storage bins are also removable\, making food preparation and cleaning easier.,These fridges adapt to suit your lifestyle by streamlining food preparation and organisation with SmartTouch controls\, flexible shelving and storage options and slide out bins and trays.]"
+        featureTitle="[,Humidity Control System,Ergonomic,Easy Living]"
+        identifier="RF610ADUSX4"
+        price="{Decimal}2500"
+        size="614"
+        splFeatures="&lt;p>&lt;/p>&lt;div class=&quot;twelve columns&quot;>&lt;div class=&quot;row&quot;>&lt;div class=&quot;twelve columns&quot;>&lt;dl>&#xd;&#xa;&lt;dt>Cleaning&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Easy clean drip tray&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Dimensions&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Overall height of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>1068&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Overall width of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>900&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Overall depth of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>480&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Max height of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>1036&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Width of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>220&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Depth of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>200&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Height of control panel/handle&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>32&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Size of air outlet&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>150&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>General Features&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Able to be recirculated&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Controls&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>Soft touch buttons&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Easy to reach controls at front of unit&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Lighting&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>2 x 20W Halogen&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Installation accessories&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Charcoal filters&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Chimney extension&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Ducting accessories&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;div class=&quot;twelve columns&quot;>&lt;dl>&#xd;&#xa;&lt;dt>Performance Features&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Air movement m &lt;sup>3&lt;/sup>/hr (max)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>863&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Decibel rating (dBA) max&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>65&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Number of fan speeds&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>3&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Type of fan&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>Centifugal&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Warranty&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>1 year parts &amp;amp; labour warranty&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;/div>&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&lt;div class=&quot;clear&quot;> &lt;/div>&#xd;&#xa;&#xd;&#xa;&lt;p>&lt;/p>&#xd;&#xa;"
+        textIsRich="[true,true]">
+        <assets jcr:primaryType="nt:unstructured">
+            <asset
+                jcr:lastModified="{Date}2018-10-08T14:48:24.417+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription=""
+                featureTitle=""
+                fileReference="/content/dam/fishers/images/fridges/fridge-614L.png"/>
+            <asset0
+                jcr:lastModified="{Date}2018-10-08T14:48:24.479+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="ActiveSmart™ consists of a microprocessor, interior temperature sensors, independently controlled variable speed fans and multiple air ducts. The microprocessor controls how the refrigerator operates based on changing patterns of use."
+                featureTitle="ActiveSmart™ Technology"
+                fileReference="/content/dam/fishers/features/activesmart.png"/>
+            <asset1
+                jcr:lastModified="{Date}2018-10-08T14:48:24.550+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="Removable, spill safe glass shelves are easy to clean and contain drips and spills. Storage bins and EZKleen stainless steel doors just need a wipe to keep spotless."
+                featureTitle="Easy Cleaning"
+                fileReference="/content/dam/fishers/features/easycleaning.jpg"/>
+            <asset2
+                jcr:lastModified="{Date}2018-10-08T14:48:24.608+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="The high quality stainless steel, unique surround kits, black finish and the chrome strip detail of the slimline water dispenser, all reflect the styling of our family of kitchen appliances."
+                featureTitle="Designed to Match"
+                fileReference="/content/dam/fishers/features/design.png"/>
+        </assets>
+    </activesmart_fridge_9>
+    <chimneys/>
+    <ovens/>
+    <activesmart_french_door_373
+        cq:commerceType="product"
+        cq:tags="[fishers:Cool/Freezers/534L]"
+        jcr:created="{Date}2018-09-26T13:54:16.766+05:30"
+        jcr:customtitle="ActiveSmart™ Technology"
+        jcr:description="This range has been designed to maximise space as well as access. French Door refrigerators bring theatre into the kitchen with unobstructed access to wide-open shelf spaces. Below, a spacious full-extension drawer and storage bins provide ergonomic solutions for freezer items."
+        jcr:lastModified="{Date}2018-10-08T14:50:39.094+05:30"
+        jcr:mixinTypes="[cq:Taggable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="ActiveSmart™ Fridge - 790mm French Door with Ice &amp; Water 123L"
+        sling:resourceType="commerce/components/product"
+        color="silver"
+        featureDescription="[,ActiveSmart™ consists of a microprocessor\, interior temperature sensors\, independently controlled variable speed fans and multiple air ducts. The microprocessor controls how the refrigerator operates based on changing patterns of use. The sensors continuously send information to the microprocessor\, which analyses and adjusts the fan speed and compressor operations accordingly to deliver a consistent and stable temperature. Continuous feedback means that ActiveSmart™ adjusts to the way you live. Its ability to respond to daily use means that it only uses the energy needed to keep your food fresher for longer.,Removable\, spill safe glass shelves are easy to clean and contain drips and spills. Storage bins and EZKleen stainless steel doors just need a wipe to keep spotless.,ActiveSmart™ fridges intelligently adapt to daily use to save energy\, cooling\, defrosting and using energy only when they need to\, without compromising on foodcare.]"
+        featureTitle="[,ActiveSmart™,Easy Cleaning,Efficient]"
+        identifier="FD123ADU10SX"
+        price="{Decimal}2000"
+        size="373"
+        splFeatures="&lt;p>&lt;/p>&lt;div class=&quot;twelve columns&quot;>&lt;div class=&quot;row&quot;>&lt;div class=&quot;twelve columns&quot;>&lt;dl>&#xd;&#xa;&lt;dt>Cleaning&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Easy clean drip tray&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Dimensions&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Overall height of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>1068&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Overall width of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>900&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Overall depth of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>480&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Max height of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>1036&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Width of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>220&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Depth of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>200&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Height of control panel/handle&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>32&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Size of air outlet&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>150&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>General Features&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Able to be recirculated&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Controls&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>Soft touch buttons&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Easy to reach controls at front of unit&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Lighting&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>2 x 20W Halogen&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Installation accessories&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Charcoal filters&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Chimney extension&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Ducting accessories&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;div class=&quot;twelve columns&quot;>&lt;dl>&#xd;&#xa;&lt;dt>Performance Features&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Air movement m &lt;sup>3&lt;/sup>/hr (max)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>863&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Decibel rating (dBA) max&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>65&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Number of fan speeds&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>3&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Type of fan&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>Centifugal&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Warranty&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>1 year parts &amp;amp; labour warranty&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;/div>&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&lt;div class=&quot;clear&quot;> &lt;/div>&#xd;&#xa;&#xd;&#xa;&lt;p>&lt;/p>&#xd;&#xa;"
+        textIsRich="[true,true]">
+        <assets jcr:primaryType="nt:unstructured">
+            <asset
+                jcr:lastModified="{Date}2018-10-08T14:50:38.822+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription=""
+                featureTitle=""
+                fileReference="/content/dam/fishers/images/fridges/fridge-448L.png"/>
+            <asset0
+                jcr:lastModified="{Date}2018-10-08T14:50:38.902+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="ActiveSmart™ consists of a microprocessor, interior temperature sensors, independently controlled variable speed fans and multiple air ducts. The microprocessor controls how the refrigerator operates based on changing patterns of use."
+                featureTitle="ActiveSmart™ Technology"
+                fileReference="/content/dam/fishers/features/activesmart.png"/>
+            <asset1
+                jcr:lastModified="{Date}2018-10-08T14:50:38.965+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="Removable, spill safe glass shelves are easy to clean and contain drips and spills. Storage bins and EZKleen stainless steel doors just need a wipe to keep spotless."
+                featureTitle="Easy Cleaning"
+                fileReference="/content/dam/fishers/features/easycleaning.jpg"/>
+            <asset2
+                jcr:lastModified="{Date}2018-10-08T14:50:39.027+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="The high quality stainless steel, unique surround kits, black finish and the chrome strip detail of the slimline water dispenser, all reflect the styling of our family of kitchen appliances."
+                featureTitle="Designed to Match"
+                fileReference="/content/dam/fishers/features/design.png"/>
+        </assets>
+    </activesmart_french_door_373>
+    <activesmart_french_door_520
+        cq:commerceType="product"
+        cq:tags="[fishers:Cool/Freezers/534L]"
+        jcr:created="{Date}2018-09-26T13:54:16.766+05:30"
+        jcr:customtitle="ActiveSmart™ Technology"
+        jcr:description="This range has been designed to maximise space as well as access. French Door refrigerators bring theatre into the kitchen with unobstructed access to wide-open shelf spaces. Below, a spacious full-extension drawer and storage bins provide ergonomic solutions for freezer items."
+        jcr:lastModified="{Date}2018-10-08T14:50:39.094+05:30"
+        jcr:mixinTypes="[cq:Taggable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="ActiveSmart™ Fridge - 790mm French Door with Ice &amp; Water 878L"
+        sling:resourceType="commerce/components/product"
+        color="silver"
+        featureDescription="[,ActiveSmart™ consists of a microprocessor\, interior temperature sensors\, independently controlled variable speed fans and multiple air ducts. The microprocessor controls how the refrigerator operates based on changing patterns of use. The sensors continuously send information to the microprocessor\, which analyses and adjusts the fan speed and compressor operations accordingly to deliver a consistent and stable temperature. Continuous feedback means that ActiveSmart™ adjusts to the way you live. Its ability to respond to daily use means that it only uses the energy needed to keep your food fresher for longer.,Removable\, spill safe glass shelves are easy to clean and contain drips and spills. Storage bins and EZKleen stainless steel doors just need a wipe to keep spotless.,ActiveSmart™ fridges intelligently adapt to daily use to save energy\, cooling\, defrosting and using energy only when they need to\, without compromising on foodcare.]"
+        featureTitle="[,ActiveSmart™,Easy Cleaning,Efficient]"
+        identifier="FD878ADU7FR"
+        price="{Decimal}2000"
+        size="520"
+        splFeatures="&lt;p>&lt;/p>&lt;div class=&quot;twelve columns&quot;>&lt;div class=&quot;row&quot;>&lt;div class=&quot;twelve columns&quot;>&lt;dl>&#xd;&#xa;&lt;dt>Cleaning&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Easy clean drip tray&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Dimensions&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Overall height of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>1068&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Overall width of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>900&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Overall depth of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>480&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Max height of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>1036&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Width of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>220&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Depth of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>200&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Height of control panel/handle&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>32&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Size of air outlet&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>150&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>General Features&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Able to be recirculated&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Controls&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>Soft touch buttons&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Easy to reach controls at front of unit&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Lighting&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>2 x 20W Halogen&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Installation accessories&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Charcoal filters&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Chimney extension&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Ducting accessories&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;div class=&quot;twelve columns&quot;>&lt;dl>&#xd;&#xa;&lt;dt>Performance Features&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Air movement m &lt;sup>3&lt;/sup>/hr (max)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>863&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Decibel rating (dBA) max&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>65&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Number of fan speeds&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>3&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Type of fan&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>Centifugal&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Warranty&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>1 year parts &amp;amp; labour warranty&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;/div>&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&lt;div class=&quot;clear&quot;> &lt;/div>&#xd;&#xa;&#xd;&#xa;&lt;p>&lt;/p>&#xd;&#xa;"
+        textIsRich="[true,true]">
+        <assets jcr:primaryType="nt:unstructured">
+            <asset
+                jcr:lastModified="{Date}2018-10-08T14:50:38.822+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription=""
+                featureTitle=""
+                fileReference="/content/dam/fishers/images/fridges/fridge-520L.png"/>
+            <asset0
+                jcr:lastModified="{Date}2018-10-08T14:50:38.902+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="ActiveSmart™ consists of a microprocessor, interior temperature sensors, independently controlled variable speed fans and multiple air ducts. The microprocessor controls how the refrigerator operates based on changing patterns of use. "
+                featureTitle="ActiveSmart™ Technology"
+                fileReference="/content/dam/fishers/features/activesmart.png"/>
+            <asset1
+                jcr:lastModified="{Date}2018-10-08T14:50:38.965+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="Removable, spill safe glass shelves are easy to clean and contain drips and spills. Storage bins and EZKleen stainless steel doors just need a wipe to keep spotless."
+                featureTitle="Easy Cleaning"
+                fileReference="/content/dam/fishers/features/easycleaning.jpg"/>
+            <asset2
+                jcr:lastModified="{Date}2018-10-08T14:50:39.027+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="The high quality stainless steel, unique surround kits, black finish and the chrome strip detail of the slimline water dispenser, all reflect the styling of our family of kitchen appliances."
+                featureTitle="Designed to Match"
+                fileReference="/content/dam/fishers/features/design.png"/>
+        </assets>
+    </activesmart_french_door_520>
+    <counter_depth_refrig
+        cq:commerceType="product"
+        jcr:created="{Date}2018-10-10T12:10:53.768+05:30"
+        jcr:customtitle="Contemporary"
+        jcr:description="This Fisher &amp; Paykel Fridge Freezer is left hinge with large flexible storage options for a busy family and comes in a stylish stainless steel finish.&#xd;&#xa;&#xd;&#xa;Bottom freezer&#xd;&#xa;ActiveSmart™ helps keep food fresher for longer&#xd;&#xa;Brushed metal handles"
+        jcr:lastModified="{Date}2018-10-10T12:10:53.765+05:30"
+        jcr:mixinTypes="[cq:Taggable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Counter Depth Refrigerator 13.5 cu ft"
+        sling:resourceType="commerce/components/product"
+        color="Metallic"
+        identifier="RF135BDLX4_N"
+        price="{Decimal}1600"
+        size="373"
+        splFeatures="&lt;p>&lt;/p>&lt;div class=&quot;twelve columns&quot;>&lt;div class=&quot;row&quot;>&lt;div class=&quot;twelve columns&quot;>&lt;dl>&#xd;&#xa;&lt;dt>Cleaning&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Easy clean drip tray&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Dimensions&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Overall height of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>1068&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Overall width of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>900&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Overall depth of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>480&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Max height of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>1036&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Width of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>220&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Depth of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>200&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Height of control panel/handle&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>32&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Size of air outlet&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>150&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>General Features&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Able to be recirculated&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Controls&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>Soft touch buttons&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Easy to reach controls at front of unit&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Lighting&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>2 x 20W Halogen&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Installation accessories&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Charcoal filters&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Chimney extension&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Ducting accessories&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;div class=&quot;twelve columns&quot;>&lt;dl>&#xd;&#xa;&lt;dt>Performance Features&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Air movement m &lt;sup>3&lt;/sup>/hr (max)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>863&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Decibel rating (dBA) max&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>65&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Number of fan speeds&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>3&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Type of fan&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>Centifugal&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Warranty&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>1 year parts &amp;amp; labour warranty&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;/div>&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&lt;div class=&quot;clear&quot;> &lt;/div>&#xd;&#xa;&#xd;&#xa;&lt;p>&lt;/p>&#xd;&#xa;"
+        textIsRich="[true,true]">
+        <assets jcr:primaryType="nt:unstructured">
+            <asset
+                jcr:lastModified="{Date}2018-10-10T12:10:54.001+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription=""
+                featureTitle=""
+                fileReference="/content/dam/fishers/images/fridges/fridge-448.JPG"/>
+            <asset0
+                jcr:lastModified="{Date}2018-10-08T14:50:38.902+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="ActiveSmart™ consists of a microprocessor, interior temperature sensors, independently controlled variable speed fans and multiple air ducts. The microprocessor controls how the refrigerator operates based on changing patterns of use."
+                featureTitle="ActiveSmart™ Technology"
+                fileReference="/content/dam/fishers/features/activesmart.png"/>
+            <asset1
+                jcr:lastModified="{Date}2018-10-08T14:50:38.965+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="Removable, spill safe glass shelves are easy to clean and contain drips and spills. Storage bins and EZKleen stainless steel doors just need a wipe to keep spotless."
+                featureTitle="Easy Cleaning"
+                fileReference="/content/dam/fishers/features/easycleaning.jpg"/>
+            <asset2
+                jcr:lastModified="{Date}2018-10-08T14:50:39.027+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="The high quality stainless steel, unique surround kits, black finish and the chrome strip detail of the slimline water dispenser, all reflect the styling of our family of kitchen appliances."
+                featureTitle="Designed to Match"
+                fileReference="/content/dam/fishers/features/design.png"/>
+        </assets>
+    </counter_depth_refrig>
+    <clean/>
+    <laundry/>
+    <black_stainless_stee
+        cq:commerceType="product"
+        jcr:created="{Date}2018-10-15T13:49:01.961+05:30"
+        jcr:customtitle="Contemporary"
+        jcr:description="This Fisher &amp;amp; Paykel Refrigerator offers large flexible space with a sleek black stainless steel contemporary design."
+        jcr:lastModified="{Date}2018-10-15T13:49:01.957+05:30"
+        jcr:mixinTypes="[cq:Taggable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Black Stainless Steel Counter Depth Refrigerator 17 cu ft, Ice &amp; Water"
+        sling:resourceType="commerce/components/product"
+        color="Ash Metallic"
+        featureDescription="[,Your fridge adapts to daily use by cooling and defrosting only when needed. This means your fridge uses the energy it needs without compromising on food care.,Our fridges are designed and built using robust\, quality materials\, with stainless steel exteriors and solid glass for the interior shelving.,The internal ice maker delivers fresh ice to a dedicated freezer bin. Simply turn it off to free up freezer space or during busy times boost ice production by up to 30%.]"
+        featureTitle="[,Clever energy,Design quality,Ice maker]"
+        identifier="RF170WDRUB5"
+        price="{Decimal}2000"
+        size="484"
+        splFeatures="&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;div class=&quot;twelve columns&quot;>&lt;div class=&quot;row&quot;>&lt;div class=&quot;twelve columns&quot;>&lt;dl>&#xd;&#xa; &lt;dt>Cleaning&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Easy clean drip tray&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Dimensions&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Overall height of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>1068&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Overall width of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>900&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Overall depth of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>480&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Max height of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>1036&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Width of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>220&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Depth of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>200&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Height of control panel/handle&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>32&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Size of air outlet&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>150&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>General Features&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Able to be recirculated&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Controls&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>Soft touch buttons&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Easy to reach controls at front of unit&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Lighting&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>2 x 20W Halogen&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Installation accessories&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Charcoal filters&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Chimney extension&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Ducting accessories&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;div class=&quot;twelve columns&quot;>&lt;dl>&#xd;&#xa;&lt;dt>Performance Features&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Air movement m &lt;sup>3&lt;/sup>/hr (max)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>863&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Decibel rating (dBA) max&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>65&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Number of fan speeds&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>3&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Type of fan&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>Centifugal&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Warranty&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>1 year parts &amp;amp; labour warranty&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>&amp;nbsp;&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;div class=&quot;clear&quot;>&amp;nbsp;&lt;/div>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;"
+        textIsRich="[true,true]">
+        <assets jcr:primaryType="nt:unstructured">
+            <asset
+                jcr:lastModified="{Date}2018-10-15T13:49:02.054+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription=""
+                featureTitle=""
+                fileReference="/content/dam/fishers/images/fridges/RF170WDRUB5-closed.png"/>
+            <asset0
+                jcr:lastModified="{Date}2018-10-15T13:49:02.193+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="Your fridge adapts to daily use by cooling and defrosting only when needed. This means your fridge uses the energy it needs without compromising on food care."
+                featureTitle="Clever energy"
+                fileReference="/content/dam/fishers/features/RF610ADUB5-activesmart-foodcare.jpg"/>
+            <asset1
+                jcr:lastModified="{Date}2018-10-15T13:49:02.272+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="Our fridges are designed and built using robust, quality materials, with stainless steel exteriors and solid glass for the interior shelving."
+                featureTitle="Design quality"
+                fileReference="/content/dam/fishers/features/cool-range-feature-black-steel-w.jpg"/>
+            <asset2
+                jcr:lastModified="{Date}2018-10-15T13:49:02.340+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="commerce/components/product/image"
+                featureDescription="The internal ice maker delivers fresh ice to a dedicated freezer bin. Simply turn it off to free up freezer space or during busy times boost ice production by up to 30%."
+                featureTitle="Ice maker"
+                fileReference="/content/dam/fishers/features/RF610ADUX4_Feature_3458_RGB_2400.jpg"/>
+        </assets>
+    </black_stainless_stee>
+</jcr:root>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="05c35778-ea9f-4bf7-ac12-1516ca0f752a">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="fishers/images/fridges/fridge-448L-Opened.png"
+        jcr:lastModified="{Date}2018-10-15T20:20:22.014+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}32"
+            dam:extracted="{Date}2018-10-15T20:20:20.737+05:30"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}100"
+            dam:Physicalheightininches="{Decimal}38.40007781982422"
+            dam:Physicalwidthindpi="{Long}100"
+            dam:Physicalwidthininches="{Decimal}38.40007781982422"
+            dam:Progressive="no"
+            dam:sha1="740086201533777faf95f36b7b607c267b956800"
+            dam:size="{Long}7753374"
+            dc:format="image/png"
+            exif:ColorSpace="{Long}65535"
+            exif:ExifVersion="0221"
+            exif:PixelXDimension="{Long}3840"
+            exif:PixelYDimension="{Long}3840"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            photoshop:DocumentAncestors="[10880620FD926B37722094531ED21A24,32DE6B0C69080849ECDF80D18484B5DA,3B839FED0888772BCE46B5ECD5F11E28,468A51412ED56EF78D3BDC910F338AC4,4E72070DFECD2AEBEF99137181413ECA,5F5E93F22AA634C9691960E7615FB434,637B2FD3FE3975C23656A9D9D3DC29D1,64DCF97AF09C53567FF1A65ED4ACC92F,704BF4F99E6236BAA7245A7A1C33381E,8A0C2A1181AC96A10A01E50A65CC4A1A,8C8855B2C53C3FFD257F3FD43293C045,AE28EEECA9BCD8F397F35F790EDF44A3,AE8C8AF532316982A2D63B3041A3F791,BC0902B1D7304A15DE654CC5FB888E1A,adobe:docid:photoshop:00204e73-f83c-1177-99e8-bb3ec7d311cf,adobe:docid:photoshop:124a1499-ca04-1177-b47c-861ab75c18cc,adobe:docid:photoshop:1cc1bd77-60c6-1178-92b9-ffa46f75a6ca,adobe:docid:photoshop:2a040b89-cab1-1177-9e4e-88ccb403f627,adobe:docid:photoshop:2f01c072-6009-1178-bb6e-f2524d262ade,adobe:docid:photoshop:37b6bf91-c12a-1177-bac2-dbaec656b625,adobe:docid:photoshop:394f106c-ca03-1177-b47c-861ab75c18cc,adobe:docid:photoshop:3dd1b161-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:45fa3b6d-c148-1177-bac2-dbaec656b625,adobe:docid:photoshop:46785829-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:582dffe0-7f8b-1178-9aef-c20444bf5440,adobe:docid:photoshop:5a3088cb-c6e4-1177-b445-e27bfab8d4d7,adobe:docid:photoshop:5d4c8b42-c626-1177-bbde-fcc1965a0878,adobe:docid:photoshop:5f69d915-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:662cc695-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:761d29d9-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:7c8cac2f-f855-1177-99e8-bb3ec7d311cf,adobe:docid:photoshop:7e5b1421-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:7f382d2f-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:81196ab9-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:81ef0509-f83e-1177-99e8-bb3ec7d311cf,adobe:docid:photoshop:8b6c5160-7f88-1178-9aef-c20444bf5440,adobe:docid:photoshop:8d890c3f-7f8b-1178-9aef-c20444bf5440,adobe:docid:photoshop:90adb3d3-5f70-1178-9713-fe4adb2d9463,adobe:docid:photoshop:94e0c01d-7f8c-1178-9aef-c20444bf5440,adobe:docid:photoshop:955747e5-ca03-1177-b47c-861ab75c18cc,adobe:docid:photoshop:9ba15c12-6009-1178-bb6e-f2524d262ade,adobe:docid:photoshop:a5b2a7fa-7f8a-1178-9aef-c20444bf5440,adobe:docid:photoshop:b39d4d98-90eb-1178-aacd-d25b3714ca17,adobe:docid:photoshop:b93c8314-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:c18efe39-7f8a-1178-9aef-c20444bf5440,adobe:docid:photoshop:c2515eca-7f89-1178-9aef-c20444bf5440,adobe:docid:photoshop:c5bf3419-c539-1177-af30-b5bb26765e3e,adobe:docid:photoshop:c95d93fb-c60f-1177-be84-c010e7353117,adobe:docid:photoshop:cab7ced7-7f8c-1178-9aef-c20444bf5440,adobe:docid:photoshop:cb237305-59d1-1178-860e-c9964fbf5af6,adobe:docid:photoshop:cf16f81a-7f88-1178-9aef-c20444bf5440,adobe:docid:photoshop:d94951f6-7f8a-1178-9aef-c20444bf5440,adobe:docid:photoshop:ddb22d18-c474-1177-b09b-95a6f19926c7,adobe:docid:photoshop:de25ab54-c5fd-1177-be84-c010e7353117,adobe:docid:photoshop:e2066d2e-90e5-1178-aacd-d25b3714ca17,adobe:docid:photoshop:e25acccc-f852-1177-99e8-bb3ec7d311cf,adobe:docid:photoshop:e4162c69-c626-1177-bbde-fcc1965a0878,adobe:docid:photoshop:e8b93cb2-90e0-1178-aacd-d25b3714ca17,adobe:docid:photoshop:ed129e4b-7f8a-1178-9aef-c20444bf5440,adobe:docid:photoshop:eea241a8-f851-1177-99e8-bb3ec7d311cf,adobe:docid:photoshop:f6f134cb-602b-1178-92b9-ffa46f75a6ca,adobe:docid:photoshop:f8a858c8-ca04-1177-b47c-861ab75c18cc,adobe:docid:photoshop:fb5a9251-f83f-1177-99e8-bb3ec7d311cf,adobe:docid:photoshop:ff6bb710-600e-1178-bb6e-f2524d262ade,adobe:docid:photoshop:ffc18b8d-c6c7-1177-b445-e27bfab8d4d7,uuid:08c88846-aa0c-402b-86fd-83e4170dc3bf,uuid:1D2ADE047E61DE11BCE2A8A2DCEFAD38,uuid:379B46498761DE11BCE2A8A2DCEFAD38,uuid:4FAFB094DE1811DB930A854C3785ABCB,uuid:55E95A0154CAE1119519DE4459F7D106,uuid:8B48BEDFE808DF11B338E14B1B3DA717,uuid:aa0530c0-70de-488b-9da2-11461e332dd1,uuid:d52ec543-e241-4168-ae6f-327fe40997ef,xmp.did:00801174072068119109B8149DFBDAC7,xmp.did:0180117407206811849AF8B7799CAEAD,xmp.did:01801174072068118856C48421B4DAF0,xmp.did:0380117407206811B4F497A62C065692,xmp.did:041E7D64D6206811822AF1F544991115,xmp.did:0480117407206811849AF8B7799CAEAD,xmp.did:05307DE6B0216811822A89BC730AACB0,xmp.did:055ECBF02920681188C6BDF6A7661248,xmp.did:058011740720681197A59925F9AA1970,xmp.did:0680117407206811849AF8B7799CAEAD,xmp.did:088011740720681188C6EDE6ABD3A388,xmp.did:098011740720681197A59925F9AA1970,xmp.did:0db15b75-09d4-4b62-94bd-9763e62de616,xmp.did:0e6a8b60-d036-4f52-9198-a853aa0d9918,xmp.did:17e760b4-ea2b-41c6-a424-2ac2773bc339,xmp.did:180ea8eb-c20d-4350-b1bd-059d3e02fa5e,xmp.did:1DA3F6F521206811B9DD869FC72D3576,xmp.did:1c8999ed-4e98-4b05-9a6b-61d55c10db71,xmp.did:1cd6d146-d3dd-4dac-ae32-109ecf6745c3,xmp.did:227E00D270216811822AF1F544991115,xmp.did:2d0072ac-fffb-4739-8520-dfc4a0b45a18,xmp.did:2e6a599d-596d-46b6-8386-88aa637b0ec5,xmp.did:2fb0eafb-5e19-4fda-96e0-4be720ec0375,xmp.did:309119DDD62068118C14C03733CA37A2,xmp.did:33ED1014CD206811822A863DD3841752,xmp.did:342f3467-c86c-4eb7-93a0-67ac88ce2491,xmp.did:39488048192068119109B8149DFBDAC7]"
+            photoshop:DocumentAncestors_xmpArrayType="rdf:Bag"
+            photoshop:ICCProfile="Adobe RGB (1998)"
+            tiff:BitsPerSample="{Long}[8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:Compression="{Long}1"
+            tiff:ImageLength="{Long}3840"
+            tiff:ImageWidth="{Long}3840"
+            tiff:Orientation="{Long}1"
+            tiff:PhotometricInterpretation="{Long}2"
+            tiff:PlanarConfiguration="{Long}1"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:SamplesPerPixel="{Long}3"
+            tiff:XResolution="1000000/10000"
+            tiff:YResolution="1000000/10000"
+            xmp:CreateDate="{Date}2015-09-01T10:45:33.000+12:00"
+            xmp:CreatorTool="Adobe Photoshop CC 2015 (Macintosh)"
+            xmp:MetadataDate="{Date}2015-10-13T12:02:47.000+13:00"
+            xmp:ModifyDate="{Date}2015-10-13T12:02:47.000+13:00"
+            xmpMM:DocumentID="adobe:docid:photoshop:c7e25216-b1c3-1178-974c-ef031cf26bc5"
+            xmpMM:InstanceID="xmp.iid:e2c701a3-5213-4b82-92ff-371a639759f7"
+            xmpMM:OriginalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d">
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}12"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="created"
+                    stEvt:instanceID="xmp.iid:7459337f-ed8a-4a05-a92f-7e799602ac5d"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2015-09-01T10:45:33.000+12:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:dfd67d3b-7bc0-4c99-be09-820810e6558e"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2015-09-01T11:20:30.000+12:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:01994a5b-a46b-4c50-acc6-ff0ad3ce8ec4"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2015-10-13T09:58:41.000+13:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0034_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="converted"
+                    stEvt:parameters="from application/vnd.adobe.photoshop to image/tiff"
+                    xmpNodeType="xmpStruct"/>
+                <_x0035_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from application/vnd.adobe.photoshop to image/tiff"
+                    xmpNodeType="xmpStruct"/>
+                <_x0036_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:b1a56b7f-52ca-4c2f-af57-51ae02d700f4"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2015-10-13T09:58:41.000+13:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0037_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/metadata"
+                    stEvt:instanceID="xmp.iid:d7a8bf5c-edd4-432b-a10a-827eaea2fd07"
+                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 9.2"
+                    stEvt:when="{Date}2015-10-13T11:38:20.000+13:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0038_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/metadata"
+                    stEvt:instanceID="xmp.iid:5e32c55d-da12-4d9d-9ea4-39755f0eefb7"
+                    stEvt:softwareAgent="Adobe Photoshop Camera Raw 9.2 (Macintosh)"
+                    stEvt:when="{Date}2015-10-13T11:38:48.000+13:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0039_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:be9b4e11-6126-4288-b32e-fdef3b1a4d07"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2015-10-13T12:02:47.000+13:00"
+                    xmpNodeType="xmpStruct"/>
+                <_x0031_0
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="converted"
+                    stEvt:parameters="from image/tiff to image/png"
+                    xmpNodeType="xmpStruct"/>
+                <_x0031_1
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/tiff to image/png"
+                    xmpNodeType="xmpStruct"/>
+                <_x0031_2
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:e2c701a3-5213-4b82-92ff-371a639759f7"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2015 (Macintosh)"
+                    stEvt:when="{Date}2015-10-13T12:02:47.000+13:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:71de33e2-b1b2-1178-974c-ef031cf26bc5"
+                stRef:instanceID="xmp.iid:be9b4e11-6126-4288-b32e-fdef3b1a4d07"
+                stRef:originalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

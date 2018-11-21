@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="dea97d28-0f27-4dc1-bdda-ed6ff942d155">
+    <jcr:content
+        cq:name="cool-range-feature-black-steel-w.jpg"
+        cq:parentPath="/content/dam/fishers/features"
+        dam:assetState="processed"
+        dam:relativePath="fishers/features/cool-range-feature-black-steel-w.jpg"
+        jcr:lastModified="{Date}2018-10-15T13:49:02.371+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            cq:productReference="/var/commerce/products/fishers/black_stainless_stee"
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2018-10-15T13:47:33.105+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:productID="RF170WDRUB5-484"
+            dam:Progressive="yes"
+            dam:sha1="b33b4d27c33e7188d64b193335412664130929c9"
+            dam:size="{Long}169252"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2018-10-15T13:49:02.285+05:30"
+            jcr:lastModified="{Date}2018-10-15T13:49:02.285+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}1350"
+            tiff:ImageWidth="{Long}2400"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

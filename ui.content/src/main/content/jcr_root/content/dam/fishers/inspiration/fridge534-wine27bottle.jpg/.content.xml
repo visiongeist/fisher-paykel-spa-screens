@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="3eea5bb8-124f-40e3-9908-3a627acc6283">
+    <jcr:content
+        cq:name="fridge534-wine27bottle.jpg"
+        cq:parentPath="/content/dam/fishers/inspiration"
+        dam:assetState="processed"
+        dam:relativePath="fishers/inspiration/fridge534-wine27bottle.jpg"
+        jcr:lastModified="{Date}2018-10-16T10:26:59.478+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            cq:tags="[fishers:Cool/WineCabinets/127bottles,fishers:Clean/Chimneys/90cm,fishers:Clean/Chimneys/120cm]"
+            cq:tags_xmpArrayType="rdf:Bag"
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2018-10-04T16:20:50.950+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="b6ccdc59e357b17ff3f545872d7e3dfe6ed35a84"
+            dam:size="{Long}153507"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2018-10-04T14:17:42.421+05:30"
+            jcr:lastModified="{Date}2018-10-16T10:26:59.414+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}675"
+            tiff:ImageWidth="{Long}1200"
+            xmp:CreatorTool="Adobe Photoshop CC 2014 (Macintosh)"
+            xmpMM:DocumentID="xmp.did:D7781CB0161311E58379A68FE2385E94"
+            xmpMM:InstanceID="xmp.iid:D7781CAF161311E58379A68FE2385E94">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:D7781CAE161311E58379A68FE2385E94"
+                stRef:instanceID="xmp.iid:D7781CAD161311E58379A68FE2385E94"
+                xmpNodeType="xmpStruct"/>
+            <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

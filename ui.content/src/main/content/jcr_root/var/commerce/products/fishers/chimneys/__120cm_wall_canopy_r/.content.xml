@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:commerceType="product"
+    cq:tags="[fishers:Clean/Chimneys/120cm]"
+    jcr:created="{Date}2018-10-04T14:32:48.700+05:30"
+    jcr:customtitle="Contemporary"
+    jcr:lastModified="{Date}2018-10-08T14:21:23.327+05:30"
+    jcr:mixinTypes="[cq:Taggable]"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="120cm Wall Canopy Rangehood"
+    sling:resourceType="commerce/components/product"
+    color="Steel"
+    featureDescription="[,Amazing innovation which fits any style of kitchen. Take a closer look and learn more about our full product range.,Shiney scratch and oil resistant finish. Demands less maintenance as it is oil and dust and water resistant,This Chimney adapt to suit your lifestyle by streamlining food preparation and keeping the kitchen clean from smoke and vapour]"
+    featureTitle="[,One For All,Aluminium Finish with Black panel,Easy Living]"
+    identifier="HC120DCXB1"
+    price="{Decimal}1999"
+    size="120"
+    splFeatures="&lt;div>&lt;div class=&quot;twelve columns&quot;>&lt;dl>&#xd;&#xa; &lt;dt>Cleaning&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Decorative filters&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Easy clean plate&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Dimensions&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Overall height of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>635-1035&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Overall width of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>1200&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Overall depth of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>500&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Max height of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>1035&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Width of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>320&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Depth of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>290&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Height of control panel/handle&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>55&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Size of air outlet&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>150&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>General Features&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Able to be recirculated&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Capacitive touch control panel&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Controls&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>Capactive touch&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Dimmable light control&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Lighting&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>Angled 2 x 50W Halogen&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Installation accessories&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Charcoal filters&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Chimney extension&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Ducting accessories&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Recirculation kit&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;/div>&#xd;&#xa;"
+    textIsRich="[true,true]">
+    <assets jcr:primaryType="nt:unstructured">
+        <asset
+            jcr:lastModified="{Date}2018-10-08T14:21:23.065+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="commerce/components/product/image"
+            featureDescription=""
+            featureTitle=""
+            fileReference="/content/dam/fishers/images/chimneys/120cmwallcanopy.png"/>
+        <asset0
+            jcr:lastModified="{Date}2018-10-08T14:21:23.130+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="commerce/components/product/image"
+            featureDescription="Amazing innovation which fits any style of kitchen. Take a closer look and learn more about our full product range."
+            featureTitle="One For All"
+            fileReference="/content/dam/fishers/images/chimneys/120cmwallcanopy.jpg"/>
+        <asset1
+            jcr:lastModified="{Date}2018-10-08T14:21:23.192+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="commerce/components/product/image"
+            featureDescription="Shiney scratch and oil resistant finish. Demands less maintenance as it is oil and dust and water resistant"
+            featureTitle="Aluminium Finish with Black panel"
+            fileReference="/content/dam/fishers/images/chimneys/120cmwallcanopy.jpg"/>
+        <asset2
+            jcr:lastModified="{Date}2018-10-08T14:21:23.252+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="commerce/components/product/image"
+            featureDescription="This Chimney adapt to suit your lifestyle by streamlining food preparation and keeping the kitchen clean from smoke and vapour"
+            featureTitle="Easy Living"
+            fileReference="/content/dam/fishers/images/chimneys/120cmwallcanopy.jpg"/>
+    </assets>
+</jcr:root>

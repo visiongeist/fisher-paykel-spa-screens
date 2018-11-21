@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="2f4a7232-d7f9-4d74-95ba-a7976dc1f83a">
+    <jcr:content
+        cq:name="winestorage-50.jpg"
+        cq:parentPath="/content/dam/fishers/images"
+        dam:assetState="processed"
+        dam:relativePath="fishers/images/winestorage-50.jpg"
+        jcr:lastModified="{Date}2018-10-04T16:20:53.224+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            cq:productReference="/var/commerce/products/fishers/wine_cabinet_50_bott"
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2018-10-04T16:20:53.052+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:productID="RF306RDWX1-24"
+            dam:Progressive="no"
+            dam:sha1="ac7d1e89e5e86c4ee841649aaa494fc0c6e39e4b"
+            dam:size="{Long}27125"
+            dc:creator="[Toaki Okano]"
+            dc:creator_xmpArrayType="rdf:Seq"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2018-09-26T11:12:00.062+05:30"
+            dc:rights="Toaki Okano Photography"
+            jcr:lastModified="{Date}2018-09-26T11:12:00.062+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}960"
+            tiff:ImageWidth="{Long}800"
+            xmp:CreatorTool="Adobe Photoshop CC 2014 (Macintosh)"
+            xmpMM:DocumentID="xmp.did:56AF8F1AB96D11E495D1860D690DF8B5"
+            xmpMM:InstanceID="xmp.iid:56AF8F19B96D11E495D1860D690DF8B5"
+            xmpMM:OriginalDocumentID="30314637413242423030344331374434">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:D6E9A76DB96811E495D1860D690DF8B5"
+                stRef:instanceID="xmp.iid:D6E9A76CB96811E495D1860D690DF8B5"
+                xmpNodeType="xmpStruct"/>
+            <Iptc4xmpCore:CreatorContactInfo
+                Iptc4xmpCore:CiAdrCtry="New Zealand"
+                Iptc4xmpCore:CiEmailWork="info@toakiokano.com"
+                Iptc4xmpCore:CiTelWork="64-021-21608866"
+                jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

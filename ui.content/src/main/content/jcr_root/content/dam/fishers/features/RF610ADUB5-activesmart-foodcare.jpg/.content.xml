@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ec51895a-fb47-487c-ba0f-28b6550f145c">
+    <jcr:content
+        cq:name="RF610ADUB5-activesmart-foodcare.jpg"
+        cq:parentPath="/content/dam/fishers/features"
+        dam:assetState="processed"
+        dam:relativePath="fishers/features/RF610ADUB5-activesmart-foodcare.jpg"
+        jcr:lastModified="{Date}2018-10-15T13:49:02.288+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            cq:productReference="/var/commerce/products/fishers/black_stainless_stee"
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2018-10-15T13:46:23.539+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}18.75"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}33.33333206176758"
+            dam:productID="RF170WDRUB5-484"
+            dam:Progressive="yes"
+            dam:sha1="030e01691dd68c74190c25b18790d7263c1b268a"
+            dam:size="{Long}200721"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2018-10-15T13:49:02.213+05:30"
+            exif:ColorSpace="{Long}65535"
+            exif:ExifVersion="0221"
+            exif:PixelXDimension="{Long}2400"
+            exif:PixelYDimension="{Long}1350"
+            jcr:lastModified="{Date}2018-10-15T13:49:02.213+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            tiff:BitsPerSample="{Long}[8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:ImageLength="{Long}1350"
+            tiff:ImageWidth="{Long}2400"
+            tiff:Orientation="{Long}1"
+            tiff:PhotometricInterpretation="{Long}2"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:SamplesPerPixel="{Long}3"
+            tiff:XResolution="720000/10000"
+            tiff:YResolution="720000/10000"
+            xmp:CreateDate="{Date}2017-10-04T19:25:32.000+13:00"
+            xmp:CreatorTool="Adobe Photoshop CC 2017 (Macintosh)"
+            xmp:MetadataDate="{Date}2017-10-05T08:26:10.000+13:00"
+            xmp:ModifyDate="{Date}2017-10-05T08:26:10.000+13:00"
+            xmpMM:DocumentID="D981249A0D79204E241B7442EE4358F8"
+            xmpMM:InstanceID="xmp.iid:4688010e-fd18-4774-af9c-681f4642eff2"
+            xmpMM:OriginalDocumentID="D981249A0D79204E241B7442EE4358F8">
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:4688010e-fd18-4774-af9c-681f4642eff2"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2017 (Macintosh)"
+                    stEvt:when="{Date}2017-10-05T08:26:10.000+13:00"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

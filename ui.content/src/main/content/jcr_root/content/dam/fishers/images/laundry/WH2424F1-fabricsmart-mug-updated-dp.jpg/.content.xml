@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="c890994b-02b3-4ac7-b4df-89e713e1feaf">
+    <jcr:content
+        cq:name="WH2424F1-fabricsmart-mug-updated-dp.jpg"
+        cq:parentPath="/content/dam/fishers/images/laundry"
+        dam:assetState="processed"
+        dam:relativePath="fishers/images/laundry/WH2424F1-fabricsmart-mug-updated-dp.jpg"
+        jcr:lastModified="{Date}2018-10-12T15:53:13.652+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            cq:productReference="/var/commerce/products/fishers/laundry/wash/wash2"
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2018-10-12T15:52:08.440+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:productID="RF610ADUSZ4-27"
+            dam:Progressive="yes"
+            dam:sha1="22978be36d2d94450f6e42865f2902b396c4b975"
+            dam:size="{Long}141650"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2018-10-12T15:53:13.509+05:30"
+            jcr:lastModified="{Date}2018-10-12T15:53:13.508+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}1920"
+            tiff:ImageWidth="{Long}1600"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

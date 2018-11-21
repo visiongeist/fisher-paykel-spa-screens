@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:commerceType="product"
+    jcr:created="{Date}2018-09-26T13:58:03.841+05:30"
+    jcr:customtitle="ActiveSmart™ Fridge"
+    jcr:description="With over a decade of DishDrawer™ manufacturing, we are proud to introduce the latest edition. Continuing with the ergonomically superior design, we have found new ways to make your dishwashing experience easier, adjustable racks on the side of the drawer and folding tines ensure complete versatility and adaptability. Follow this up with a range of wash programmes and independently operated drawers and you have the ultimate kitchen clean up companion."
+    jcr:lastModified="{Date}2018-10-12T12:23:12.011+05:30"
+    jcr:mixinTypes="[cq:Taggable]"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Double DishDrawer™ Dishwasher, 14 Place Settings, Panel Ready"
+    sling:resourceType="commerce/components/product"
+    assetCategory="[fishers:Clean/DishWasher/599W]"
+    color="Stainless Steel"
+    featureDescription="[,Fruit and vegetable quality can be maintained at the right humidity and temperature level. The Humidity Control System\, together with the cool and consistent temperature delivered by ActiveSmart™ Technology\, creates the perfect microclimate in each produce bin. Two humidity control slides offer settings for both fruit and vegetables to retain optimal moisture and freshness.,Uninterrupted wide-open spaces and numerous shelving options enable easy customisation for different uses. Quality extension runners allow you to slide out trays fully for easy loading and unloading in the fridge and freezer. The storage bins are also removable\, making food preparation and cleaning easier.,These fridges adapt to suit your lifestyle by streamlining food preparation and organisation with SmartTouch controls\, flexible shelving and storage options and slide out bins and trays.]"
+    featureTitle="[,Humidity Control System,Ergonomic,Easy Living]"
+    identifier="RF610ADUSZ4"
+    price="{Decimal}2800"
+    size="239"
+    splFeatures="&lt;p>&lt;/p>&lt;div class=&quot;twelve columns&quot;>&lt;div class=&quot;row&quot;>&lt;div class=&quot;twelve columns&quot;>&lt;dl>&#xd;&#xa;&lt;dt>Cleaning&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Easy clean drip tray&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Dimensions&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Overall height of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>1068&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Overall width of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>900&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Overall depth of product&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>480&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Max height of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>1036&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Width of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>220&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Depth of decorative chimney flue (mm)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>200&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Height of control panel/handle&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>32&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Size of air outlet&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>150&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>General Features&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Able to be recirculated&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Controls&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>Soft touch buttons&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Easy to reach controls at front of unit&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Lighting&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>2 x 20W Halogen&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Installation accessories&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Charcoal filters&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Chimney extension&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Ducting accessories&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;div class=&quot;twelve columns&quot;>&lt;dl>&#xd;&#xa;&lt;dt>Performance Features&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>Air movement m &lt;sup>3&lt;/sup>/hr (max)&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>863&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Decibel rating (dBA) max&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>65&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Number of fan speeds&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>3&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>Type of fan&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;>Centifugal&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;dl>&#xd;&#xa;&lt;dt>Warranty&lt;/dt> &lt;dd>&lt;table>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>1 year parts &amp;amp; labour warranty&lt;/td>&#xd;&#xa;&lt;td class=&quot;text-right&quot;> &lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;&lt;/dd>&lt;/dl>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;/div>&#xd;&#xa;&lt;/div>&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&lt;div class=&quot;clear&quot;> &lt;/div>&#xd;&#xa;&#xd;&#xa;&lt;p>&lt;/p>&#xd;&#xa;"
+    textIsRich="[true,true]">
+    <assets jcr:primaryType="nt:unstructured">
+        <asset
+            jcr:lastModified="{Date}2018-10-12T12:23:11.864+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="commerce/components/product/image"
+            featureDescription=""
+            featureTitle=""
+            fileReference="/content/dam/fishers/images/clean/dish-drawers/DD24DI9-panel-ready-external-mug-dp.jpg"/>
+        <asset0
+            jcr:lastModified="{Date}2018-10-12T12:23:11.892+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="commerce/components/product/image"
+            featureDescription="ActiveSmart™ consists of a microprocessor, interior temperature sensors, independently controlled variable speed fans and multiple air ducts. The microprocessor controls how the refrigerator operates based on changing patterns of use. The sensors continuously send information to the microprocessor, which analyses and adjusts the fan speed and compressor operations accordingly to deliver a consistent and stable temperature. Continuous feedback means that ActiveSmart™ adjusts to the way you live. Its ability to respond to daily use means that it only uses the energy needed to keep your food fresher for longer."
+            featureTitle="ActiveSmart™ Technology"
+            fileReference="/content/dam/fishers/images/clean/dish-drawers/DD24DI9-DD24SI9-feature-panel-ready-open-drawer-w.jpg"/>
+        <asset1
+            jcr:lastModified="{Date}2018-10-12T12:23:11.937+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="commerce/components/product/image"
+            featureDescription="Removable, spill safe glass shelves are easy to clean and contain drips and spills. Storage bins and EZKleen stainless steel doors just need a wipe to keep spotless."
+            featureTitle="Easy Cleaning"
+            fileReference="/content/dam/fishers/images/clean/dish-drawers/DD24DI9-DD24SI9-DoorsDD24-feature-designer-handle-w.jpg"/>
+        <asset2
+            jcr:lastModified="{Date}2018-10-12T12:23:11.975+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="commerce/components/product/image"
+            featureDescription="The high quality stainless steel, unique surround kits, black finish and the chrome strip detail of the slimline water dispenser, all reflect the styling of our family of kitchen appliances."
+            featureTitle="Designed to Match"
+            fileReference="/content/dam/fishers/images/clean/dish-drawers/DD24DI9-DD24DTI9-DoorsDD24D-feature-true-half-load-w.jpg"/>
+    </assets>
+</jcr:root>
