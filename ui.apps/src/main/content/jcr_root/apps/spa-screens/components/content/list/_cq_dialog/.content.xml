@@ -38,6 +38,8 @@
 												<items jcr:primaryType="nt:unstructured">
 													<page jcr:primaryType="nt:unstructured" text="Page"
 														value="page" />
+													<category jcr:primaryType="nt:unstructured" text="Category"
+														value="category" />
 													<product jcr:primaryType="nt:unstructured"
 														text="Product" value="product" />
 												</items>
