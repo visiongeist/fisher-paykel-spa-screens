@@ -59,7 +59,8 @@
                         showDescription="false"
                         showModificationDate="false"
                         sortOrder="asc"
-                        tagsMatch="any"/>
+                        tagsMatch="any"
+                        renderType="product"/>
                 </responsivegrid>
                 <responsivegrid_399366997
                     jcr:created="{Date}2018-10-12T13:49:41.338-04:00"

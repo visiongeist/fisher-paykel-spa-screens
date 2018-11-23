@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/apps/spa-screens"/>
+    <filter root="/apps/commerce/gui/components/admin/products/properties/productthumbnail"/>
+    <filter root="/apps/commerce/gui/components/admin/products/images/image"/>
+    <filter root="/apps/cq/gui/components/coral/common/form/textfield"/>
 </workspaceFilter>
