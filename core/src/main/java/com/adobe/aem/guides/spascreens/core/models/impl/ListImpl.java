@@ -59,7 +59,8 @@ public class ListImpl implements List {
     private static final int PN_DEPTH_DEFAULT = 1;
     private static final String PN_DATE_FORMAT_DEFAULT = "yyyy-MM-dd";
     private static final String TAGS_MATCH_ANY_VALUE = "any";
-    private static final String DEFAULT_TYPE = "page";
+    private static final String DEFAULT_TYPE = "PageView";
+    private static final String CATEGORY_TYPE = "CategoryView";
 
     @ScriptVariable
     private ValueMap properties;
@@ -177,9 +178,9 @@ public class ListImpl implements List {
         Collection<ListItem> listItems = new ArrayList<>();
         Collection<Page> pages = getPages();
         for (Page page : pages) {
-            if (page != null && renderType.equals(DEFAULT_TYPE)) {
+            if (page != null && (renderType.equals(DEFAULT_TYPE) || renderType.equals(CATEGORY_TYPE))) {
                 listItems.add(new PageListItemImpl(request, page));
-            } else {
+            } else if (page != null) {
             	listItems.add(new ProductListItemImpl(request, page));
             }
         }

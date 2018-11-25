@@ -48,8 +48,10 @@ public class ProductListItemImpl implements ListItem {
         this.page = page;
         
         this.product = populateProduct();
-        this.product.setReadInspirationAssets(false);
-        LOGGER.info("Product: " + product);
+        if(product != null) {
+        	this.product.setReadInspirationAssets(false);
+            LOGGER.info("Product: " + product);
+        }
         
         Page redirectTarget = getRedirectTarget(page);
         if (redirectTarget != null && !redirectTarget.equals(page)) {
@@ -64,8 +66,11 @@ public class ProductListItemImpl implements ListItem {
 
     @Override
     public String getTitle() {
-        String title = product.getTitle();
-        
+    	String title = null;
+    	
+    	if(product != null) {
+    		title = product.getTitle();
+    	}
         if (title == null) {
         	title = page.getNavigationTitle();
         }
@@ -127,7 +132,11 @@ public class ProductListItemImpl implements ListItem {
     	LOGGER.info("Processing Product: " + this.page.getContentResource().getPath() + ProductImpl.PN_PRODUCT_COMPONENT_REFERENCE);
 		Resource productRes = this.page.getContentResource().getResourceResolver().getResource(this.page.getContentResource().getPath() + ProductImpl.PN_PRODUCT_COMPONENT_REFERENCE);
 		
-		return productRes.adaptTo(Product.class);
+		if(productRes != null) {
+			return productRes.adaptTo(Product.class);
+		} else {
+			return null;
+		}
 	}
 
 }

@@ -56,11 +56,11 @@
                         linkItems="false"
                         listFrom="children"
                         parentPage="/content/spa-screens/react/home"
+                        renderType="PageView"
                         showDescription="false"
                         showModificationDate="false"
                         sortOrder="asc"
-                        tagsMatch="any"
-                        renderType="product"/>
+                        tagsMatch="any"/>
                 </responsivegrid>
                 <responsivegrid_399366997
                     jcr:created="{Date}2018-10-12T13:49:41.338-04:00"
@@ -109,6 +109,6 @@
             </responsivegrid>
         </root>
     </jcr:content>
-    <first-article/>
-    <second-article/>
+    <fisher-paykel/>
+    <dcs/>
 </jcr:root>
