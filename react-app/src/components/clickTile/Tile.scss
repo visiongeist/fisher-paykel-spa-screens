@@ -1,21 +1,19 @@
 @import '../../styles/shared';
-.container{
-    .tile {
-        width: 100%;
-        display: inline-flex;
-        .pictureSegment {
-            img {
-                height: 15vh;
-                width: auto;
-            }
+.tile {
+    width: 100%;
+    display: inline-flex;
+    .pictureSegment {
+        img {
+            height: 15vh;
+            width: auto;
         }
-        .textSegment {
-            color: white;
+    }
+    .textSegment {
+        color: white;
+        font-weight: normal;
+        margin: auto auto;
+        .h1 {
             font-weight: normal;
-            margin: auto auto;
-            .h1 {
-                font-weight: normal;
-            }
         }
     }
 }

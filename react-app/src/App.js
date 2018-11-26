@@ -59,10 +59,10 @@ class App extends Page {
                     { this.childPages }
                 </EditorContext.Provider> */}
                 <div className="activity">
-                    <Tile imageDesc="this is alt text" imagePath="/cook-2.jpeg" onClick={() => console.log("click")}>
+                    <Tile imageDesc="this is alt text" imagePath="/cook-2.jpeg" onClick={() => console.log("navigating to f&p")}>
                         <h1>Fisher & Paykel</h1>
                     </Tile>
-                    <Tile imageDesc="this is alt text" imagePath="/grill-1.jpeg">
+                    <Tile imageDesc="this is alt text" imagePath="/grill-1.jpeg" onClick={() => console.log("navigating to DCS")}>
                         <h1>DCS</h1>
                     </Tile>
                 </div>
