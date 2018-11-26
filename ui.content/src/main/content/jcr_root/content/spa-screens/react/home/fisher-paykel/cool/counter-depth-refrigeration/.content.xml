@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-10-15T22:45:09.862-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/spa-screens/settings/wcm/templates/spa-screens-page-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Counter-Depth Refrigeration"
+        jcr:uuid="0e158d2e-b389-485a-88f4-7147c6baf5dd"
+        sling:resourceType="spa-screens/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2017-12-07T16:48:57.968+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-12-07T16:49:29.168+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <responsivegrid
+                    jcr:created="{Date}2018-10-12T13:49:28.574-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-10-12T13:49:28.574-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="8"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                    <list
+                        jcr:created="{Date}2018-10-14T10:17:40.142-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-10-14T10:55:25.767-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="spa-screens/components/content/list"
+                        childDepth="1"
+                        linkItems="false"
+                        listFrom="children"
+                        parentPage="/content/spa-screens/react/home/fisher-paykel/cool/counter-depth-refrigeration"
+                        renderType="ProductView"
+                        showDescription="false"
+                        showModificationDate="false"
+                        sortOrder="asc"
+                        tagsMatch="any"/>
+                </responsivegrid>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

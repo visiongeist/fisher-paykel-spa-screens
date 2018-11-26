@@ -56,6 +56,7 @@
                         linkItems="false"
                         listFrom="children"
                         parentPage="/content/spa-screens/react/home"
+                        renderType="PageView"
                         showDescription="false"
                         showModificationDate="false"
                         sortOrder="asc"
@@ -108,6 +109,6 @@
             </responsivegrid>
         </root>
     </jcr:content>
-    <first-article/>
-    <second-article/>
+    <fisher-paykel/>
+    <dcs/>
 </jcr:root>

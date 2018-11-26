@@ -53,7 +53,7 @@
                         jcr:title="SPA Page"
                         sling:resourceType="wcm/core/components/policy/policy"
                         isRoot="{Boolean}true"
-                        structureDepth="2"
+                        structureDepth="5"
                         structurePatterns="(react/)(?:(?!blog)(/)?)"/>
                 </app>
             </structure>
