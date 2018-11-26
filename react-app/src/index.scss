@@ -30,6 +30,7 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size:  $h1-font-size;
+  font-weight: normal;
 }
 
 h2 {
@@ -93,3 +94,9 @@ img {
     border-style: none;
     width: 100%;
 }
+
+.activity {
+  margin-top: 20vh;
+  height:30vh;
+}
+

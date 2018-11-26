@@ -1,7 +1,6 @@
 import React from 'react';
-import { Page, withModel, EditorContext, Utils } from '@adobe/cq-react-editable-components';
+import { Page, withModel } from '@adobe/cq-react-editable-components';
 import { Redirect } from 'react-router';
-import Header from './components/header/Header';
 import Tile from './components/clickTile/Tile';
 
 
@@ -45,7 +44,7 @@ class App extends Page {
 
         if (canRedirectHome(modelRootPath, locationPathname)) {
             // Redirect to the home url
-            return <Redirect to={ modelRootPath + '/home.html' }/>;
+            return <Redirect to={modelRootPath + '/home.html'} />;
         }
         return null;
     }
@@ -59,16 +58,16 @@ class App extends Page {
                     { this.childComponents }
                     { this.childPages }
                 </EditorContext.Provider> */}
-                <div>
-                <Tile imageDesc="this is alt text" imagePath="/view_from_the_window_by_mokuin-dc650am.jpg">
-                    test
-                </Tile>
-                <Tile imageDesc="this is alt text" imagePath="/view_from_the_window_by_mokuin-dc650am.jpg">
-                    test
-                </Tile>
+                <div className="activity">
+                    <Tile imageDesc="this is alt text" imagePath="/cook-2.jpeg" onClick={() => console.log("click")}>
+                        <h1>Fisher & Paykel</h1>
+                    </Tile>
+                    <Tile imageDesc="this is alt text" imagePath="/grill-1.jpeg">
+                        <h1>DCS</h1>
+                    </Tile>
                 </div>
             </div>
-          );
+        );
     }
 }
 
