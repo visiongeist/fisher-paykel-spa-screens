@@ -1,7 +1,8 @@
 @import '../../styles/shared';
 .tile {
-    padding: 2px;
+    margin: 2px;
     width: 100%;
+    background-color: $color-pure-black;
     display: inline-flex;
     .pictureSegment {
         img {
