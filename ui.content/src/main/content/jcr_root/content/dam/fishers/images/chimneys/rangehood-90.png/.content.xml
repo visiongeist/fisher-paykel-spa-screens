@@ -1,33 +1,215 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="97a47cf8-6070-4d5d-96d6-391f25aeff82">
     <jcr:content
+        cq:lastReplicated="{Date}2018-11-21T14:39:33.817+11:00"
+        cq:lastReplicatedBy="workflow-process-service"
+        cq:name="rangehood-90.png"
+        cq:parentPath="/content/dam/fishers/images/chimneys"
         dam:assetState="processed"
+        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/chimneys/rangehood-90.png"
-        jcr:lastModified="{Date}2018-10-16T18:17:16.954+05:30"
+        dam:s7damType="Image"
+        jcr:lastModified="{Date}2018-11-21T14:39:47.644+11:00"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
+        jcr:primaryType="dam:AssetContent"
+        newRendition="{Boolean}true">
         <metadata
             dam:Bitsperpixel="{Long}8"
-            dam:extracted="{Date}2018-10-16T18:17:16.762+05:30"
+            dam:Comments="XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?>&#xa;&lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.6-c137 1.000000, 0000/00/00-00:00:00        &quot;>&#xa; &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;>&#xa;  &lt;rdf:Description rdf:about=&quot;&quot;&#xa;    xmlns:ns1=&quot;http://www.day.com/dam/1.0&quot;&#xa;    xmlns:tiff=&quot;http://ns.adobe.com/tiff/1.0/&quot;&#xa;    xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot;&#xa;   ns1:Physicalheightininches=&quot;-1.0&quot;&#xa;   ns1:Physicalwidthininches=&quot;-1.0&quot;&#xa;   ns1:Fileformat=&quot;PNG&quot;&#xa;   ns1:Progressive=&quot;no&quot;&#xa;   ns1:extracted=&quot;2018-10-16T18:17:16.762+05:30&quot;&#xa;   ns1:Bitsperpixel=&quot;8&quot;&#xa;   ns1:MIMEtype=&quot;image/png&quot;&#xa;   ns1:Physicalwidthindpi=&quot;-1&quot;&#xa;   ns1:Physicalheightindpi=&quot;-1&quot;&#xa;   ns1:Numberofimages=&quot;1&quot;&#xa;   ns1:Numberoftextualcomments=&quot;0&quot;&#xa;   ns1:sha1=&quot;df79df6b7f84fafbe48defd6f63257e63dda9e0e&quot;&#xa;   ns1:size=&quot;258737&quot;&#xa;   tiff:ImageLength=&quot;3840&quot;&#xa;   tiff:ImageWidth=&quot;2160&quot;&#xa;   dc:format=&quot;image/png&quot;&#xa;   dc:modified=&quot;2018-11-21T14:38:55.367+11:00&quot;/>&#xa; &lt;/rdf:RDF>&#xa;&lt;/x:xmpmeta>&#xa;&lt;?xpacket end=&quot;r&quot;?>&#xa;"
+            dam:extracted="{Date}2018-11-21T14:39:33.762+11:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
-            dam:Numberoftextualcomments="{Long}0"
+            dam:Numberoftextualcomments="{Long}1"
             dam:Physicalheightindpi="{Long}-1"
             dam:Physicalheightininches="{Decimal}-1.0"
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="df79df6b7f84fafbe48defd6f63257e63dda9e0e"
-            dam:size="{Long}258737"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|210268"
+            dam:scene7Domain="http://s7d2.scene7.com/"
+            dam:scene7File="DynamicMediaNA/rangehood-90"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="DynamicMediaNA/fishers/images/chimneys/"
+            dam:scene7ID="a|646435389"
+            dam:scene7LastModified="{Long}1542771579863"
+            dam:scene7Name="rangehood-90"
+            dam:scene7Type="Image"
+            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:39:46.443+11:00"
+            dam:sha1="ddd0faa0f412b981b8d885c195ac551d32054a9f"
+            dam:size="{Long}259764"
             dc:format="image/png"
+            dc:modified="{Date}2018-11-21T14:38:55.367+11:00"
+            jcr:lastModified="{Date}2018-11-21T14:38:55.367+11:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}3840"
-            tiff:ImageWidth="{Long}2160"/>
+            tiff:ImageWidth="{Long}2160"
+            lastTransferredForTagging="{Date}2018-11-21T14:39:50.722+11:00"
+            simsearchVersion="1.0.0">
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <blank
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.717+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7150784730911255"
+                    isCustom="{Boolean}false"
+                    name="blank"/>
+                <computer
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.718+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7087559103965759"
+                    isCustom="{Boolean}false"
+                    name="computer"/>
+                <business
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.718+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6964272260665894"
+                    isCustom="{Boolean}false"
+                    name="business"/>
+                <white
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.718+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6932134032249451"
+                    isCustom="{Boolean}false"
+                    name="white"/>
+                <isolated
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.718+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6913615465164185"
+                    isCustom="{Boolean}false"
+                    name="isolated"/>
+                <black
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.718+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6814907789230347"
+                    isCustom="{Boolean}false"
+                    name="black"/>
+                <technology
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.718+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6584481000900269"
+                    isCustom="{Boolean}false"
+                    name="technology"/>
+                <monitor
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.718+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6389126777648926"
+                    isCustom="{Boolean}false"
+                    name="monitor"/>
+                <background
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.719+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6384991407394409"
+                    isCustom="{Boolean}false"
+                    name="background"/>
+                <vector
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.719+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6317458152770996"
+                    isCustom="{Boolean}false"
+                    name="vector"/>
+                <display
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.719+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6206310391426086"
+                    isCustom="{Boolean}false"
+                    name="display"/>
+                <equipment
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.719+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6074453592300415"
+                    isCustom="{Boolean}false"
+                    name="equipment"/>
+                <pc
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.719+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6070802807807922"
+                    isCustom="{Boolean}false"
+                    name="pc"/>
+                <screen
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.720+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6037089228630066"
+                    isCustom="{Boolean}false"
+                    name="screen"/>
+                <internet
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.720+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.601780354976654"
+                    isCustom="{Boolean}false"
+                    name="internet"/>
+                <empty
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.720+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5987076759338379"
+                    isCustom="{Boolean}false"
+                    name="empty"/>
+                <illustration
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.720+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5962792634963989"
+                    isCustom="{Boolean}false"
+                    name="illustration"/>
+                <design
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.720+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5927468538284302"
+                    isCustom="{Boolean}false"
+                    name="design"/>
+                <digital
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.720+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5902706980705261"
+                    isCustom="{Boolean}false"
+                    name="digital"/>
+                <laptop
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.721+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5842978954315186"
+                    isCustom="{Boolean}false"
+                    name="laptop"/>
+                <communication
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.721+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5787451863288879"
+                    isCustom="{Boolean}false"
+                    name="communication"/>
+                <office
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.721+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5634078979492188"
+                    isCustom="{Boolean}false"
+                    name="office"/>
+                <lcd
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.721+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5620319843292236"
+                    isCustom="{Boolean}false"
+                    name="lcd"/>
+                <mobile
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.721+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.555928111076355"
+                    isCustom="{Boolean}false"
+                    name="mobile"/>
+                <electronic
+                    jcr:lastModified="{Date}2018-11-21T14:39:50.721+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5540733337402344"
+                    isCustom="{Boolean}false"
+                    name="electronic"/>
+            </predictedTags>
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}"/>
+        </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

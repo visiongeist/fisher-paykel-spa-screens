@@ -5,18 +5,22 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="214a2783-437e-4370-badd-39e304eaac92">
     <jcr:content
+        cq:lastReplicated="{Date}2018-11-21T14:44:19.369+11:00"
+        cq:lastReplicatedBy="workflow-process-service"
         cq:name="fridge635-winecabin127.jpg"
         cq:parentPath="/content/dam/fishers/inspiration"
         dam:assetState="processed"
+        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/inspiration/fridge635-winecabin127.jpg"
-        jcr:lastModified="{Date}2018-10-04T16:20:53.344+05:30"
+        dam:s7damType="Image"
+        jcr:lastModified="{Date}2018-11-23T14:10:01.742+11:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:tags="[fishers:Cool/WineCabinets/32bottles,fishers:Cool/Freezers/614L]"
+            cq:tags="[fishers:Cool/WineCabinets/127bottles,fishers:Cool/WineCabinets/32bottles,fishers:Cool/Freezers/614L]"
             cq:tags_xmpArrayType="rdf:Bag"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-10-04T16:20:53.115+05:30"
+            dam:extracted="{Date}2018-11-21T14:44:19.337+11:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -26,17 +30,186 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}16.66666603088379"
             dam:Progressive="no"
-            dam:sha1="48440c0b688792be1680394ca332263715a1678c"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|210268"
+            dam:scene7Domain="http://s7d2.scene7.com/"
+            dam:scene7File="DynamicMediaNA/fridge635-winecabin127"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="DynamicMediaNA/fishers/inspiration/"
+            dam:scene7ID="a|643579348"
+            dam:scene7LastModified="{Long}1542771862645"
+            dam:scene7Name="fridge635-winecabin127"
+            dam:scene7Type="Image"
+            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:44:26.196+11:00"
+            dam:sha1="2672c64e81b238602b4fdc03fafa4afe241531d6"
             dam:size="{Long}477901"
             dc:format="image/jpeg"
             dc:modified="{Date}2018-10-04T14:18:05.439+05:30"
-            jcr:lastModified="{Date}2018-10-04T14:18:05.439+05:30"
+            jcr:lastModified="{Date}2018-11-23T14:10:01.640+11:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}675"
-            tiff:ImageWidth="{Long}1200">
+            tiff:ImageWidth="{Long}1200"
+            lastTransferredForTagging="{Date}2018-11-21T14:44:31.781+11:00"
+            simsearchVersion="1.0.0">
             <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <kitchen
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.774+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.8664548993110657"
+                    isCustom="{Boolean}false"
+                    name="kitchen"/>
+                <interior
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.774+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.8395596742630005"
+                    isCustom="{Boolean}false"
+                    name="interior"/>
+                <home
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.774+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.8038565516471863"
+                    isCustom="{Boolean}false"
+                    name="home"/>
+                <table
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.774+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.756686270236969"
+                    isCustom="{Boolean}false"
+                    name="table"/>
+                <design
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.774+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7539541721343994"
+                    isCustom="{Boolean}false"
+                    name="design"/>
+                <house
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.775+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.748738169670105"
+                    isCustom="{Boolean}false"
+                    name="house"/>
+                <room
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.775+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7394594550132751"
+                    isCustom="{Boolean}false"
+                    name="room"/>
+                <chair
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.775+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7392509579658508"
+                    isCustom="{Boolean}false"
+                    name="chair"/>
+                <furniture
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.775+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7155716419219971"
+                    isCustom="{Boolean}false"
+                    name="furniture"/>
+                <modern
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.775+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.696446418762207"
+                    isCustom="{Boolean}false"
+                    name="modern"/>
+                <architecture
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.776+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6959331631660461"
+                    isCustom="{Boolean}false"
+                    name="architecture"/>
+                <wood
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.776+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6822364330291748"
+                    isCustom="{Boolean}false"
+                    name="wood"/>
+                <contemporary
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.776+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6732276678085327"
+                    isCustom="{Boolean}false"
+                    name="contemporary"/>
+                <apartment
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.777+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6713500618934631"
+                    isCustom="{Boolean}false"
+                    name="apartment"/>
+                <cabinet
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.777+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6572017073631287"
+                    isCustom="{Boolean}false"
+                    name="cabinet"/>
+                <counter
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.777+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6544394493103027"
+                    isCustom="{Boolean}false"
+                    name="counter"/>
+                <floor
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.777+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6535521745681763"
+                    isCustom="{Boolean}false"
+                    name="floor"/>
+                <decor
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.778+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6465939283370972"
+                    isCustom="{Boolean}false"
+                    name="decor"/>
+                <decoration
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.778+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6455695629119873"
+                    isCustom="{Boolean}false"
+                    name="decoration"/>
+                <luxury
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.779+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.644436240196228"
+                    isCustom="{Boolean}false"
+                    name="luxury"/>
+                <domestic
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.779+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6230891942977905"
+                    isCustom="{Boolean}false"
+                    name="domestic"/>
+                <cabinets
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.779+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6230690479278564"
+                    isCustom="{Boolean}false"
+                    name="cabinets"/>
+                <indoors
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.780+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6157599091529846"
+                    isCustom="{Boolean}false"
+                    name="indoors"/>
+                <stove
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.780+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6138535737991333"
+                    isCustom="{Boolean}false"
+                    name="stove"/>
+                <oven
+                    jcr:lastModified="{Date}2018-11-21T14:44:31.780+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6024428606033325"
+                    isCustom="{Boolean}false"
+                    name="oven"/>
+            </predictedTags>
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

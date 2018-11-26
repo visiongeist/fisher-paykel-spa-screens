@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="3a79142a-daeb-4994-aa70-a37facecc89c">
     <jcr:content
+        cq:lastReplicated="{Date}2018-11-21T14:46:29.759+11:00"
+        cq:lastReplicatedBy="workflow-process-service"
+        cq:name="ablimit-ablet-639666-unsplash.jpg"
+        cq:parentPath="/content/dam/spa-screens"
         dam:assetState="processed"
+        dam:imageServerAsset="{Boolean}true"
+        dam:lastS7Synced="{Date}2018-11-26T07:53:18.439+11:00"
+        dam:lastS7SyncStatus="success"
         dam:relativePath="spa-screens/ablimit-ablet-639666-unsplash.jpg"
-        jcr:lastModified="{Date}2018-10-14T11:03:54.516-04:00"
+        dam:s7damType="Image"
+        jcr:lastModified="{Date}2018-11-26T07:51:28.037+11:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-10-14T11:03:54.124-04:00"
+            dam:extracted="{Date}2018-11-21T14:46:29.737+11:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,13 +30,188 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="32e53af290651d005a2ee54b37a49040b0507608"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|210268"
+            dam:scene7Domain="http://s7d2.scene7.com/"
+            dam:scene7File="DynamicMediaNA/ablimit-ablet-639666-unsplash-1"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="DynamicMediaNA/spa-screens/"
+            dam:scene7ID="a|660617072"
+            dam:scene7LastModified="{Long}1542771997670"
+            dam:scene7Name="ablimit-ablet-639666-unsplash-1"
+            dam:scene7Type="Image"
+            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:46:39.278+11:00"
+            dam:sha1="bf7dd509a548c88b48829853cdc8b3f5e60e1c05"
             dam:size="{Long}1254658"
             dc:format="image/jpeg"
+            dc:modified="{Date}2018-11-26T07:51:27.262+11:00"
+            jcr:lastModified="{Date}2018-11-26T07:51:27.262+11:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}2636"
-            tiff:ImageWidth="{Long}1758"/>
+            tiff:ImageWidth="{Long}1758"
+            areAllMembersProducts="{Boolean}true"
+            imageMap=""
+            lastTransferredForTagging="{Date}2018-11-21T14:46:43.424+11:00"
+            simsearchVersion="1.0.0">
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <background
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.420+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.8118835687637329"
+                    isCustom="{Boolean}false"
+                    name="background"/>
+                <blue
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.420+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.8112855553627014"
+                    isCustom="{Boolean}false"
+                    name="blue"/>
+                <abstract
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.421+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7458828091621399"
+                    isCustom="{Boolean}false"
+                    name="abstract"/>
+                <design
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.421+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6454585790634155"
+                    isCustom="{Boolean}false"
+                    name="design"/>
+                <green
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.421+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6144000887870789"
+                    isCustom="{Boolean}false"
+                    name="green"/>
+                <backdrop
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.421+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6143596172332764"
+                    isCustom="{Boolean}false"
+                    name="backdrop"/>
+                <vector
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.421+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6067450046539307"
+                    isCustom="{Boolean}false"
+                    name="vector"/>
+                <illustration
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.421+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6060805320739746"
+                    isCustom="{Boolean}false"
+                    name="illustration"/>
+                <texture
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.422+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5955560207366943"
+                    isCustom="{Boolean}false"
+                    name="texture"/>
+                <pattern
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.422+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5876424908638"
+                    isCustom="{Boolean}false"
+                    name="pattern"/>
+                <water
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.422+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5791096091270447"
+                    isCustom="{Boolean}false"
+                    name="water"/>
+                <sky
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.422+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5747724175453186"
+                    isCustom="{Boolean}false"
+                    name="sky"/>
+                <wallpaper
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.422+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5744125247001648"
+                    isCustom="{Boolean}false"
+                    name="wallpaper"/>
+                <white
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.422+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5715065598487854"
+                    isCustom="{Boolean}false"
+                    name="white"/>
+                <art
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.422+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5634811520576477"
+                    isCustom="{Boolean}false"
+                    name="art"/>
+                <light
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.422+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5629116892814636"
+                    isCustom="{Boolean}false"
+                    name="light"/>
+                <color
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.422+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5555763244628906"
+                    isCustom="{Boolean}false"
+                    name="color"/>
+                <nature
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.423+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5541807413101196"
+                    isCustom="{Boolean}false"
+                    name="nature"/>
+                <graphic
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.423+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5477129220962524"
+                    isCustom="{Boolean}false"
+                    name="graphic"/>
+                <lines
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.423+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5465666651725769"
+                    isCustom="{Boolean}false"
+                    name="lines"/>
+                <space
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.423+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5458415150642395"
+                    isCustom="{Boolean}false"
+                    name="space"/>
+                <modern
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.423+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5434798002243042"
+                    isCustom="{Boolean}false"
+                    name="modern"/>
+                <technology
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.423+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5428430438041687"
+                    isCustom="{Boolean}false"
+                    name="technology"/>
+                <backgrounds
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.423+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5418513417243958"
+                    isCustom="{Boolean}false"
+                    name="backgrounds"/>
+                <computer
+                    jcr:lastModified="{Date}2018-11-21T14:46:43.423+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5325941443443298"
+                    isCustom="{Boolean}false"
+                    name="computer"/>
+            </predictedTags>
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}"/>
+        </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-10-15T22:45:09.862-04:00"
+        cq:lastModified="{Date}2018-11-26T11:51:11.558+11:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/spa-screens/settings/wcm/templates/spa-screens-page-template"
         jcr:isCheckedOut="{Boolean}true"
@@ -10,7 +10,8 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Integrated Refrigeration"
         jcr:uuid="7df7ba4b-664e-438c-a37d-beaf7831f819"
-        sling:resourceType="spa-screens/components/structure/page">
+        sling:resourceType="spa-screens/components/structure/page"
+        imagePath="/content/dam/fishers/images/cool-1.jpeg">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">

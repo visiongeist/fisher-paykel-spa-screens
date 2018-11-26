@@ -5,18 +5,23 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="8b961be7-bcef-4c60-8031-5318b327ae1e">
     <jcr:content
+        cq:lastReplicated="{Date}2018-11-21T14:45:18.261+11:00"
+        cq:lastReplicatedBy="workflow-process-service"
         cq:name="design.png"
         cq:parentPath="/content/dam/fishers/features"
         dam:assetState="processed"
+        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/features/design.png"
-        jcr:lastModified="{Date}2018-10-08T14:50:40.740+05:30"
+        dam:s7damType="Image"
+        jcr:lastModified="{Date}2018-11-21T14:45:36.651+11:00"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
+        jcr:primaryType="dam:AssetContent"
+        newRendition="{Boolean}true">
         <metadata
             cq:productReference="/var/commerce/products/fishers/activesmart_fridge_7"
             dam:Bitsperpixel="{Long}32"
-            dam:Comments="XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?>&#xa;&lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.6-c137 1.000000, 0000/00/00-00:00:00        &quot;>&#xa; &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;>&#xa;  &lt;rdf:Description rdf:about=&quot;&quot;&#xa;    xmlns:ns1=&quot;http://www.day.com/dam/1.0&quot;&#xa;    xmlns:tiff=&quot;http://ns.adobe.com/tiff/1.0/&quot;&#xa;    xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot;&#xa;    xmlns:exif=&quot;http://ns.adobe.com/exif/1.0/&quot;&#xa;    xmlns:ns2=&quot;http://www.day.com/jcr/cq/1.0&quot;&#xa;   ns1:Physicalheightininches=&quot;9.722722053527832&quot;&#xa;   ns1:Physicalwidthininches=&quot;17.473119735717773&quot;&#xa;   ns1:productID=&quot;RF610ADUSX4-614&quot;&#xa;   ns1:Fileformat=&quot;PNG&quot;&#xa;   ns1:Progressive=&quot;no&quot;&#xa;   ns1:extracted=&quot;2018-09-26T14:34:33.325+05:30&quot;&#xa;   ns1:Bitsperpixel=&quot;32&quot;&#xa;   ns1:MIMEtype=&quot;image/png&quot;&#xa;   ns1:Comments=&quot;XML:com.adobe.xmp: &amp;lt;x:xmpmeta xmlns:x=&amp;quot;adobe:ns:meta/&amp;quot; x:xmptk=&amp;quot;XMP Core 5.4.0&amp;quot;&amp;gt;&amp;#xA;   &amp;lt;rdf:RDF xmlns:rdf=&amp;quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;quot;&amp;gt;&amp;#xA;      &amp;lt;rdf:Description rdf:about=&amp;quot;&amp;quot;&amp;#xA;            xmlns:exif=&amp;quot;http://ns.adobe.com/exif/1.0/&amp;quot;&amp;gt;&amp;#xA;         &amp;lt;exif:PixelXDimension&amp;gt;2516&amp;lt;/exif:PixelXDimension&amp;gt;&amp;#xA;         &amp;lt;exif:PixelYDimension&amp;gt;1400&amp;lt;/exif:PixelYDimension&amp;gt;&amp;#xA;      &amp;lt;/rdf:Description&amp;gt;&amp;#xA;   &amp;lt;/rdf:RDF&amp;gt;&amp;#xA;&amp;lt;/x:xmpmeta&amp;gt;&amp;#xA;&amp;#xA;&quot;&#xa;   ns1:Physicalwidthindpi=&quot;144&quot;&#xa;   ns1:Physicalheightindpi=&quot;144&quot;&#xa;   ns1:Numberofimages=&quot;1&quot;&#xa;   ns1:Numberoftextualcomments=&quot;1&quot;&#xa;   ns1:sha1=&quot;48c4fb1258cd71164d147e310581f45c51d3a74f&quot;&#xa;   ns1:size=&quot;1609619&quot;&#xa;   tiff:ImageLength=&quot;1400&quot;&#xa;   tiff:ImageWidth=&quot;2516&quot;&#xa;   dc:format=&quot;image/png&quot;&#xa;   dc:modified=&quot;2018-10-04T14:19:13.429+05:30&quot;&#xa;   exif:PixelYDimension=&quot;1400&quot;&#xa;   exif:PixelXDimension=&quot;2516&quot;&#xa;   ns2:productReference=&quot;/var/commerce/products/fishers/activesmart_fridge_9&quot;/>&#xa; &lt;/rdf:RDF>&#xa;&lt;/x:xmpmeta>&#xa;&lt;?xpacket end=&quot;r&quot;?>&#xa;"
-            dam:extracted="{Date}2018-10-04T16:20:52.695+05:30"
+            dam:Comments="XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?>&#xa;&lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.6-c137 1.000000, 0000/00/00-00:00:00        &quot;>&#xa; &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;>&#xa;  &lt;rdf:Description rdf:about=&quot;&quot;&#xa;    xmlns:ns1=&quot;http://www.day.com/dam/1.0&quot;&#xa;    xmlns:tiff=&quot;http://ns.adobe.com/tiff/1.0/&quot;&#xa;    xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot;&#xa;    xmlns:exif=&quot;http://ns.adobe.com/exif/1.0/&quot;&#xa;    xmlns:ns2=&quot;http://www.day.com/jcr/cq/1.0&quot;&#xa;   ns1:Physicalheightininches=&quot;9.722722053527832&quot;&#xa;   ns1:Physicalwidthininches=&quot;17.473119735717773&quot;&#xa;   ns1:productID=&quot;RF522ADUSX4-534&quot;&#xa;   ns1:Fileformat=&quot;PNG&quot;&#xa;   ns1:Progressive=&quot;no&quot;&#xa;   ns1:extracted=&quot;2018-10-04T16:20:52.695+05:30&quot;&#xa;   ns1:Bitsperpixel=&quot;32&quot;&#xa;   ns1:MIMEtype=&quot;image/png&quot;&#xa;   ns1:Comments=&quot;XML:com.adobe.xmp: &amp;lt;?xpacket begin=&amp;quot;﻿&amp;quot; id=&amp;quot;W5M0MpCehiHzreSzNTczkc9d&amp;quot;?&amp;gt;&amp;#xA;&amp;lt;x:xmpmeta xmlns:x=&amp;quot;adobe:ns:meta/&amp;quot; x:xmptk=&amp;quot;Adobe XMP Core 5.6-c137 1.000000, 0000/00/00-00:00:00        &amp;quot;&amp;gt;&amp;#xA; &amp;lt;rdf:RDF xmlns:rdf=&amp;quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;quot;&amp;gt;&amp;#xA;  &amp;lt;rdf:Description rdf:about=&amp;quot;&amp;quot;&amp;#xA;    xmlns:ns1=&amp;quot;http://www.day.com/dam/1.0&amp;quot;&amp;#xA;    xmlns:tiff=&amp;quot;http://ns.adobe.com/tiff/1.0/&amp;quot;&amp;#xA;    xmlns:dc=&amp;quot;http://purl.org/dc/elements/1.1/&amp;quot;&amp;#xA;    xmlns:exif=&amp;quot;http://ns.adobe.com/exif/1.0/&amp;quot;&amp;#xA;    xmlns:ns2=&amp;quot;http://www.day.com/jcr/cq/1.0&amp;quot;&amp;#xA;   ns1:Physicalheightininches=&amp;quot;9.722722053527832&amp;quot;&amp;#xA;   ns1:Physicalwidthininches=&amp;quot;17.473119735717773&amp;quot;&amp;#xA;   ns1:productID=&amp;quot;RF610ADUSX4-614&amp;quot;&amp;#xA;   ns1:Fileformat=&amp;quot;PNG&amp;quot;&amp;#xA;   ns1:Progressive=&amp;quot;no&amp;quot;&amp;#xA;   ns1:extracted=&amp;quot;2018-09-26T14:34:33.325+05:30&amp;quot;&amp;#xA;   ns1:Bitsperpixel=&amp;quot;32&amp;quot;&amp;#xA;   ns1:MIMEtype=&amp;quot;image/png&amp;quot;&amp;#xA;   ns1:Comments=&amp;quot;XML:com.adobe.xmp: &amp;amp;lt;x:xmpmeta xmlns:x=&amp;amp;quot;adobe:ns:meta/&amp;amp;quot; x:xmptk=&amp;amp;quot;XMP Core 5.4.0&amp;amp;quot;&amp;amp;gt;&amp;amp;#xA;   &amp;amp;lt;rdf:RDF xmlns:rdf=&amp;amp;quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;amp;quot;&amp;amp;gt;&amp;amp;#xA;      &amp;amp;lt;rdf:Description rdf:about=&amp;amp;quot;&amp;amp;quot;&amp;amp;#xA;            xmlns:exif=&amp;amp;quot;http://ns.adobe.com/exif/1.0/&amp;amp;quot;&amp;amp;gt;&amp;amp;#xA;         &amp;amp;lt;exif:PixelXDimension&amp;amp;gt;2516&amp;amp;lt;/exif:PixelXDimension&amp;amp;gt;&amp;amp;#xA;         &amp;amp;lt;exif:PixelYDimension&amp;amp;gt;1400&amp;amp;lt;/exif:PixelYDimension&amp;amp;gt;&amp;amp;#xA;      &amp;amp;lt;/rdf:Description&amp;amp;gt;&amp;amp;#xA;   &amp;amp;lt;/rdf:RDF&amp;amp;gt;&amp;amp;#xA;&amp;amp;lt;/x:xmpmeta&amp;amp;gt;&amp;amp;#xA;&amp;amp;#xA;&amp;quot;&amp;#xA;   ns1:Physicalwidthindpi=&amp;quot;144&amp;quot;&amp;#xA;   ns1:Physicalheightindpi=&amp;quot;144&amp;quot;&amp;#xA;   ns1:Numberofimages=&amp;quot;1&amp;quot;&amp;#xA;   ns1:Numberoftextualcomments=&amp;quot;1&amp;quot;&amp;#xA;   ns1:sha1=&amp;quot;48c4fb1258cd71164d147e310581f45c51d3a74f&amp;quot;&amp;#xA;   ns1:size=&amp;quot;1609619&amp;quot;&amp;#xA;   tiff:ImageLength=&amp;quot;1400&amp;quot;&amp;#xA;   tiff:ImageWidth=&amp;quot;2516&amp;quot;&amp;#xA;   dc:format=&amp;quot;image/png&amp;quot;&amp;#xA;   dc:modified=&amp;quot;2018-10-04T14:19:13.429+05:30&amp;quot;&amp;#xA;   exif:PixelYDimension=&amp;quot;1400&amp;quot;&amp;#xA;   exif:PixelXDimension=&amp;quot;2516&amp;quot;&amp;#xA;   ns2:productReference=&amp;quot;/var/commerce/products/fishers/activesmart_fridge_9&amp;quot;/&amp;gt;&amp;#xA; &amp;lt;/rdf:RDF&amp;gt;&amp;#xA;&amp;lt;/x:xmpmeta&amp;gt;&amp;#xA;&amp;lt;?xpacket end=&amp;quot;r&amp;quot;?&amp;gt;&amp;#xA;&quot;&#xa;   ns1:Physicalwidthindpi=&quot;144&quot;&#xa;   ns1:Physicalheightindpi=&quot;144&quot;&#xa;   ns1:Numberofimages=&quot;1&quot;&#xa;   ns1:Numberoftextualcomments=&quot;1&quot;&#xa;   ns1:sha1=&quot;116ea72810a987651f342cad5ac61188bf3edcd4&quot;&#xa;   ns1:size=&quot;1611100&quot;&#xa;   tiff:ImageLength=&quot;1400&quot;&#xa;   tiff:ImageWidth=&quot;2516&quot;&#xa;   dc:format=&quot;image/png&quot;&#xa;   dc:modified=&quot;2018-10-04T14:19:13.429+05:30&quot;&#xa;   exif:PixelYDimension=&quot;1400&quot;&#xa;   exif:PixelXDimension=&quot;2516&quot;&#xa;   ns2:productReference=&quot;/var/commerce/products/fishers/activesmart_fridge_7&quot;/>&#xa; &lt;/rdf:RDF>&#xa;&lt;/x:xmpmeta>&#xa;&lt;?xpacket end=&quot;r&quot;?>&#xa;"
+            dam:extracted="{Date}2018-11-21T14:45:18.209+11:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -27,18 +32,188 @@
             dam:Physicalwidthininches="{Decimal}17.473119735717773"
             dam:productID="RF522ADUSX4-534"
             dam:Progressive="no"
-            dam:sha1="116ea72810a987651f342cad5ac61188bf3edcd4"
-            dam:size="{Long}1611100"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|210268"
+            dam:scene7Domain="http://s7d2.scene7.com/"
+            dam:scene7File="DynamicMediaNA/design"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="DynamicMediaNA/fishers/features/"
+            dam:scene7ID="a|639421697"
+            dam:scene7LastModified="{Long}1542771929598"
+            dam:scene7Name="design"
+            dam:scene7Type="Image"
+            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:45:34.033+11:00"
+            dam:sha1="2453349d602c8ed2d9dc8c48097f77bbaf06f54a"
+            dam:size="{Long}1613109"
             dc:format="image/png"
             dc:modified="{Date}2018-10-04T14:19:13.429+05:30"
             exif:PixelXDimension="{Long}2516"
             exif:PixelYDimension="{Long}1400"
-            jcr:lastModified="{Date}2018-10-08T14:50:39.036+05:30"
+            jcr:lastModified="{Date}2018-11-21T14:45:18.058+11:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}1400"
-            tiff:ImageWidth="{Long}2516"/>
+            tiff:ImageWidth="{Long}2516"
+            lastTransferredForTagging="{Date}2018-11-21T14:45:41.735+11:00"
+            simsearchVersion="1.0.0">
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <kitchen
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.730+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7748052477836609"
+                    isCustom="{Boolean}false"
+                    name="kitchen"/>
+                <white
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.730+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7180339694023132"
+                    isCustom="{Boolean}false"
+                    name="white"/>
+                <home
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.730+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.706160306930542"
+                    isCustom="{Boolean}false"
+                    name="home"/>
+                <modern
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.730+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6888865232467651"
+                    isCustom="{Boolean}false"
+                    name="modern"/>
+                <machine
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.730+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6778186559677124"
+                    isCustom="{Boolean}false"
+                    name="machine"/>
+                <atm
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.730+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6742663383483887"
+                    isCustom="{Boolean}false"
+                    name="atm"/>
+                <interior
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.731+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6642340421676636"
+                    isCustom="{Boolean}false"
+                    name="interior"/>
+                <stove
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.731+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6556514501571655"
+                    isCustom="{Boolean}false"
+                    name="stove"/>
+                <business
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.731+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6466903686523438"
+                    isCustom="{Boolean}false"
+                    name="business"/>
+                <cooking
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.731+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6394716501235962"
+                    isCustom="{Boolean}false"
+                    name="cooking"/>
+                <clean
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.731+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6364724636077881"
+                    isCustom="{Boolean}false"
+                    name="clean"/>
+                <contemporary
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.732+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6311193108558655"
+                    isCustom="{Boolean}false"
+                    name="contemporary"/>
+                <cash
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.732+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6225507259368896"
+                    isCustom="{Boolean}false"
+                    name="cash"/>
+                <design
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.732+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.622137188911438"
+                    isCustom="{Boolean}false"
+                    name="design"/>
+                <banking
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.732+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.619070291519165"
+                    isCustom="{Boolean}false"
+                    name="banking"/>
+                <apartment
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.733+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6189966797828674"
+                    isCustom="{Boolean}false"
+                    name="apartment"/>
+                <house
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.733+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6158701181411743"
+                    isCustom="{Boolean}false"
+                    name="house"/>
+                <oven
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.733+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6140843033790588"
+                    isCustom="{Boolean}false"
+                    name="oven"/>
+                <microwave
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.733+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6128320097923279"
+                    isCustom="{Boolean}false"
+                    name="microwave"/>
+                <finance
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.733+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6112486720085144"
+                    isCustom="{Boolean}false"
+                    name="finance"/>
+                <appliance
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.734+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6089406609535217"
+                    isCustom="{Boolean}false"
+                    name="appliance"/>
+                <food
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.734+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6034687161445618"
+                    isCustom="{Boolean}false"
+                    name="food"/>
+                <fridge
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.734+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6019878387451172"
+                    isCustom="{Boolean}false"
+                    name="fridge"/>
+                <cook
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.734+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5972001552581787"
+                    isCustom="{Boolean}false"
+                    name="cook"/>
+                <tv
+                    jcr:lastModified="{Date}2018-11-21T14:45:41.734+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5961096286773682"
+                    isCustom="{Boolean}false"
+                    name="tv"/>
+            </predictedTags>
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}"/>
+        </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

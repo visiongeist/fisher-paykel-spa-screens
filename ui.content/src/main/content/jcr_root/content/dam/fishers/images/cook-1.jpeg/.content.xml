@@ -5,16 +5,21 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="b1ff84cd-5e42-4e05-b5ff-bfa0e881bdd1">
     <jcr:content
+        cq:lastReplicated="{Date}2018-11-21T14:44:53.083+11:00"
+        cq:lastReplicatedBy="workflow-process-service"
         cq:name="cook-1.jpeg"
         cq:parentPath="/content/dam/fishers/images"
         dam:assetState="processed"
+        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/cook-1.jpeg"
-        jcr:lastModified="{Date}2018-10-04T16:20:54.380+05:30"
+        dam:s7damType="Image"
+        jcr:lastModified="{Date}2018-11-21T14:45:05.806+11:00"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
+        jcr:primaryType="dam:AssetContent"
+        newRendition="{Boolean}true">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-10-04T16:20:54.159+05:30"
+            dam:extracted="{Date}2018-11-21T14:44:53.047+11:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -24,16 +29,186 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="65d634365f245ee4ff53536d39494558727f0bc3"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|210268"
+            dam:scene7Domain="http://s7d2.scene7.com/"
+            dam:scene7File="DynamicMediaNA/cook-1"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="DynamicMediaNA/fishers/images/"
+            dam:scene7ID="a|637028261"
+            dam:scene7LastModified="{Long}1542771896920"
+            dam:scene7Name="cook-1"
+            dam:scene7Type="Image"
+            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:45:04.121+11:00"
+            dam:sha1="e8fecfdd9908e091ed0069cef723c0e1537fea13"
             dam:size="{Long}141190"
             dc:format="image/jpeg"
             dc:modified="{Date}2018-09-20T11:28:16.728+05:30"
-            jcr:lastModified="{Date}2018-09-21T17:57:55.784+05:30"
+            jcr:lastModified="{Date}2018-11-21T14:44:46.255+11:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}720"
-            tiff:ImageWidth="{Long}1280"/>
+            tiff:ImageWidth="{Long}1280"
+            lastTransferredForTagging="{Date}2018-11-21T14:45:10.814+11:00"
+            simsearchVersion="1.0.0">
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <board
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.811+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5951544046401978"
+                    isCustom="{Boolean}false"
+                    name="board"/>
+                <equipment
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.811+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5772239565849304"
+                    isCustom="{Boolean}false"
+                    name="equipment"/>
+                <black
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.811+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5661948323249817"
+                    isCustom="{Boolean}false"
+                    name="black"/>
+                <design
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.811+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5638779997825623"
+                    isCustom="{Boolean}false"
+                    name="design"/>
+                <white
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.811+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5601524710655212"
+                    isCustom="{Boolean}false"
+                    name="white"/>
+                <kitchen
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.811+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5600193738937378"
+                    isCustom="{Boolean}false"
+                    name="kitchen"/>
+                <game
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.811+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5548811554908752"
+                    isCustom="{Boolean}false"
+                    name="game"/>
+                <table
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.811+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5544143915176392"
+                    isCustom="{Boolean}false"
+                    name="table"/>
+                <red
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.812+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.552723228931427"
+                    isCustom="{Boolean}false"
+                    name="red"/>
+                <modern
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.812+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.538002073764801"
+                    isCustom="{Boolean}false"
+                    name="modern"/>
+                <button
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.812+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5352479815483093"
+                    isCustom="{Boolean}false"
+                    name="button"/>
+                <old
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.812+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5291794538497925"
+                    isCustom="{Boolean}false"
+                    name="old"/>
+                <background
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.812+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5286756753921509"
+                    isCustom="{Boolean}false"
+                    name="background"/>
+                <cooking
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.812+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5261629819869995"
+                    isCustom="{Boolean}false"
+                    name="cooking"/>
+                <music
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.812+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5214723944664001"
+                    isCustom="{Boolean}false"
+                    name="music"/>
+                <record
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.812+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.519141435623169"
+                    isCustom="{Boolean}false"
+                    name="record"/>
+                <home
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.812+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5188602209091187"
+                    isCustom="{Boolean}false"
+                    name="home"/>
+                <computer
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.813+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5157504081726074"
+                    isCustom="{Boolean}false"
+                    name="computer"/>
+                <electronic
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.813+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5156651735305786"
+                    isCustom="{Boolean}false"
+                    name="electronic"/>
+                <interior
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.813+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5145814418792725"
+                    isCustom="{Boolean}false"
+                    name="interior"/>
+                <play
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.813+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.514229416847229"
+                    isCustom="{Boolean}false"
+                    name="play"/>
+                <business
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.813+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5133517384529114"
+                    isCustom="{Boolean}false"
+                    name="business"/>
+                <food
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.813+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5120048522949219"
+                    isCustom="{Boolean}false"
+                    name="food"/>
+                <technology
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.813+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5086819529533386"
+                    isCustom="{Boolean}false"
+                    name="technology"/>
+                <close-up
+                    jcr:lastModified="{Date}2018-11-21T14:45:10.814+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5039367079734802"
+                    isCustom="{Boolean}false"
+                    name="close-up"/>
+            </predictedTags>
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}"/>
+        </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

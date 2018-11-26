@@ -5,17 +5,22 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="db245963-1350-4123-86a7-9dee7d9870ff">
     <jcr:content
+        cq:lastReplicated="{Date}2018-11-21T14:46:05.943+11:00"
+        cq:lastReplicatedBy="workflow-process-service"
         cq:name="powerful.jpg"
         cq:parentPath="/content/dam/fishers/features"
         dam:assetState="processed"
+        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/features/powerful.jpg"
-        jcr:lastModified="{Date}2018-10-08T15:21:28.857+05:30"
+        dam:s7damType="Image"
+        jcr:lastModified="{Date}2018-11-21T14:46:13.735+11:00"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
+        jcr:primaryType="dam:AssetContent"
+        newRendition="{Boolean}true">
         <metadata
             cq:productReference="/var/commerce/products/fishers/ovens/built_in_combination_227072887"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-10-08T15:14:04.296+05:30"
+            dam:extracted="{Date}2018-11-21T14:46:05.920+11:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -26,16 +31,186 @@
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:productID="OS24NDB1-24"
             dam:Progressive="yes"
-            dam:sha1="caa92b563543349e11d527470f8ac23e2d857073"
-            dam:size="{Long}184636"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|210268"
+            dam:scene7Domain="http://s7d2.scene7.com/"
+            dam:scene7File="DynamicMediaNA/powerful"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="DynamicMediaNA/fishers/features/"
+            dam:scene7ID="a|643580001"
+            dam:scene7LastModified="{Long}1542771970163"
+            dam:scene7Name="powerful"
+            dam:scene7Type="Image"
+            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:46:12.021+11:00"
+            dam:sha1="5fdb878fdce21a2b371e42a3aca92ecb8e480da5"
+            dam:size="{Long}187765"
             dc:format="image/jpeg"
             dc:modified="{Date}2018-10-08T15:21:28.695+05:30"
-            jcr:lastModified="{Date}2018-10-08T15:21:28.695+05:30"
+            jcr:lastModified="{Date}2018-11-21T14:44:26.431+11:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}1350"
-            tiff:ImageWidth="{Long}2400"/>
+            tiff:ImageWidth="{Long}2400"
+            lastTransferredForTagging="{Date}2018-11-21T14:46:17.123+11:00"
+            simsearchVersion="1.0.0">
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <food
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.120+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.8474533557891846"
+                    isCustom="{Boolean}false"
+                    name="food"/>
+                <meat
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.120+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.794049859046936"
+                    isCustom="{Boolean}false"
+                    name="meat"/>
+                <chicken
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.121+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7797566652297974"
+                    isCustom="{Boolean}false"
+                    name="chicken"/>
+                <meal
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.121+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7561892867088318"
+                    isCustom="{Boolean}false"
+                    name="meal"/>
+                <grill
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.121+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7363058924674988"
+                    isCustom="{Boolean}false"
+                    name="grill"/>
+                <barbecue
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.121+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7356292009353638"
+                    isCustom="{Boolean}false"
+                    name="barbecue"/>
+                <cooking
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.121+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7354109287261963"
+                    isCustom="{Boolean}false"
+                    name="cooking"/>
+                <dinner
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.121+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7133803367614746"
+                    isCustom="{Boolean}false"
+                    name="dinner"/>
+                <roast
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.121+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6825166940689087"
+                    isCustom="{Boolean}false"
+                    name="roast"/>
+                <bbq
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.121+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.675244927406311"
+                    isCustom="{Boolean}false"
+                    name="bbq"/>
+                <cook
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.121+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6750397682189941"
+                    isCustom="{Boolean}false"
+                    name="cook"/>
+                <oven
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.122+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6629794836044312"
+                    isCustom="{Boolean}false"
+                    name="oven"/>
+                <cooked
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.122+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6512726545333862"
+                    isCustom="{Boolean}false"
+                    name="cooked"/>
+                <grilled
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.122+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6473122835159302"
+                    isCustom="{Boolean}false"
+                    name="grilled"/>
+                <turkey
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.122+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6379978656768799"
+                    isCustom="{Boolean}false"
+                    name="turkey"/>
+                <poultry
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.122+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.628853976726532"
+                    isCustom="{Boolean}false"
+                    name="poultry"/>
+                <lunch
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.122+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6273555755615234"
+                    isCustom="{Boolean}false"
+                    name="lunch"/>
+                <eat
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.122+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6267907023429871"
+                    isCustom="{Boolean}false"
+                    name="eat"/>
+                <roasted
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.122+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6236991882324219"
+                    isCustom="{Boolean}false"
+                    name="roasted"/>
+                <cuisine
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.123+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6199944615364075"
+                    isCustom="{Boolean}false"
+                    name="cuisine"/>
+                <hot
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.123+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.611153244972229"
+                    isCustom="{Boolean}false"
+                    name="hot"/>
+                <fire
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.123+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6078583598136902"
+                    isCustom="{Boolean}false"
+                    name="fire"/>
+                <dish
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.123+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6045462489128113"
+                    isCustom="{Boolean}false"
+                    name="dish"/>
+                <bird
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.123+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.59364253282547"
+                    isCustom="{Boolean}false"
+                    name="bird"/>
+                <tasty
+                    jcr:lastModified="{Date}2018-11-21T14:46:17.123+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5928177833557129"
+                    isCustom="{Boolean}false"
+                    name="tasty"/>
+            </predictedTags>
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}"/>
+        </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

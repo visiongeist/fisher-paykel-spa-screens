@@ -4,14 +4,18 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="05c35778-ea9f-4bf7-ac12-1516ca0f752a">
     <jcr:content
+        cq:lastReplicated="{Date}2018-11-21T14:40:26.126+11:00"
+        cq:lastReplicatedBy="workflow-process-service"
         dam:assetState="processed"
+        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/fridges/fridge-448L-Opened.png"
-        jcr:lastModified="{Date}2018-10-15T20:20:22.014+05:30"
+        dam:s7damType="Image"
+        jcr:lastModified="{Date}2018-11-21T14:41:51.956+11:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2018-10-15T20:20:20.737+05:30"
+            dam:extracted="{Date}2018-11-21T14:40:25.919+11:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -21,6 +25,18 @@
             dam:Physicalwidthindpi="{Long}100"
             dam:Physicalwidthininches="{Decimal}38.40007781982422"
             dam:Progressive="no"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|210268"
+            dam:scene7Domain="http://s7d2.scene7.com/"
+            dam:scene7File="DynamicMediaNA/fridge-448L-Opened"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="DynamicMediaNA/fishers/images/fridges/"
+            dam:scene7ID="a|645876330"
+            dam:scene7LastModified="{Long}1542771665945"
+            dam:scene7Name="fridge-448L-Opened"
+            dam:scene7Type="Image"
+            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:41:17.377+11:00"
             dam:sha1="740086201533777faf95f36b7b607c267b956800"
             dam:size="{Long}7753374"
             dc:format="image/png"
@@ -52,7 +68,15 @@
             xmp:ModifyDate="{Date}2015-10-13T12:02:47.000+13:00"
             xmpMM:DocumentID="adobe:docid:photoshop:c7e25216-b1c3-1178-974c-ef031cf26bc5"
             xmpMM:InstanceID="xmp.iid:e2c701a3-5213-4b82-92ff-371a639759f7"
-            xmpMM:OriginalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d">
+            xmpMM:OriginalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d"
+            lastTransferredForTagging="{Date}2018-11-21T14:41:29.498+11:00"
+            simsearchVersion="1.0.0">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:71de33e2-b1b2-1178-974c-ef031cf26bc5"
+                stRef:instanceID="xmp.iid:be9b4e11-6126-4288-b32e-fdef3b1a4d07"
+                stRef:originalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d"
+                xmpNodeType="xmpStruct"/>
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}12"
@@ -142,12 +166,161 @@
                     stEvt:when="{Date}2015-10-13T12:02:47.000+13:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <xmpMM:DerivedFrom
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <refrigerator
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.494+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6643238067626953"
+                    isCustom="{Boolean}false"
+                    name="refrigerator"/>
+                <white
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.494+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6548272371292114"
+                    isCustom="{Boolean}false"
+                    name="white"/>
+                <home
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.494+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.644840657711029"
+                    isCustom="{Boolean}false"
+                    name="home"/>
+                <vector
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.495+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.62926185131073"
+                    isCustom="{Boolean}false"
+                    name="vector"/>
+                <fridge
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.495+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6202020049095154"
+                    isCustom="{Boolean}false"
+                    name="fridge"/>
+                <kitchen
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.495+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6200274229049683"
+                    isCustom="{Boolean}false"
+                    name="kitchen"/>
+                <food
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.495+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6125054955482483"
+                    isCustom="{Boolean}false"
+                    name="food"/>
+                <window
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.495+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6123330593109131"
+                    isCustom="{Boolean}false"
+                    name="window"/>
+                <design
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.495+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6084640026092529"
+                    isCustom="{Boolean}false"
+                    name="design"/>
+                <interior
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.495+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6028554439544678"
+                    isCustom="{Boolean}false"
+                    name="interior"/>
+                <house
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.496+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5973506569862366"
+                    isCustom="{Boolean}false"
+                    name="house"/>
+                <door
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.496+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5924364328384399"
+                    isCustom="{Boolean}false"
+                    name="door"/>
+                <room
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.496+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5890117883682251"
+                    isCustom="{Boolean}false"
+                    name="room"/>
+                <business
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.496+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.58896803855896"
+                    isCustom="{Boolean}false"
+                    name="business"/>
+                <cold
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.496+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5824142694473267"
+                    isCustom="{Boolean}false"
+                    name="cold"/>
+                <appliance
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.496+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5704382061958313"
+                    isCustom="{Boolean}false"
+                    name="appliance"/>
+                <freezer
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.496+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5703163743019104"
+                    isCustom="{Boolean}false"
+                    name="freezer"/>
+                <clean
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.497+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5675782561302185"
+                    isCustom="{Boolean}false"
+                    name="clean"/>
+                <modern
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.497+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5668664574623108"
+                    isCustom="{Boolean}false"
+                    name="modern"/>
+                <background
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.497+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5557774901390076"
+                    isCustom="{Boolean}false"
+                    name="background"/>
+                <wall
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.497+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5516137480735779"
+                    isCustom="{Boolean}false"
+                    name="wall"/>
+                <open
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.497+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5442920327186584"
+                    isCustom="{Boolean}false"
+                    name="open"/>
+                <green
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.498+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5435258150100708"
+                    isCustom="{Boolean}false"
+                    name="green"/>
+                <blue
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.498+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5376337766647339"
+                    isCustom="{Boolean}false"
+                    name="blue"/>
+                <empty
+                    jcr:lastModified="{Date}2018-11-21T14:41:29.498+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5324773788452148"
+                    isCustom="{Boolean}false"
+                    name="empty"/>
+            </predictedTags>
+            <imageFeatures
                 jcr:primaryType="nt:unstructured"
-                stRef:documentID="adobe:docid:photoshop:71de33e2-b1b2-1178-974c-ef031cf26bc5"
-                stRef:instanceID="xmp.iid:be9b4e11-6126-4288-b32e-fdef3b1a4d07"
-                stRef:originalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d"
-                xmpNodeType="xmpStruct"/>
+                haystack0="{Binary}"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

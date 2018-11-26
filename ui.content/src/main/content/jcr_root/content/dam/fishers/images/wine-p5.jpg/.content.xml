@@ -5,17 +5,22 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="61ad41f5-0f3b-47fd-b876-b49f9a496ebe">
     <jcr:content
+        cq:lastReplicated="{Date}2018-11-21T14:39:43.095+11:00"
+        cq:lastReplicatedBy="workflow-process-service"
         cq:name="wine-p5.jpg"
         cq:parentPath="/content/dam/fishers/images"
         dam:assetState="processed"
+        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/wine-p5.jpg"
-        jcr:lastModified="{Date}2018-10-04T16:20:53.024+05:30"
+        dam:s7damType="Image"
+        jcr:lastModified="{Date}2018-11-21T14:39:55.295+11:00"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
+        jcr:primaryType="dam:AssetContent"
+        newRendition="{Boolean}true">
         <metadata
             cq:productReference="/var/commerce/products/fishers/sdhskds"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-10-04T16:20:52.877+05:30"
+            dam:extracted="{Date}2018-11-21T14:39:42.984+11:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -26,14 +31,26 @@
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:productID="sdsdsdhsd"
             dam:Progressive="no"
-            dam:sha1="518f97fa2db7fbe7d6ed92851f5eaf06ea59f7ba"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|210268"
+            dam:scene7Domain="http://s7d2.scene7.com/"
+            dam:scene7File="DynamicMediaNA/wine-p5"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="DynamicMediaNA/fishers/images/"
+            dam:scene7ID="a|637028056"
+            dam:scene7LastModified="{Long}1542771588814"
+            dam:scene7Name="wine-p5"
+            dam:scene7Type="Image"
+            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:39:54.149+11:00"
+            dam:sha1="221957a753840c8505fc4c345ee3a85b9f75edb8"
             dam:size="{Long}51205"
             dc:creator="[Toaki Okano]"
             dc:creator_xmpArrayType="rdf:Seq"
             dc:format="image/jpeg"
             dc:modified="{Date}2018-09-20T11:28:14.543+05:30"
             dc:rights="Toaki Okano Photography"
-            jcr:lastModified="{Date}2018-09-21T17:41:03.978+05:30"
+            jcr:lastModified="{Date}2018-11-21T14:39:00.774+11:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -42,7 +59,9 @@
             xmp:CreatorTool="Adobe Photoshop CC 2014 (Macintosh)"
             xmpMM:DocumentID="xmp.did:3D12E619B96D11E495D1860D690DF8B5"
             xmpMM:InstanceID="xmp.iid:3D12E618B96D11E495D1860D690DF8B5"
-            xmpMM:OriginalDocumentID="30314637413242423030344331374434">
+            xmpMM:OriginalDocumentID="30314637413242423030344331374434"
+            lastTransferredForTagging="{Date}2018-11-21T14:39:58.558+11:00"
+            simsearchVersion="1.0.0">
             <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
                 stRef:documentID="xmp.did:1F106A68B96811E495D1860D690DF8B5"
@@ -54,6 +73,161 @@
                 Iptc4xmpCore:CiTelWork="64-021-21608866"
                 jcr:primaryType="nt:unstructured"
                 xmpNodeType="xmpStruct"/>
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <isolated
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.554+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7484217882156372"
+                    isCustom="{Boolean}false"
+                    name="isolated"/>
+                <remote
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.555+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7382444143295288"
+                    isCustom="{Boolean}false"
+                    name="remote"/>
+                <control
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.555+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7322168350219727"
+                    isCustom="{Boolean}false"
+                    name="control"/>
+                <tv
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.555+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6867934465408325"
+                    isCustom="{Boolean}false"
+                    name="tv"/>
+                <television
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.555+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6786094307899475"
+                    isCustom="{Boolean}false"
+                    name="television"/>
+                <black
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.555+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6751918196678162"
+                    isCustom="{Boolean}false"
+                    name="black"/>
+                <button
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.555+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6708177328109741"
+                    isCustom="{Boolean}false"
+                    name="button"/>
+                <white
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.555+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6429656744003296"
+                    isCustom="{Boolean}false"
+                    name="white"/>
+                <keypad
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.556+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6329336166381836"
+                    isCustom="{Boolean}false"
+                    name="keypad"/>
+                <electronic
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.556+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6099522113800049"
+                    isCustom="{Boolean}false"
+                    name="electronic"/>
+                <technology
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.556+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6021616458892822"
+                    isCustom="{Boolean}false"
+                    name="technology"/>
+                <equipment
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.556+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5966857671737671"
+                    isCustom="{Boolean}false"
+                    name="equipment"/>
+                <buttons
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.556+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5954664945602417"
+                    isCustom="{Boolean}false"
+                    name="buttons"/>
+                <background
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.556+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.594402551651001"
+                    isCustom="{Boolean}false"
+                    name="background"/>
+                <channel
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.556+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5928951501846313"
+                    isCustom="{Boolean}false"
+                    name="channel"/>
+                <dvd
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.557+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.591378927230835"
+                    isCustom="{Boolean}false"
+                    name="dvd"/>
+                <communication
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.557+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5853130221366882"
+                    isCustom="{Boolean}false"
+                    name="communication"/>
+                <remote_control
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.557+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.569024920463562"
+                    isCustom="{Boolean}false"
+                    name="remote control"/>
+                <music
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.557+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5648837089538574"
+                    isCustom="{Boolean}false"
+                    name="music"/>
+                <controller
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.557+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5597627758979797"
+                    isCustom="{Boolean}false"
+                    name="controller"/>
+                <close-up
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.557+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5594631433486938"
+                    isCustom="{Boolean}false"
+                    name="close-up"/>
+                <video
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.557+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5545942187309265"
+                    isCustom="{Boolean}false"
+                    name="video"/>
+                <electrical
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.557+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5500586628913879"
+                    isCustom="{Boolean}false"
+                    name="electrical"/>
+                <wireless
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.557+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5486034154891968"
+                    isCustom="{Boolean}false"
+                    name="wireless"/>
+                <object
+                    jcr:lastModified="{Date}2018-11-21T14:39:58.558+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.545820951461792"
+                    isCustom="{Boolean}false"
+                    name="object"/>
+            </predictedTags>
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

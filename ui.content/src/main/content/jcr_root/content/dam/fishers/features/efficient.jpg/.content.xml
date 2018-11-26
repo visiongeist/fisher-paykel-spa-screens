@@ -4,14 +4,18 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="209f0a43-33f1-4209-8256-c761d9e6d8af">
     <jcr:content
+        cq:lastReplicated="{Date}2018-11-21T14:43:57.962+11:00"
+        cq:lastReplicatedBy="workflow-process-service"
         dam:assetState="processed"
+        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/features/efficient.jpg"
-        jcr:lastModified="{Date}2018-10-04T16:20:51.183+05:30"
+        dam:s7damType="Image"
+        jcr:lastModified="{Date}2018-11-21T14:45:41.778+11:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-10-04T16:20:50.955+05:30"
+            dam:extracted="{Date}2018-11-21T14:43:57.943+11:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,13 +25,183 @@
             dam:Physicalwidthindpi="{Long}0"
             dam:Physicalwidthininches="Infinity"
             dam:Progressive="no"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|210268"
+            dam:scene7Domain="http://s7d2.scene7.com/"
+            dam:scene7File="DynamicMediaNA/efficient"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="DynamicMediaNA/fishers/features/"
+            dam:scene7ID="a|639422622"
+            dam:scene7LastModified="{Long}1542771841414"
+            dam:scene7Name="efficient"
+            dam:scene7Type="Image"
+            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:44:04.628+11:00"
             dam:sha1="2f413adcc4f01a3834db92fe7ad119bb2ab7ad14"
             dam:size="{Long}193704"
             dc:format="image/jpeg"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}1350"
-            tiff:ImageWidth="{Long}2400"/>
+            tiff:ImageWidth="{Long}2400"
+            lastTransferredForTagging="{Date}2018-11-21T14:44:09.614+11:00"
+            simsearchVersion="1.0.0">
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <food
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.608+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7172735929489136"
+                    isCustom="{Boolean}false"
+                    name="food"/>
+                <white
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.608+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6708087921142578"
+                    isCustom="{Boolean}false"
+                    name="white"/>
+                <cooking
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.609+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6316843032836914"
+                    isCustom="{Boolean}false"
+                    name="cooking"/>
+                <healthy
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.609+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6289109587669373"
+                    isCustom="{Boolean}false"
+                    name="healthy"/>
+                <green
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.609+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6118888854980469"
+                    isCustom="{Boolean}false"
+                    name="green"/>
+                <glass
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.610+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6004513502120972"
+                    isCustom="{Boolean}false"
+                    name="glass"/>
+                <health
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.610+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5927574634552002"
+                    isCustom="{Boolean}false"
+                    name="health"/>
+                <kitchen
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.610+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5877309441566467"
+                    isCustom="{Boolean}false"
+                    name="kitchen"/>
+                <fresh
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.611+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5806986689567566"
+                    isCustom="{Boolean}false"
+                    name="fresh"/>
+                <medicine
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.611+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5785481333732605"
+                    isCustom="{Boolean}false"
+                    name="medicine"/>
+                <spa
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.611+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5762535929679871"
+                    isCustom="{Boolean}false"
+                    name="spa"/>
+                <ingredient
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.612+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5705594420433044"
+                    isCustom="{Boolean}false"
+                    name="ingredient"/>
+                <milk
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.612+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5700886249542236"
+                    isCustom="{Boolean}false"
+                    name="milk"/>
+                <bowl
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.612+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5631184577941895"
+                    isCustom="{Boolean}false"
+                    name="bowl"/>
+                <water
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.612+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.558077335357666"
+                    isCustom="{Boolean}false"
+                    name="water"/>
+                <care
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.612+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5559830665588379"
+                    isCustom="{Boolean}false"
+                    name="care"/>
+                <egg
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.613+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5550071597099304"
+                    isCustom="{Boolean}false"
+                    name="egg"/>
+                <hygiene
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.613+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5501618981361389"
+                    isCustom="{Boolean}false"
+                    name="hygiene"/>
+                <table
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.613+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5476439595222473"
+                    isCustom="{Boolean}false"
+                    name="table"/>
+                <breakfast
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.613+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.546860933303833"
+                    isCustom="{Boolean}false"
+                    name="breakfast"/>
+                <background
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.613+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5407179594039917"
+                    isCustom="{Boolean}false"
+                    name="background"/>
+                <spoon
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.613+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5393349528312683"
+                    isCustom="{Boolean}false"
+                    name="spoon"/>
+                <pill
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.614+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5334047079086304"
+                    isCustom="{Boolean}false"
+                    name="pill"/>
+                <clean
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.614+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5332984328269958"
+                    isCustom="{Boolean}false"
+                    name="clean"/>
+                <flour
+                    jcr:lastModified="{Date}2018-11-21T14:44:09.614+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5314276814460754"
+                    isCustom="{Boolean}false"
+                    name="flour"/>
+            </predictedTags>
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}"/>
+        </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

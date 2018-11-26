@@ -4,15 +4,19 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="feb416e4-92ca-4728-b409-e70aac0bfddd">
     <jcr:content
+        cq:lastReplicated="{Date}2018-11-21T14:39:23.695+11:00"
+        cq:lastReplicatedBy="workflow-process-service"
         dam:assetState="processed"
+        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/ovens/90cm9functionoven.JPG"
-        jcr:lastModified="{Date}2018-10-08T15:15:22.628+05:30"
+        dam:s7damType="Image"
+        jcr:lastModified="{Date}2018-11-21T14:39:58.611+11:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             cq:productReference="/var/commerce/products/fishers/ovens/_90cm_nine_function_"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-10-08T15:15:11.960+05:30"
+            dam:extracted="{Date}2018-11-21T14:39:23.614+11:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -23,6 +27,18 @@
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:productID="OB90S9MEPX2-90"
             dam:Progressive="no"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|210268"
+            dam:scene7Domain="http://s7d2.scene7.com/"
+            dam:scene7File="DynamicMediaNA/90cm9functionoven"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="DynamicMediaNA/fishers/images/ovens/"
+            dam:scene7ID="a|643580661"
+            dam:scene7LastModified="{Long}1542771567351"
+            dam:scene7Name="90cm9functionoven"
+            dam:scene7Type="Image"
+            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:39:29.604+11:00"
             dam:sha1="b11b556f12f4afee6c363ec0ee91b00bb9a668a8"
             dam:size="{Long}26717"
             dc:format="image/jpeg"
@@ -32,12 +48,169 @@
             tiff:ImageWidth="{Long}800"
             xmp:CreatorTool="Adobe Photoshop CS5.1 Macintosh"
             xmpMM:DocumentID="xmp.did:5D1DA8254FCC11E29261E94A0668243F"
-            xmpMM:InstanceID="xmp.iid:5D1DA8244FCC11E29261E94A0668243F">
+            xmpMM:InstanceID="xmp.iid:5D1DA8244FCC11E29261E94A0668243F"
+            lastTransferredForTagging="{Date}2018-11-21T14:39:33.696+11:00"
+            simsearchVersion="1.0.0">
             <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
                 stRef:documentID="xmp.did:5D1DA8234FCC11E29261E94A0668243F"
                 stRef:instanceID="xmp.iid:5D1DA8224FCC11E29261E94A0668243F"
                 xmpNodeType="xmpStruct"/>
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <isolated
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.690+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7731578350067139"
+                    isCustom="{Boolean}false"
+                    name="isolated"/>
+                <oven
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.690+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7690892815589905"
+                    isCustom="{Boolean}false"
+                    name="oven"/>
+                <microwave
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.691+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7688908576965332"
+                    isCustom="{Boolean}false"
+                    name="microwave"/>
+                <appliance
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.691+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7681931257247925"
+                    isCustom="{Boolean}false"
+                    name="appliance"/>
+                <equipment
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.691+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7515270709991455"
+                    isCustom="{Boolean}false"
+                    name="equipment"/>
+                <display
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.691+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7409509420394897"
+                    isCustom="{Boolean}false"
+                    name="display"/>
+                <white
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.692+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7407357692718506"
+                    isCustom="{Boolean}false"
+                    name="white"/>
+                <kitchen
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.692+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7248728275299072"
+                    isCustom="{Boolean}false"
+                    name="kitchen"/>
+                <technology
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.692+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7226096391677856"
+                    isCustom="{Boolean}false"
+                    name="technology"/>
+                <digital
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.692+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7132174968719482"
+                    isCustom="{Boolean}false"
+                    name="digital"/>
+                <black
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.693+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6996849775314331"
+                    isCustom="{Boolean}false"
+                    name="black"/>
+                <design
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.693+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6967800259590149"
+                    isCustom="{Boolean}false"
+                    name="design"/>
+                <screen
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.693+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6909857988357544"
+                    isCustom="{Boolean}false"
+                    name="screen"/>
+                <vector
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.694+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6900753378868103"
+                    isCustom="{Boolean}false"
+                    name="vector"/>
+                <background
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.694+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6840049624443054"
+                    isCustom="{Boolean}false"
+                    name="background"/>
+                <electrical
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.694+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6608921885490417"
+                    isCustom="{Boolean}false"
+                    name="electrical"/>
+                <cook
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.694+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6575142741203308"
+                    isCustom="{Boolean}false"
+                    name="cook"/>
+                <stove
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.694+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6561079025268555"
+                    isCustom="{Boolean}false"
+                    name="stove"/>
+                <modern
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.694+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6478121876716614"
+                    isCustom="{Boolean}false"
+                    name="modern"/>
+                <electric
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.695+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6450614929199219"
+                    isCustom="{Boolean}false"
+                    name="electric"/>
+                <video
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.695+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6450271606445312"
+                    isCustom="{Boolean}false"
+                    name="video"/>
+                <electronics
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.695+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6414487361907959"
+                    isCustom="{Boolean}false"
+                    name="electronics"/>
+                <electronic
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.695+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6381762027740479"
+                    isCustom="{Boolean}false"
+                    name="electronic"/>
+                <cooking
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.695+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6325700283050537"
+                    isCustom="{Boolean}false"
+                    name="cooking"/>
+                <domestic
+                    jcr:lastModified="{Date}2018-11-21T14:39:33.695+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6303104162216187"
+                    isCustom="{Boolean}false"
+                    name="domestic"/>
+            </predictedTags>
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

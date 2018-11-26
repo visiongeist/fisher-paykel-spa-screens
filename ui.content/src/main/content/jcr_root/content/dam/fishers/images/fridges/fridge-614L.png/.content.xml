@@ -4,14 +4,19 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="13b976b9-aaf2-4dc5-bb0a-2aec5ced1605">
     <jcr:content
+        cq:lastReplicated="{Date}2018-11-21T14:42:32.025+11:00"
+        cq:lastReplicatedBy="workflow-process-service"
         dam:assetState="processed"
+        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/fridges/fridge-614L.png"
-        jcr:lastModified="{Date}2018-10-15T19:50:58.473+05:30"
+        dam:s7damType="Image"
+        jcr:lastModified="{Date}2018-11-21T14:42:55.602+11:00"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
+        jcr:primaryType="dam:AssetContent"
+        newRendition="{Boolean}true">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2018-10-15T19:50:57.210+05:30"
+            dam:extracted="{Date}2018-11-21T14:42:31.930+11:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -21,6 +26,18 @@
             dam:Physicalwidthindpi="{Long}100"
             dam:Physicalwidthininches="{Decimal}21.60004234313965"
             dam:Progressive="no"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|210268"
+            dam:scene7Domain="http://s7d2.scene7.com/"
+            dam:scene7File="DynamicMediaNA/fridge-614L-1"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="DynamicMediaNA/fishers/images/fridges/"
+            dam:scene7ID="a|645877422"
+            dam:scene7LastModified="{Long}1542771770975"
+            dam:scene7Name="fridge-614L-1"
+            dam:scene7Type="Image"
+            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:42:52.944+11:00"
             dam:sha1="697cc359819609049bc151e73059795315af99b6"
             dam:size="{Long}2890526"
             dc:format="image/png"
@@ -46,7 +63,15 @@
             xmp:ModifyDate="{Date}2017-04-11T16:24:31.000+12:00"
             xmpMM:DocumentID="adobe:docid:photoshop:beeb98b2-5eee-117a-8067-9568fe8c28a4"
             xmpMM:InstanceID="xmp.iid:de3b24f1-48aa-462c-8fe0-dc5cd629c7f4"
-            xmpMM:OriginalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d">
+            xmpMM:OriginalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d"
+            lastTransferredForTagging="{Date}2018-11-21T14:42:58.637+11:00"
+            simsearchVersion="1.0.0">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:54b34a54-eb34-1179-9d80-d0bcadaf6f7f"
+                stRef:instanceID="xmp.iid:9e4e6ad4-61f9-4afc-9718-b789ad1520a9"
+                stRef:originalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d"
+                xmpNodeType="xmpStruct"/>
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}7"
@@ -102,12 +127,161 @@
                     stEvt:when="{Date}2017-04-11T16:24:31.000+12:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <xmpMM:DerivedFrom
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <white
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.633+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7392973899841309"
+                    isCustom="{Boolean}false"
+                    name="white"/>
+                <isolated
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.633+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.726921796798706"
+                    isCustom="{Boolean}false"
+                    name="isolated"/>
+                <refrigerator
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.634+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7259624004364014"
+                    isCustom="{Boolean}false"
+                    name="refrigerator"/>
+                <door
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.634+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7206564545631409"
+                    isCustom="{Boolean}false"
+                    name="door"/>
+                <fridge
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.634+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6880344152450562"
+                    isCustom="{Boolean}false"
+                    name="fridge"/>
+                <cold
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.634+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6707768440246582"
+                    isCustom="{Boolean}false"
+                    name="cold"/>
+                <food
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.634+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6693335771560669"
+                    isCustom="{Boolean}false"
+                    name="food"/>
+                <illustration
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.634+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.664779782295227"
+                    isCustom="{Boolean}false"
+                    name="illustration"/>
+                <equipment
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.634+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6619350910186768"
+                    isCustom="{Boolean}false"
+                    name="equipment"/>
+                <vector
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.634+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6587206125259399"
+                    isCustom="{Boolean}false"
+                    name="vector"/>
+                <kitchen
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.635+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6529797315597534"
+                    isCustom="{Boolean}false"
+                    name="kitchen"/>
+                <home
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.635+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6451741456985474"
+                    isCustom="{Boolean}false"
+                    name="home"/>
+                <cooler
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.635+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.640673816204071"
+                    isCustom="{Boolean}false"
+                    name="cooler"/>
+                <domestic
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.635+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6376634836196899"
+                    isCustom="{Boolean}false"
+                    name="domestic"/>
+                <interior
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.635+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6327705979347229"
+                    isCustom="{Boolean}false"
+                    name="interior"/>
+                <_x0033_d
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.635+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6299420595169067"
+                    isCustom="{Boolean}false"
+                    name="3d"/>
+                <freezer
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.636+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6277895569801331"
+                    isCustom="{Boolean}false"
+                    name="freezer"/>
+                <electric
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.636+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6255459189414978"
+                    isCustom="{Boolean}false"
+                    name="electric"/>
+                <black
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.636+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6250392198562622"
+                    isCustom="{Boolean}false"
+                    name="black"/>
+                <background
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.636+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.622196614742279"
+                    isCustom="{Boolean}false"
+                    name="background"/>
+                <open
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.636+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6198012828826904"
+                    isCustom="{Boolean}false"
+                    name="open"/>
+                <wall
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.636+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6183367371559143"
+                    isCustom="{Boolean}false"
+                    name="wall"/>
+                <business
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.637+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6133250594139099"
+                    isCustom="{Boolean}false"
+                    name="business"/>
+                <appliance
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.637+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6037153005599976"
+                    isCustom="{Boolean}false"
+                    name="appliance"/>
+                <button
+                    jcr:lastModified="{Date}2018-11-21T14:42:58.637+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5977950096130371"
+                    isCustom="{Boolean}false"
+                    name="button"/>
+            </predictedTags>
+            <imageFeatures
                 jcr:primaryType="nt:unstructured"
-                stRef:documentID="adobe:docid:photoshop:54b34a54-eb34-1179-9d80-d0bcadaf6f7f"
-                stRef:instanceID="xmp.iid:9e4e6ad4-61f9-4afc-9718-b789ad1520a9"
-                stRef:originalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d"
-                xmpNodeType="xmpStruct"/>
+                haystack0="{Binary}"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

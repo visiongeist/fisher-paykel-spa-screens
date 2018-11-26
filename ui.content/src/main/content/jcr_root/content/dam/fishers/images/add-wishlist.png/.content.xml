@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="63bd4142-4ed0-4288-b8f3-b015042f751d">
     <jcr:content
+        cq:lastReplicated="{Date}2018-11-21T14:42:58.752+11:00"
+        cq:lastReplicatedBy="workflow-process-service"
+        cq:name="add-wishlist.png"
+        cq:parentPath="/content/dam/fishers/images"
         dam:assetState="processed"
+        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/add-wishlist.png"
-        jcr:lastModified="{Date}2018-10-11T11:03:18.383+05:30"
+        dam:s7damType="Image"
+        jcr:lastModified="{Date}2018-11-21T14:43:10.533+11:00"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
+        jcr:primaryType="dam:AssetContent"
+        newRendition="{Boolean}true">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:Comments="Software: Adobe ImageReady&#xa;XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?> &lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        &quot;> &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;> &lt;rdf:Description rdf:about=&quot;&quot; xmlns:xmp=&quot;http://ns.adobe.com/xap/1.0/&quot; xmlns:xmpMM=&quot;http://ns.adobe.com/xap/1.0/mm/&quot; xmlns:stRef=&quot;http://ns.adobe.com/xap/1.0/sType/ResourceRef#&quot; xmp:CreatorTool=&quot;Adobe Photoshop CC 2017 (Macintosh)&quot; xmpMM:InstanceID=&quot;xmp.iid:CE9D71FDC53A11E88BF5CD580FFF2856&quot; xmpMM:DocumentID=&quot;xmp.did:CE9D71FEC53A11E88BF5CD580FFF2856&quot;> &lt;xmpMM:DerivedFrom stRef:instanceID=&quot;xmp.iid:CE9D71FBC53A11E88BF5CD580FFF2856&quot; stRef:documentID=&quot;xmp.did:CE9D71FCC53A11E88BF5CD580FFF2856&quot;/> &lt;/rdf:Description> &lt;/rdf:RDF> &lt;/x:xmpmeta> &lt;?xpacket end=&quot;r&quot;?>&#xa;"
-            dam:extracted="{Date}2018-10-11T11:03:17.924+05:30"
+            dam:Comments="Software: Adobe ImageReady&#xa;XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?>&#xa;&lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.6-c137 1.000000, 0000/00/00-00:00:00        &quot;>&#xa; &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;>&#xa;  &lt;rdf:Description rdf:about=&quot;&quot;&#xa;    xmlns:ns1=&quot;http://www.day.com/dam/1.0&quot;&#xa;    xmlns:tiff=&quot;http://ns.adobe.com/tiff/1.0/&quot;&#xa;    xmlns:xmp=&quot;http://ns.adobe.com/xap/1.0/&quot;&#xa;    xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot;&#xa;    xmlns:xmpMM=&quot;http://ns.adobe.com/xap/1.0/mm/&quot;&#xa;    xmlns:stRef=&quot;http://ns.adobe.com/xap/1.0/sType/ResourceRef#&quot;&#xa;   ns1:Physicalheightininches=&quot;-1.0&quot;&#xa;   ns1:Physicalwidthininches=&quot;-1.0&quot;&#xa;   ns1:Fileformat=&quot;PNG&quot;&#xa;   ns1:Progressive=&quot;no&quot;&#xa;   ns1:extracted=&quot;2018-10-11T11:03:17.924+05:30&quot;&#xa;   ns1:Bitsperpixel=&quot;32&quot;&#xa;   ns1:MIMEtype=&quot;image/png&quot;&#xa;   ns1:Comments=&quot;Software: Adobe ImageReady&amp;#xA;XML:com.adobe.xmp: &amp;lt;?xpacket begin=&amp;quot;﻿&amp;quot; id=&amp;quot;W5M0MpCehiHzreSzNTczkc9d&amp;quot;?&amp;gt; &amp;lt;x:xmpmeta xmlns:x=&amp;quot;adobe:ns:meta/&amp;quot; x:xmptk=&amp;quot;Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        &amp;quot;&amp;gt; &amp;lt;rdf:RDF xmlns:rdf=&amp;quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;quot;&amp;gt; &amp;lt;rdf:Description rdf:about=&amp;quot;&amp;quot; xmlns:xmp=&amp;quot;http://ns.adobe.com/xap/1.0/&amp;quot; xmlns:xmpMM=&amp;quot;http://ns.adobe.com/xap/1.0/mm/&amp;quot; xmlns:stRef=&amp;quot;http://ns.adobe.com/xap/1.0/sType/ResourceRef#&amp;quot; xmp:CreatorTool=&amp;quot;Adobe Photoshop CC 2017 (Macintosh)&amp;quot; xmpMM:InstanceID=&amp;quot;xmp.iid:CE9D71FDC53A11E88BF5CD580FFF2856&amp;quot; xmpMM:DocumentID=&amp;quot;xmp.did:CE9D71FEC53A11E88BF5CD580FFF2856&amp;quot;&amp;gt; &amp;lt;xmpMM:DerivedFrom stRef:instanceID=&amp;quot;xmp.iid:CE9D71FBC53A11E88BF5CD580FFF2856&amp;quot; stRef:documentID=&amp;quot;xmp.did:CE9D71FCC53A11E88BF5CD580FFF2856&amp;quot;/&amp;gt; &amp;lt;/rdf:Description&amp;gt; &amp;lt;/rdf:RDF&amp;gt; &amp;lt;/x:xmpmeta&amp;gt; &amp;lt;?xpacket end=&amp;quot;r&amp;quot;?&amp;gt;&amp;#xA;&quot;&#xa;   ns1:Physicalwidthindpi=&quot;-1&quot;&#xa;   ns1:Physicalheightindpi=&quot;-1&quot;&#xa;   ns1:Numberofimages=&quot;1&quot;&#xa;   ns1:Numberoftextualcomments=&quot;2&quot;&#xa;   ns1:sha1=&quot;7d1684ef7dc1e5709fb43a760a50c32481d05f96&quot;&#xa;   ns1:size=&quot;29663&quot;&#xa;   tiff:ImageLength=&quot;512&quot;&#xa;   tiff:ImageWidth=&quot;512&quot;&#xa;   xmp:CreatorTool=&quot;Adobe Photoshop CC 2017 (Macintosh)&quot;&#xa;   dc:format=&quot;image/png&quot;&#xa;   dc:modified=&quot;2018-11-21T14:40:40.036+11:00&quot;&#xa;   xmpMM:DocumentID=&quot;xmp.did:CE9D71FEC53A11E88BF5CD580FFF2856&quot;&#xa;   xmpMM:InstanceID=&quot;xmp.iid:CE9D71FDC53A11E88BF5CD580FFF2856&quot;>&#xa;   &lt;xmpMM:DerivedFrom&#xa;    stRef:instanceID=&quot;xmp.iid:CE9D71FBC53A11E88BF5CD580FFF2856&quot;&#xa;    stRef:documentID=&quot;xmp.did:CE9D71FCC53A11E88BF5CD580FFF2856&quot;/>&#xa;  &lt;/rdf:Description>&#xa; &lt;/rdf:RDF>&#xa;&lt;/x:xmpmeta>&#xa;&lt;?xpacket end=&quot;r&quot;?>&#xa;"
+            dam:extracted="{Date}2018-11-21T14:42:58.701+11:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -22,21 +30,193 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="7d1684ef7dc1e5709fb43a760a50c32481d05f96"
-            dam:size="{Long}29663"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|210268"
+            dam:scene7Domain="http://s7d2.scene7.com/"
+            dam:scene7File="DynamicMediaNA/add-wishlist"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="DynamicMediaNA/fishers/images/"
+            dam:scene7ID="a|644916904"
+            dam:scene7LastModified="{Long}1542771782967"
+            dam:scene7Name="add-wishlist"
+            dam:scene7Type="Image"
+            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:43:09.285+11:00"
+            dam:sha1="c616af0580b8cb29078ce9a4aab210bbadb8fb0b"
+            dam:size="{Long}31447"
             dc:format="image/png"
+            dc:modified="{Date}2018-11-21T14:40:40.036+11:00"
+            jcr:lastModified="{Date}2018-11-21T14:40:40.036+11:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}512"
             tiff:ImageWidth="{Long}512"
             xmp:CreatorTool="Adobe Photoshop CC 2017 (Macintosh)"
             xmpMM:DocumentID="xmp.did:CE9D71FEC53A11E88BF5CD580FFF2856"
-            xmpMM:InstanceID="xmp.iid:CE9D71FDC53A11E88BF5CD580FFF2856">
+            xmpMM:InstanceID="xmp.iid:CE9D71FDC53A11E88BF5CD580FFF2856"
+            lastTransferredForTagging="{Date}2018-11-21T14:43:14.433+11:00"
+            simsearchVersion="1.0.0">
             <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
                 stRef:documentID="xmp.did:CE9D71FCC53A11E88BF5CD580FFF2856"
                 stRef:instanceID="xmp.iid:CE9D71FBC53A11E88BF5CD580FFF2856"
                 xmpNodeType="xmpStruct"/>
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <background
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.429+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7609626650810242"
+                    isCustom="{Boolean}false"
+                    name="background"/>
+                <white
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.430+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7057645320892334"
+                    isCustom="{Boolean}false"
+                    name="white"/>
+                <black
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.430+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6769152283668518"
+                    isCustom="{Boolean}false"
+                    name="black"/>
+                <animation
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.430+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6635207533836365"
+                    isCustom="{Boolean}false"
+                    name="animation"/>
+                <business
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.430+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.649975597858429"
+                    isCustom="{Boolean}false"
+                    name="business"/>
+                <isolated
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.430+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6407008767127991"
+                    isCustom="{Boolean}false"
+                    name="isolated"/>
+                <sign
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.430+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6215271949768066"
+                    isCustom="{Boolean}false"
+                    name="sign"/>
+                <hd
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.430+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.621250569820404"
+                    isCustom="{Boolean}false"
+                    name="hd"/>
+                <abstract
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.431+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6165322661399841"
+                    isCustom="{Boolean}false"
+                    name="abstract"/>
+                <transition
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.431+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6126548051834106"
+                    isCustom="{Boolean}false"
+                    name="transition"/>
+                <red
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.431+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5969334840774536"
+                    isCustom="{Boolean}false"
+                    name="red"/>
+                <_x0033_d
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.431+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5949538946151733"
+                    isCustom="{Boolean}false"
+                    name="3d"/>
+                <wood
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.431+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5870561599731445"
+                    isCustom="{Boolean}false"
+                    name="wood"/>
+                <_x0031_920x1080
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.431+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5827578902244568"
+                    isCustom="{Boolean}false"
+                    name="1920x1080"/>
+                <hand
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.431+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5814447999000549"
+                    isCustom="{Boolean}false"
+                    name="hand"/>
+                <board
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.431+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5794168710708618"
+                    isCustom="{Boolean}false"
+                    name="board"/>
+                <blue
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.432+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5773391723632812"
+                    isCustom="{Boolean}false"
+                    name="blue"/>
+                <paper
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.432+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5710222125053406"
+                    isCustom="{Boolean}false"
+                    name="paper"/>
+                <symbol
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.432+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5686942338943481"
+                    isCustom="{Boolean}false"
+                    name="symbol"/>
+                <opening
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.432+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5639954209327698"
+                    isCustom="{Boolean}false"
+                    name="opening"/>
+                <internet
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.432+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5639770030975342"
+                    isCustom="{Boolean}false"
+                    name="internet"/>
+                <alpha
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.432+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5631524920463562"
+                    isCustom="{Boolean}false"
+                    name="alpha"/>
+                <high
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.432+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5627943277359009"
+                    isCustom="{Boolean}false"
+                    name="high"/>
+                <education
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.433+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5618212223052979"
+                    isCustom="{Boolean}false"
+                    name="education"/>
+                <person
+                    jcr:lastModified="{Date}2018-11-21T14:43:14.433+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5596200227737427"
+                    isCustom="{Boolean}false"
+                    name="person"/>
+            </predictedTags>
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

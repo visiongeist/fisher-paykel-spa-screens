@@ -5,37 +5,213 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="c6bf5b05-53d6-48d9-a08f-1c1b3f32e402">
     <jcr:content
+        cq:lastReplicated="{Date}2018-11-21T14:40:07.908+11:00"
+        cq:lastReplicatedBy="workflow-process-service"
         cq:name="cq_ck_1517770690700.png"
         cq:parentPath="/content/dam/fishers/images/laundry"
         dam:assetState="processed"
+        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/laundry/cq_ck_1517770690700.png"
-        jcr:lastModified="{Date}2018-10-12T16:05:51.497+05:30"
+        dam:s7damType="Image"
+        jcr:lastModified="{Date}2018-11-21T14:40:18.222+11:00"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
+        jcr:primaryType="dam:AssetContent"
+        newRendition="{Boolean}true">
         <metadata
             cq:productReference="/var/commerce/products/fishers/laundry/wash/wash3"
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2018-10-12T16:04:57.083+05:30"
+            dam:Comments="XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?>&#xa;&lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.6-c137 1.000000, 0000/00/00-00:00:00        &quot;>&#xa; &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;>&#xa;  &lt;rdf:Description rdf:about=&quot;&quot;&#xa;    xmlns:ns1=&quot;http://www.day.com/dam/1.0&quot;&#xa;    xmlns:tiff=&quot;http://ns.adobe.com/tiff/1.0/&quot;&#xa;    xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot;&#xa;    xmlns:ns2=&quot;http://www.day.com/jcr/cq/1.0&quot;&#xa;   ns1:Physicalheightininches=&quot;-1.0&quot;&#xa;   ns1:Physicalwidthininches=&quot;-1.0&quot;&#xa;   ns1:productID=&quot;RF610ADUSZ4-27&quot;&#xa;   ns1:Fileformat=&quot;PNG&quot;&#xa;   ns1:Progressive=&quot;no&quot;&#xa;   ns1:extracted=&quot;2018-10-12T16:04:57.083+05:30&quot;&#xa;   ns1:Bitsperpixel=&quot;32&quot;&#xa;   ns1:MIMEtype=&quot;image/png&quot;&#xa;   ns1:Physicalwidthindpi=&quot;-1&quot;&#xa;   ns1:Physicalheightindpi=&quot;-1&quot;&#xa;   ns1:Numberofimages=&quot;1&quot;&#xa;   ns1:Numberoftextualcomments=&quot;0&quot;&#xa;   ns1:sha1=&quot;f19a49ee20d718d9a19c0538cec62af3c0449999&quot;&#xa;   ns1:size=&quot;413287&quot;&#xa;   tiff:ImageLength=&quot;1280&quot;&#xa;   tiff:ImageWidth=&quot;1066&quot;&#xa;   dc:format=&quot;image/png&quot;&#xa;   dc:modified=&quot;2018-10-12T16:05:51.384+05:30&quot;&#xa;   ns2:productReference=&quot;/var/commerce/products/fishers/laundry/wash/wash3&quot;/>&#xa; &lt;/rdf:RDF>&#xa;&lt;/x:xmpmeta>&#xa;&lt;?xpacket end=&quot;r&quot;?>&#xa;"
+            dam:extracted="{Date}2018-11-21T14:40:07.867+11:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
-            dam:Numberoftextualcomments="{Long}0"
+            dam:Numberoftextualcomments="{Long}1"
             dam:Physicalheightindpi="{Long}-1"
             dam:Physicalheightininches="{Decimal}-1.0"
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:productID="RF610ADUSZ4-27"
             dam:Progressive="no"
-            dam:sha1="f19a49ee20d718d9a19c0538cec62af3c0449999"
-            dam:size="{Long}413287"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|210268"
+            dam:scene7Domain="http://s7d2.scene7.com/"
+            dam:scene7File="DynamicMediaNA/cq_ck_1517770690700"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="DynamicMediaNA/fishers/images/laundry/"
+            dam:scene7ID="a|645875406"
+            dam:scene7LastModified="{Long}1542771613135"
+            dam:scene7Name="cq_ck_1517770690700"
+            dam:scene7Type="Image"
+            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:40:15.389+11:00"
+            dam:sha1="268cd9fd5501a1fe4b1d745428d1e61ef361f2a8"
+            dam:size="{Long}414471"
             dc:format="image/png"
             dc:modified="{Date}2018-10-12T16:05:51.384+05:30"
-            jcr:lastModified="{Date}2018-10-12T16:05:51.383+05:30"
+            jcr:lastModified="{Date}2018-11-21T14:39:25.791+11:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}1280"
-            tiff:ImageWidth="{Long}1066"/>
+            tiff:ImageWidth="{Long}1066"
+            lastTransferredForTagging="{Date}2018-11-21T14:40:21.571+11:00"
+            simsearchVersion="1.0.0">
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <gear
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.566+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6932361125946045"
+                    isCustom="{Boolean}false"
+                    name="gear"/>
+                <isolated
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.566+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6793756484985352"
+                    isCustom="{Boolean}false"
+                    name="isolated"/>
+                <metal
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.566+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6538515090942383"
+                    isCustom="{Boolean}false"
+                    name="metal"/>
+                <symbol
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.566+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6452642679214478"
+                    isCustom="{Boolean}false"
+                    name="symbol"/>
+                <machine
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.567+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6411834955215454"
+                    isCustom="{Boolean}false"
+                    name="machine"/>
+                <_x0033_d
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.567+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6335362195968628"
+                    isCustom="{Boolean}false"
+                    name="3d"/>
+                <background
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.567+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6214466691017151"
+                    isCustom="{Boolean}false"
+                    name="background"/>
+                <white
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.567+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6191076636314392"
+                    isCustom="{Boolean}false"
+                    name="white"/>
+                <technology
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.568+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6132173538208008"
+                    isCustom="{Boolean}false"
+                    name="technology"/>
+                <concept
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.568+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.607166051864624"
+                    isCustom="{Boolean}false"
+                    name="concept"/>
+                <illustration
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.568+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5970326662063599"
+                    isCustom="{Boolean}false"
+                    name="illustration"/>
+                <engine
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.568+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5930813550949097"
+                    isCustom="{Boolean}false"
+                    name="engine"/>
+                <sign
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.568+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5926286578178406"
+                    isCustom="{Boolean}false"
+                    name="sign"/>
+                <business
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.568+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5919114351272583"
+                    isCustom="{Boolean}false"
+                    name="business"/>
+                <teamwork
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.568+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5891249775886536"
+                    isCustom="{Boolean}false"
+                    name="teamwork"/>
+                <steel
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.569+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5829328298568726"
+                    isCustom="{Boolean}false"
+                    name="steel"/>
+                <abstract
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.569+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5802136063575745"
+                    isCustom="{Boolean}false"
+                    name="abstract"/>
+                <industry
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.569+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5776163339614868"
+                    isCustom="{Boolean}false"
+                    name="industry"/>
+                <wheel
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.569+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5772732496261597"
+                    isCustom="{Boolean}false"
+                    name="wheel"/>
+                <mechanism
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.569+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.562759518623352"
+                    isCustom="{Boolean}false"
+                    name="mechanism"/>
+                <machinery
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.570+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5588376522064209"
+                    isCustom="{Boolean}false"
+                    name="machinery"/>
+                <cogwheel
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.570+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5575243234634399"
+                    isCustom="{Boolean}false"
+                    name="cogwheel"/>
+                <vector
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.570+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5486609935760498"
+                    isCustom="{Boolean}false"
+                    name="vector"/>
+                <power
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.570+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5448980331420898"
+                    isCustom="{Boolean}false"
+                    name="power"/>
+                <man
+                    jcr:lastModified="{Date}2018-11-21T14:40:21.570+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5434628129005432"
+                    isCustom="{Boolean}false"
+                    name="man"/>
+            </predictedTags>
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}"/>
+        </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>
