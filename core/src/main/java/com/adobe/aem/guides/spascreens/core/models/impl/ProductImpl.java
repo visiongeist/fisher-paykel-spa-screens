@@ -15,7 +15,6 @@ import javax.jcr.query.Query;
 import javax.jcr.query.QueryManager;
 import javax.jcr.query.QueryResult;
 
-import org.apache.commons.lang3.SerializationUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
@@ -33,7 +32,6 @@ import com.adobe.aem.guides.spascreens.core.commerce.ProductFilter;
 import com.adobe.aem.guides.spascreens.core.models.Product;
 import com.adobe.aem.guides.spascreens.core.models.ProductFeature;
 import com.adobe.aem.guides.spascreens.core.models.ProductInspiration;
-import com.adobe.cq.commerce.api.CommerceException;
 import com.adobe.cq.export.json.ComponentExporter;
 import com.adobe.cq.export.json.ExporterConstants;
 import com.day.cq.commons.ImageResource;
@@ -112,9 +110,12 @@ public class ProductImpl implements Product {
 								NodeIterator prodNodesItr = prodResult.getNodes();
 								
 //								productModelList.add(this);
-								Product copy = resource.adaptTo(Product.class);
-								copy.setReadInspirationAssets(false);
-								productModelList.add(copy);
+								if(resource != null) {
+									Product copy = resource.adaptTo(Product.class);
+									copy.setReadInspirationAssets(false);
+									productModelList.add(copy);
+								}
+								
 								if(null != prodNodesItr) {
 									while (prodNodesItr.hasNext()) {
 										Node productNode = (Node) prodNodesItr.next();
@@ -152,9 +153,14 @@ public class ProductImpl implements Product {
 	private void readFeatures() {
 		features = new ArrayList<>();
 		List<Resource> featuresList = product.getAssets();
+		boolean isFirst = true;
 		for(Resource featureRes: featuresList) {
-			ProductFeature feature = new ProductFeatureImpl(featureRes.getValueMap());
-			features.add(feature);
+			if(!isFirst) {
+				ProductFeature feature = new ProductFeatureImpl(featureRes.getValueMap());
+				features.add(feature);
+			} else {
+				isFirst = false;
+			}
 		}
 	}
 
@@ -232,7 +238,7 @@ public class ProductImpl implements Product {
 
 	@Override
 	public String getSpecifications() {
-		return product.getProperty(ProductItem.PN_SUMMARY, String.class);
+		return product.getProperty(Product.PN_SUMMARY, String.class);
 	}
 
 	@Override

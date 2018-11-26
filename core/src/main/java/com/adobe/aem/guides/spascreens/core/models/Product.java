@@ -10,6 +10,9 @@ import com.adobe.cq.export.json.ComponentExporter;
 @ConsumerType
 public interface Product extends ComponentExporter {
 	
+	public static final String PN_FEATURES = "features";
+    public static final String PN_SUMMARY = "summary";
+	
 	public String getName();
 	
 	public String getTitle();
