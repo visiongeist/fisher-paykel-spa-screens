@@ -2,6 +2,7 @@ import React from 'react';
 import { Page, withModel, EditorContext, Utils } from '@adobe/cq-react-editable-components';
 import { Redirect } from 'react-router';
 import Header from './components/header/Header';
+import Tile from './components/clickTile/Tile';
 
 
 /**
@@ -58,6 +59,9 @@ class App extends Page {
                     { this.childComponents }
                     { this.childPages }
                 </EditorContext.Provider>
+                <Tile>
+                    test
+                </Tile>
             </div>
           );
     }
