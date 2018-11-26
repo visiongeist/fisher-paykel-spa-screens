@@ -63,6 +63,8 @@ public class ProductImpl implements Product {
 	private com.adobe.cq.commerce.api.Product product;
 	private Page page;
 	private List<ProductInspiration> inspirationAssets;
+	private Resource productResource;
+	private String specifications;
 	
 	private Boolean readInspirationAssets = true;
 
@@ -165,7 +167,8 @@ public class ProductImpl implements Product {
 	}
 
 	private void readProperties() {
-		Resource productResource = resourceResolver.getResource(productPath);
+		productResource = resourceResolver.getResource(productPath);
+		specifications =  productResource.getValueMap().get(Product.PN_SUMMARY, String.class);
 		page = pageManager.getContainingPage(resource);
 		product = productResource.adaptTo(com.adobe.cq.commerce.api.Product.class);
 	}
@@ -225,8 +228,10 @@ public class ProductImpl implements Product {
 
 	@Override
 	public String getImage() {
-		ImageResource image = product.getImage();
-		String imageUrl = image != null ? image.getFileReference() : null;
+		List<Resource> featuresList = product.getAssets();
+		Resource featureRes = featuresList.get(0);
+		ProductFeature feature = new ProductFeatureImpl(featureRes.getValueMap());
+		String imageUrl = feature != null ? feature.getImagePath() : null;
 
 		return imageUrl;
 	}
@@ -238,7 +243,7 @@ public class ProductImpl implements Product {
 
 	@Override
 	public String getSpecifications() {
-		return product.getProperty(Product.PN_SUMMARY, String.class);
+		return specifications;
 	}
 
 	@Override

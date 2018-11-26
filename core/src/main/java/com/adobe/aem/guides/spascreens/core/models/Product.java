@@ -11,7 +11,7 @@ import com.adobe.cq.export.json.ComponentExporter;
 public interface Product extends ComponentExporter {
 	
 	public static final String PN_FEATURES = "features";
-    public static final String PN_SUMMARY = "summary";
+    public static final String PN_SUMMARY = "splFeatures";
 	
 	public String getName();
 	
