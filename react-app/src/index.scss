@@ -31,6 +31,7 @@ h1, h2, h3, h4 {
 h1 {
   font-size:  $h1-font-size;
   font-weight: normal;
+  margin: 0;
 }
 
 h2 {
@@ -96,7 +97,15 @@ img {
 }
 
 .activity {
-  margin-top: 20vh;
-  height:30vh;
+  display: flex;
+  flex-direction: column;
+  @media screen and (orientation:portrait) {
+   
+    margin-top: 20vh;
+    height: 30vh;
+  }
+  @media screen and (orientation:landscape) {
+    height:100vh;
+  }
 }
 
