@@ -1,7 +1,8 @@
 import React from 'react';
 import { Page, withModel } from '@adobe/cq-react-editable-components';
 import { Redirect } from 'react-router';
-import Tile from './components/clickTile/Tile';
+import Tile from './components/activity/clickTile/Tile.jsx';
+import Activity from './components/activity/Activity.jsx';
 
 
 /**
@@ -52,20 +53,17 @@ class App extends Page {
     render() {
         return (
             <div className="App">
-                {/* <Header navigationRoot="/content/spa-screens/react/home" />
-                <EditorContext.Provider value={ Utils.isInEditor() }>
-                    { this.redirect }
-                    { this.childComponents }
-                    { this.childPages }
-                </EditorContext.Provider> */}
-                <div className="activity">
+                <Activity>
                     <Tile imageDesc="this is alt text" imagePath="/cook-2.jpeg" onClick={() => console.log("navigating to f&p")}>
                         <h1>Fisher & Paykel</h1>
                     </Tile>
                     <Tile imageDesc="this is alt text" imagePath="/grill-1.jpeg" onClick={() => console.log("navigating to DCS")}>
                         <h1>DCS</h1>
                     </Tile>
-                </div>
+                    <Tile imageDesc="this is alt text" imagePath="/grill-1.jpeg" onClick={() => console.log("navigating to DCS")}>
+                        <h1>DCS</h1>
+                    </Tile>
+                </Activity>
             </div>
         );
     }
