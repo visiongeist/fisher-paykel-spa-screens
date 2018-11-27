@@ -12,7 +12,10 @@ public interface Product extends ComponentExporter {
 	
 	public static final String PN_FEATURES = "features";
     public static final String PN_SUMMARY = "splFeatures";
-	
+    public static final String PN_HEIGHT = "productHeight";
+    public static final String PN_WIDTH = "productWidth";
+    public static final String PN_DEPTH = "productDepth";
+    
 	public String getName();
 	
 	public String getTitle();
@@ -28,6 +31,12 @@ public interface Product extends ComponentExporter {
 	public List<ProductInspiration> getInspirationAssets();
 	
 	public String getSpecifications();
+	
+	public String getHeight();
+	
+	public String getWidth(); 
+	
+	public String getDepth();
 	
 	public ProductFilter getFilter();
 	

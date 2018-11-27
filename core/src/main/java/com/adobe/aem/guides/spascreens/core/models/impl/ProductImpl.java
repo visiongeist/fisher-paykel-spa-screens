@@ -65,6 +65,9 @@ public class ProductImpl implements Product {
 	private List<ProductInspiration> inspirationAssets;
 	private Resource productResource;
 	private String specifications;
+	private String height;
+	private String width;
+	private String depth;
 	
 	private Boolean readInspirationAssets = true;
 
@@ -168,7 +171,10 @@ public class ProductImpl implements Product {
 
 	private void readProperties() {
 		productResource = resourceResolver.getResource(productPath);
-		specifications =  productResource.getValueMap().get(Product.PN_SUMMARY, String.class);
+		specifications =  productResource.getValueMap().get(Product.PN_SUMMARY, String.class);		
+		height = productResource.getValueMap().get(Product.PN_HEIGHT, String.class);
+		depth = productResource.getValueMap().get(Product.PN_DEPTH, String.class);
+		width = productResource.getValueMap().get(Product.PN_WIDTH, String.class);
 		page = pageManager.getContainingPage(resource);
 		product = productResource.adaptTo(com.adobe.cq.commerce.api.Product.class);
 	}
@@ -244,6 +250,21 @@ public class ProductImpl implements Product {
 	@Override
 	public String getSpecifications() {
 		return specifications;
+	}
+	
+	@Override
+	public String getHeight() {
+		return height;
+	}
+	
+	@Override
+	public String getWidth() {
+		return width;
+	}
+	
+	@Override
+	public String getDepth() {
+		return depth;
 	}
 
 	@Override
