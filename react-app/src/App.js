@@ -53,9 +53,12 @@ class App extends Page {
     render() {
         return (
             <div className="App">
-                <Activity>
+                <Activity viewHeight="30">
                     <Tile imageDesc="this is alt text" imagePath="/cook-2.jpeg" onClick={() => console.log("navigating to f&p")}>
                         <h1>Fisher & Paykel</h1>
+                    </Tile>
+                    <Tile imageDesc="this is alt text" imagePath="/grill-1.jpeg" onClick={() => console.log("navigating to DCS")}>
+                        <h1>DCS</h1>
                     </Tile>
                     <Tile imageDesc="this is alt text" imagePath="/grill-1.jpeg" onClick={() => console.log("navigating to DCS")}>
                         <h1>DCS</h1>
