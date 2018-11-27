@@ -5,22 +5,17 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="2e4fe16c-bd9c-450d-9bb2-3bfa4eb1f57a">
     <jcr:content
-        cq:lastReplicated="{Date}2018-11-21T14:39:35.982+11:00"
-        cq:lastReplicatedBy="workflow-process-service"
         cq:name="WH2424F1-fabricsmart-quiet-performer-side-panels-GAL.jpg"
         cq:parentPath="/content/dam/fishers/images/laundry"
         dam:assetState="processed"
-        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/laundry/WH2424F1-fabricsmart-quiet-performer-side-panels-GAL.jpg"
-        dam:s7damType="Image"
-        jcr:lastModified="{Date}2018-11-21T14:39:49.498+11:00"
+        jcr:lastModified="{Date}2018-10-12T15:53:13.751+05:30"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent"
-        newRendition="{Boolean}true">
+        jcr:primaryType="dam:AssetContent">
         <metadata
             cq:productReference="/var/commerce/products/fishers/laundry/wash/wash2"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-11-21T14:39:35.944+11:00"
+            dam:extracted="{Date}2018-10-12T15:52:08.308+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -31,186 +26,16 @@
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:productID="RF610ADUSZ4-27"
             dam:Progressive="yes"
-            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
-            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
-            dam:scene7CompanyID="c|210268"
-            dam:scene7Domain="http://s7d2.scene7.com/"
-            dam:scene7File="DynamicMediaNA/WH2424F1-fabricsmart-quiet-performer-side-panels-GAL"
-            dam:scene7FileStatus="PublishComplete"
-            dam:scene7Folder="DynamicMediaNA/fishers/images/laundry/"
-            dam:scene7ID="a|645877458"
-            dam:scene7LastModified="{Long}1542771581662"
-            dam:scene7Name="WH2424F1-fabricsmart-quiet-performer-side-panels-GAL"
-            dam:scene7Type="Image"
-            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:39:48.328+11:00"
-            dam:sha1="1f269895f9456ba1586dfa2dc4358ba0488912d1"
-            dam:size="{Long}49132"
+            dam:sha1="8018c8daf144ef7f5a6fedcf9790d8387e06bb76"
+            dam:size="{Long}46019"
             dc:format="image/jpeg"
             dc:modified="{Date}2018-10-12T15:53:13.684+05:30"
-            jcr:lastModified="{Date}2018-11-21T14:38:33.092+11:00"
+            jcr:lastModified="{Date}2018-10-12T15:53:13.684+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}1920"
-            tiff:ImageWidth="{Long}1600"
-            lastTransferredForTagging="{Date}2018-11-21T14:39:52.520+11:00"
-            simsearchVersion="1.0.0">
-            <predictedTags jcr:primaryType="nt:unstructured">
-                <white
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.515+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.779582142829895"
-                    isCustom="{Boolean}false"
-                    name="white"/>
-                <blank
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.516+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.715998649597168"
-                    isCustom="{Boolean}false"
-                    name="blank"/>
-                <vector
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.516+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6962927579879761"
-                    isCustom="{Boolean}false"
-                    name="vector"/>
-                <isolated
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.516+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6952442526817322"
-                    isCustom="{Boolean}false"
-                    name="isolated"/>
-                <paper
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.516+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6732639670372009"
-                    isCustom="{Boolean}false"
-                    name="paper"/>
-                <background
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.516+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6588423252105713"
-                    isCustom="{Boolean}false"
-                    name="background"/>
-                <design
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.517+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6559268236160278"
-                    isCustom="{Boolean}false"
-                    name="design"/>
-                <illustration
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.517+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6407687067985535"
-                    isCustom="{Boolean}false"
-                    name="illustration"/>
-                <empty
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.517+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6011077165603638"
-                    isCustom="{Boolean}false"
-                    name="empty"/>
-                <clean
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.517+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.595353901386261"
-                    isCustom="{Boolean}false"
-                    name="clean"/>
-                <_x0033_d
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.517+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5908814072608948"
-                    isCustom="{Boolean}false"
-                    name="3d"/>
-                <book
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.517+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5830975770950317"
-                    isCustom="{Boolean}false"
-                    name="book"/>
-                <plastic
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.518+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5814718008041382"
-                    isCustom="{Boolean}false"
-                    name="plastic"/>
-                <page
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.518+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5765116810798645"
-                    isCustom="{Boolean}false"
-                    name="page"/>
-                <metal
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.518+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5653155446052551"
-                    isCustom="{Boolean}false"
-                    name="metal"/>
-                <column
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.518+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5568550229072571"
-                    isCustom="{Boolean}false"
-                    name="column"/>
-                <drink
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.518+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5560500621795654"
-                    isCustom="{Boolean}false"
-                    name="drink"/>
-                <wall
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.518+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.555073082447052"
-                    isCustom="{Boolean}false"
-                    name="wall"/>
-                <architecture
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.519+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5485336780548096"
-                    isCustom="{Boolean}false"
-                    name="architecture"/>
-                <aluminum
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.519+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5457589030265808"
-                    isCustom="{Boolean}false"
-                    name="aluminum"/>
-                <business
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.519+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5389561653137207"
-                    isCustom="{Boolean}false"
-                    name="business"/>
-                <tool
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.519+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5388505458831787"
-                    isCustom="{Boolean}false"
-                    name="tool"/>
-                <shape
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.519+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5367324948310852"
-                    isCustom="{Boolean}false"
-                    name="shape"/>
-                <shadow
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.520+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.536310076713562"
-                    isCustom="{Boolean}false"
-                    name="shadow"/>
-                <equipment
-                    jcr:lastModified="{Date}2018-11-21T14:39:52.520+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.534998893737793"
-                    isCustom="{Boolean}false"
-                    name="equipment"/>
-            </predictedTags>
-            <imageFeatures
-                jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
-        </metadata>
+            tiff:ImageWidth="{Long}1600"/>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

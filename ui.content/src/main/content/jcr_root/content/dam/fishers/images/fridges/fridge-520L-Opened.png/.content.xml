@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:isCheckedOut="{Boolean}true"
-    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="d2699651-0a88-45c5-9664-9277eb3409e6">
     <jcr:content
-        cq:lastReplicated="{Date}2018-11-21T14:42:29.592+11:00"
-        cq:lastReplicatedBy="workflow-process-service"
-        cq:name="fridge-520L-Opened.png"
-        cq:parentPath="/content/dam/fishers/images/fridges"
         dam:assetState="processed"
-        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/fridges/fridge-520L-Opened.png"
-        dam:s7damType="Image"
-        jcr:lastModified="{Date}2018-11-21T14:43:37.497+11:00"
+        jcr:lastModified="{Date}2018-10-15T20:07:28.607+05:30"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent"
-        newRendition="{Boolean}true">
+        jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2018-11-21T14:42:29.432+11:00"
+            dam:extracted="{Date}2018-10-15T20:07:27.186+05:30"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -29,27 +21,12 @@
             dam:Physicalwidthindpi="{Long}100"
             dam:Physicalwidthininches="{Decimal}38.40007781982422"
             dam:Progressive="no"
-            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
-            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
-            dam:scene7CompanyID="c|210268"
-            dam:scene7Domain="http://s7d2.scene7.com/"
-            dam:scene7File="DynamicMediaNA/fridge-520L-Opened"
-            dam:scene7FileStatus="PublishComplete"
-            dam:scene7Folder="DynamicMediaNA/fishers/images/fridges/"
-            dam:scene7ID="a|645876432"
-            dam:scene7LastModified="{Long}1542771802467"
-            dam:scene7Name="fridge-520L-Opened"
-            dam:scene7Type="Image"
-            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:43:31.435+11:00"
-            dam:sha1="414e08aaa6f8160d243991ec62f4814033e7993e"
+            dam:sha1="2ef051121eed1dd442999e54c877f66162f7bfe5"
             dam:size="{Long}11003467"
             dc:format="image/png"
-            dc:modified="{Date}2018-11-21T14:40:38.914+11:00"
             exif:ColorSpace="{Long}65535"
             exif:PixelXDimension="{Long}3840"
             exif:PixelYDimension="{Long}3840"
-            jcr:lastModified="{Date}2018-11-21T14:40:38.914+11:00"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             photoshop:ColorMode="{Long}3"
@@ -68,15 +45,7 @@
             xmp:ModifyDate="{Date}2016-03-11T10:18:36.000+13:00"
             xmpMM:DocumentID="adobe:docid:photoshop:10147c4b-2794-1179-9608-fe2e075d011a"
             xmpMM:InstanceID="xmp.iid:af57c111-4483-4f2a-b032-fe273a88d58b"
-            xmpMM:OriginalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d"
-            lastTransferredForTagging="{Date}2018-11-21T14:43:41.948+11:00"
-            simsearchVersion="1.0.0">
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="adobe:docid:photoshop:786b5ef4-c3c2-1178-88b4-adea3aa422a2"
-                stRef:instanceID="xmp.iid:3e3ba535-10c6-4dc6-9adf-1f1d44fc8182"
-                stRef:originalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d"
-                xmpNodeType="xmpStruct"/>
+            xmpMM:OriginalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d">
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}6"
@@ -124,161 +93,12 @@
                     stEvt:when="{Date}2016-03-11T10:18:36.000+13:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <predictedTags jcr:primaryType="nt:unstructured">
-                <kitchen
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.942+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7054243087768555"
-                    isCustom="{Boolean}false"
-                    name="kitchen"/>
-                <refrigerator
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.942+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7013582587242126"
-                    isCustom="{Boolean}false"
-                    name="refrigerator"/>
-                <fridge
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.942+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6794817447662354"
-                    isCustom="{Boolean}false"
-                    name="fridge"/>
-                <white
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.943+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.661950409412384"
-                    isCustom="{Boolean}false"
-                    name="white"/>
-                <food
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.943+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6542994976043701"
-                    isCustom="{Boolean}false"
-                    name="food"/>
-                <interior
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.945+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6461759805679321"
-                    isCustom="{Boolean}false"
-                    name="interior"/>
-                <appliance
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.945+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6198897361755371"
-                    isCustom="{Boolean}false"
-                    name="appliance"/>
-                <modern
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.945+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6112555861473083"
-                    isCustom="{Boolean}false"
-                    name="modern"/>
-                <house
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.945+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6058346629142761"
-                    isCustom="{Boolean}false"
-                    name="house"/>
-                <cold
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.945+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6034449338912964"
-                    isCustom="{Boolean}false"
-                    name="cold"/>
-                <home
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.946+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6030791997909546"
-                    isCustom="{Boolean}false"
-                    name="home"/>
-                <freezer
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.946+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5992447137832642"
-                    isCustom="{Boolean}false"
-                    name="freezer"/>
-                <empty
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.946+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5936548709869385"
-                    isCustom="{Boolean}false"
-                    name="empty"/>
-                <open
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.946+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5915135741233826"
-                    isCustom="{Boolean}false"
-                    name="open"/>
-                <door
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.946+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5871951580047607"
-                    isCustom="{Boolean}false"
-                    name="door"/>
-                <room
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.946+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5807497501373291"
-                    isCustom="{Boolean}false"
-                    name="room"/>
-                <nobody
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.946+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5795663595199585"
-                    isCustom="{Boolean}false"
-                    name="nobody"/>
-                <design
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.947+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5748650431632996"
-                    isCustom="{Boolean}false"
-                    name="design"/>
-                <clean
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.947+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5746822357177734"
-                    isCustom="{Boolean}false"
-                    name="clean"/>
-                <indoors
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.947+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5610683560371399"
-                    isCustom="{Boolean}false"
-                    name="indoors"/>
-                <fruit
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.947+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5598825812339783"
-                    isCustom="{Boolean}false"
-                    name="fruit"/>
-                <nutrition
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.947+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.558783233165741"
-                    isCustom="{Boolean}false"
-                    name="nutrition"/>
-                <architecture
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.947+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5566568374633789"
-                    isCustom="{Boolean}false"
-                    name="architecture"/>
-                <diet
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.947+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5546882152557373"
-                    isCustom="{Boolean}false"
-                    name="diet"/>
-                <apartment
-                    jcr:lastModified="{Date}2018-11-21T14:43:41.948+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5486236214637756"
-                    isCustom="{Boolean}false"
-                    name="apartment"/>
-            </predictedTags>
-            <imageFeatures
+            <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
+                stRef:documentID="adobe:docid:photoshop:786b5ef4-c3c2-1178-88b4-adea3aa422a2"
+                stRef:instanceID="xmp.iid:3e3ba535-10c6-4dc6-9adf-1f1d44fc8182"
+                stRef:originalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d"
+                xmpNodeType="xmpStruct"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

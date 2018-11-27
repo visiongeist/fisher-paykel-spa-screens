@@ -5,21 +5,17 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="a02c3de1-ac46-4929-a3ae-0cd68a071a35">
     <jcr:content
-        cq:lastReplicated="{Date}2018-11-21T14:41:41.751+11:00"
-        cq:lastReplicatedBy="workflow-process-service"
         cq:name="winestorage-32.jpg"
         cq:parentPath="/content/dam/fishers/images"
         dam:assetState="processed"
-        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/winestorage-32.jpg"
-        dam:s7damType="Image"
-        jcr:lastModified="{Date}2018-11-21T14:42:31.878+11:00"
+        jcr:lastModified="{Date}2018-10-04T16:20:53.545+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             cq:productReference="/var/commerce/products/fishers/wine_cabinet_32_bott"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-11-21T14:41:41.677+11:00"
+            dam:extracted="{Date}2018-10-04T16:20:53.435+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -30,18 +26,6 @@
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:productID="RS60RDWX1-20"
             dam:Progressive="no"
-            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
-            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
-            dam:scene7CompanyID="c|210268"
-            dam:scene7Domain="http://s7d2.scene7.com/"
-            dam:scene7File="DynamicMediaNA/winestorage-32"
-            dam:scene7FileStatus="PublishComplete"
-            dam:scene7Folder="DynamicMediaNA/fishers/images/"
-            dam:scene7ID="a|639421531"
-            dam:scene7LastModified="{Long}1542771703486"
-            dam:scene7Name="winestorage-32"
-            dam:scene7Type="Image"
-            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:41:47.192+11:00"
             dam:sha1="af6998013cd7172741bfb1db65e6bbcf7530df7a"
             dam:size="{Long}12248"
             dc:creator="[Toaki Okano]"
@@ -58,9 +42,7 @@
             xmp:CreatorTool="Adobe Photoshop CC 2014 (Macintosh)"
             xmpMM:DocumentID="xmp.did:3D12E615B96D11E495D1860D690DF8B5"
             xmpMM:InstanceID="xmp.iid:3D12E614B96D11E495D1860D690DF8B5"
-            xmpMM:OriginalDocumentID="30314637413242423030344331374434"
-            lastTransferredForTagging="{Date}2018-11-21T14:41:51.895+11:00"
-            simsearchVersion="1.0.0">
+            xmpMM:OriginalDocumentID="30314637413242423030344331374434">
             <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
                 stRef:documentID="xmp.did:867EF843B95D11E495D1860D690DF8B5"
@@ -72,161 +54,6 @@
                 Iptc4xmpCore:CiTelWork="64-021-21608866"
                 jcr:primaryType="nt:unstructured"
                 xmpNodeType="xmpStruct"/>
-            <predictedTags jcr:primaryType="nt:unstructured">
-                <isolated
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.890+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7322627305984497"
-                    isCustom="{Boolean}false"
-                    name="isolated"/>
-                <white
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.891+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6897109150886536"
-                    isCustom="{Boolean}false"
-                    name="white"/>
-                <black
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.891+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6129074096679688"
-                    isCustom="{Boolean}false"
-                    name="black"/>
-                <equipment
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.891+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6021406650543213"
-                    isCustom="{Boolean}false"
-                    name="equipment"/>
-                <technology
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.891+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5952067375183105"
-                    isCustom="{Boolean}false"
-                    name="technology"/>
-                <old
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.891+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5945004224777222"
-                    isCustom="{Boolean}false"
-                    name="old"/>
-                <digital
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.891+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5911107063293457"
-                    isCustom="{Boolean}false"
-                    name="digital"/>
-                <display
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.892+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5796185731887817"
-                    isCustom="{Boolean}false"
-                    name="display"/>
-                <electric
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.892+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5758349895477295"
-                    isCustom="{Boolean}false"
-                    name="electric"/>
-                <kitchen
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.892+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5743871331214905"
-                    isCustom="{Boolean}false"
-                    name="kitchen"/>
-                <oven
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.892+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5730553865432739"
-                    isCustom="{Boolean}false"
-                    name="oven"/>
-                <background
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.892+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5699560642242432"
-                    isCustom="{Boolean}false"
-                    name="background"/>
-                <retro
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.892+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5663732290267944"
-                    isCustom="{Boolean}false"
-                    name="retro"/>
-                <stove
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.892+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5592553019523621"
-                    isCustom="{Boolean}false"
-                    name="stove"/>
-                <computer
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.893+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.555285632610321"
-                    isCustom="{Boolean}false"
-                    name="computer"/>
-                <electronics
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.893+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5539251565933228"
-                    isCustom="{Boolean}false"
-                    name="electronics"/>
-                <steel
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.893+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5502376556396484"
-                    isCustom="{Boolean}false"
-                    name="steel"/>
-                <door
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.893+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5440524220466614"
-                    isCustom="{Boolean}false"
-                    name="door"/>
-                <frame
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.893+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5414572954177856"
-                    isCustom="{Boolean}false"
-                    name="frame"/>
-                <vector
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.894+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.539872407913208"
-                    isCustom="{Boolean}false"
-                    name="vector"/>
-                <money
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.894+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5392958521842957"
-                    isCustom="{Boolean}false"
-                    name="money"/>
-                <electronic
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.894+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.537960946559906"
-                    isCustom="{Boolean}false"
-                    name="electronic"/>
-                <home
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.894+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5375023484230042"
-                    isCustom="{Boolean}false"
-                    name="home"/>
-                <gray
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.894+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5371184349060059"
-                    isCustom="{Boolean}false"
-                    name="gray"/>
-                <appliance
-                    jcr:lastModified="{Date}2018-11-21T14:41:51.894+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5364620089530945"
-                    isCustom="{Boolean}false"
-                    name="appliance"/>
-            </predictedTags>
-            <imageFeatures
-                jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

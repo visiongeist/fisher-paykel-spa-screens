@@ -4,18 +4,14 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="d3740c19-6203-4e96-88a4-fd7541eb4769">
     <jcr:content
-        cq:lastReplicated="{Date}2018-11-21T14:40:36.611+11:00"
-        cq:lastReplicatedBy="workflow-process-service"
         dam:assetState="processed"
-        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/banners/banner-1.jpg"
-        dam:s7damType="Image"
-        jcr:lastModified="{Date}2018-11-21T14:41:18.151+11:00"
+        jcr:lastModified="{Date}2018-10-08T15:26:07.357+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-11-21T14:40:36.592+11:00"
+            dam:extracted="{Date}2018-10-08T15:25:49.178+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -25,183 +21,13 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="yes"
-            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
-            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
-            dam:scene7CompanyID="c|210268"
-            dam:scene7Domain="http://s7d2.scene7.com/"
-            dam:scene7File="DynamicMediaNA/banner-1-3"
-            dam:scene7FileStatus="PublishComplete"
-            dam:scene7Folder="DynamicMediaNA/fishers/images/banners/"
-            dam:scene7ID="a|643579929"
-            dam:scene7LastModified="{Long}1542771638868"
-            dam:scene7Name="banner-1-3"
-            dam:scene7Type="Image"
-            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:40:43.002+11:00"
             dam:sha1="f3ce47db935b5c802574bfd4e1f4612ed665db54"
             dam:size="{Long}83799"
             dc:format="image/jpeg"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}675"
-            tiff:ImageWidth="{Long}1200"
-            lastTransferredForTagging="{Date}2018-11-21T14:40:47.478+11:00"
-            simsearchVersion="1.0.0">
-            <predictedTags jcr:primaryType="nt:unstructured">
-                <kitchen
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.474+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7989828586578369"
-                    isCustom="{Boolean}false"
-                    name="kitchen"/>
-                <interior
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.474+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7988022565841675"
-                    isCustom="{Boolean}false"
-                    name="interior"/>
-                <modern
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.474+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7442418336868286"
-                    isCustom="{Boolean}false"
-                    name="modern"/>
-                <design
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.474+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7079638242721558"
-                    isCustom="{Boolean}false"
-                    name="design"/>
-                <home
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.474+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6985387802124023"
-                    isCustom="{Boolean}false"
-                    name="home"/>
-                <furniture
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.475+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6938574314117432"
-                    isCustom="{Boolean}false"
-                    name="furniture"/>
-                <room
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.475+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6871948838233948"
-                    isCustom="{Boolean}false"
-                    name="room"/>
-                <contemporary
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.475+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6791181564331055"
-                    isCustom="{Boolean}false"
-                    name="contemporary"/>
-                <architecture
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.475+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6648922562599182"
-                    isCustom="{Boolean}false"
-                    name="architecture"/>
-                <apartment
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.475+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6500858068466187"
-                    isCustom="{Boolean}false"
-                    name="apartment"/>
-                <house
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.475+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6479403376579285"
-                    isCustom="{Boolean}false"
-                    name="house"/>
-                <table
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.476+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6376243829727173"
-                    isCustom="{Boolean}false"
-                    name="table"/>
-                <cooking
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.476+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6161910891532898"
-                    isCustom="{Boolean}false"
-                    name="cooking"/>
-                <cooker
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.476+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6159698367118835"
-                    isCustom="{Boolean}false"
-                    name="cooker"/>
-                <white
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.476+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.610796332359314"
-                    isCustom="{Boolean}false"
-                    name="white"/>
-                <oven
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.476+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6104966402053833"
-                    isCustom="{Boolean}false"
-                    name="oven"/>
-                <cook
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.476+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6005498766899109"
-                    isCustom="{Boolean}false"
-                    name="cook"/>
-                <decor
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.476+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5948854684829712"
-                    isCustom="{Boolean}false"
-                    name="decor"/>
-                <nobody
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.476+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5926410555839539"
-                    isCustom="{Boolean}false"
-                    name="nobody"/>
-                <business
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.477+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5924656391143799"
-                    isCustom="{Boolean}false"
-                    name="business"/>
-                <black
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.477+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.582537829875946"
-                    isCustom="{Boolean}false"
-                    name="black"/>
-                <chair
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.477+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5798658132553101"
-                    isCustom="{Boolean}false"
-                    name="chair"/>
-                <new
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.477+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5786148309707642"
-                    isCustom="{Boolean}false"
-                    name="new"/>
-                <equipment
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.477+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.573378324508667"
-                    isCustom="{Boolean}false"
-                    name="equipment"/>
-                <style
-                    jcr:lastModified="{Date}2018-11-21T14:40:47.478+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5706635117530823"
-                    isCustom="{Boolean}false"
-                    name="style"/>
-            </predictedTags>
-            <imageFeatures
-                jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
-        </metadata>
+            tiff:ImageWidth="{Long}1200"/>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

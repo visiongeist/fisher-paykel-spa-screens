@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:isCheckedOut="{Boolean}true"
-    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="ff02f931-bcb2-42ac-adb6-a23932f4492d">
     <jcr:content
-        cq:lastReplicated="{Date}2018-11-21T14:42:53.974+11:00"
-        cq:lastReplicatedBy="workflow-process-service"
-        cq:name="fridge-534L.png"
-        cq:parentPath="/content/dam/fishers/images/fridges"
         dam:assetState="processed"
-        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/fridges/fridge-534L.png"
-        dam:s7damType="Image"
-        jcr:lastModified="{Date}2018-11-26T10:04:27.045+11:00"
+        jcr:lastModified="{Date}2018-10-15T19:56:58.034+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:productReference="/var/commerce/products/fishers/activesmart_fridge_7"
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2018-11-21T14:42:53.880+11:00"
+            dam:extracted="{Date}2018-10-15T19:56:56.473+05:30"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -28,29 +20,13 @@
             dam:Physicalheightininches="{Decimal}38.40007781982422"
             dam:Physicalwidthindpi="{Long}100"
             dam:Physicalwidthininches="{Decimal}21.60004234313965"
-            dam:productID="RF522ADUSX4-534"
             dam:Progressive="no"
-            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
-            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
-            dam:scene7CompanyID="c|210268"
-            dam:scene7Domain="http://s7d2.scene7.com/"
-            dam:scene7File="DynamicMediaNA/fridge-534L-1"
-            dam:scene7FileStatus="PublishComplete"
-            dam:scene7Folder="DynamicMediaNA/fishers/images/fridges/"
-            dam:scene7ID="a|645877450"
-            dam:scene7LastModified="{Long}1542771795116"
-            dam:scene7Name="fridge-534L-1"
-            dam:scene7Type="Image"
-            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:43:20.394+11:00"
-            dam:sha1="87fb424ee51adfdadff8352167de88fb1a6ac955"
+            dam:sha1="fe56d7edc37192764d96ff46aa312c7815eda0d3"
             dam:size="{Long}3359410"
             dc:format="image/png"
-            dc:modified="{Date}2018-11-26T10:04:26.755+11:00"
             exif:ColorSpace="{Long}65535"
             exif:PixelXDimension="{Long}4320"
             exif:PixelYDimension="{Long}7680"
-            jcr:lastModified="{Date}2018-11-26T10:04:26.755+11:00"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             photoshop:ColorMode="{Long}3"
@@ -71,15 +47,7 @@
             xmp:Rating="{Decimal}1"
             xmpMM:DocumentID="adobe:docid:photoshop:2059aec0-6f41-644d-94b3-dda6e151f137"
             xmpMM:InstanceID="xmp.iid:bc74ccbe-7bc0-40f5-804e-5f58a583df68"
-            xmpMM:OriginalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d"
-            lastTransferredForTagging="{Date}2018-11-21T14:43:25.742+11:00"
-            simsearchVersion="1.0.0">
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="adobe:docid:photoshop:fd3e39de-cfc8-4a42-939f-9072cfb62fda"
-                stRef:instanceID="xmp.iid:04779f8a-4c86-4a35-806b-393d9a24ef8a"
-                stRef:originalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d"
-                xmpNodeType="xmpStruct"/>
+            xmpMM:OriginalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d">
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}10"
@@ -159,161 +127,12 @@
                     stEvt:when="{Date}2018-03-12T14:26:49.000+13:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <predictedTags jcr:primaryType="nt:unstructured">
-                <door
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.737+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.8616119623184204"
-                    isCustom="{Boolean}false"
-                    name="door"/>
-                <white
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.738+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.8196327686309814"
-                    isCustom="{Boolean}false"
-                    name="white"/>
-                <open
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.738+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7476283311843872"
-                    isCustom="{Boolean}false"
-                    name="open"/>
-                <interior
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.738+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7201173305511475"
-                    isCustom="{Boolean}false"
-                    name="interior"/>
-                <entrance
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.738+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7111029624938965"
-                    isCustom="{Boolean}false"
-                    name="entrance"/>
-                <doorway
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.739+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6988135576248169"
-                    isCustom="{Boolean}false"
-                    name="doorway"/>
-                <background
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.739+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6968774199485779"
-                    isCustom="{Boolean}false"
-                    name="background"/>
-                <concept
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.739+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6941616535186768"
-                    isCustom="{Boolean}false"
-                    name="concept"/>
-                <home
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.739+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6927058696746826"
-                    isCustom="{Boolean}false"
-                    name="home"/>
-                <_x0033_d
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.739+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6863359808921814"
-                    isCustom="{Boolean}false"
-                    name="3d"/>
-                <architecture
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.739+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6833246350288391"
-                    isCustom="{Boolean}false"
-                    name="architecture"/>
-                <isolated
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.740+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6680974364280701"
-                    isCustom="{Boolean}false"
-                    name="isolated"/>
-                <house
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.740+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.666095495223999"
-                    isCustom="{Boolean}false"
-                    name="house"/>
-                <design
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.740+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6640386581420898"
-                    isCustom="{Boolean}false"
-                    name="design"/>
-                <wall
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.740+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6558136343955994"
-                    isCustom="{Boolean}false"
-                    name="wall"/>
-                <illustration
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.740+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6523616313934326"
-                    isCustom="{Boolean}false"
-                    name="illustration"/>
-                <window
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.740+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6521129608154297"
-                    isCustom="{Boolean}false"
-                    name="window"/>
-                <indoors
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.741+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6404484510421753"
-                    isCustom="{Boolean}false"
-                    name="indoors"/>
-                <floor
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.741+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6377561688423157"
-                    isCustom="{Boolean}false"
-                    name="floor"/>
-                <room
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.741+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6362767219543457"
-                    isCustom="{Boolean}false"
-                    name="room"/>
-                <freedom
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.741+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6340359449386597"
-                    isCustom="{Boolean}false"
-                    name="freedom"/>
-                <exit
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.741+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6282691955566406"
-                    isCustom="{Boolean}false"
-                    name="exit"/>
-                <light
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.741+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6254861950874329"
-                    isCustom="{Boolean}false"
-                    name="light"/>
-                <closed
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.741+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.621107816696167"
-                    isCustom="{Boolean}false"
-                    name="closed"/>
-                <frame
-                    jcr:lastModified="{Date}2018-11-21T14:43:25.742+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6185587048530579"
-                    isCustom="{Boolean}false"
-                    name="frame"/>
-            </predictedTags>
-            <imageFeatures
+            <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
+                stRef:documentID="adobe:docid:photoshop:fd3e39de-cfc8-4a42-939f-9072cfb62fda"
+                stRef:instanceID="xmp.iid:04779f8a-4c86-4a35-806b-393d9a24ef8a"
+                stRef:originalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d"
+                xmpNodeType="xmpStruct"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

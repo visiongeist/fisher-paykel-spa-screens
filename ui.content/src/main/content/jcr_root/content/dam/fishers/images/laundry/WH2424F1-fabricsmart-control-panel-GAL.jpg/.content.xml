@@ -5,21 +5,17 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="96e871f0-071f-4861-9c8b-0a9d34046780">
     <jcr:content
-        cq:lastReplicated="{Date}2018-11-21T14:39:00.923+11:00"
-        cq:lastReplicatedBy="workflow-process-service"
         cq:name="WH2424F1-fabricsmart-control-panel-GAL.jpg"
         cq:parentPath="/content/dam/fishers/images/laundry"
         dam:assetState="processed"
-        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/laundry/WH2424F1-fabricsmart-control-panel-GAL.jpg"
-        dam:s7damType="Image"
-        jcr:lastModified="{Date}2018-11-21T14:39:52.568+11:00"
+        jcr:lastModified="{Date}2018-10-12T15:53:13.655+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             cq:productReference="/var/commerce/products/fishers/laundry/wash/wash2"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-11-21T14:39:00.878+11:00"
+            dam:extracted="{Date}2018-10-12T15:52:08.410+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -30,20 +26,8 @@
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:productID="RF610ADUSZ4-27"
             dam:Progressive="yes"
-            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
-            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
-            dam:scene7CompanyID="c|210268"
-            dam:scene7Domain="http://s7d2.scene7.com/"
-            dam:scene7File="DynamicMediaNA/WH2424F1-fabricsmart-control-panel-GAL"
-            dam:scene7FileStatus="PublishComplete"
-            dam:scene7Folder="DynamicMediaNA/fishers/images/laundry/"
-            dam:scene7ID="a|645875308"
-            dam:scene7LastModified="{Long}1542771545484"
-            dam:scene7Name="WH2424F1-fabricsmart-control-panel-GAL"
-            dam:scene7Type="Image"
-            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:39:12.011+11:00"
             dam:sha1="566568a3fb081a7a78553efa88511524f3a38924"
-            dam:size="{Long}194552"
+            dam:size="{Long}191438"
             dc:format="image/jpeg"
             dc:modified="{Date}2018-10-12T15:53:13.539+05:30"
             jcr:lastModified="{Date}2018-10-12T15:53:13.539+05:30"
@@ -51,165 +35,7 @@
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}1920"
-            tiff:ImageWidth="{Long}1600"
-            lastTransferredForTagging="{Date}2018-11-21T14:39:17.359+11:00"
-            simsearchVersion="1.0.0">
-            <predictedTags jcr:primaryType="nt:unstructured">
-                <control
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.353+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7121917009353638"
-                    isCustom="{Boolean}false"
-                    name="control"/>
-                <button
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.353+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.692771315574646"
-                    isCustom="{Boolean}false"
-                    name="button"/>
-                <technology
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.353+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6453465819358826"
-                    isCustom="{Boolean}false"
-                    name="technology"/>
-                <panel
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.354+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6453426480293274"
-                    isCustom="{Boolean}false"
-                    name="panel"/>
-                <music
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.354+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6423181891441345"
-                    isCustom="{Boolean}false"
-                    name="music"/>
-                <digital
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.354+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6286903619766235"
-                    isCustom="{Boolean}false"
-                    name="digital"/>
-                <equipment
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.354+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.620246410369873"
-                    isCustom="{Boolean}false"
-                    name="equipment"/>
-                <appliance
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.355+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.616159200668335"
-                    isCustom="{Boolean}false"
-                    name="appliance"/>
-                <audio
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.355+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6136020421981812"
-                    isCustom="{Boolean}false"
-                    name="audio"/>
-                <white
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.355+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6028417348861694"
-                    isCustom="{Boolean}false"
-                    name="white"/>
-                <display
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.356+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6013026237487793"
-                    isCustom="{Boolean}false"
-                    name="display"/>
-                <radio
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.356+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6008039712905884"
-                    isCustom="{Boolean}false"
-                    name="radio"/>
-                <video
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.356+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5952531695365906"
-                    isCustom="{Boolean}false"
-                    name="video"/>
-                <sound
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.356+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.587736964225769"
-                    isCustom="{Boolean}false"
-                    name="sound"/>
-                <electronics
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.357+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5852990746498108"
-                    isCustom="{Boolean}false"
-                    name="electronics"/>
-                <car
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.357+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5754448175430298"
-                    isCustom="{Boolean}false"
-                    name="car"/>
-                <grey
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.357+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5731210112571716"
-                    isCustom="{Boolean}false"
-                    name="grey"/>
-                <device
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.358+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5666072368621826"
-                    isCustom="{Boolean}false"
-                    name="device"/>
-                <buttons
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.358+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5646182894706726"
-                    isCustom="{Boolean}false"
-                    name="buttons"/>
-                <black
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.358+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5615336894989014"
-                    isCustom="{Boolean}false"
-                    name="black"/>
-                <illustration
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.358+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5603010654449463"
-                    isCustom="{Boolean}false"
-                    name="illustration"/>
-                <design
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.359+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5590242743492126"
-                    isCustom="{Boolean}false"
-                    name="design"/>
-                <computer
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.359+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5518296957015991"
-                    isCustom="{Boolean}false"
-                    name="computer"/>
-                <stereo
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.359+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5497329235076904"
-                    isCustom="{Boolean}false"
-                    name="stereo"/>
-                <vector
-                    jcr:lastModified="{Date}2018-11-21T14:39:17.359+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.548734188079834"
-                    isCustom="{Boolean}false"
-                    name="vector"/>
-            </predictedTags>
-            <imageFeatures
-                jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
-        </metadata>
+            tiff:ImageWidth="{Long}1600"/>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

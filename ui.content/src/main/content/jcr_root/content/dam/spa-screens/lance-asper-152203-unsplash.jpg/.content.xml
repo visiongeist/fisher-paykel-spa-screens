@@ -4,18 +4,14 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="122ca431-19c3-4608-9bc7-d2527ac009f5">
     <jcr:content
-        cq:lastReplicated="{Date}2018-11-21T14:44:36.122+11:00"
-        cq:lastReplicatedBy="workflow-process-service"
         dam:assetState="processed"
-        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="spa-screens/lance-asper-152203-unsplash.jpg"
-        dam:s7damType="Image"
-        jcr:lastModified="{Date}2018-11-21T14:45:01.621+11:00"
+        jcr:lastModified="{Date}2018-10-14T11:03:34.567-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-11-21T14:44:36.096+11:00"
+            dam:extracted="{Date}2018-10-14T11:03:34.287-04:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -25,183 +21,13 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
-            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
-            dam:scene7CompanyID="c|210268"
-            dam:scene7Domain="http://s7d2.scene7.com/"
-            dam:scene7File="DynamicMediaNA/lance-asper-152203-unsplash-1"
-            dam:scene7FileStatus="PublishComplete"
-            dam:scene7Folder="DynamicMediaNA/spa-screens/"
-            dam:scene7ID="a|660616114"
-            dam:scene7LastModified="{Long}1542771882581"
-            dam:scene7Name="lance-asper-152203-unsplash-1"
-            dam:scene7Type="Image"
-            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:44:48.396+11:00"
             dam:sha1="d262f5e788ccf4a93bae2df3a7753af2c4be89bc"
             dam:size="{Long}803264"
             dc:format="image/jpeg"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}1041"
-            tiff:ImageWidth="{Long}1850"
-            lastTransferredForTagging="{Date}2018-11-21T14:44:52.983+11:00"
-            simsearchVersion="1.0.0">
-            <predictedTags jcr:primaryType="nt:unstructured">
-                <green
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.980+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6709576845169067"
-                    isCustom="{Boolean}false"
-                    name="green"/>
-                <flowers
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.980+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6708300709724426"
-                    isCustom="{Boolean}false"
-                    name="flowers"/>
-                <flower
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.980+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6699510812759399"
-                    isCustom="{Boolean}false"
-                    name="flower"/>
-                <blue
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.980+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6698288917541504"
-                    isCustom="{Boolean}false"
-                    name="blue"/>
-                <garden
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.981+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6501730680465698"
-                    isCustom="{Boolean}false"
-                    name="garden"/>
-                <nature
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.981+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6229343414306641"
-                    isCustom="{Boolean}false"
-                    name="nature"/>
-                <summer
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.981+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6111911535263062"
-                    isCustom="{Boolean}false"
-                    name="summer"/>
-                <plant
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.981+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.611110508441925"
-                    isCustom="{Boolean}false"
-                    name="plant"/>
-                <beautiful
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.981+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6032231450080872"
-                    isCustom="{Boolean}false"
-                    name="beautiful"/>
-                <landscape
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.981+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6008411645889282"
-                    isCustom="{Boolean}false"
-                    name="landscape"/>
-                <architecture
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.981+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.598791241645813"
-                    isCustom="{Boolean}false"
-                    name="architecture"/>
-                <tree
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.982+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5861058831214905"
-                    isCustom="{Boolean}false"
-                    name="tree"/>
-                <white
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.982+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.574411928653717"
-                    isCustom="{Boolean}false"
-                    name="white"/>
-                <relaxation
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.982+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5727300047874451"
-                    isCustom="{Boolean}false"
-                    name="relaxation"/>
-                <building
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.982+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5677653551101685"
-                    isCustom="{Boolean}false"
-                    name="building"/>
-                <sea
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.982+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5672358870506287"
-                    isCustom="{Boolean}false"
-                    name="sea"/>
-                <travel
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.982+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5655900239944458"
-                    isCustom="{Boolean}false"
-                    name="travel"/>
-                <beach
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.982+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.565582275390625"
-                    isCustom="{Boolean}false"
-                    name="beach"/>
-                <grass
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.982+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5629816651344299"
-                    isCustom="{Boolean}false"
-                    name="grass"/>
-                <beauty
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.982+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5622342228889465"
-                    isCustom="{Boolean}false"
-                    name="beauty"/>
-                <sky
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.983+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5615752935409546"
-                    isCustom="{Boolean}false"
-                    name="sky"/>
-                <spring
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.983+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5604309439659119"
-                    isCustom="{Boolean}false"
-                    name="spring"/>
-                <farm
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.983+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5586069822311401"
-                    isCustom="{Boolean}false"
-                    name="farm"/>
-                <house
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.983+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5584336519241333"
-                    isCustom="{Boolean}false"
-                    name="house"/>
-                <agriculture
-                    jcr:lastModified="{Date}2018-11-21T14:44:52.983+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.55126953125"
-                    isCustom="{Boolean}false"
-                    name="agriculture"/>
-            </predictedTags>
-            <imageFeatures
-                jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
-        </metadata>
+            tiff:ImageWidth="{Long}1850"/>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

@@ -5,21 +5,17 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="a12548a6-2897-484a-9c94-159d7c75b312">
     <jcr:content
-        cq:lastReplicated="{Date}2018-11-21T14:42:15.172+11:00"
-        cq:lastReplicatedBy="workflow-process-service"
         cq:name="DD60_SmartDriveWashMechanism_dl_rt_g_rt.jpg"
         cq:parentPath="/content/dam/fishers/images/clean/dish-drawers"
         dam:assetState="processed"
-        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/clean/dish-drawers/DD60_SmartDriveWashMechanism_dl_rt_g_rt.jpg"
-        dam:s7damType="Image"
-        jcr:lastModified="{Date}2018-11-21T14:42:58.664+11:00"
+        jcr:lastModified="{Date}2018-10-12T12:53:13.401+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             cq:productReference="/var/commerce/products/fishers/clean/dish_drawers/BLACKactivesmart_fridge_9"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-11-21T14:42:15.149+11:00"
+            dam:extracted="{Date}2018-10-12T11:38:52.689+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -30,20 +26,8 @@
             dam:Physicalwidthininches="Infinity"
             dam:productID="RF610ADUSZ4-599"
             dam:Progressive="no"
-            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
-            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
-            dam:scene7CompanyID="c|210268"
-            dam:scene7Domain="http://s7d2.scene7.com/"
-            dam:scene7File="DynamicMediaNA/DD60_SmartDriveWashMechanism_dl_rt_g_rt"
-            dam:scene7FileStatus="PublishComplete"
-            dam:scene7Folder="DynamicMediaNA/fishers/images/clean/dish-drawers/"
-            dam:scene7ID="a|645876149"
-            dam:scene7LastModified="{Long}1542771740037"
-            dam:scene7Name="DD60_SmartDriveWashMechanism_dl_rt_g_rt"
-            dam:scene7Type="Image"
-            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:42:35.636+11:00"
             dam:sha1="792e863c3ffc7138923e65ae878ae3f0952798d6"
-            dam:size="{Long}128103"
+            dam:size="{Long}124962"
             dc:format="image/jpeg"
             dc:modified="{Date}2018-10-12T11:46:39.461+05:30"
             jcr:lastModified="{Date}2018-10-12T12:53:13.302+05:30"
@@ -51,165 +35,7 @@
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}1350"
-            tiff:ImageWidth="{Long}2400"
-            lastTransferredForTagging="{Date}2018-11-21T14:42:39.565+11:00"
-            simsearchVersion="1.0.0">
-            <predictedTags jcr:primaryType="nt:unstructured">
-                <white
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.561+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6763841509819031"
-                    isCustom="{Boolean}false"
-                    name="white"/>
-                <food
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.561+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6524048447608948"
-                    isCustom="{Boolean}false"
-                    name="food"/>
-                <smoking
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.562+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6462571620941162"
-                    isCustom="{Boolean}false"
-                    name="smoking"/>
-                <isolated
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.562+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.645341694355011"
-                    isCustom="{Boolean}false"
-                    name="isolated"/>
-                <cigarette
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.562+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6418008804321289"
-                    isCustom="{Boolean}false"
-                    name="cigarette"/>
-                <smoke
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.562+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6170262098312378"
-                    isCustom="{Boolean}false"
-                    name="smoke"/>
-                <background
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.562+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6101153492927551"
-                    isCustom="{Boolean}false"
-                    name="background"/>
-                <ash
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.562+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6003653407096863"
-                    isCustom="{Boolean}false"
-                    name="ash"/>
-                <ashtray
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.562+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5984059572219849"
-                    isCustom="{Boolean}false"
-                    name="ashtray"/>
-                <cancer
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.562+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5779520869255066"
-                    isCustom="{Boolean}false"
-                    name="cancer"/>
-                <mortar
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.563+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5622750520706177"
-                    isCustom="{Boolean}false"
-                    name="mortar"/>
-                <coffee
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.563+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5601493716239929"
-                    isCustom="{Boolean}false"
-                    name="coffee"/>
-                <black
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.563+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5568394064903259"
-                    isCustom="{Boolean}false"
-                    name="black"/>
-                <white_background
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.563+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.554206907749176"
-                    isCustom="{Boolean}false"
-                    name="white background"/>
-                <addiction
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.563+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5514213442802429"
-                    isCustom="{Boolean}false"
-                    name="addiction"/>
-                <cooking
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.563+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5501098036766052"
-                    isCustom="{Boolean}false"
-                    name="cooking"/>
-                <pestle
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.563+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5422847867012024"
-                    isCustom="{Boolean}false"
-                    name="pestle"/>
-                <tobacco
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.564+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5420942306518555"
-                    isCustom="{Boolean}false"
-                    name="tobacco"/>
-                <health
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.564+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5386513471603394"
-                    isCustom="{Boolean}false"
-                    name="health"/>
-                <brown
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.564+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5381666421890259"
-                    isCustom="{Boolean}false"
-                    name="brown"/>
-                <drink
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.564+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5350337624549866"
-                    isCustom="{Boolean}false"
-                    name="drink"/>
-                <nicotine
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.564+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5324134826660156"
-                    isCustom="{Boolean}false"
-                    name="nicotine"/>
-                <light
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.565+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5261636972427368"
-                    isCustom="{Boolean}false"
-                    name="light"/>
-                <equipment
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.565+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5245697498321533"
-                    isCustom="{Boolean}false"
-                    name="equipment"/>
-                <kitchen
-                    jcr:lastModified="{Date}2018-11-21T14:42:39.565+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5233033299446106"
-                    isCustom="{Boolean}false"
-                    name="kitchen"/>
-            </predictedTags>
-            <imageFeatures
-                jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
-        </metadata>
+            tiff:ImageWidth="{Long}2400"/>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

@@ -4,18 +4,14 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="b99fe623-24cc-4cc9-a3b2-367a3af8da71">
     <jcr:content
-        cq:lastReplicated="{Date}2018-11-21T14:38:34.059+11:00"
-        cq:lastReplicatedBy="workflow-process-service"
         dam:assetState="processed"
-        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/ovens/OS24NDB1-combi-steam-oven-opened.png"
-        dam:s7damType="Image"
-        jcr:lastModified="{Date}2018-11-21T14:40:05.392+11:00"
+        jcr:lastModified="{Date}2018-10-15T20:14:32.501+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2018-11-21T14:38:33.746+11:00"
+            dam:extracted="{Date}2018-10-15T20:14:31.983+05:30"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -25,18 +21,6 @@
             dam:Physicalwidthindpi="{Long}100"
             dam:Physicalwidthininches="{Decimal}21.60004234313965"
             dam:Progressive="no"
-            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
-            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
-            dam:scene7CompanyID="c|210268"
-            dam:scene7Domain="http://s7d2.scene7.com/"
-            dam:scene7File="DynamicMediaNA/OS24NDB1-combi-steam-oven-opened-1"
-            dam:scene7FileStatus="PublishComplete"
-            dam:scene7Folder="DynamicMediaNA/fishers/images/ovens/"
-            dam:scene7ID="a|645876033"
-            dam:scene7LastModified="{Long}1542771526386"
-            dam:scene7Name="OS24NDB1-combi-steam-oven-opened-1"
-            dam:scene7Type="Image"
-            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:38:49.898+11:00"
             dam:sha1="57670be62bc7fe710844be2a7aa1e08ae14e486b"
             dam:size="{Long}1619483"
             dc:format="image/png"
@@ -62,15 +46,7 @@
             xmp:ModifyDate="{Date}2018-03-02T10:47:34.000+13:00"
             xmpMM:DocumentID="adobe:docid:photoshop:cc25a76c-5260-594b-97f5-d7b734092922"
             xmpMM:InstanceID="xmp.iid:cb7fcd6d-a554-46fd-a118-9c1eac805f54"
-            xmpMM:OriginalDocumentID="xmp.did:65589c04-a7be-4793-8693-837727d53f8e"
-            lastTransferredForTagging="{Date}2018-11-21T14:38:55.313+11:00"
-            simsearchVersion="1.0.0">
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="adobe:docid:photoshop:94651bd3-fc03-dc44-b486-9ee9aff0b455"
-                stRef:instanceID="xmp.iid:92a9d888-b537-4cb5-b7df-87751b82125e"
-                stRef:originalDocumentID="xmp.did:65589c04-a7be-4793-8693-837727d53f8e"
-                xmpNodeType="xmpStruct"/>
+            xmpMM:OriginalDocumentID="xmp.did:65589c04-a7be-4793-8693-837727d53f8e">
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}6"
@@ -118,161 +94,12 @@
                     stEvt:when="{Date}2018-03-02T10:47:34.000+13:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <predictedTags jcr:primaryType="nt:unstructured">
-                <isolated
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.307+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7481660842895508"
-                    isCustom="{Boolean}false"
-                    name="isolated"/>
-                <laptop
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.308+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7338505387306213"
-                    isCustom="{Boolean}false"
-                    name="laptop"/>
-                <computer
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.308+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7215396165847778"
-                    isCustom="{Boolean}false"
-                    name="computer"/>
-                <camera
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.308+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6789652705192566"
-                    isCustom="{Boolean}false"
-                    name="camera"/>
-                <white
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.308+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6711426377296448"
-                    isCustom="{Boolean}false"
-                    name="white"/>
-                <vintage
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.309+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6654545068740845"
-                    isCustom="{Boolean}false"
-                    name="vintage"/>
-                <old
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.309+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6621747612953186"
-                    isCustom="{Boolean}false"
-                    name="old"/>
-                <technology
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.309+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6599193215370178"
-                    isCustom="{Boolean}false"
-                    name="technology"/>
-                <black
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.309+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6580673456192017"
-                    isCustom="{Boolean}false"
-                    name="black"/>
-                <business
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.310+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6491349935531616"
-                    isCustom="{Boolean}false"
-                    name="business"/>
-                <retro
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.310+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.643774151802063"
-                    isCustom="{Boolean}false"
-                    name="retro"/>
-                <antique
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.310+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6343596577644348"
-                    isCustom="{Boolean}false"
-                    name="antique"/>
-                <film
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.310+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6276333928108215"
-                    isCustom="{Boolean}false"
-                    name="film"/>
-                <internet
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.310+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6044632196426392"
-                    isCustom="{Boolean}false"
-                    name="internet"/>
-                <object
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.311+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6015892028808594"
-                    isCustom="{Boolean}false"
-                    name="object"/>
-                <keyboard
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.311+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5999658107757568"
-                    isCustom="{Boolean}false"
-                    name="keyboard"/>
-                <instant
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.311+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5996601581573486"
-                    isCustom="{Boolean}false"
-                    name="instant"/>
-                <equipment
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.311+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5993642210960388"
-                    isCustom="{Boolean}false"
-                    name="equipment"/>
-                <background
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.311+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5927493572235107"
-                    isCustom="{Boolean}false"
-                    name="background"/>
-                <lens
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.311+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5891329050064087"
-                    isCustom="{Boolean}false"
-                    name="lens"/>
-                <monitor
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.312+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.584991455078125"
-                    isCustom="{Boolean}false"
-                    name="monitor"/>
-                <concept
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.312+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5810577273368835"
-                    isCustom="{Boolean}false"
-                    name="concept"/>
-                <notebook
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.312+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5780708193778992"
-                    isCustom="{Boolean}false"
-                    name="notebook"/>
-                <communication
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.312+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5762979984283447"
-                    isCustom="{Boolean}false"
-                    name="communication"/>
-                <pc
-                    jcr:lastModified="{Date}2018-11-21T14:38:55.312+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5750433802604675"
-                    isCustom="{Boolean}false"
-                    name="pc"/>
-            </predictedTags>
-            <imageFeatures
+            <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
+                stRef:documentID="adobe:docid:photoshop:94651bd3-fc03-dc44-b486-9ee9aff0b455"
+                stRef:instanceID="xmp.iid:92a9d888-b537-4cb5-b7df-87751b82125e"
+                stRef:originalDocumentID="xmp.did:65589c04-a7be-4793-8693-837727d53f8e"
+                xmpNodeType="xmpStruct"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

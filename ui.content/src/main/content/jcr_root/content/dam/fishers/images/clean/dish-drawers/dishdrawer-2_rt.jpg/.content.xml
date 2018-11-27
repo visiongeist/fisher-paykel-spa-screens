@@ -4,18 +4,14 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="0875880f-8921-4f14-b528-362698f46671">
     <jcr:content
-        cq:lastReplicated="{Date}2018-11-21T14:40:30.313+11:00"
-        cq:lastReplicatedBy="workflow-process-service"
         dam:assetState="processed"
-        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/clean/dish-drawers/dishdrawer-2_rt.jpg"
-        dam:s7damType="Image"
-        jcr:lastModified="{Date}2018-11-21T14:42:29.355+11:00"
+        jcr:lastModified="{Date}2018-10-12T11:38:53.972+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-11-21T14:40:30.289+11:00"
+            dam:extracted="{Date}2018-10-12T11:38:53.556+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -25,183 +21,13 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}33.33333206176758"
             dam:Progressive="no"
-            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
-            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
-            dam:scene7CompanyID="c|210268"
-            dam:scene7Domain="http://s7d2.scene7.com/"
-            dam:scene7File="DynamicMediaNA/dishdrawer-2_rt"
-            dam:scene7FileStatus="PublishComplete"
-            dam:scene7Folder="DynamicMediaNA/fishers/images/clean/dish-drawers/"
-            dam:scene7ID="a|645876933"
-            dam:scene7LastModified="{Long}1542771634096"
-            dam:scene7Name="dishdrawer-2_rt"
-            dam:scene7Type="Image"
-            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:40:36.402+11:00"
             dam:sha1="af360fc77e925be73218e0c14ee387975bc2c902"
             dam:size="{Long}104073"
             dc:format="image/jpeg"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}1350"
-            tiff:ImageWidth="{Long}2400"
-            lastTransferredForTagging="{Date}2018-11-21T14:40:40.005+11:00"
-            simsearchVersion="1.0.0">
-            <predictedTags jcr:primaryType="nt:unstructured">
-                <white
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.000+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7671695947647095"
-                    isCustom="{Boolean}false"
-                    name="white"/>
-                <blank
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.000+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7608667016029358"
-                    isCustom="{Boolean}false"
-                    name="blank"/>
-                <box
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.001+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7364969253540039"
-                    isCustom="{Boolean}false"
-                    name="box"/>
-                <_x0033_d
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.001+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.696976900100708"
-                    isCustom="{Boolean}false"
-                    name="3d"/>
-                <design
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.001+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6854935884475708"
-                    isCustom="{Boolean}false"
-                    name="design"/>
-                <isolated
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.001+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6811815500259399"
-                    isCustom="{Boolean}false"
-                    name="isolated"/>
-                <paper
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.001+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.651142954826355"
-                    isCustom="{Boolean}false"
-                    name="paper"/>
-                <business
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.001+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6494942307472229"
-                    isCustom="{Boolean}false"
-                    name="business"/>
-                <empty
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.002+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6454908847808838"
-                    isCustom="{Boolean}false"
-                    name="empty"/>
-                <background
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.002+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6212664246559143"
-                    isCustom="{Boolean}false"
-                    name="background"/>
-                <nobody
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.002+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6211280226707458"
-                    isCustom="{Boolean}false"
-                    name="nobody"/>
-                <packaging
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.002+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6070248484611511"
-                    isCustom="{Boolean}false"
-                    name="packaging"/>
-                <cardboard
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.002+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5983025431632996"
-                    isCustom="{Boolean}false"
-                    name="cardboard"/>
-                <office
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.002+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.590151846408844"
-                    isCustom="{Boolean}false"
-                    name="office"/>
-                <illustration
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.002+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5877622365951538"
-                    isCustom="{Boolean}false"
-                    name="illustration"/>
-                <package
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.003+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5838881134986877"
-                    isCustom="{Boolean}false"
-                    name="package"/>
-                <vector
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.003+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.578997790813446"
-                    isCustom="{Boolean}false"
-                    name="vector"/>
-                <advertising
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.003+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5784704089164734"
-                    isCustom="{Boolean}false"
-                    name="advertising"/>
-                <container
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.003+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5732594132423401"
-                    isCustom="{Boolean}false"
-                    name="container"/>
-                <clean
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.003+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5721667408943176"
-                    isCustom="{Boolean}false"
-                    name="clean"/>
-                <concept
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.004+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5699961185455322"
-                    isCustom="{Boolean}false"
-                    name="concept"/>
-                <object
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.004+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5611400604248047"
-                    isCustom="{Boolean}false"
-                    name="object"/>
-                <modern
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.004+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5581721663475037"
-                    isCustom="{Boolean}false"
-                    name="modern"/>
-                <gray
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.004+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5546587705612183"
-                    isCustom="{Boolean}false"
-                    name="gray"/>
-                <corporate
-                    jcr:lastModified="{Date}2018-11-21T14:40:40.004+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5517475605010986"
-                    isCustom="{Boolean}false"
-                    name="corporate"/>
-            </predictedTags>
-            <imageFeatures
-                jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
-        </metadata>
+            tiff:ImageWidth="{Long}2400"/>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

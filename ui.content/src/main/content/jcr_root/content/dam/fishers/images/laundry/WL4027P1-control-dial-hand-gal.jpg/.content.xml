@@ -5,21 +5,17 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="bf4cdbbf-c27a-43bf-856b-fdc8e6caf61f">
     <jcr:content
-        cq:lastReplicated="{Date}2018-11-21T14:38:34.015+11:00"
-        cq:lastReplicatedBy="workflow-process-service"
         cq:name="WL4027P1-control-dial-hand-gal.jpg"
         cq:parentPath="/content/dam/fishers/images/laundry"
         dam:assetState="processed"
-        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/laundry/WL4027P1-control-dial-hand-gal.jpg"
-        dam:s7damType="Image"
-        jcr:lastModified="{Date}2018-11-21T14:40:25.781+11:00"
+        jcr:lastModified="{Date}2018-10-12T16:05:51.519+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             cq:productReference="/var/commerce/products/fishers/laundry/wash/wash3"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-11-21T14:38:33.894+11:00"
+            dam:extracted="{Date}2018-10-12T14:49:55.837+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -30,20 +26,8 @@
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:productID="RF610ADUSZ4-27"
             dam:Progressive="no"
-            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
-            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
-            dam:scene7CompanyID="c|210268"
-            dam:scene7Domain="http://s7d2.scene7.com/"
-            dam:scene7File="DynamicMediaNA/WL4027P1-control-dial-hand-gal"
-            dam:scene7FileStatus="PublishComplete"
-            dam:scene7Folder="DynamicMediaNA/fishers/images/laundry/"
-            dam:scene7ID="a|645875268"
-            dam:scene7LastModified="{Long}1542771520464"
-            dam:scene7Name="WL4027P1-control-dial-hand-gal"
-            dam:scene7Type="Image"
-            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:38:47.913+11:00"
             dam:sha1="f5b444863ef840f431a462b27c8a68a35231bcc1"
-            dam:size="{Long}901003"
+            dam:size="{Long}898173"
             dc:format="image/jpeg"
             dc:modified="{Date}2018-10-12T15:14:05.782+05:30"
             jcr:lastModified="{Date}2018-10-12T16:05:51.404+05:30"
@@ -55,169 +39,12 @@
             xmp:CreatorTool="Adobe Photoshop CC 2017 (Macintosh)"
             xmpMM:DocumentID="xmp.did:28CADDC38EBB11E787B6B4C57FB94DC9"
             xmpMM:InstanceID="xmp.iid:28CADDC28EBB11E787B6B4C57FB94DC9"
-            xmpMM:OriginalDocumentID="286F35A416F497534C6D9B6D6F81DBDD"
-            lastTransferredForTagging="{Date}2018-11-21T14:38:53.361+11:00"
-            simsearchVersion="1.0.0">
+            xmpMM:OriginalDocumentID="286F35A416F497534C6D9B6D6F81DBDD">
             <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
                 stRef:documentID="adobe:docid:photoshop:5d7bcaa6-d413-117a-981b-d53ae3a137a8"
                 stRef:instanceID="xmp.iid:a2a8f78c-db27-403d-95b8-cd477db3e785"
                 xmpNodeType="xmpStruct"/>
-            <predictedTags jcr:primaryType="nt:unstructured">
-                <business
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.354+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.697978138923645"
-                    isCustom="{Boolean}false"
-                    name="business"/>
-                <control
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.354+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6762208342552185"
-                    isCustom="{Boolean}false"
-                    name="control"/>
-                <technology
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.355+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.67039555311203"
-                    isCustom="{Boolean}false"
-                    name="technology"/>
-                <equipment
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.355+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6585251688957214"
-                    isCustom="{Boolean}false"
-                    name="equipment"/>
-                <telephone
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.356+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6528613567352295"
-                    isCustom="{Boolean}false"
-                    name="telephone"/>
-                <hand
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.356+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6507538557052612"
-                    isCustom="{Boolean}false"
-                    name="hand"/>
-                <communication
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.357+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.650117039680481"
-                    isCustom="{Boolean}false"
-                    name="communication"/>
-                <button
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.357+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.648507297039032"
-                    isCustom="{Boolean}false"
-                    name="button"/>
-                <office
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.357+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6455036401748657"
-                    isCustom="{Boolean}false"
-                    name="office"/>
-                <white
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.358+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6400877833366394"
-                    isCustom="{Boolean}false"
-                    name="white"/>
-                <computer
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.358+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6380688548088074"
-                    isCustom="{Boolean}false"
-                    name="computer"/>
-                <isolated
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.358+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6366424560546875"
-                    isCustom="{Boolean}false"
-                    name="isolated"/>
-                <phone
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.358+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6319931149482727"
-                    isCustom="{Boolean}false"
-                    name="phone"/>
-                <electronic
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.358+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.624948263168335"
-                    isCustom="{Boolean}false"
-                    name="electronic"/>
-                <remote
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.359+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6176347732543945"
-                    isCustom="{Boolean}false"
-                    name="remote"/>
-                <digital
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.359+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6146305203437805"
-                    isCustom="{Boolean}false"
-                    name="digital"/>
-                <number
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.359+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6112616658210754"
-                    isCustom="{Boolean}false"
-                    name="number"/>
-                <background
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.359+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6105806827545166"
-                    isCustom="{Boolean}false"
-                    name="background"/>
-                <keypad
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.359+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5984070301055908"
-                    isCustom="{Boolean}false"
-                    name="keypad"/>
-                <fax
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.359+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5973688960075378"
-                    isCustom="{Boolean}false"
-                    name="fax"/>
-                <display
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.359+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.589403510093689"
-                    isCustom="{Boolean}false"
-                    name="display"/>
-                <calculator
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.360+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5798649787902832"
-                    isCustom="{Boolean}false"
-                    name="calculator"/>
-                <buttons
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.360+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5771248936653137"
-                    isCustom="{Boolean}false"
-                    name="buttons"/>
-                <home
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.360+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5744930505752563"
-                    isCustom="{Boolean}false"
-                    name="home"/>
-                <finger
-                    jcr:lastModified="{Date}2018-11-21T14:38:53.360+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5743749737739563"
-                    isCustom="{Boolean}false"
-                    name="finger"/>
-            </predictedTags>
-            <imageFeatures
-                jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

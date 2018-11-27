@@ -4,18 +4,14 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="1dbc7585-a8a4-49f4-b43a-8c140804b7b7">
     <jcr:content
-        cq:lastReplicated="{Date}2018-11-21T14:41:52.121+11:00"
-        cq:lastReplicatedBy="workflow-process-service"
         dam:assetState="processed"
-        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/fridges/fridge-448L.png"
-        dam:s7damType="Image"
-        jcr:lastModified="{Date}2018-11-21T14:42:18.582+11:00"
+        jcr:lastModified="{Date}2018-10-15T20:20:22.382+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2018-11-21T14:41:52.006+11:00"
+            dam:extracted="{Date}2018-10-15T20:20:21.103+05:30"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -25,18 +21,6 @@
             dam:Physicalwidthindpi="{Long}100"
             dam:Physicalwidthininches="{Decimal}21.60004234313965"
             dam:Progressive="no"
-            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
-            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
-            dam:scene7CompanyID="c|210268"
-            dam:scene7Domain="http://s7d2.scene7.com/"
-            dam:scene7File="DynamicMediaNA/fridge-448L"
-            dam:scene7FileStatus="PublishComplete"
-            dam:scene7Folder="DynamicMediaNA/fishers/images/fridges/"
-            dam:scene7ID="a|645875335"
-            dam:scene7LastModified="{Long}1542771730810"
-            dam:scene7Name="fridge-448L"
-            dam:scene7Type="Image"
-            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:42:16.147+11:00"
             dam:sha1="a27f6ea3633c9d2512b358052714cd084b22ff80"
             dam:size="{Long}2858388"
             dc:format="image/png"
@@ -62,15 +46,7 @@
             xmp:ModifyDate="{Date}2017-04-11T16:27:26.000+12:00"
             xmpMM:DocumentID="adobe:docid:photoshop:0e56fea4-5ef4-117a-8067-9568fe8c28a4"
             xmpMM:InstanceID="xmp.iid:89f36339-aa2a-484f-9a71-78728219557f"
-            xmpMM:OriginalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d"
-            lastTransferredForTagging="{Date}2018-11-21T14:42:21.610+11:00"
-            simsearchVersion="1.0.0">
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="adobe:docid:photoshop:2b8b19b7-e503-1179-bc03-fa907b2feee8"
-                stRef:instanceID="xmp.iid:7e0e25f7-f6e7-481b-96fa-8ab23097e6d0"
-                stRef:originalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d"
-                xmpNodeType="xmpStruct"/>
+            xmpMM:OriginalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d">
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}7"
@@ -126,161 +102,12 @@
                     stEvt:when="{Date}2017-04-11T16:27:26.000+12:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <predictedTags jcr:primaryType="nt:unstructured">
-                <blank
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.604+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.8552398681640625"
-                    isCustom="{Boolean}false"
-                    name="blank"/>
-                <white
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.604+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.8100124597549438"
-                    isCustom="{Boolean}false"
-                    name="white"/>
-                <background
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.604+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7526031732559204"
-                    isCustom="{Boolean}false"
-                    name="background"/>
-                <empty
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.605+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7410778999328613"
-                    isCustom="{Boolean}false"
-                    name="empty"/>
-                <isolated
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.605+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7133632898330688"
-                    isCustom="{Boolean}false"
-                    name="isolated"/>
-                <design
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.605+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7111683487892151"
-                    isCustom="{Boolean}false"
-                    name="design"/>
-                <paper
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.605+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6998296976089478"
-                    isCustom="{Boolean}false"
-                    name="paper"/>
-                <book
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.606+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6905204057693481"
-                    isCustom="{Boolean}false"
-                    name="book"/>
-                <business
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.606+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6612058877944946"
-                    isCustom="{Boolean}false"
-                    name="business"/>
-                <cover
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.607+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6577966213226318"
-                    isCustom="{Boolean}false"
-                    name="cover"/>
-                <vector
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.607+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6560343503952026"
-                    isCustom="{Boolean}false"
-                    name="vector"/>
-                <page
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.607+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6473607420921326"
-                    isCustom="{Boolean}false"
-                    name="page"/>
-                <document
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.607+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6439618468284607"
-                    isCustom="{Boolean}false"
-                    name="document"/>
-                <box
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.607+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6337694525718689"
-                    isCustom="{Boolean}false"
-                    name="box"/>
-                <frame
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.608+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6295908689498901"
-                    isCustom="{Boolean}false"
-                    name="frame"/>
-                <wall
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.608+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6115642189979553"
-                    isCustom="{Boolean}false"
-                    name="wall"/>
-                <banner
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.608+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6027263402938843"
-                    isCustom="{Boolean}false"
-                    name="banner"/>
-                <template
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.608+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.601588249206543"
-                    isCustom="{Boolean}false"
-                    name="template"/>
-                <black
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.608+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5974317789077759"
-                    isCustom="{Boolean}false"
-                    name="black"/>
-                <object
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.609+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5943875908851624"
-                    isCustom="{Boolean}false"
-                    name="object"/>
-                <door
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.609+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5937995910644531"
-                    isCustom="{Boolean}false"
-                    name="door"/>
-                <copy
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.609+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.592415988445282"
-                    isCustom="{Boolean}false"
-                    name="copy"/>
-                <_x0033_d
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.609+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5871514081954956"
-                    isCustom="{Boolean}false"
-                    name="3d"/>
-                <display
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.609+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5856091976165771"
-                    isCustom="{Boolean}false"
-                    name="display"/>
-                <communication
-                    jcr:lastModified="{Date}2018-11-21T14:42:21.609+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5844131112098694"
-                    isCustom="{Boolean}false"
-                    name="communication"/>
-            </predictedTags>
-            <imageFeatures
+            <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
+                stRef:documentID="adobe:docid:photoshop:2b8b19b7-e503-1179-bc03-fa907b2feee8"
+                stRef:instanceID="xmp.iid:7e0e25f7-f6e7-481b-96fa-8ab23097e6d0"
+                stRef:originalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d"
+                xmpNodeType="xmpStruct"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

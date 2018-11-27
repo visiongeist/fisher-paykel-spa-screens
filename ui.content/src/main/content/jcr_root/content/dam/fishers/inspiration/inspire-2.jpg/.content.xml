@@ -5,21 +5,17 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="590e799d-2558-4f91-a733-c7a2ed9e2db7">
     <jcr:content
-        cq:lastReplicated="{Date}2018-11-21T14:45:23.748+11:00"
-        cq:lastReplicatedBy="workflow-process-service"
         cq:name="inspire-2.jpg"
         cq:parentPath="/content/dam/fishers/inspiration"
         dam:assetState="processed"
-        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/inspiration/inspire-2.jpg"
-        dam:s7damType="Image"
-        jcr:lastModified="{Date}2018-11-21T14:46:37.103+11:00"
+        jcr:lastModified="{Date}2018-10-16T10:26:23.322+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:tags="[]"
+            cq:tags="[fishers:Cool/Freezers/614L,fishers:Cool/Freezers/534L,fishers:Cook/ovens/60cm11function,fishers:Cook/ovens/SteamOven24]"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-11-21T14:45:23.644+11:00"
+            dam:extracted="{Date}2018-10-16T10:25:33.275+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -29,26 +25,14 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}33.33333206176758"
             dam:Progressive="no"
-            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
-            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
-            dam:scene7CompanyID="c|210268"
-            dam:scene7Domain="http://s7d2.scene7.com/"
-            dam:scene7File="DynamicMediaNA/inspire-2"
-            dam:scene7FileStatus="PublishComplete"
-            dam:scene7Folder="DynamicMediaNA/fishers/inspiration/"
-            dam:scene7ID="a|646435316"
-            dam:scene7LastModified="{Long}1542771933999"
-            dam:scene7Name="inspire-2"
-            dam:scene7Type="Image"
-            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:45:46.431+11:00"
-            dam:sha1="650e0f8a138197de0ca135573fd3f6bcde8d7f3d"
+            dam:sha1="6dab1b7573f9caf0623a07733f5cba4742f145c8"
             dam:size="{Long}964029"
             dc:format="image/jpeg"
             dc:modified="{Date}2018-10-16T10:26:23.220+05:30"
             exif:ColorSpace="{Long}1"
             exif:PixelXDimension="{Long}2400"
             exif:PixelYDimension="{Long}1350"
-            jcr:lastModified="{Date}2018-11-21T14:44:28.259+11:00"
+            jcr:lastModified="{Date}2018-10-16T10:26:23.220+05:30"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
@@ -69,17 +53,7 @@
             xmpMM:DocumentID="adobe:docid:photoshop:f056a3d8-baec-8f4a-84d7-f543ec95f546"
             xmpMM:InstanceID="xmp.iid:d9360838-45da-4020-8576-f4541a90f588"
             xmpMM:OriginalDocumentID="xmp.did:a8f5cc6a-40b3-445c-9e4a-6e7699ff0606"
-            xmpMM:RenditionClass="proof:pdf"
-            lastTransferredForTagging="{Date}2018-11-21T14:45:52.771+11:00"
-            simsearchVersion="1.0.0">
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="xmp.did:eed755c1-eee2-4cc2-804e-a532c22576c5"
-                stRef:instanceID="xmp.iid:eed755c1-eee2-4cc2-804e-a532c22576c5"
-                stRef:originalDocumentID="xmp.did:a8f5cc6a-40b3-445c-9e4a-6e7699ff0606"
-                stRef:renditionClass="proof:pdf"
-                xmpNodeType="xmpStruct"/>
-            <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+            xmpMM:RenditionClass="proof:pdf">
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}6"
@@ -125,161 +99,14 @@
                     stEvt:when="{Date}2018-04-16T11:13:57.000+12:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <predictedTags jcr:primaryType="nt:unstructured">
-                <kitchen
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.768+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.874744176864624"
-                    isCustom="{Boolean}false"
-                    name="kitchen"/>
-                <interior
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.768+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7873007655143738"
-                    isCustom="{Boolean}false"
-                    name="interior"/>
-                <home
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.768+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7676328420639038"
-                    isCustom="{Boolean}false"
-                    name="home"/>
-                <modern
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.768+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7544268369674683"
-                    isCustom="{Boolean}false"
-                    name="modern"/>
-                <oven
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.768+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7483611702919006"
-                    isCustom="{Boolean}false"
-                    name="oven"/>
-                <design
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.769+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7403056621551514"
-                    isCustom="{Boolean}false"
-                    name="design"/>
-                <stove
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.769+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7379732131958008"
-                    isCustom="{Boolean}false"
-                    name="stove"/>
-                <contemporary
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.769+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7313326597213745"
-                    isCustom="{Boolean}false"
-                    name="contemporary"/>
-                <cooking
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.769+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7144321203231812"
-                    isCustom="{Boolean}false"
-                    name="cooking"/>
-                <appliance
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.769+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6937034726142883"
-                    isCustom="{Boolean}false"
-                    name="appliance"/>
-                <house
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.769+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6877574920654297"
-                    isCustom="{Boolean}false"
-                    name="house"/>
-                <cook
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.769+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6849119663238525"
-                    isCustom="{Boolean}false"
-                    name="cook"/>
-                <counter
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.769+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6759742498397827"
-                    isCustom="{Boolean}false"
-                    name="counter"/>
-                <white
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.770+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6700577735900879"
-                    isCustom="{Boolean}false"
-                    name="white"/>
-                <cabinet
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.770+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6649507284164429"
-                    isCustom="{Boolean}false"
-                    name="cabinet"/>
-                <furniture
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.770+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6563804149627686"
-                    isCustom="{Boolean}false"
-                    name="furniture"/>
-                <apartment
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.770+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6554285287857056"
-                    isCustom="{Boolean}false"
-                    name="apartment"/>
-                <clean
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.770+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.654293954372406"
-                    isCustom="{Boolean}false"
-                    name="clean"/>
-                <decor
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.770+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.65062415599823"
-                    isCustom="{Boolean}false"
-                    name="decor"/>
-                <microwave
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.770+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6431339383125305"
-                    isCustom="{Boolean}false"
-                    name="microwave"/>
-                <architecture
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.771+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6426977515220642"
-                    isCustom="{Boolean}false"
-                    name="architecture"/>
-                <appliances
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.771+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6379569172859192"
-                    isCustom="{Boolean}false"
-                    name="appliances"/>
-                <cabinets
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.771+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6321488618850708"
-                    isCustom="{Boolean}false"
-                    name="cabinets"/>
-                <sink
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.771+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6310834884643555"
-                    isCustom="{Boolean}false"
-                    name="sink"/>
-                <steel
-                    jcr:lastModified="{Date}2018-11-21T14:45:52.771+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6222112774848938"
-                    isCustom="{Boolean}false"
-                    name="steel"/>
-            </predictedTags>
-            <imageFeatures
+            <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
+                stRef:documentID="xmp.did:eed755c1-eee2-4cc2-804e-a532c22576c5"
+                stRef:instanceID="xmp.iid:eed755c1-eee2-4cc2-804e-a532c22576c5"
+                stRef:originalDocumentID="xmp.did:a8f5cc6a-40b3-445c-9e4a-6e7699ff0606"
+                stRef:renditionClass="proof:pdf"
+                xmpNodeType="xmpStruct"/>
+            <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

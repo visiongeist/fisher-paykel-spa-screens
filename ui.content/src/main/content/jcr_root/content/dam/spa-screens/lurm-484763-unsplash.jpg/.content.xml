@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:isCheckedOut="{Boolean}true"
-    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="40b71798-a78a-43e9-aa6f-654853a2c133">
     <jcr:content
-        cq:lastReplicated="{Date}2018-11-21T14:46:32.699+11:00"
-        cq:lastReplicatedBy="workflow-process-service"
-        cq:name="lurm-484763-unsplash.jpg"
-        cq:parentPath="/content/dam/spa-screens"
         dam:assetState="processed"
-        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="spa-screens/lurm-484763-unsplash.jpg"
-        dam:s7damType="Image"
-        jcr:lastModified="{Date}2018-11-21T14:46:43.087+11:00"
+        jcr:lastModified="{Date}2018-10-14T11:04:22.225-04:00"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent"
-        newRendition="{Boolean}true">
+        jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-11-21T14:46:32.675+11:00"
+            dam:extracted="{Date}2018-10-14T11:04:21.875-04:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -29,186 +21,13 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
-            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
-            dam:scene7CompanyID="c|210268"
-            dam:scene7Domain="http://s7d2.scene7.com/"
-            dam:scene7File="DynamicMediaNA/lurm-484763-unsplash-1"
-            dam:scene7FileStatus="PublishComplete"
-            dam:scene7Folder="DynamicMediaNA/spa-screens/"
-            dam:scene7ID="a|660617073"
-            dam:scene7LastModified="{Long}1542771997748"
-            dam:scene7Name="lurm-484763-unsplash-1"
-            dam:scene7Type="Image"
-            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:46:40.878+11:00"
-            dam:sha1="568959e85ad48ddf0753b364b0901d198307a6d6"
-            dam:size="{Long}597753"
+            dam:sha1="8a9e29dedec3d04a5236b8d8f6d2e84d2186b13c"
+            dam:size="{Long}594786"
             dc:format="image/jpeg"
-            dc:modified="{Date}2018-11-21T14:44:31.807+11:00"
-            jcr:lastModified="{Date}2018-11-21T14:44:31.807+11:00"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}1824"
-            tiff:ImageWidth="{Long}2736"
-            lastTransferredForTagging="{Date}2018-11-21T14:46:47.222+11:00"
-            simsearchVersion="1.0.0">
-            <predictedTags jcr:primaryType="nt:unstructured">
-                <background
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.219+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7973284125328064"
-                    isCustom="{Boolean}false"
-                    name="background"/>
-                <red
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.219+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7586174011230469"
-                    isCustom="{Boolean}false"
-                    name="red"/>
-                <abstract
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.219+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.71895432472229"
-                    isCustom="{Boolean}false"
-                    name="abstract"/>
-                <love
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.219+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6083613634109497"
-                    isCustom="{Boolean}false"
-                    name="love"/>
-                <pink
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.220+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6051563024520874"
-                    isCustom="{Boolean}false"
-                    name="pink"/>
-                <flower
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.220+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5954132676124573"
-                    isCustom="{Boolean}false"
-                    name="flower"/>
-                <texture
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.220+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5800567865371704"
-                    isCustom="{Boolean}false"
-                    name="texture"/>
-                <color
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.220+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.578440248966217"
-                    isCustom="{Boolean}false"
-                    name="color"/>
-                <valentine
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.220+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5655245780944824"
-                    isCustom="{Boolean}false"
-                    name="valentine"/>
-                <art
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.220+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5648770332336426"
-                    isCustom="{Boolean}false"
-                    name="art"/>
-                <liquid
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.220+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5635100603103638"
-                    isCustom="{Boolean}false"
-                    name="liquid"/>
-                <water
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.220+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5618217587471008"
-                    isCustom="{Boolean}false"
-                    name="water"/>
-                <macro
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.221+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5516405701637268"
-                    isCustom="{Boolean}false"
-                    name="macro"/>
-                <backdrop
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.221+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5512514710426331"
-                    isCustom="{Boolean}false"
-                    name="backdrop"/>
-                <design
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.221+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5505804419517517"
-                    isCustom="{Boolean}false"
-                    name="design"/>
-                <illustration
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.221+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5502437949180603"
-                    isCustom="{Boolean}false"
-                    name="illustration"/>
-                <food
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.221+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.547614336013794"
-                    isCustom="{Boolean}false"
-                    name="food"/>
-                <nature
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.221+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5474664568901062"
-                    isCustom="{Boolean}false"
-                    name="nature"/>
-                <heart
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.221+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5442006587982178"
-                    isCustom="{Boolean}false"
-                    name="heart"/>
-                <blood
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.222+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.533484697341919"
-                    isCustom="{Boolean}false"
-                    name="blood"/>
-                <black
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.222+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5328907370567322"
-                    isCustom="{Boolean}false"
-                    name="black"/>
-                <colorful
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.222+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5311436653137207"
-                    isCustom="{Boolean}false"
-                    name="colorful"/>
-                <rose
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.222+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5298389792442322"
-                    isCustom="{Boolean}false"
-                    name="rose"/>
-                <romantic
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.222+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5288991332054138"
-                    isCustom="{Boolean}false"
-                    name="romantic"/>
-                <flow
-                    jcr:lastModified="{Date}2018-11-21T14:46:47.222+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5277544260025024"
-                    isCustom="{Boolean}false"
-                    name="flow"/>
-            </predictedTags>
-            <imageFeatures
-                jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
-        </metadata>
+            tiff:ImageWidth="{Long}2736"/>
         <related jcr:primaryType="nt:unstructured"/>
         <usages
             dam:score="{Long}1"

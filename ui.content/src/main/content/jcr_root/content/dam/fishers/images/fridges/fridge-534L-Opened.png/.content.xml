@@ -1,26 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:isCheckedOut="{Boolean}true"
-    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="f7d4b5be-d17f-40be-851d-95a20658a531">
     <jcr:content
-        cq:lastReplicated="{Date}2018-11-21T14:43:27.592+11:00"
-        cq:lastReplicatedBy="workflow-process-service"
-        cq:name="fridge-534L-Opened.png"
-        cq:parentPath="/content/dam/fishers/images/fridges"
         dam:assetState="processed"
-        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/fridges/fridge-534L-Opened.png"
-        dam:s7damType="Image"
-        jcr:lastModified="{Date}2018-11-21T14:44:06.484+11:00"
+        jcr:lastModified="{Date}2018-10-15T19:56:58.320+05:30"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent"
-        newRendition="{Boolean}true">
+        jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}8"
-            dam:Comments="Software: Adobe ImageReady&#xa;XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?>&#xa;&lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.6-c137 1.000000, 0000/00/00-00:00:00        &quot;>&#xa; &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;>&#xa;  &lt;rdf:Description rdf:about=&quot;&quot;&#xa;    xmlns:ns1=&quot;http://www.day.com/dam/1.0&quot;&#xa;    xmlns:tiff=&quot;http://ns.adobe.com/tiff/1.0/&quot;&#xa;    xmlns:xmp=&quot;http://ns.adobe.com/xap/1.0/&quot;&#xa;    xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot;&#xa;    xmlns:xmpMM=&quot;http://ns.adobe.com/xap/1.0/mm/&quot;&#xa;    xmlns:stRef=&quot;http://ns.adobe.com/xap/1.0/sType/ResourceRef#&quot;&#xa;   ns1:Physicalheightininches=&quot;-1.0&quot;&#xa;   ns1:Physicalwidthininches=&quot;-1.0&quot;&#xa;   ns1:Fileformat=&quot;PNG&quot;&#xa;   ns1:Progressive=&quot;no&quot;&#xa;   ns1:extracted=&quot;2018-10-15T19:56:56.884+05:30&quot;&#xa;   ns1:Bitsperpixel=&quot;8&quot;&#xa;   ns1:MIMEtype=&quot;image/png&quot;&#xa;   ns1:Comments=&quot;Software: Adobe ImageReady&amp;#xA;XML:com.adobe.xmp: &amp;lt;?xpacket begin=&amp;quot;﻿&amp;quot; id=&amp;quot;W5M0MpCehiHzreSzNTczkc9d&amp;quot;?&amp;gt; &amp;lt;x:xmpmeta xmlns:x=&amp;quot;adobe:ns:meta/&amp;quot; x:xmptk=&amp;quot;Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        &amp;quot;&amp;gt; &amp;lt;rdf:RDF xmlns:rdf=&amp;quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;quot;&amp;gt; &amp;lt;rdf:Description rdf:about=&amp;quot;&amp;quot; xmlns:xmpMM=&amp;quot;http://ns.adobe.com/xap/1.0/mm/&amp;quot; xmlns:stRef=&amp;quot;http://ns.adobe.com/xap/1.0/sType/ResourceRef#&amp;quot; xmlns:xmp=&amp;quot;http://ns.adobe.com/xap/1.0/&amp;quot; xmpMM:OriginalDocumentID=&amp;quot;xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d&amp;quot; xmpMM:DocumentID=&amp;quot;xmp.did:8ADAC8F1263211E893689058BAA7FB53&amp;quot; xmpMM:InstanceID=&amp;quot;xmp.iid:8ADAC8F0263211E893689058BAA7FB53&amp;quot; xmp:CreatorTool=&amp;quot;Adobe Photoshop CC (Macintosh)&amp;quot;&amp;gt; &amp;lt;xmpMM:DerivedFrom stRef:instanceID=&amp;quot;xmp.iid:06d8dc44-d193-4ce0-b06b-683596d4f0cc&amp;quot; stRef:documentID=&amp;quot;adobe:docid:photoshop:020fd75c-82df-9943-9d51-f8b88d44037d&amp;quot;/&amp;gt; &amp;lt;/rdf:Description&amp;gt; &amp;lt;/rdf:RDF&amp;gt; &amp;lt;/x:xmpmeta&amp;gt; &amp;lt;?xpacket end=&amp;quot;r&amp;quot;?&amp;gt;&amp;#xA;&quot;&#xa;   ns1:Physicalwidthindpi=&quot;-1&quot;&#xa;   ns1:Physicalheightindpi=&quot;-1&quot;&#xa;   ns1:Numberofimages=&quot;1&quot;&#xa;   ns1:Numberoftextualcomments=&quot;2&quot;&#xa;   ns1:sha1=&quot;09a2e47d7fa07e3cf2c56f5671cf7a65468a8e73&quot;&#xa;   ns1:size=&quot;3619157&quot;&#xa;   tiff:ImageLength=&quot;3840&quot;&#xa;   tiff:ImageWidth=&quot;3840&quot;&#xa;   xmp:CreatorTool=&quot;Adobe Photoshop CC (Macintosh)&quot;&#xa;   dc:format=&quot;image/png&quot;&#xa;   dc:modified=&quot;2018-11-21T14:41:36.670+11:00&quot;&#xa;   xmpMM:DocumentID=&quot;xmp.did:8ADAC8F1263211E893689058BAA7FB53&quot;&#xa;   xmpMM:OriginalDocumentID=&quot;xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d&quot;&#xa;   xmpMM:InstanceID=&quot;xmp.iid:8ADAC8F0263211E893689058BAA7FB53&quot;>&#xa;   &lt;xmpMM:DerivedFrom&#xa;    stRef:instanceID=&quot;xmp.iid:06d8dc44-d193-4ce0-b06b-683596d4f0cc&quot;&#xa;    stRef:documentID=&quot;adobe:docid:photoshop:020fd75c-82df-9943-9d51-f8b88d44037d&quot;/>&#xa;  &lt;/rdf:Description>&#xa; &lt;/rdf:RDF>&#xa;&lt;/x:xmpmeta>&#xa;&lt;?xpacket end=&quot;r&quot;?>&#xa;"
-            dam:extracted="{Date}2018-11-21T14:43:27.523+11:00"
+            dam:Comments="Software: Adobe ImageReady&#xa;XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?> &lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        &quot;> &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;> &lt;rdf:Description rdf:about=&quot;&quot; xmlns:xmpMM=&quot;http://ns.adobe.com/xap/1.0/mm/&quot; xmlns:stRef=&quot;http://ns.adobe.com/xap/1.0/sType/ResourceRef#&quot; xmlns:xmp=&quot;http://ns.adobe.com/xap/1.0/&quot; xmpMM:OriginalDocumentID=&quot;xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d&quot; xmpMM:DocumentID=&quot;xmp.did:8ADAC8F1263211E893689058BAA7FB53&quot; xmpMM:InstanceID=&quot;xmp.iid:8ADAC8F0263211E893689058BAA7FB53&quot; xmp:CreatorTool=&quot;Adobe Photoshop CC (Macintosh)&quot;> &lt;xmpMM:DerivedFrom stRef:instanceID=&quot;xmp.iid:06d8dc44-d193-4ce0-b06b-683596d4f0cc&quot; stRef:documentID=&quot;adobe:docid:photoshop:020fd75c-82df-9943-9d51-f8b88d44037d&quot;/> &lt;/rdf:Description> &lt;/rdf:RDF> &lt;/x:xmpmeta> &lt;?xpacket end=&quot;r&quot;?>&#xa;"
+            dam:extracted="{Date}2018-10-15T19:56:56.884+05:30"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -30,24 +22,9 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
-            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
-            dam:scene7CompanyID="c|210268"
-            dam:scene7Domain="http://s7d2.scene7.com/"
-            dam:scene7File="DynamicMediaNA/fridge-534L-Opened"
-            dam:scene7FileStatus="PublishComplete"
-            dam:scene7Folder="DynamicMediaNA/fishers/images/fridges/"
-            dam:scene7ID="a|645878498"
-            dam:scene7LastModified="{Long}1542771832420"
-            dam:scene7Name="fridge-534L-Opened"
-            dam:scene7Type="Image"
-            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:43:59.542+11:00"
-            dam:sha1="acc84de90391b34e2d0bffece63f7d5b61025fc7"
-            dam:size="{Long}3621046"
+            dam:sha1="09a2e47d7fa07e3cf2c56f5671cf7a65468a8e73"
+            dam:size="{Long}3619157"
             dc:format="image/png"
-            dc:modified="{Date}2018-11-21T14:41:36.670+11:00"
-            jcr:lastModified="{Date}2018-11-21T14:41:36.670+11:00"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}3840"
@@ -55,169 +32,12 @@
             xmp:CreatorTool="Adobe Photoshop CC (Macintosh)"
             xmpMM:DocumentID="xmp.did:8ADAC8F1263211E893689058BAA7FB53"
             xmpMM:InstanceID="xmp.iid:8ADAC8F0263211E893689058BAA7FB53"
-            xmpMM:OriginalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d"
-            lastTransferredForTagging="{Date}2018-11-21T14:44:11.692+11:00"
-            simsearchVersion="1.0.0">
+            xmpMM:OriginalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d">
             <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
                 stRef:documentID="adobe:docid:photoshop:020fd75c-82df-9943-9d51-f8b88d44037d"
                 stRef:instanceID="xmp.iid:06d8dc44-d193-4ce0-b06b-683596d4f0cc"
                 xmpNodeType="xmpStruct"/>
-            <predictedTags jcr:primaryType="nt:unstructured">
-                <kitchen
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.689+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7430962324142456"
-                    isCustom="{Boolean}false"
-                    name="kitchen"/>
-                <refrigerator
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.689+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7234277725219727"
-                    isCustom="{Boolean}false"
-                    name="refrigerator"/>
-                <fridge
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.689+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7017873525619507"
-                    isCustom="{Boolean}false"
-                    name="fridge"/>
-                <white
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.689+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.678665041923523"
-                    isCustom="{Boolean}false"
-                    name="white"/>
-                <food
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.689+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6653342843055725"
-                    isCustom="{Boolean}false"
-                    name="food"/>
-                <appliance
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.689+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6279842853546143"
-                    isCustom="{Boolean}false"
-                    name="appliance"/>
-                <nutrition
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.689+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6246259808540344"
-                    isCustom="{Boolean}false"
-                    name="nutrition"/>
-                <interior
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.689+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6223992109298706"
-                    isCustom="{Boolean}false"
-                    name="interior"/>
-                <cold
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.690+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6137941479682922"
-                    isCustom="{Boolean}false"
-                    name="cold"/>
-                <freezer
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.690+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.611946702003479"
-                    isCustom="{Boolean}false"
-                    name="freezer"/>
-                <modern
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.690+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6091843247413635"
-                    isCustom="{Boolean}false"
-                    name="modern"/>
-                <healthy
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.690+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5986505746841431"
-                    isCustom="{Boolean}false"
-                    name="healthy"/>
-                <fruit
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.690+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5979083776473999"
-                    isCustom="{Boolean}false"
-                    name="fruit"/>
-                <diet
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.690+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5978241562843323"
-                    isCustom="{Boolean}false"
-                    name="diet"/>
-                <eat
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.691+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5955229997634888"
-                    isCustom="{Boolean}false"
-                    name="eat"/>
-                <design
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.691+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5928460359573364"
-                    isCustom="{Boolean}false"
-                    name="design"/>
-                <home
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.691+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5800976753234863"
-                    isCustom="{Boolean}false"
-                    name="home"/>
-                <cooking
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.691+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5784927606582642"
-                    isCustom="{Boolean}false"
-                    name="cooking"/>
-                <house
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.691+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5779616236686707"
-                    isCustom="{Boolean}false"
-                    name="house"/>
-                <vector
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.691+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5758302211761475"
-                    isCustom="{Boolean}false"
-                    name="vector"/>
-                <eating
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.691+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5744738578796387"
-                    isCustom="{Boolean}false"
-                    name="eating"/>
-                <loss
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.692+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5719258785247803"
-                    isCustom="{Boolean}false"
-                    name="loss"/>
-                <green
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.692+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5684183835983276"
-                    isCustom="{Boolean}false"
-                    name="green"/>
-                <lose
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.692+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5656887292861938"
-                    isCustom="{Boolean}false"
-                    name="lose"/>
-                <clean
-                    jcr:lastModified="{Date}2018-11-21T14:44:11.692+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.5647823810577393"
-                    isCustom="{Boolean}false"
-                    name="clean"/>
-            </predictedTags>
-            <imageFeatures
-                jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

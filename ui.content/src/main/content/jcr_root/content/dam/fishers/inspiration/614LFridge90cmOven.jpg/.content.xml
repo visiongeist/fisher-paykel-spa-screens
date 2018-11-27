@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:isCheckedOut="{Boolean}true"
-    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="7a958283-0999-4ca0-af49-48b8f9e2aee6">
     <jcr:content
-        cq:lastReplicated="{Date}2018-11-21T14:46:17.216+11:00"
-        cq:lastReplicatedBy="workflow-process-service"
-        cq:name="614LFridge90cmOven.jpg"
-        cq:parentPath="/content/dam/fishers/inspiration"
         dam:assetState="processed"
-        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/inspiration/614LFridge90cmOven.jpg"
-        dam:s7damType="Image"
-        jcr:lastModified="{Date}2018-11-23T14:10:59.621+11:00"
+        jcr:lastModified="{Date}2018-10-16T10:25:19.917+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:tags="[fishers:Cool/Freezers/534L,fishers:Cook/ovens/90cm9function]"
+            cq:tags="[fishers:Cool/Freezers/614L,fishers:Cook/ovens/90cm9function]"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-11-21T14:46:17.189+11:00"
+            dam:extracted="{Date}2018-10-16T10:25:19.668+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -29,186 +22,14 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}19.44444465637207"
             dam:Progressive="no"
-            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
-            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
-            dam:scene7CompanyID="c|210268"
-            dam:scene7Domain="http://s7d2.scene7.com/"
-            dam:scene7File="DynamicMediaNA/614LFridge90cmOven"
-            dam:scene7FileStatus="PublishComplete"
-            dam:scene7Folder="DynamicMediaNA/fishers/inspiration/"
-            dam:scene7ID="a|643579398"
-            dam:scene7LastModified="{Long}1542771983356"
-            dam:scene7Name="614LFridge90cmOven"
-            dam:scene7Type="Image"
-            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:46:24.963+11:00"
-            dam:sha1="2cbd1f03272e316b71dc3a5d6166b91f431e7411"
-            dam:size="{Long}464237"
+            dam:sha1="23e0ffd746116f2c6d0b8273709e867de18b1fdf"
+            dam:size="{Long}461043"
             dc:format="image/jpeg"
-            dc:modified="{Date}2018-11-21T14:45:10.848+11:00"
-            jcr:lastModified="{Date}2018-11-23T14:10:59.523+11:00"
-            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}788"
-            tiff:ImageWidth="{Long}1400"
-            lastTransferredForTagging="{Date}2018-11-21T14:46:30.893+11:00"
-            simsearchVersion="1.0.0">
+            tiff:ImageWidth="{Long}1400">
             <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
-            <predictedTags jcr:primaryType="nt:unstructured">
-                <interior
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.889+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.8391721248626709"
-                    isCustom="{Boolean}false"
-                    name="interior"/>
-                <home
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.890+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7856537103652954"
-                    isCustom="{Boolean}false"
-                    name="home"/>
-                <architecture
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.890+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7713868618011475"
-                    isCustom="{Boolean}false"
-                    name="architecture"/>
-                <design
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.890+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7637149691581726"
-                    isCustom="{Boolean}false"
-                    name="design"/>
-                <modern
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.890+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7567733526229858"
-                    isCustom="{Boolean}false"
-                    name="modern"/>
-                <house
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.890+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7561663389205933"
-                    isCustom="{Boolean}false"
-                    name="house"/>
-                <room
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.890+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7418073415756226"
-                    isCustom="{Boolean}false"
-                    name="room"/>
-                <white
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.890+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7314879894256592"
-                    isCustom="{Boolean}false"
-                    name="white"/>
-                <bathroom
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.890+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.7197957634925842"
-                    isCustom="{Boolean}false"
-                    name="bathroom"/>
-                <floor
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.891+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6939693689346313"
-                    isCustom="{Boolean}false"
-                    name="floor"/>
-                <furniture
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.891+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.691921055316925"
-                    isCustom="{Boolean}false"
-                    name="furniture"/>
-                <luxury
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.891+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6818071603775024"
-                    isCustom="{Boolean}false"
-                    name="luxury"/>
-                <window
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.891+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6785012483596802"
-                    isCustom="{Boolean}false"
-                    name="window"/>
-                <apartment
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.891+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6780726909637451"
-                    isCustom="{Boolean}false"
-                    name="apartment"/>
-                <light
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.891+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6717156171798706"
-                    isCustom="{Boolean}false"
-                    name="light"/>
-                <empty
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.891+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6607887744903564"
-                    isCustom="{Boolean}false"
-                    name="empty"/>
-                <nobody
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.891+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6582156419754028"
-                    isCustom="{Boolean}false"
-                    name="nobody"/>
-                <bright
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.892+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6560908555984497"
-                    isCustom="{Boolean}false"
-                    name="bright"/>
-                <bedroom
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.892+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6420596837997437"
-                    isCustom="{Boolean}false"
-                    name="bedroom"/>
-                <beautiful
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.892+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6284345388412476"
-                    isCustom="{Boolean}false"
-                    name="beautiful"/>
-                <bed
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.892+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6269570589065552"
-                    isCustom="{Boolean}false"
-                    name="bed"/>
-                <contemporary
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.892+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6219882369041443"
-                    isCustom="{Boolean}false"
-                    name="contemporary"/>
-                <_x0033_d
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.892+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6218417286872864"
-                    isCustom="{Boolean}false"
-                    name="3d"/>
-                <indoor
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.892+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6203139424324036"
-                    isCustom="{Boolean}false"
-                    name="indoor"/>
-                <door
-                    jcr:lastModified="{Date}2018-11-21T14:46:30.892+11:00"
-                    jcr:primaryType="nt:unstructured"
-                    confidence="{Double}0.6128557324409485"
-                    isCustom="{Boolean}false"
-                    name="door"/>
-            </predictedTags>
-            <imageFeatures
-                jcr:primaryType="nt:unstructured"
-                haystack0="{Binary}"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
