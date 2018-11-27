@@ -6,10 +6,10 @@ class Tile extends Component {
     render() {
         return (
             <div className="row tile" onClick={this.props.onClick}>
-                <div className="col-6 col-lg-6 col-md-6 pictureSegment">
+                <div className="pictureSegment">
                     <img src={this.props.imagePath} alt={this.props.imageDesc}/>
                 </div>
-                <div className="col-6 col-lg-6 col-md-6  textSegment">{this.props.children}</div>
+                <div className="textSegment">{this.props.children}</div>
             </div>
         );
     }

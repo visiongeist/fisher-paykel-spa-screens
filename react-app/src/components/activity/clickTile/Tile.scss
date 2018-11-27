@@ -1,17 +1,27 @@
 @import '../../../styles/shared';
+
 .tile {
     margin: 1px;
     width: 100%;
     background-color: $color-pure-black;
     display: inline-flex;
     .pictureSegment {
-        width: 40%;
-        img {
-            width: auto;
-            height: 100%;
-            max-width: 100%;       
+        @media screen and (orientation:portrait){
+            width: fit-content;
+            img {
+                width: 30vw;
+                height: 100%;
+            }
         }
+        @media screen and (orientation:landscape) {
+            img {
+                width: auto;
+                height: 100%;
+            }
+        }
+        
     }
+    
     .textSegment {
         color: white;
         font-weight: normal;
