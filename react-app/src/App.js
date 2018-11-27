@@ -1,8 +1,10 @@
 import React from 'react';
 import { Page, withModel } from '@adobe/cq-react-editable-components';
 import { Redirect } from 'react-router';
-import Tile from './components/activity/clickTile/Tile.jsx';
 import Activity from './components/activity/Activity.jsx';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.scss";
+import "slick-carousel/slick/slick-theme.scss";
 
 
 /**
@@ -51,16 +53,38 @@ class App extends Page {
     }
 
     render() {
+        const settings = {
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        };
         return (
             <div className="App">
                 <Activity>
-                    <Tile imageDesc="this is alt text" imagePath="/cook-2.jpeg" onClick={() => console.log("navigating to f&p")}>
-                        <h1>Fisher & Paykel</h1>
-                    </Tile>
-                    <Tile imageDesc="this is alt text" imagePath="/grill-1.jpeg" onClick={() => console.log("navigating to DCS")}>
-                        <h1>DCS</h1>
-                    </Tile>
+                    <Slider {... settings}>
+                        <div>
+                            <h3>1</h3>
+                        </div>
+                        <div>
+                            <h3>2</h3>
+                        </div>
+                        <div>
+                            <h3>3</h3>
+                        </div>
+                        <div>
+                            <h3>4</h3>
+                        </div>
+                        <div>
+                            <h3>5</h3>
+                        </div>
+                        <div>
+                            <h3>6</h3>
+                        </div>
+                    </Slider>
                 </Activity>
+
             </div>
         );
     }
