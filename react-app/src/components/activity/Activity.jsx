@@ -3,20 +3,18 @@ import React, { Component } from 'react';
 class Activity extends Component {
     constructor(props) {
         super(props);
+        let tileHeight = this.props.viewHeight / this.props.children.length;
         this.state = {
-            tileHeight: this.props.viewHeight / this.props.children.length
+            newChildren: this.props.children.map((item, i) => {
+                return  React.cloneElement(item, {height: `${tileHeight}vh`, key: i});
+            })
         }
     }
 
     render() {
-        let newChildren = this.props.children.map((item, i) => {
-            let elem = React.cloneElement(item, {height: `${this.state.tileHeight}vh`, key: i});
-            console.log(elem.props.height);
-            return elem;
-        });
         return(
             <div className="activity">
-                {newChildren}
+                {this.state.newChildren}
             </div>
         );
     }

@@ -60,12 +60,6 @@ class App extends Page {
                     <Tile imageDesc="this is alt text" imagePath="/grill-1.jpeg" onClick={() => console.log("navigating to DCS")}>
                         <h1>DCS</h1>
                     </Tile>
-                    <Tile imageDesc="this is alt text" imagePath="/grill-1.jpeg" onClick={() => console.log("navigating to DCS")}>
-                        <h1>DCS</h1>
-                    </Tile>
-                    <Tile imageDesc="this is alt text" imagePath="/grill-1.jpeg" onClick={() => console.log("navigating to DCS")}>
-                        <h1>DCS</h1>
-                    </Tile>
                 </Activity>
             </div>
         );
