@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+	~ Copyright 2017 Adobe Systems Incorporated ~ ~ Licensed under the Apache 
+	License, Version 2.0 (the "License"); ~ you may not use this file except 
+	in compliance with the License. ~ You may obtain a copy of the License at 
+	~ ~ http://www.apache.org/licenses/LICENSE-2.0 ~ ~ Unless required by applicable 
+	law or agreed to in writing, software ~ distributed under the License is 
+	distributed on an "AS IS" BASIS, ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY 
+	KIND, either express or implied. ~ See the License for the specific language 
+	governing permissions and ~ limitations under the License. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+	xmlns:jcr="http://www.jcp.org/jcr/1.0"
+	xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+	xmlns:cq="http://www.day.com/jcr/cq/1.0"
+	xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
+	jcr:primaryType="nt:unstructured" jcr:title="Filter"
+	sling:resourceType="cq/gui/components/authoring/dialog"
+	extraClientlibs="[core.wcm.components.list.v2.editor]"
+	helpPath="https://www.adobe.com/go/aem_cmp_list_v2">
+	<content granite:class="cmp-filter__editor"
+		jcr:primaryType="nt:unstructured"
+		sling:resourceType="granite/ui/components/coral/foundation/container">
+		<items jcr:primaryType="nt:unstructured">
+			<tabs jcr:primaryType="nt:unstructured"
+				sling:resourceType="granite/ui/components/coral/foundation/tabs"
+				maximized="{Boolean}true">
+				<items jcr:primaryType="nt:unstructured">
+					<listSettings jcr:primaryType="nt:unstructured"
+						jcr:title="Filter Settings"
+						sling:resourceType="granite/ui/components/coral/foundation/container"
+						margin="{Boolean}true">
+						<items jcr:primaryType="nt:unstructured">
+							<columns jcr:primaryType="nt:unstructured"
+								sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+								margin="{Boolean}true">
+								<items jcr:primaryType="nt:unstructured">
+									<column jcr:primaryType="nt:unstructured"
+										sling:resourceType="granite/ui/components/coral/foundation/container">
+										<items jcr:primaryType="nt:unstructured">
+											<filterBy jcr:primaryType="nt:unstructured"
+												sling:resourceType="granite/ui/components/coral/foundation/form/select"
+												fieldLabel="Filter By" name="./filterBy">
+												<items jcr:primaryType="nt:unstructured">
+													<page jcr:primaryType="nt:unstructured" text="Height"
+														value="height" />
+													<category jcr:primaryType="nt:unstructured"
+														text="Width" value="width" />
+													<product jcr:primaryType="nt:unstructured"
+														text="Depth" value="depth" />
+												</items>
+											</filterBy>
+											<filterValues jcr:primaryType="nt:unstructured"
+												sling:resourceType="granite/ui/components/foundation/form/multifield"
+												class="full-width" fieldDescription="Add Filter Values"
+												fieldLabel="Filter Values">
+												<field jcr:primaryType="nt:unstructured"
+													sling:resourceType="granite/ui/components/foundation/form/fieldset"
+													name="./filterValues">
+													<items jcr:primaryType="nt:unstructured">
+														<column jcr:primaryType="nt:unstructured"
+															sling:resourceType="granite/ui/components/foundation/container">
+															<items jcr:primaryType="nt:unstructured">
+																<title jcr:primaryType="nt:unstructured"
+																	sling:resourceType="granite/ui/components/foundation/form/textfield"
+																	fieldDescription="Enter Value" fieldLabel="Value"
+																	name="./value" />
+															</items>
+														</column>
+													</items>
+												</field>
+											</filterValues>
+										</items>
+									</column>
+								</items>
+							</columns>
+						</items>
+					</listSettings>
+				</items>
+			</tabs>
+		</items>
+	</content>
+</jcr:root>
