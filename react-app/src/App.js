@@ -2,9 +2,9 @@ import React from 'react';
 import { Page, withModel } from '@adobe/cq-react-editable-components';
 import { Redirect } from 'react-router';
 import Activity from './components/activity/Activity.jsx';
-import Slider from 'react-slick';
 import "slick-carousel/slick/slick.scss";
 import "slick-carousel/slick/slick-theme.scss";
+import Carousel from './components/carousel/Carousel.jsx';
 
 
 /**
@@ -53,36 +53,10 @@ class App extends Page {
     }
 
     render() {
-        const settings = {
-            dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 1,
-            slidesToScroll: 1
-        };
         return (
             <div className="App">
                 <Activity>
-                    <Slider {... settings}>
-                        <div>
-                            <h3>1</h3>
-                        </div>
-                        <div>
-                            <h3>2</h3>
-                        </div>
-                        <div>
-                            <h3>3</h3>
-                        </div>
-                        <div>
-                            <h3>4</h3>
-                        </div>
-                        <div>
-                            <h3>5</h3>
-                        </div>
-                        <div>
-                            <h3>6</h3>
-                        </div>
-                    </Slider>
+                    <Carousel />
                 </Activity>
 
             </div>
