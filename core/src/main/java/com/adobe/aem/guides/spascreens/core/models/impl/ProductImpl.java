@@ -1,6 +1,7 @@
 package com.adobe.aem.guides.spascreens.core.models.impl;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import javax.annotation.PostConstruct;
@@ -19,6 +20,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
+import org.apache.sling.api.resource.ValueMap;
 import org.apache.sling.models.annotations.Default;
 import org.apache.sling.models.annotations.Exporter;
 import org.apache.sling.models.annotations.Model;
@@ -31,12 +33,13 @@ import org.slf4j.LoggerFactory;
 import com.adobe.aem.guides.spascreens.core.commerce.ProductFilter;
 import com.adobe.aem.guides.spascreens.core.models.Product;
 import com.adobe.aem.guides.spascreens.core.models.ProductFeature;
+import com.adobe.aem.guides.spascreens.core.models.ImageMaps;
 import com.adobe.aem.guides.spascreens.core.models.ProductInspiration;
 import com.adobe.cq.export.json.ComponentExporter;
 import com.adobe.cq.export.json.ExporterConstants;
-import com.day.cq.commons.ImageResource;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
+import com.day.cq.wcm.foundation.Image;
 
 @Model(adaptables = {Resource.class, SlingHttpServletRequest.class}, adapters = {Product.class, ComponentExporter.class}, resourceType = ProductImpl.RESOURCE_TYPE)
 @Exporter(name = ExporterConstants.SLING_MODEL_EXPORTER_NAME, extensions = ExporterConstants.SLING_MODEL_EXTENSION)
@@ -232,8 +235,26 @@ public class ProductImpl implements Product {
 		Resource featureRes = featuresList.get(0);
 		ProductFeature feature = new ProductFeatureImpl(featureRes.getValueMap());
 		String imageUrl = feature != null ? feature.getImagePath() : null;
-
 		return imageUrl;
+	}
+	
+	@Override
+	public List<ImageMaps> getImageMaps() {
+		List<ImageMaps> imageMaps = new ArrayList<>();
+		List<Resource> featuresList = product.getAssets();
+		Resource featureRes = featuresList.get(0);
+		ProductFeature feature = new ProductFeatureImpl(featureRes.getValueMap());
+		String imageUrl = feature != null ? feature.getImagePath() : "";
+        Resource assetResource = resourceResolver.getResource(imageUrl + "/jcr:content/metadata");
+        ValueMap metadata = assetResource.adaptTo(ValueMap.class);
+        String imageMap =  (metadata != null) ? metadata.get(Image.PN_IMAGE_MAP, "") : "";
+        imageMap = imageMap.replaceAll("^\\[|\\]$","");
+        List<String> imageMapItems = Arrays.asList(imageMap.split("\\]\\["));
+		for(String imgMap: imageMapItems) {
+				ImageMaps imgMaps = new ImageMapsImpl(imgMap);
+				imageMaps.add(imgMaps);
+		}
+		return imageMaps;
 	}
 
 	@Override
