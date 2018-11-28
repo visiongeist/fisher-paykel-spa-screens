@@ -14,9 +14,7 @@
 	xmlns:cq="http://www.day.com/jcr/cq/1.0"
 	xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
 	jcr:primaryType="nt:unstructured" jcr:title="Filter"
-	sling:resourceType="cq/gui/components/authoring/dialog"
-	extraClientlibs="[core.wcm.components.list.v2.editor]"
-	helpPath="https://www.adobe.com/go/aem_cmp_list_v2">
+	sling:resourceType="cq/gui/components/authoring/dialog">
 	<content granite:class="cmp-filter__editor"
 		jcr:primaryType="nt:unstructured"
 		sling:resourceType="granite/ui/components/coral/foundation/container">
@@ -51,23 +49,10 @@
 											</filterBy>
 											<filterValues jcr:primaryType="nt:unstructured"
 												sling:resourceType="granite/ui/components/foundation/form/multifield"
-												class="full-width" fieldDescription="Add Filter Values"
 												fieldLabel="Filter Values">
 												<field jcr:primaryType="nt:unstructured"
-													sling:resourceType="granite/ui/components/foundation/form/fieldset"
-													name="./filterValues">
-													<items jcr:primaryType="nt:unstructured">
-														<column jcr:primaryType="nt:unstructured"
-															sling:resourceType="granite/ui/components/foundation/container">
-															<items jcr:primaryType="nt:unstructured">
-																<title jcr:primaryType="nt:unstructured"
-																	sling:resourceType="granite/ui/components/foundation/form/textfield"
-																	fieldDescription="Enter Value" fieldLabel="Value"
-																	name="./value" />
-															</items>
-														</column>
-													</items>
-												</field>
+													sling:resourceType="granite/ui/components/foundation/form/textfield"
+													name="./value" />
 											</filterValues>
 										</items>
 									</column>
