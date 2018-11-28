@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-11-26T11:48:40.295+11:00"
+        cq:lastModified="{Date}2018-11-28T12:35:51.065+11:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/spa-screens/settings/wcm/templates/spa-screens-page-template"
         jcr:isCheckedOut="{Boolean}true"
@@ -22,41 +22,6 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
-                <responsivegrid
-                    jcr:created="{Date}2018-10-12T13:49:28.574-04:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2018-10-12T13:49:28.574-04:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            width="8"/>
-                        <tablet
-                            jcr:primaryType="nt:unstructured"
-                            width="12"/>
-                        <phone
-                            jcr:primaryType="nt:unstructured"
-                            width="12"/>
-                    </cq:responsive>
-                    <list
-                        jcr:created="{Date}2018-10-14T10:17:40.142-04:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-10-14T10:55:25.767-04:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="spa-screens/components/content/list"
-                        childDepth="1"
-                        linkItems="false"
-                        listFrom="children"
-                        parentPage="/content/spa-screens/react/home/fisher-paykel/cool"
-                        renderType="CategoryView"
-                        showDescription="false"
-                        showModificationDate="false"
-                        sortOrder="asc"
-                        tagsMatch="any"/>
-                </responsivegrid>
                 <navigation
                     jcr:created="{Date}2018-01-29T11:12:04.131+01:00"
                     jcr:createdBy="admin"
@@ -68,6 +33,22 @@
                     navigationRoot="/content/spa-screens/react/home/fisher-paykel"
                     skipNavigationRoot="true"
                     structureDepth="1"/>
+                <list
+                    jcr:created="{Date}2018-10-14T10:17:40.142-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-10-14T10:55:25.767-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="spa-screens/components/content/list"
+                    childDepth="1"
+                    linkItems="false"
+                    listFrom="children"
+                    parentPage="/content/spa-screens/react/home/fisher-paykel/cool"
+                    renderType="CategoryView"
+                    showDescription="false"
+                    showModificationDate="false"
+                    sortOrder="asc"
+                    tagsMatch="any"/>
             </responsivegrid>
         </root>
     </jcr:content>
