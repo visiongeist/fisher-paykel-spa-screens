@@ -38,6 +38,19 @@ function canRedirectHome(modelUrl, pathname) {
 
 // This component is the application entry point
 class App extends Page {
+    constructor(props) {
+        super(props);
+        this.state = {
+            tiles: [
+                <Tile imageDesc="this is alt text" imagePath="/cook-2.jpeg" onClick={() => this.addTile()}>
+                    <h1>Fisher & Paykel</h1>
+                </Tile>,
+                <Tile imageDesc="this is alt text" imagePath="/grill-1.jpeg" onClick={() => this.addTile()}>
+                    <h1>DCS</h1>
+                </Tile>
+            ]
+        };
+    }
 
     get redirect() {
         const modelRootPath = this.props.cqPath;
@@ -50,16 +63,19 @@ class App extends Page {
         return null;
     }
 
+    addTile() {
+        let demoTiles = this.state.tiles.slice();
+        demoTiles.push(<Tile imageDesc="this is alt text" imagePath="/cook-2.jpeg" onClick={() => this.addTile()}>
+            <h1>New Tile</h1>
+        </Tile>)
+        this.setState({tiles: demoTiles});
+    }
+
     render() {
         return (
             <div className="App">
                 <Activity>
-                    <Tile imageDesc="this is alt text" imagePath="/cook-2.jpeg" onClick={() => console.log("navigating to f&p")}>
-                        <h1>Fisher & Paykel</h1>
-                    </Tile>
-                    <Tile imageDesc="this is alt text" imagePath="/grill-1.jpeg" onClick={() => console.log("navigating to DCS")}>
-                        <h1>DCS</h1>
-                    </Tile>
+                    {this.state.tiles}
                 </Activity>
             </div>
         );
