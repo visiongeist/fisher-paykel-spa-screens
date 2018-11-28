@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { withRouter } from 'react-router';
 import './Tile.scss';
 
 class Tile extends Component {
@@ -15,4 +14,4 @@ class Tile extends Component {
     }
 }
 
-export default withRouter(Tile); 
+export default Tile;
