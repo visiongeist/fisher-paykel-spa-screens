@@ -1,9 +1,6 @@
 package com.adobe.aem.guides.spascreens.core.models;
 
-import java.util.List;
-
 import org.osgi.annotation.versioning.ConsumerType;
-
 
 import com.adobe.cq.export.json.ComponentExporter;
 
