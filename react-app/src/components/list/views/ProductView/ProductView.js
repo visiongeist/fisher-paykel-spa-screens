@@ -16,16 +16,20 @@ class ProductView extends Component {
     }
 
     render() {
-        if(!this.props.path || !this.props.title || !this.props.url) {
+    	if(!this.props.items) {
             return null;
         }
         return (
-            <li className="ProductItem">
-                <Link className="ProductItem-link" to={this.props.url}>{this.props.title}
-                    <span className="ListItem-date">{this.date}</span>
-                </Link>
-            </li>
-        );
+        	<div className={this.props.listClass}>
+        	{ this.props.items && this.props.items.map((listItem, index) => {
+        		return (<li key={listItem.path} className="ProductItem">
+	                <Link className="ProductItem-link" to={listItem.url}>{listItem.title}
+	                    <span className="ProductItem-date">{this.date}</span>
+	                </Link>
+	            </li>);
+            })}
+        	</div>
+       )
     }
 }
 

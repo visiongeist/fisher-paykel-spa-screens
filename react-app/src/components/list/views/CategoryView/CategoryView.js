@@ -16,16 +16,21 @@ class CategoryView extends Component {
     }
 
     render() {
-        if(!this.props.path || !this.props.title || !this.props.url) {
+    	if(!this.props.items) {
             return null;
         }
         return (
-            <li className="CategoryItem">
-                <Link className="CategoryItem-link" to={this.props.url}>{this.props.title}
-                    <span className="CategoryItem-date">{this.date}</span>
-                </Link>
-            </li>
-        );
+        	<div className={this.props.listClass}>
+        	{ this.props.items && this.props.items.map((listItem, index) => {
+        		return (<li key={listItem.path} className="CategoryItem">
+	                <Link className="CategoryItem-link" to={listItem.url}>{listItem.title}
+	                    <span className="CategoryItem-date">{this.date}</span>
+	                </Link>
+	            </li>);
+            })}
+        	</div>
+       )
+            
     }
 }
 

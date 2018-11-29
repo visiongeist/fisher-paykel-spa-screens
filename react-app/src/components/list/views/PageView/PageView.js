@@ -16,17 +16,21 @@ class PageView extends Component {
 	    }
 
 	    render() {
-	        if(!this.props.path || !this.props.title || !this.props.url) {
+	        if(!this.props.items) {
 	            return null;
 	        }
 	        return (
-	            <Link className="PageItem" to={this.props.url}>
-	                <div className="pictureSegment">
-		                <img src={this.props.image} alt={this.props.description}/>
-		            </div>
-		            <div className="textSegment">{this.props.title}</div>
-	            </Link>
-	        );
+	        	<div className={this.props.listClass}>
+	        	{ this.props.items && this.props.items.map((listItem, index) => {
+	    			return (<Link key={listItem.path} className="PageItem" to={listItem.url}>
+		                <div className="pictureSegment">
+			                <img src={listItem.image} alt={listItem.description}/>
+			            </div>
+			            <div className="textSegment">{listItem.title}</div>
+		            </Link>);
+                })}
+	        	</div>
+           )
 	    }
 }
 

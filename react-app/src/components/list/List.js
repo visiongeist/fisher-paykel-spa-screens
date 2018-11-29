@@ -21,25 +21,19 @@ const ListEditConfig = {
 export default class List extends Component {
     render() {
     	
-    	let ListItem = PageView;
+    	let ListView = PageView;
     	let listClass = "List PageList";
     	if(this.props.renderType === 'CategoryView') {
-    		ListItem = CategoryView;
+    		ListView = CategoryView;
     		listClass = "List CategoryList";
     	}
     	if(this.props.renderType === 'ProductView') {
-    		ListItem = ProductView;
+    		ListView = ProductView;
     		listClass = "List ProductList";
     	}
     	
         return (
-                <div className={listClass}>
-                    { this.props.items && this.props.items.map((listItem, index) => {
-	                        return <ListItem key={listItem.path} path={listItem.path} url={listItem.url} 
-                                 title={listItem.title} date={listItem.lastModified} image={listItem.image} description={listItem.description} />
-	                        })
-	                   }
-                </div>
+           <ListView items={this.props.items} listClass={this.listClass}/>
         );
     }
 }
