@@ -2,7 +2,14 @@
     background-color: white;
     
 }
-
+.category-view {
+    @media screen and (orientation:portrait) {
+        height: 30vh;
+      }
+    @media screen and (orientation:landscape) {
+        height:100vh;
+    }
+}
 .header {
     width:100%;
     background-color: black;
@@ -16,10 +23,10 @@
 
 .carousel-container {
     padding: 45px;
-    height:30vh;
+    height: 100%;
     background-color: white;
     .carousel {
-        height:100%;
+        height:inherit;
         .slick-list {
             height: inherit;
             .slick-track {
