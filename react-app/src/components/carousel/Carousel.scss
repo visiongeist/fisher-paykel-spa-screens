@@ -3,13 +3,28 @@
     
 }
 
+.header {
+    width:100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    h2 {
+        margin:0;
+        font-weight: normal;
+    }
+}
+
 .carousel-container {
     padding: 45px;
     height:30vh;
+    background-color: white;
     .carousel {
         height:100%;
         .slick-list {
-            height: 100%;
+            height: inherit;
+            .slick-track {
+                height: inherit;
+            }
         }
     }
  }

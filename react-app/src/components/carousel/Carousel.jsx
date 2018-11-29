@@ -16,16 +16,18 @@ class Carousel extends Component{
             // accessibility: true
         };
 
-        let testCards = [];
-        for (let index = 1; index <= 40; index++) {
-            testCards.push(<CarouselCard number={index} />);
-        }
         return (
-            
-            <div className="carousel-container">     
-                <Slider {...settings}>
-                   {testCards}
-                </Slider>
+            <div className="category-view">
+                <div className="header">
+                    <h2>
+                        {this.props.categoryName}
+                    </h2>
+                </div>
+                <div className="carousel-container">     
+                    <Slider {...settings}>
+                    <CarouselCard url="/mmhmm" title="This weird thing" image="/fridges/fridge-373.jpg"/>
+                    </Slider>
+                </div>
             </div>
         );
     }

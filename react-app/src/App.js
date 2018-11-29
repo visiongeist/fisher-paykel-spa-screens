@@ -56,7 +56,7 @@ class App extends Page {
         return (
             <div className="App">
                 <Activity>
-                    <Carousel />
+                    <Carousel categoryName="Counter-Depth Refrigeration" />
                 </Activity>
 
             </div>
