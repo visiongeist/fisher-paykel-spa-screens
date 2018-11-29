@@ -52,7 +52,8 @@ class App extends Page {
     render() {
         return (
             <div className="App">
-                <Header navigationRoot="/content/spa-screens/react/home" />
+            	<Header navigationRoot="/content/spa-screens/react/home" />
+                
                 <EditorContext.Provider value={ Utils.isInEditor() }>
                     { this.redirect }
                     { this.childComponents }

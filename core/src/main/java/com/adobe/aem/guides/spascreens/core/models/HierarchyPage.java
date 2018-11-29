@@ -28,5 +28,8 @@ public interface HierarchyPage extends HierarchyNodeExporter, ContainerExporter 
      
      @JsonProperty("image")
      public String getImage();
+     
+     @JsonProperty("hideHeader")
+     public Boolean getHideHeader();
 
 }

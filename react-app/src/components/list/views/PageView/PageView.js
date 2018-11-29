@@ -20,12 +20,12 @@ class PageView extends Component {
 	            return null;
 	        }
 	        return (
-	            <div className="PageItem" onClick={()=> window.location.replace(this.props.url)}>
+	            <Link className="PageItem" to={this.props.url}>
 	                <div className="pictureSegment">
 		                <img src={this.props.image} alt={this.props.description}/>
 		            </div>
 		            <div className="textSegment">{this.props.title}</div>
-	            </div>
+	            </Link>
 	        );
 	    }
 }

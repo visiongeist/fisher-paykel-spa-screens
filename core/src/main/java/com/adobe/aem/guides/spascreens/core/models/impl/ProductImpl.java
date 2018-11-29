@@ -168,9 +168,11 @@ public class ProductImpl implements Product {
 
 	private void readProperties() {
 		productResource = resourceResolver.getResource(productPath);
-		specifications =  productResource.getValueMap().get(Product.PN_SUMMARY, String.class);
-		page = pageManager.getContainingPage(resource);
-		product = productResource.adaptTo(com.adobe.cq.commerce.api.Product.class);
+		if(productResource != null) {
+			specifications =  productResource.getValueMap().get(Product.PN_SUMMARY, String.class);
+			page = pageManager.getContainingPage(resource);
+			product = productResource.adaptTo(com.adobe.cq.commerce.api.Product.class);
+		}
 	}
 	
 	public String productPagePathRetriever(String prodPath){
@@ -215,7 +217,7 @@ public class ProductImpl implements Product {
 
 	@Override
 	public String getSKU() {
-		return product.getSKU();
+		return product != null ? product.getSKU() : null;
 	}
 
 	@Override
@@ -228,10 +230,14 @@ public class ProductImpl implements Product {
 
 	@Override
 	public String getImage() {
-		List<Resource> featuresList = product.getAssets();
-		Resource featureRes = featuresList.get(0);
-		ProductFeature feature = new ProductFeatureImpl(featureRes.getValueMap());
-		String imageUrl = feature != null ? feature.getImagePath() : null;
+		String imageUrl = "";
+		
+		if(product != null) {
+			List<Resource> featuresList = product.getAssets();
+			Resource featureRes = featuresList.get(0);
+			ProductFeature feature = new ProductFeatureImpl(featureRes.getValueMap());
+			imageUrl = feature != null ? feature.getImagePath() : null;
+		}
 
 		return imageUrl;
 	}
@@ -248,7 +254,7 @@ public class ProductImpl implements Product {
 
 	@Override
 	public List<ProductInspiration> getInspirationAssets() {
-		if(readInspirationAssets) {
+		if(readInspirationAssets && product != null) {
 			try {
 				readInspirationAssets();
 				return inspirationAssets;

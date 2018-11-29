@@ -1,7 +1,6 @@
 @import '../../../../styles/shared';
 
 .PageList {
-    @include component-padding();
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,10 +15,11 @@
 }
 
 .PageItem {
-    margin: 1px;
+    margin: 0.5px;
     width: 100%;
     background-color: $color-pure-black;
     display: inline-flex;
+    text-decoration: none;
     
     .pictureSegment {
         @media screen and (orientation:portrait){
