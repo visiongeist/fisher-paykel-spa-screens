@@ -36,6 +36,8 @@ class Carousel extends Component {
 
                     </Slider>
                 </div>
+                <div className="footer">
+                </div>
             </div>
         );
     }
