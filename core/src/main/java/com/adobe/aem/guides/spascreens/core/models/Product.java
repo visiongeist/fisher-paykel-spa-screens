@@ -23,7 +23,7 @@ public interface Product extends ComponentExporter {
 	
 	public String getImage();
 	
-	public List<ImageMaps> getImageMaps();
+	public List<HotSpot> getHotSpots();
 	
 	public List<ProductFeature> getFeatures();
 	

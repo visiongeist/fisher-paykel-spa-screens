@@ -1,8 +1,8 @@
 package com.adobe.aem.guides.spascreens.core.models;
 
-public interface ImageMaps {
+public interface HotSpot {
 	
-	public String getMapShape();
+	public String getShape();
 	
 	public String getCoordinates();
 	

@@ -33,7 +33,7 @@ import org.slf4j.LoggerFactory;
 import com.adobe.aem.guides.spascreens.core.commerce.ProductFilter;
 import com.adobe.aem.guides.spascreens.core.models.Product;
 import com.adobe.aem.guides.spascreens.core.models.ProductFeature;
-import com.adobe.aem.guides.spascreens.core.models.ImageMaps;
+import com.adobe.aem.guides.spascreens.core.models.HotSpot;
 import com.adobe.aem.guides.spascreens.core.models.ProductInspiration;
 import com.adobe.cq.export.json.ComponentExporter;
 import com.adobe.cq.export.json.ExporterConstants;
@@ -68,6 +68,7 @@ public class ProductImpl implements Product {
 	private List<ProductInspiration> inspirationAssets;
 	private Resource productResource;
 	private String specifications;
+	private List<HotSpot> hotSpots;
 	
 	private Boolean readInspirationAssets = true;
 
@@ -76,6 +77,7 @@ public class ProductImpl implements Product {
 		pageManager = resourceResolver.adaptTo(PageManager.class);
 		readProperties();
 		readFeatures();
+		readHotSpots();
 	}
 
 	private void readInspirationAssets() throws ValueFormatException, PathNotFoundException, RepositoryException {
@@ -176,6 +178,23 @@ public class ProductImpl implements Product {
 		product = productResource.adaptTo(com.adobe.cq.commerce.api.Product.class);
 	}
 	
+	private void readHotSpots() {
+		hotSpots = new ArrayList<>();
+		List<Resource> featuresList = product.getAssets();
+		Resource featureRes = featuresList.get(0);
+		ProductFeature feature = new ProductFeatureImpl(featureRes.getValueMap());
+		String imageUrl = feature != null ? feature.getImagePath() : "";
+        Resource assetResource = resourceResolver.getResource(imageUrl + "/jcr:content/metadata");
+        ValueMap metadata = assetResource.adaptTo(ValueMap.class);
+        String imageMap =  (metadata != null) ? metadata.get(Image.PN_IMAGE_MAP, "") : "";
+        imageMap = imageMap.replaceAll("^\\[|\\]$","");
+        List<String> imageMapItems = Arrays.asList(imageMap.split("\\]\\["));
+		for(String imgMap: imageMapItems) {
+				HotSpot imgMaps = new HotSpotImpl(imgMap);
+				hotSpots.add(imgMaps);
+		}
+	}
+	
 	public String productPagePathRetriever(String prodPath){
 		String pathOfPage = "#";
 		String sqlForImgSearch = "SELECT * FROM [nt:unstructured] AS s WHERE ISDESCENDANTNODE(s, [/content/spa-screens/]) AND s.[productPath] = '"+prodPath+"'";
@@ -239,22 +258,8 @@ public class ProductImpl implements Product {
 	}
 	
 	@Override
-	public List<ImageMaps> getImageMaps() {
-		List<ImageMaps> imageMaps = new ArrayList<>();
-		List<Resource> featuresList = product.getAssets();
-		Resource featureRes = featuresList.get(0);
-		ProductFeature feature = new ProductFeatureImpl(featureRes.getValueMap());
-		String imageUrl = feature != null ? feature.getImagePath() : "";
-        Resource assetResource = resourceResolver.getResource(imageUrl + "/jcr:content/metadata");
-        ValueMap metadata = assetResource.adaptTo(ValueMap.class);
-        String imageMap =  (metadata != null) ? metadata.get(Image.PN_IMAGE_MAP, "") : "";
-        imageMap = imageMap.replaceAll("^\\[|\\]$","");
-        List<String> imageMapItems = Arrays.asList(imageMap.split("\\]\\["));
-		for(String imgMap: imageMapItems) {
-				ImageMaps imgMaps = new ImageMapsImpl(imgMap);
-				imageMaps.add(imgMaps);
-		}
-		return imageMaps;
+	public List<HotSpot> getHotSpots() {
+		return hotSpots;
 	}
 
 	@Override
