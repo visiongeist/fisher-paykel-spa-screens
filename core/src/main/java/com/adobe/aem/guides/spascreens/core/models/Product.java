@@ -26,6 +26,8 @@ public interface Product extends ComponentExporter {
 	
 	public String getImage();
 	
+	public List<HotSpot> getHotSpots();
+	
 	public List<ProductFeature> getFeatures();
 	
 	public List<ProductInspiration> getInspirationAssets();

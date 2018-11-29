@@ -8,3 +8,4 @@ require('./image/Image');
 require('./list/List');
 require('./gmap/Gmap');
 require('./filter/Filter');
+require('./product/Product');
