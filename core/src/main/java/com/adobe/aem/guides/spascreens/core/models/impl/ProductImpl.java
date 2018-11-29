@@ -68,7 +68,7 @@ public class ProductImpl implements Product {
 	private List<ProductInspiration> inspirationAssets;
 	private Resource productResource;
 	private String specifications;
-  private List<HotSpot> hotSpots;
+	private List<HotSpot> hotSpots;
 	private String height;
 	private String width;
 	private String depth;
