@@ -162,14 +162,16 @@ public class ProductImpl implements Product {
 
 	private void readFeatures() {
 		features = new ArrayList<>();
-		List<Resource> featuresList = product.getAssets();
-		boolean isFirst = true;
-		for(Resource featureRes: featuresList) {
-			if(!isFirst) {
-				ProductFeature feature = new ProductFeatureImpl(featureRes.getValueMap());
-				features.add(feature);
-			} else {
-				isFirst = false;
+		if(product != null) {
+			List<Resource> featuresList = product.getAssets();
+			boolean isFirst = true;
+			for(Resource featureRes: featuresList) {
+				if(!isFirst) {
+					ProductFeature feature = new ProductFeatureImpl(featureRes.getValueMap());
+					features.add(feature);
+				} else {
+					isFirst = false;
+				}
 			}
 		}
 	}
