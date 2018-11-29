@@ -14,9 +14,13 @@ export default class CarouselCard extends Component {
         return (
             <Link className="CategoryItem" to={this.props.url}>
                 <div className="carousel-card">
-                    <img src={this.props.image} alt={this.props.title} />
-                    <h4>{this.props.title}</h4>
-                    <h5>{this.props.description}</h5>
+                    <div className="img-container">
+                        <img src={this.props.image} alt={this.props.title} />
+                    </div>
+                    <div className="info-container">
+                        <h4>{this.props.title}</h4>
+                        <h5>{this.props.description}</h5>
+                    </div>
                 </div>
             </Link>
 

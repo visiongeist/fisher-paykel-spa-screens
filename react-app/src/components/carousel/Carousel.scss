@@ -2,6 +2,11 @@
     background-color: white;
     
 }
+
+.slick-dots {
+    margin-bottom: 4vh;
+}
+
 .category-view {
     @media screen and (orientation:portrait) {
         height: 30vh;
@@ -19,19 +24,22 @@
         margin:0;
         font-weight: normal;
     }
+    height: 10vh;
 }
 
 .carousel-container {
-    padding: 45px;
+    padding: 4vh 45px 4vh 45px;
     background-color: white;
+    height: 72vh;
     .carousel {
-        height:inherit;
         .slick-list {
-            height: inherit;
             .slick-track {
-                height: inherit;
+                height:75vh;
             }
         }
+    }
+    .slick-arrow {
+        color: blue;
     }
  }
 
@@ -39,4 +47,8 @@
      width:100%;
      background-color: green;
      height:50px;
+ }
+
+ .slick-slide > div {
+     height:inherit;
  }
