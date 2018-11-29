@@ -186,18 +186,20 @@ public class ProductImpl implements Product {
 	
 	private void readHotSpots() {
 		hotSpots = new ArrayList<>();
-		List<Resource> featuresList = product.getAssets();
-		Resource featureRes = featuresList.get(0);
-		ProductFeature feature = new ProductFeatureImpl(featureRes.getValueMap());
-		String imageUrl = feature != null ? feature.getImagePath() : "";
-        Resource assetResource = resourceResolver.getResource(imageUrl + "/jcr:content/metadata");
-        ValueMap metadata = assetResource.adaptTo(ValueMap.class);
-        String imageMap =  (metadata != null) ? metadata.get(Image.PN_IMAGE_MAP, "") : "";
-        imageMap = imageMap.replaceAll("^\\[|\\]$","");
-        List<String> imageMapItems = Arrays.asList(imageMap.split("\\]\\["));
-		for(String imgMap: imageMapItems) {
-				HotSpot imgMaps = new HotSpotImpl(imgMap);
-				hotSpots.add(imgMaps);
+		if (product != null) {
+			List<Resource> featuresList = product.getAssets();
+			Resource featureRes = featuresList.get(0);
+			ProductFeature feature = new ProductFeatureImpl(featureRes.getValueMap());
+			String imageUrl = feature != null ? feature.getImagePath() : "";
+	        Resource assetResource = resourceResolver.getResource(imageUrl + "/jcr:content/metadata");
+	        ValueMap metadata = assetResource.adaptTo(ValueMap.class);
+	        String imageMap =  (metadata != null) ? metadata.get(Image.PN_IMAGE_MAP, "") : "";
+	        imageMap = imageMap.replaceAll("^\\[|\\]$","");
+	        List<String> imageMapItems = Arrays.asList(imageMap.split("\\]\\["));
+			for(String imgMap: imageMapItems) {
+					HotSpot imgMaps = new HotSpotImpl(imgMap);
+					hotSpots.add(imgMaps);
+			}
 		}
 	}
 	
