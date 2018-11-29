@@ -1,4 +1,18 @@
 .carousel-card{
     align-content: center;
     text-align: center;
+    h1,h2,h3,h4,h5,h6 {
+        color: black;
+        font-weight: 600;
+        margin: 40px 0 5px;
+    }
+    
+    h5 {
+        color: grey;
+        font-weight: normal;
+    }
+}
+
+a {
+    text-decoration: none;
 }
