@@ -1,6 +1,7 @@
 import Slider from 'react-slick';
 import React, {Component} from 'react';
 import './Carousel.scss';
+import CarouselCard from './components/CarouselCard';
 
 class Carousel extends Component{
     render() {
@@ -15,27 +16,15 @@ class Carousel extends Component{
             // accessibility: true
         };
 
+        let testCards = [];
+        for (let index = 1; index <= 40; index++) {
+            testCards.push(<CarouselCard number={index} />);
+        }
         return (
+            
             <div className="carousel-container">     
                 <Slider {...settings}>
-                    <div>
-                        <h3>1</h3>
-                    </div>
-                    <div>
-                        <h3>2</h3>
-                    </div>
-                    <div>
-                        <h3>3</h3>
-                    </div>
-                    <div>
-                        <h3>4</h3>
-                    </div>
-                    <div>
-                        <h3>5</h3>
-                    </div>
-                    <div>
-                        <h3>6</h3>
-                    </div>
+                   {testCards}
                 </Slider>
             </div>
         );

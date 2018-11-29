@@ -5,4 +5,11 @@
 
 .carousel-container {
     padding: 45px;
+    height:30vh;
+    .carousel {
+        height:100%;
+        .slick-list {
+            height: 100%;
+        }
+    }
  }
