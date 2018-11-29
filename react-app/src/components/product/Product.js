@@ -1,7 +1,7 @@
 /*
-    Text.js
+	Product.js
 
-    Maps to spa-screens/components/content/text
+    Maps to spa-screens/components/content/product
 */
 
 import React, {Component} from 'react';
@@ -17,7 +17,7 @@ const ProductEditConfig = {
     emptyLabel: 'Product',
 
     isEmpty: function(props) {
-        return !props || !props.productPath;
+    	return !props || !props.productPath || props.productPath.trim().length < 1;
     }
 };
 

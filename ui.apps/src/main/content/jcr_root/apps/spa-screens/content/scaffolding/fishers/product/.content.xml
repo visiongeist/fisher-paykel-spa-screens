@@ -231,6 +231,18 @@
 																text="Contemporary" value="Contemporary" />
 														</items>
 													</productStyle>
+													<height jcr:primaryType="nt:unstructured"
+														sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+														fieldLabel="Height" name="./productHeight"
+														renderReadOnly="{Boolean}true" required="{Boolean}true" />
+													<width jcr:primaryType="nt:unstructured"
+														sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+														fieldLabel="Width" name="./productWidth"
+														renderReadOnly="{Boolean}true" required="{Boolean}true" />
+													<depth jcr:primaryType="nt:unstructured"
+														sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+														fieldLabel="Depth" name="./productDepth"
+														renderReadOnly="{Boolean}true" required="{Boolean}true" />
 												</items>
 											</product-tabs>
 										</items>

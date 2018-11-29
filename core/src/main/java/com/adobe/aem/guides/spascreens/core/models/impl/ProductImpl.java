@@ -1,6 +1,7 @@
 package com.adobe.aem.guides.spascreens.core.models.impl;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import javax.annotation.PostConstruct;
@@ -19,6 +20,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
+import org.apache.sling.api.resource.ValueMap;
 import org.apache.sling.models.annotations.Default;
 import org.apache.sling.models.annotations.Exporter;
 import org.apache.sling.models.annotations.Model;
@@ -31,12 +33,13 @@ import org.slf4j.LoggerFactory;
 import com.adobe.aem.guides.spascreens.core.commerce.ProductFilter;
 import com.adobe.aem.guides.spascreens.core.models.Product;
 import com.adobe.aem.guides.spascreens.core.models.ProductFeature;
+import com.adobe.aem.guides.spascreens.core.models.HotSpot;
 import com.adobe.aem.guides.spascreens.core.models.ProductInspiration;
 import com.adobe.cq.export.json.ComponentExporter;
 import com.adobe.cq.export.json.ExporterConstants;
-import com.day.cq.commons.ImageResource;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
+import com.day.cq.wcm.foundation.Image;
 
 @Model(adaptables = {Resource.class, SlingHttpServletRequest.class}, adapters = {Product.class, ComponentExporter.class}, resourceType = ProductImpl.RESOURCE_TYPE)
 @Exporter(name = ExporterConstants.SLING_MODEL_EXPORTER_NAME, extensions = ExporterConstants.SLING_MODEL_EXTENSION)
@@ -65,6 +68,10 @@ public class ProductImpl implements Product {
 	private List<ProductInspiration> inspirationAssets;
 	private Resource productResource;
 	private String specifications;
+	private List<HotSpot> hotSpots;
+	private String height;
+	private String width;
+	private String depth;
 	
 	private Boolean readInspirationAssets = true;
 
@@ -73,6 +80,7 @@ public class ProductImpl implements Product {
 		pageManager = resourceResolver.adaptTo(PageManager.class);
 		readProperties();
 		readFeatures();
+		readHotSpots();
 	}
 
 	private void readInspirationAssets() throws ValueFormatException, PathNotFoundException, RepositoryException {
@@ -169,9 +177,31 @@ public class ProductImpl implements Product {
 	private void readProperties() {
 		productResource = resourceResolver.getResource(productPath);
 		if(productResource != null) {
-			specifications =  productResource.getValueMap().get(Product.PN_SUMMARY, String.class);
+			specifications =  productResource.getValueMap().get(Product.PN_SUMMARY, String.class);		
+			height = productResource.getValueMap().get(Product.PN_HEIGHT, String.class);
+			depth = productResource.getValueMap().get(Product.PN_DEPTH, String.class);
+			width = productResource.getValueMap().get(Product.PN_WIDTH, String.class);
 			page = pageManager.getContainingPage(resource);
 			product = productResource.adaptTo(com.adobe.cq.commerce.api.Product.class);
+		}
+	}
+	
+	private void readHotSpots() {
+		hotSpots = new ArrayList<>();
+		if (product != null) {
+			List<Resource> featuresList = product.getAssets();
+			Resource featureRes = featuresList.get(0);
+			ProductFeature feature = new ProductFeatureImpl(featureRes.getValueMap());
+			String imageUrl = feature != null ? feature.getImagePath() : "";
+	        Resource assetResource = resourceResolver.getResource(imageUrl + "/jcr:content/metadata");
+	        ValueMap metadata = assetResource.adaptTo(ValueMap.class);
+	        String imageMap =  (metadata != null) ? metadata.get(Image.PN_IMAGE_MAP, "") : "";
+	        imageMap = imageMap.replaceAll("^\\[|\\]$","");
+	        List<String> imageMapItems = Arrays.asList(imageMap.split("\\]\\["));
+			for(String imgMap: imageMapItems) {
+					HotSpot imgMaps = new HotSpotImpl(imgMap);
+					hotSpots.add(imgMaps);
+			}
 		}
 	}
 	
@@ -238,8 +268,12 @@ public class ProductImpl implements Product {
 			ProductFeature feature = new ProductFeatureImpl(featureRes.getValueMap());
 			imageUrl = feature != null ? feature.getImagePath() : null;
 		}
-
 		return imageUrl;
+	}
+	
+	@Override
+	public List<HotSpot> getHotSpots() {
+		return hotSpots;
 	}
 
 	@Override
@@ -250,6 +284,21 @@ public class ProductImpl implements Product {
 	@Override
 	public String getSpecifications() {
 		return specifications;
+	}
+	
+	@Override
+	public String getHeight() {
+		return height;
+	}
+	
+	@Override
+	public String getWidth() {
+		return width;
+	}
+	
+	@Override
+	public String getDepth() {
+		return depth;
 	}
 
 	@Override
