@@ -65,7 +65,7 @@ class App extends Page {
 
     addTile() {
         let demoTiles = this.state.tiles.slice();
-        demoTiles.push(<Tile imageDesc="this is alt text" imagePath="/cook-2.jpeg" onClick={() => this.addTile()}>
+        demoTiles.push(<Tile imageDesc="this is alt text" imagePath="/winestorage-50.jpg" onClick={() => this.addTile()}>
             <h1>New Tile</h1>
         </Tile>)
         this.setState({tiles: demoTiles});
