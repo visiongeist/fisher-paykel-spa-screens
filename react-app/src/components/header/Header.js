@@ -12,6 +12,7 @@ class Header extends Component {
         currLocation = this.props.location.pathname;
         currLocation = currLocation.substr(0, currLocation.length - 5);
         let newLocation = currLocation.substr(0, currLocation.lastIndexOf("/"));
+        const category = newLocation.substr(newLocation.lastIndexOf("/"));
 
         if (this.props.navigationRoot && currLocation !== this.props.navigationRoot) {
             return (<Link className="Header-action" to={newLocation + ".html"}>

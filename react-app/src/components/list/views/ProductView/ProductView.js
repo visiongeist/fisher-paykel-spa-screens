@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import {Link} from "react-router-dom";
+import Slider from 'react-slick';
+import CarouselCard from '../../../carousel/components/CarouselCard';
+require('../CategoryView/CategoryView.scss');
 require('./ProductView.scss');
 
 /**
@@ -19,17 +22,34 @@ class ProductView extends Component {
     	if(!this.props.items) {
             return null;
         }
-        return (
-        	<div className={this.props.listClass}>
-        	{ this.props.items && this.props.items.map((listItem, index) => {
-        		return (<li key={listItem.path} className="ProductItem">
-	                <Link className="ProductItem-link" to={listItem.url}>{listItem.title}
-	                    <span className="ProductItem-date">{this.date}</span>
-	                </Link>
-	            </li>);
-            })}
-        	</div>
-       )
+    	const settings = {
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                arrows: true,
+                className: "carousel",
+                // accessibility: true
+            };
+        	
+            return (
+                <div className="category-view">
+                    <div className="header">
+                        <h2>
+                            {this.props.categoryName}
+                        </h2>
+                    </div>
+                    <div className="carousel-container">
+                        <Slider {...settings}>
+                        { this.props.items && this.props.items.map((listItem, index) => {
+                    		return (<CarouselCard url={listItem.product.productPage} title={listItem.product.title} image={listItem.product.image} description={listItem.product.sku} />);
+                        })}
+
+                        </Slider>
+                    </div>
+                </div>
+            );
     }
 }
 

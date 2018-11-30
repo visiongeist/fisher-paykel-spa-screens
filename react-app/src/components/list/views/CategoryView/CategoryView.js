@@ -31,7 +31,7 @@ class CategoryView extends Component {
             className: "carousel",
             // accessibility: true
         };
-
+    	
         return (
             <div className="category-view">
                 <div className="header">
