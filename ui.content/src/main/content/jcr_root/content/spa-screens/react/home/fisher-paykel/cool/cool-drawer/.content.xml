@@ -8,7 +8,7 @@
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="CoolDrawer&amp;trade;"
+        jcr:title="CoolDrawer&lt;sup>&amp;trade;&lt;/sup>"
         jcr:uuid="6ab7df8b-5a31-43ca-9bd2-eaa751af69d6"
         sling:resourceType="spa-screens/components/structure/page"
         imagePath="/content/dam/fishers/images/cooldrawer-1.JPG">

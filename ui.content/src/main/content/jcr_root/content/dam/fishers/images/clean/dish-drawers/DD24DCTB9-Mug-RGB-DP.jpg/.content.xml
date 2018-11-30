@@ -5,17 +5,22 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="7f32cad9-87d5-48d2-a734-617b1be767b5">
     <jcr:content
+        cq:lastReplicated="{Date}2018-11-21T14:43:38.817+11:00"
+        cq:lastReplicatedBy="workflow-process-service"
         cq:name="DD24DCTB9-Mug-RGB-DP.jpg"
         cq:parentPath="/content/dam/fishers/images/clean/dish-drawers"
         dam:assetState="processed"
+        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/clean/dish-drawers/DD24DCTB9-Mug-RGB-DP.jpg"
-        jcr:lastModified="{Date}2018-10-12T12:53:13.335+05:30"
+        dam:s7damType="Image"
+        jcr:lastModified="{Date}2018-11-21T14:43:50.956+11:00"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
+        jcr:primaryType="dam:AssetContent"
+        newRendition="{Boolean}true">
         <metadata
             cq:productReference="/var/commerce/products/fishers/clean/dish_drawers/BLACKactivesmart_fridge_9"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-10-12T12:12:46.608+05:30"
+            dam:extracted="{Date}2018-11-21T14:43:38.789+11:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -26,16 +31,186 @@
             dam:Physicalwidthininches="{Decimal}22.22222137451172"
             dam:productID="RF610ADUSZ4-599"
             dam:Progressive="no"
-            dam:sha1="18e53fd421a28ebe529217ce4574a84032ef146c"
-            dam:size="{Long}118498"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|210268"
+            dam:scene7Domain="http://s7d2.scene7.com/"
+            dam:scene7File="DynamicMediaNA/DD24DCTB9-Mug-RGB-DP"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="DynamicMediaNA/fishers/images/clean/dish-drawers/"
+            dam:scene7ID="a|645877218"
+            dam:scene7LastModified="{Long}1542771825287"
+            dam:scene7Name="DD24DCTB9-Mug-RGB-DP"
+            dam:scene7Type="Image"
+            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:43:49.120+11:00"
+            dam:sha1="a87e0f7072c20be6c6b58d74271628bb92858610"
+            dam:size="{Long}121646"
             dc:format="image/jpeg"
             dc:modified="{Date}2018-10-12T12:53:13.217+05:30"
-            jcr:lastModified="{Date}2018-10-12T12:53:13.217+05:30"
+            jcr:lastModified="{Date}2018-11-21T14:43:25.775+11:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}1920"
-            tiff:ImageWidth="{Long}1600"/>
+            tiff:ImageWidth="{Long}1600"
+            lastTransferredForTagging="{Date}2018-11-21T14:43:54.057+11:00"
+            simsearchVersion="1.0.0">
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <vector
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.052+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7302228808403015"
+                    isCustom="{Boolean}false"
+                    name="vector"/>
+                <background
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.052+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7227520942687988"
+                    isCustom="{Boolean}false"
+                    name="background"/>
+                <blank
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.052+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7191634178161621"
+                    isCustom="{Boolean}false"
+                    name="blank"/>
+                <design
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.052+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7005879282951355"
+                    isCustom="{Boolean}false"
+                    name="design"/>
+                <black
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.053+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6994720101356506"
+                    isCustom="{Boolean}false"
+                    name="black"/>
+                <white
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.053+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6841561198234558"
+                    isCustom="{Boolean}false"
+                    name="white"/>
+                <isolated
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.053+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6677424907684326"
+                    isCustom="{Boolean}false"
+                    name="isolated"/>
+                <illustration
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.053+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6624196767807007"
+                    isCustom="{Boolean}false"
+                    name="illustration"/>
+                <web
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.053+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6492785215377808"
+                    isCustom="{Boolean}false"
+                    name="web"/>
+                <business
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.054+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6380256414413452"
+                    isCustom="{Boolean}false"
+                    name="business"/>
+                <paper
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.054+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6229209303855896"
+                    isCustom="{Boolean}false"
+                    name="paper"/>
+                <empty
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.054+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6224445700645447"
+                    isCustom="{Boolean}false"
+                    name="empty"/>
+                <template
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.054+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6199328303337097"
+                    isCustom="{Boolean}false"
+                    name="template"/>
+                <page
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.054+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.611908495426178"
+                    isCustom="{Boolean}false"
+                    name="page"/>
+                <card
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.055+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6067018508911133"
+                    isCustom="{Boolean}false"
+                    name="card"/>
+                <element
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.055+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6032474040985107"
+                    isCustom="{Boolean}false"
+                    name="element"/>
+                <frame
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.055+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6030534505844116"
+                    isCustom="{Boolean}false"
+                    name="frame"/>
+                <form
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.055+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6023484468460083"
+                    isCustom="{Boolean}false"
+                    name="form"/>
+                <graphic
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.056+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5959804058074951"
+                    isCustom="{Boolean}false"
+                    name="graphic"/>
+                <screen
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.056+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5916634798049927"
+                    isCustom="{Boolean}false"
+                    name="screen"/>
+                <website
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.056+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5878891944885254"
+                    isCustom="{Boolean}false"
+                    name="website"/>
+                <abstract
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.056+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5869091749191284"
+                    isCustom="{Boolean}false"
+                    name="abstract"/>
+                <button
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.056+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5779285430908203"
+                    isCustom="{Boolean}false"
+                    name="button"/>
+                <internet
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.056+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5739308595657349"
+                    isCustom="{Boolean}false"
+                    name="internet"/>
+                <art
+                    jcr:lastModified="{Date}2018-11-21T14:43:54.056+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5695246458053589"
+                    isCustom="{Boolean}false"
+                    name="art"/>
+            </predictedTags>
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}"/>
+        </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

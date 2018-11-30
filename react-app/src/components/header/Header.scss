@@ -10,8 +10,8 @@
         text-align: center;
         align-content: center;
         position: fixed;
-        top: 0.5px;
-        left: 0.5px;
+        top: 0;
+        left: 0;
         
         &:last-child {
           margin-right: 0;
@@ -19,7 +19,7 @@
     
         .svg-inline--fa {
           position:relative;
-          top: 2vh;
+          top: 3vh;
           right: 1px;
         }
     
@@ -29,6 +29,12 @@
           width:  $header-size-lg;
           height:   $header-size-lg;
           font-size:   26px;
+          
+          .svg-inline--fa {
+            position:relative;
+            top: $header-size-lg / 3;
+            right: 1px;
+          }
         }
     
         @include media(tablet) {

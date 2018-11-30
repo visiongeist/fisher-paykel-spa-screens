@@ -5,17 +5,22 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="ea4ccab7-a9bf-461e-b37f-0619f4ccd12e">
     <jcr:content
+        cq:lastReplicated="{Date}2018-11-21T14:45:38.278+11:00"
+        cq:lastReplicatedBy="workflow-process-service"
         cq:name="DD60_NineWashOptions_dr_rt_g_rt.jpg"
         cq:parentPath="/content/dam/fishers/images/clean/dish-drawers"
         dam:assetState="processed"
+        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/clean/dish-drawers/DD60_NineWashOptions_dr_rt_g_rt.jpg"
-        jcr:lastModified="{Date}2018-10-12T12:53:13.343+05:30"
+        dam:s7damType="Image"
+        jcr:lastModified="{Date}2018-11-21T14:45:47.099+11:00"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
+        jcr:primaryType="dam:AssetContent"
+        newRendition="{Boolean}true">
         <metadata
             cq:productReference="/var/commerce/products/fishers/clean/dish_drawers/BLACKactivesmart_fridge_9"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-10-12T11:38:52.590+05:30"
+            dam:extracted="{Date}2018-11-21T14:45:38.249+11:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -26,16 +31,186 @@
             dam:Physicalwidthininches="Infinity"
             dam:productID="RF610ADUSZ4-599"
             dam:Progressive="no"
-            dam:sha1="8ca06cf09453c255934df6ad8b188c2adc7ec4f0"
-            dam:size="{Long}171078"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|210268"
+            dam:scene7Domain="http://s7d2.scene7.com/"
+            dam:scene7File="DynamicMediaNA/DD60_NineWashOptions_dr_rt_g_rt"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="DynamicMediaNA/fishers/images/clean/dish-drawers/"
+            dam:scene7ID="a|645876189"
+            dam:scene7LastModified="{Long}1542771941949"
+            dam:scene7Name="DD60_NineWashOptions_dr_rt_g_rt"
+            dam:scene7Type="Image"
+            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:45:45.530+11:00"
+            dam:sha1="40311f5d9049158287324f2e8452b2af2c2a7d3a"
+            dam:size="{Long}174219"
             dc:format="image/jpeg"
             dc:modified="{Date}2018-10-12T11:46:39.413+05:30"
-            jcr:lastModified="{Date}2018-10-12T12:53:13.239+05:30"
+            jcr:lastModified="{Date}2018-11-21T14:44:09.657+11:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}1350"
-            tiff:ImageWidth="{Long}2400"/>
+            tiff:ImageWidth="{Long}2400"
+            lastTransferredForTagging="{Date}2018-11-21T14:45:50.908+11:00"
+            simsearchVersion="1.0.0">
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <computer
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.904+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.656822681427002"
+                    isCustom="{Boolean}false"
+                    name="computer"/>
+                <white
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.904+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6442956924438477"
+                    isCustom="{Boolean}false"
+                    name="white"/>
+                <vector
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.904+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6214847564697266"
+                    isCustom="{Boolean}false"
+                    name="vector"/>
+                <isolated
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.905+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6124062538146973"
+                    isCustom="{Boolean}false"
+                    name="isolated"/>
+                <equipment
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.905+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.596287727355957"
+                    isCustom="{Boolean}false"
+                    name="equipment"/>
+                <technology
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.905+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5956025123596191"
+                    isCustom="{Boolean}false"
+                    name="technology"/>
+                <kitchen
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.905+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5951060056686401"
+                    isCustom="{Boolean}false"
+                    name="kitchen"/>
+                <business
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.905+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5934090614318848"
+                    isCustom="{Boolean}false"
+                    name="business"/>
+                <oven
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.905+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5833125114440918"
+                    isCustom="{Boolean}false"
+                    name="oven"/>
+                <illustration
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.905+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5813112258911133"
+                    isCustom="{Boolean}false"
+                    name="illustration"/>
+                <stove
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.905+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.569337785243988"
+                    isCustom="{Boolean}false"
+                    name="stove"/>
+                <blue
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.906+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5677555203437805"
+                    isCustom="{Boolean}false"
+                    name="blue"/>
+                <gray
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.906+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5645970106124878"
+                    isCustom="{Boolean}false"
+                    name="gray"/>
+                <background
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.906+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5645902752876282"
+                    isCustom="{Boolean}false"
+                    name="background"/>
+                <appliance
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.906+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5643438100814819"
+                    isCustom="{Boolean}false"
+                    name="appliance"/>
+                <cooking
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.906+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.558948814868927"
+                    isCustom="{Boolean}false"
+                    name="cooking"/>
+                <internet
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.906+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5552994012832642"
+                    isCustom="{Boolean}false"
+                    name="internet"/>
+                <design
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.906+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5481842160224915"
+                    isCustom="{Boolean}false"
+                    name="design"/>
+                <web
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.906+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5453025698661804"
+                    isCustom="{Boolean}false"
+                    name="web"/>
+                <control
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.907+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5415179133415222"
+                    isCustom="{Boolean}false"
+                    name="control"/>
+                <black
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.907+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5408143997192383"
+                    isCustom="{Boolean}false"
+                    name="black"/>
+                <communication
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.907+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5322084426879883"
+                    isCustom="{Boolean}false"
+                    name="communication"/>
+                <button
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.907+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5281100869178772"
+                    isCustom="{Boolean}false"
+                    name="button"/>
+                <modern
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.907+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5249688029289246"
+                    isCustom="{Boolean}false"
+                    name="modern"/>
+                <display
+                    jcr:lastModified="{Date}2018-11-21T14:45:50.907+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5194372534751892"
+                    isCustom="{Boolean}false"
+                    name="display"/>
+            </predictedTags>
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}"/>
+        </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>
