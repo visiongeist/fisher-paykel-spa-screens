@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {MapTo} from '@adobe/cq-react-editable-components';
-import {Link} from "react-router-dom";
+import PageView from "./views/PageView/PageView";
+import CategoryView from "./views/CategoryView/CategoryView";
+import ProductView from "./views/ProductView/ProductView";
 require('./List.scss');
 
 
@@ -14,47 +16,24 @@ const ListEditConfig = {
 };
 
 /**
- * ListItem renders the individual items in the list
- */
-class ListItem extends Component {
-
-    get date() {
-       if(!this.props.date) {
-           return null;
-       }
-        let date = new Date(this.props.date);
-        return date.toLocaleDateString('en-US');
-    }
-
-    render() {
-        if(!this.props.path || !this.props.title || !this.props.url) {
-            return null;
-        }
-        return (
-            <li className="ListItem">
-                <Link className="ListItem-link" to={this.props.url}>{this.props.title}
-                    <span className="ListItem-date">{this.date}</span>
-                </Link>
-            </li>
-        );
-    }
-}
-
-/**
  * List renders the list contents and maps spa-screens/components/content/list
  */
 export default class List extends Component {
     render() {
+    	
+    	let ListView = PageView;
+    	let listClass = "List PageList";
+    	if(this.props.renderType === 'CategoryView') {
+    		ListView = CategoryView;
+    		listClass = "List CategoryList";
+    	}
+    	if(this.props.renderType === 'ProductView') {
+    		ListView = ProductView;
+    		listClass = "List ProductList";
+    	}
+    	
         return (
-                <div className="List">
-                    <ul className="List-wrapper">
-                        { this.props.items && this.props.items.map((listItem, index) => {
-                            return <ListItem key={listItem.path} path={listItem.path} url={listItem.url} 
-                                             title={listItem.title} date={listItem.lastModified} />
-                            })
-                       }
-                    </ul>
-                </div>
+           <ListView items={this.props.items} listClass={this.listClass}/>
         );
     }
 }

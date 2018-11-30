@@ -533,4 +533,10 @@ public class HierarchyPageImpl implements HierarchyPage {
         return imagePath != null ? imagePath : "";
     }
 
+	@Override
+	public Boolean getHideHeader() {
+		Boolean hideHeader = currentPage.getContentResource().getValueMap().get("hideHeader", Boolean.class);
+        return hideHeader != null ? hideHeader : false;
+	}
+
 }

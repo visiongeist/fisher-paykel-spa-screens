@@ -28,7 +28,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="spa-screens/components/content/product"
-                    productPath="/var/commerce/products/fishers/activesmart_french_door_373"/>
+                    productPath="/var/commerce/products/fishers/activesmart_french_door_520"/>
             </responsivegrid>
         </root>
     </jcr:content>

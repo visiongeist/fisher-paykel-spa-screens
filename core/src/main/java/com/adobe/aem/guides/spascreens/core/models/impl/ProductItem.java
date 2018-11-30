@@ -47,9 +47,6 @@ public class ProductItem {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ProductItem.class);
 
-    public static final String PN_FEATURES = "features";
-    public static final String PN_SUMMARY = "summary";
-    
     public static final int PRODUCT_THUMBNAIL_WIDTH = 120;
 
     private String path;
@@ -89,8 +86,8 @@ public class ProductItem {
         title = product.getTitle(currentLocale.getLanguage());
         description = product.getDescription(currentLocale.getLanguage());
 
-        summary = product.getProperty(PN_SUMMARY, currentLocale.getLanguage(), String.class);
-        features = product.getProperty(PN_FEATURES, currentLocale.getLanguage(), String.class);
+        summary = product.getProperty(com.adobe.aem.guides.spascreens.core.models.Product.PN_SUMMARY, currentLocale.getLanguage(), String.class);
+        features = product.getProperty(com.adobe.aem.guides.spascreens.core.models.Product.PN_FEATURES, currentLocale.getLanguage(), String.class);
 
         ImageResource image = product.getImage();
         imageUrl = image != null ? image.getFileReference() : null;

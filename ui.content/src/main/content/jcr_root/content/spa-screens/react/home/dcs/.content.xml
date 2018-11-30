@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-10-15T22:45:09.862-04:00"
+        cq:lastModified="{Date}2018-11-28T11:11:47.367+11:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/spa-screens/settings/wcm/templates/spa-screens-page-template"
         jcr:isCheckedOut="{Boolean}true"
@@ -10,7 +10,8 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="DCS"
         jcr:uuid="c6983549-03e9-45fa-98d8-45c5a7af2e9d"
-        sling:resourceType="spa-screens/components/structure/page">
+        sling:resourceType="spa-screens/components/structure/page"
+        imagePath="/content/dam/fishers/images/grill-1.jpeg">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">

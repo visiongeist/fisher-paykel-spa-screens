@@ -55,10 +55,13 @@ class App extends Page {
     render() {
         return (
             <div className="App">
-                <Activity>
-                    <Carousel categoryName="Counter-Depth Refrigeration" />
-                </Activity>
-
+            	<Header navigationRoot="/content/spa-screens/react/home" />
+                
+                <EditorContext.Provider value={ Utils.isInEditor() }>
+                    { this.redirect }
+                    { this.childComponents }
+                    { this.childPages }
+                </EditorContext.Provider>
             </div>
         );
     }
