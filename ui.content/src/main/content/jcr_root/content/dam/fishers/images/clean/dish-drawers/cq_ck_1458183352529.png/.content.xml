@@ -4,14 +4,18 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="ee59ccff-e232-4906-98f5-48ee97a8d9b1">
     <jcr:content
+        cq:lastReplicated="{Date}2018-11-21T14:44:44.556+11:00"
+        cq:lastReplicatedBy="workflow-process-service"
         dam:assetState="processed"
+        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/clean/dish-drawers/cq_ck_1458183352529.png"
-        jcr:lastModified="{Date}2018-10-12T12:30:52.008+05:30"
+        dam:s7damType="Image"
+        jcr:lastModified="{Date}2018-11-21T14:44:58.232+11:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2018-10-12T12:30:51.767+05:30"
+            dam:extracted="{Date}2018-11-21T14:44:44.521+11:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -21,13 +25,183 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|210268"
+            dam:scene7Domain="http://s7d2.scene7.com/"
+            dam:scene7File="DynamicMediaNA/cq_ck_1458183352529"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="DynamicMediaNA/fishers/images/clean/dish-drawers/"
+            dam:scene7ID="a|645875135"
+            dam:scene7LastModified="{Long}1542771890377"
+            dam:scene7Name="cq_ck_1458183352529"
+            dam:scene7Type="Image"
+            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:44:55.935+11:00"
             dam:sha1="c53da959825ba17477407b6786dba8111a5b5f80"
             dam:size="{Long}374947"
             dc:format="image/png"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}792"
-            tiff:ImageWidth="{Long}660"/>
+            tiff:ImageWidth="{Long}660"
+            lastTransferredForTagging="{Date}2018-11-21T14:45:04.276+11:00"
+            simsearchVersion="1.0.0">
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <isolated
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.268+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.7908269762992859"
+                    isCustom="{Boolean}false"
+                    name="isolated"/>
+                <equipment
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.268+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6857560276985168"
+                    isCustom="{Boolean}false"
+                    name="equipment"/>
+                <white
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.268+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6811443567276001"
+                    isCustom="{Boolean}false"
+                    name="white"/>
+                <tool
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.269+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6701709628105164"
+                    isCustom="{Boolean}false"
+                    name="tool"/>
+                <metal
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.269+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.664036750793457"
+                    isCustom="{Boolean}false"
+                    name="metal"/>
+                <power
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.270+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6453800201416016"
+                    isCustom="{Boolean}false"
+                    name="power"/>
+                <object
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.270+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6305806636810303"
+                    isCustom="{Boolean}false"
+                    name="object"/>
+                <black
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.270+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6096570491790771"
+                    isCustom="{Boolean}false"
+                    name="black"/>
+                <steel
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.271+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6072409749031067"
+                    isCustom="{Boolean}false"
+                    name="steel"/>
+                <electric
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.271+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5901647806167603"
+                    isCustom="{Boolean}false"
+                    name="electric"/>
+                <background
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.272+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5835376977920532"
+                    isCustom="{Boolean}false"
+                    name="background"/>
+                <technology
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.272+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5832563638687134"
+                    isCustom="{Boolean}false"
+                    name="technology"/>
+                <auto
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.272+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5791767835617065"
+                    isCustom="{Boolean}false"
+                    name="auto"/>
+                <car
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.273+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5746380686759949"
+                    isCustom="{Boolean}false"
+                    name="car"/>
+                <gun
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.273+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5634305477142334"
+                    isCustom="{Boolean}false"
+                    name="gun"/>
+                <engine
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.273+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.562694251537323"
+                    isCustom="{Boolean}false"
+                    name="engine"/>
+                <close-up
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.273+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5571894645690918"
+                    isCustom="{Boolean}false"
+                    name="close-up"/>
+                <machine
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.274+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5565361380577087"
+                    isCustom="{Boolean}false"
+                    name="machine"/>
+                <motor
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.274+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5563090443611145"
+                    isCustom="{Boolean}false"
+                    name="motor"/>
+                <closeup
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.274+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5538061261177063"
+                    isCustom="{Boolean}false"
+                    name="closeup"/>
+                <work
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.274+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5446005463600159"
+                    isCustom="{Boolean}false"
+                    name="work"/>
+                <device
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.274+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5391143560409546"
+                    isCustom="{Boolean}false"
+                    name="device"/>
+                <automobile
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.275+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5273980498313904"
+                    isCustom="{Boolean}false"
+                    name="automobile"/>
+                <iron
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.275+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5256996154785156"
+                    isCustom="{Boolean}false"
+                    name="iron"/>
+                <electricity
+                    jcr:lastModified="{Date}2018-11-21T14:45:04.275+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.525251030921936"
+                    isCustom="{Boolean}false"
+                    name="electricity"/>
+            </predictedTags>
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}"/>
+        </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

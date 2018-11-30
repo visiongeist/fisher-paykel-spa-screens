@@ -17,6 +17,7 @@ require('./Page.css');
          attrs.className = (attrs.className || '') + ' SpaPage ' + (this.props.cssClassNames || '');
          return attrs
      }
+
  }
  
  MapTo('spa-screens/components/structure/page')(withComponentMappingContext(withRoute(SpaPage)));

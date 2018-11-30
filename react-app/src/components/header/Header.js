@@ -7,30 +7,19 @@ require('../../utils/Icons');
 
 class Header extends Component {
 
-    get homeLink() {
-        let currLocation;
+    render() {
+    	let currLocation;
         currLocation = this.props.location.pathname;
         currLocation = currLocation.substr(0, currLocation.length - 5);
+        let newLocation = currLocation.substr(0, currLocation.lastIndexOf("/"));
+        const category = newLocation.substr(newLocation.lastIndexOf("/"));
 
         if (this.props.navigationRoot && currLocation !== this.props.navigationRoot) {
-            return (<Link className="Header-action" to={this.props.navigationRoot + ".html"}>
+            return (<Link className="Header-action" to={newLocation + ".html"}>
                 <FontAwesomeIcon icon="chevron-left" />
             </Link>);
         }
         return null;
-    }
-
-    render() {
-        return (
-            <header className="Header">
-                <div className="Header-wrapper">
-                    <h1 className="Header-title">F&amp;P<span className="Header-title--inverse">_</span></h1>
-                    <div className="Header-tools">
-                        { this.homeLink }
-                   </div>
-                </div>
-            </header>
-        );
     }
 }
 

@@ -7,7 +7,7 @@
 
 body {
     //font-weight: $normal;
-    background-color: $color-white;
+    background-color: $color-gray;
     font-family: $font-sans;
     margin: 0;
     padding: 0;
@@ -19,7 +19,6 @@ body {
     line-height: 1.5;
     line-height: 1.6;
     letter-spacing: 0.3px;
-    padding-top: $header-height-big;
     @include media(mobile, tablet) {
         padding-top: $header-height;
     }
@@ -31,6 +30,8 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size:  $h1-font-size;
+  font-weight: normal;
+  margin: 0;
 }
 
 h2 {

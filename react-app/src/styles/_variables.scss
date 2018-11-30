@@ -27,9 +27,10 @@ $font-weight-bold:       700;
 //Colors
 $color-white:            #ffffff;
 $color-black:            #080808;
+$color-pure-black:       #000;
 
 $color-yellow:           #FFEA08;
-$color-gray:             #808080;
+$color-gray:             #161616;
 $color-dark-gray:        #707070;
 
 //Functional Colors
@@ -40,15 +41,19 @@ $color-text:             $color-gray;
             
 
 //Layout
-$max-width: 1200px;
+$max-width: 100%;
 $header-height: 80px;
 $header-height-big: 100px;
-
+$main-page-tile-height: 200px;
 // Spacing
-$gutter-padding: 12px;
+$gutter-padding: 0;
 
 // Mobile Breakpoints
 $mobile-screen: 160px;
 $small-screen:  767px;
 $medium-screen: 992px;
+
+$header-size-lg: 12vh;
+$header-size-md: 8vh;
+$header-size-sm: 6vh;
   

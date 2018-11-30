@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="8a004de5-d48c-4e44-819f-6570dcb70eea">
     <jcr:content
+        cq:lastReplicated="{Date}2018-11-21T14:43:23.074+11:00"
+        cq:lastReplicatedBy="workflow-process-service"
+        cq:name="DD24DCTB9-Feature-535-gal.jpg"
+        cq:parentPath="/content/dam/fishers/images/clean/dish-drawers"
         dam:assetState="processed"
+        dam:imageServerAsset="{Boolean}true"
         dam:relativePath="fishers/images/clean/dish-drawers/DD24DCTB9-Feature-535-gal.jpg"
-        jcr:lastModified="{Date}2018-10-12T12:12:46.908+05:30"
+        dam:s7damType="Image"
+        jcr:lastModified="{Date}2018-11-21T14:43:35.213+11:00"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
+        jcr:primaryType="dam:AssetContent"
+        newRendition="{Boolean}true">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-10-12T12:12:46.385+05:30"
+            dam:extracted="{Date}2018-11-21T14:43:23.041+11:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,13 +29,186 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="yes"
-            dam:sha1="154a9f0a774258348debcf819ddfc1fd81e729e7"
-            dam:size="{Long}62792"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|210268"
+            dam:scene7Domain="http://s7d2.scene7.com/"
+            dam:scene7File="DynamicMediaNA/DD24DCTB9-Feature-535-gal"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="DynamicMediaNA/fishers/images/clean/dish-drawers/"
+            dam:scene7ID="a|645877207"
+            dam:scene7LastModified="{Long}1542771806098"
+            dam:scene7Name="DD24DCTB9-Feature-535-gal"
+            dam:scene7Type="Image"
+            dam:scene7UploadTimeStamp="{Date}2018-11-21T14:43:33.054+11:00"
+            dam:sha1="13f289dd10b08fd06dac6df1a29b604052d13dff"
+            dam:size="{Long}65759"
             dc:format="image/jpeg"
+            dc:modified="{Date}2018-11-21T14:41:14.811+11:00"
+            jcr:lastModified="{Date}2018-11-21T14:41:14.811+11:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}1920"
-            tiff:ImageWidth="{Long}1600"/>
+            tiff:ImageWidth="{Long}1600"
+            lastTransferredForTagging="{Date}2018-11-21T14:43:38.724+11:00"
+            simsearchVersion="1.0.0">
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <black
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.721+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6426170468330383"
+                    isCustom="{Boolean}false"
+                    name="black"/>
+                <vector
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.721+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6391626596450806"
+                    isCustom="{Boolean}false"
+                    name="vector"/>
+                <web
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.721+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6362555027008057"
+                    isCustom="{Boolean}false"
+                    name="web"/>
+                <design
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.721+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6296533346176147"
+                    isCustom="{Boolean}false"
+                    name="design"/>
+                <internet
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.721+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6281492710113525"
+                    isCustom="{Boolean}false"
+                    name="internet"/>
+                <video
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.721+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6199132204055786"
+                    isCustom="{Boolean}false"
+                    name="video"/>
+                <button
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.722+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6146757006645203"
+                    isCustom="{Boolean}false"
+                    name="button"/>
+                <business
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.722+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6125994920730591"
+                    isCustom="{Boolean}false"
+                    name="business"/>
+                <digital
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.722+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6043293476104736"
+                    isCustom="{Boolean}false"
+                    name="digital"/>
+                <sign
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.722+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6042358875274658"
+                    isCustom="{Boolean}false"
+                    name="sign"/>
+                <display
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.722+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.6022381782531738"
+                    isCustom="{Boolean}false"
+                    name="display"/>
+                <camera
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.722+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5987450480461121"
+                    isCustom="{Boolean}false"
+                    name="camera"/>
+                <control
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.723+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5975725650787354"
+                    isCustom="{Boolean}false"
+                    name="control"/>
+                <illustration
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.723+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5917843580245972"
+                    isCustom="{Boolean}false"
+                    name="illustration"/>
+                <technology
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.723+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5840851664543152"
+                    isCustom="{Boolean}false"
+                    name="technology"/>
+                <player
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.723+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5770523548126221"
+                    isCustom="{Boolean}false"
+                    name="player"/>
+                <icon
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.723+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5754634737968445"
+                    isCustom="{Boolean}false"
+                    name="icon"/>
+                <music
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.723+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5742002129554749"
+                    isCustom="{Boolean}false"
+                    name="music"/>
+                <airport
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.723+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5554752945899963"
+                    isCustom="{Boolean}false"
+                    name="airport"/>
+                <buttons
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.723+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5536711812019348"
+                    isCustom="{Boolean}false"
+                    name="buttons"/>
+                <travel
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.723+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5445635914802551"
+                    isCustom="{Boolean}false"
+                    name="travel"/>
+                <background
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.724+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5436657667160034"
+                    isCustom="{Boolean}false"
+                    name="background"/>
+                <website
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.724+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.543302059173584"
+                    isCustom="{Boolean}false"
+                    name="website"/>
+                <computer
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.724+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5395159125328064"
+                    isCustom="{Boolean}false"
+                    name="computer"/>
+                <sound
+                    jcr:lastModified="{Date}2018-11-21T14:43:38.724+11:00"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.5363963842391968"
+                    isCustom="{Boolean}false"
+                    name="sound"/>
+            </predictedTags>
+            <imageFeatures
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}"/>
+        </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

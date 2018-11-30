@@ -117,7 +117,7 @@
                     <pageimage
                         cq:showOnCreate="{Boolean}true"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Page Image"
+                        jcr:title="SPA Properties"
                         sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
                         sling:orderBefore="cloudservices">
                         <items jcr:primaryType="nt:unstructured">
@@ -150,6 +150,24 @@
                                             </imagepath>
                                         </items>
                                     </section>
+                                    <section1
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="App Header"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/fieldset">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <inputgroup
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/text"
+                                                text="Hide page header"/>
+                                            <hideHeader
+                                            	jcr:primaryType="nt:unstructured" 
+                                            	fieldDescription="Check if you want the header to not be shown on the page" 
+                                            	name="./hideHeader"
+                                            	sling:resourceType="granite/ui/components/coral/foundation/form/checkbox" 
+                                            	text="Hide Header" 
+                                            	value="true"/>
+                                        </items>
+                                    </section1>
                                 </items>
                             </column>
                         </items>

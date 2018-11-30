@@ -66,10 +66,14 @@
             xmp:ModifyDate="{Date}2017-04-11T16:24:31.000+12:00"
             xmpMM:DocumentID="adobe:docid:photoshop:beeb98b2-5eee-117a-8067-9568fe8c28a4"
             xmpMM:InstanceID="xmp.iid:de3b24f1-48aa-462c-8fe0-dc5cd629c7f4"
+<<<<<<< HEAD
             xmpMM:OriginalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d"
             imageMap="\[circle(1087,779,159)&quot;http://www.adobe.com&quot;|&quot;_self&quot;|&quot;test&quot;][circle(1094,2728,649)&quot;http://www.adobe.com&quot;|&quot;_blank&quot;|&quot;Test 2&quot;]"
             lastTransferredForTagging="{Date}2018-11-28T08:42:33.873+11:00"
             simsearchVersion="1.0.0">
+=======
+            xmpMM:OriginalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d">
+>>>>>>> carousel/dev/carousel-component
             <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
                 stRef:documentID="adobe:docid:photoshop:54b34a54-eb34-1179-9d80-d0bcadaf6f7f"
@@ -131,6 +135,7 @@
                     stEvt:when="{Date}2017-04-11T16:24:31.000+12:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
+<<<<<<< HEAD
             <predictedTags jcr:primaryType="nt:unstructured">
                 <white
                     jcr:lastModified="{Date}2018-11-28T08:42:33.868+11:00"
@@ -286,6 +291,9 @@
             <imageFeatures
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
+=======
+            <imageFeatures/>
+>>>>>>> carousel/dev/carousel-component
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
