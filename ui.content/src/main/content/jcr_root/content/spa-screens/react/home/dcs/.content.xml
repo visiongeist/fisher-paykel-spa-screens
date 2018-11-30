@@ -22,41 +22,22 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
-                <responsivegrid
-                    jcr:created="{Date}2018-10-12T13:49:28.574-04:00"
+                <list
+                    jcr:created="{Date}2018-10-14T10:17:40.142-04:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2018-10-12T13:49:28.574-04:00"
+                    jcr:lastModified="{Date}2018-10-14T10:55:25.767-04:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            width="8"/>
-                        <tablet
-                            jcr:primaryType="nt:unstructured"
-                            width="12"/>
-                        <phone
-                            jcr:primaryType="nt:unstructured"
-                            width="12"/>
-                    </cq:responsive>
-                    <list
-                        jcr:created="{Date}2018-10-14T10:17:40.142-04:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-10-14T10:55:25.767-04:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="spa-screens/components/content/list"
-                        childDepth="1"
-                        linkItems="false"
-                        listFrom="children"
-                        parentPage="/content/spa-screens/react/home/dcs"
-                        renderType="PageView"
-                        showDescription="false"
-                        showModificationDate="false"
-                        sortOrder="asc"
-                        tagsMatch="any"/>
-                </responsivegrid>
+                    sling:resourceType="spa-screens/components/content/list"
+                    childDepth="1"
+                    linkItems="false"
+                    listFrom="children"
+                    parentPage="/content/spa-screens/react/home/dcs"
+                    renderType="PageView"
+                    showDescription="false"
+                    showModificationDate="false"
+                    sortOrder="asc"
+                    tagsMatch="any"/>
             </responsivegrid>
         </root>
     </jcr:content>
