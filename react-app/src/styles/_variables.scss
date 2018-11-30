@@ -46,10 +46,14 @@ $header-height: 80px;
 $header-height-big: 100px;
 $main-page-tile-height: 200px;
 // Spacing
-$gutter-padding: 12px;
+$gutter-padding: 0;
 
 // Mobile Breakpoints
 $mobile-screen: 160px;
 $small-screen:  767px;
 $medium-screen: 992px;
+
+$header-size-lg: 12vh;
+$header-size-md: 8vh;
+$header-size-sm: 6vh;
   

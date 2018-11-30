@@ -1,30 +1,55 @@
 @import '../../../../styles/shared';
 
-.CategoryList {
-    @include component-padding();
+.carousel, .slick-dots {
+    background-color: white;
 }
 
-.CategoryItem {
-    list-style: none;
-    float: left;
-    width: 100%;
-    margin-bottom: 1em;
-    font-size: $lead-font-size;
-    padding: 4px;
-    color: #0045ff;
+.slick-dots {
+    margin-bottom: 4vh;
+}
 
-    &:hover {
-        background-color: #ededed;
-    }
-
-    &-link {
-        text-decoration: none;
-    }
-
-    &-date {
-        width: 100%;
-        float:left;
-        color: $color-secondary;
-        font-size: $base-font-size;
+.category-view {
+    @media screen and (orientation:portrait) {
+        height: 30vh;
+      }
+    @media screen and (orientation:landscape) {
+        height:100vh;
     }
 }
+.header {
+    width:100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    h2 {
+        margin:0;
+        font-weight: normal;
+    }
+    height: $header-size-lg;
+}
+
+.carousel-container {
+    padding: 4vh 45px 4vh 45px;
+    background-color: white;
+    height: 70vh;
+    .carousel {
+        .slick-list {
+            .slick-track {
+                height:70vh;
+            }
+        }
+    }
+    .slick-arrow {
+        color: blue;
+    }
+ }
+
+ .footer {
+     width:100%;
+     background-color: green;
+     height:50px;
+ }
+
+ .slick-slide > div {
+     height:inherit;
+ }

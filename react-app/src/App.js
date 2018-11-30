@@ -1,10 +1,9 @@
 import React from 'react';
-import { Page, withModel } from '@adobe/cq-react-editable-components';
+import { Page, withModel, EditorContext, Utils } from '@adobe/cq-react-editable-components';
 import { Redirect } from 'react-router';
-import Activity from './components/activity/Activity.jsx';
+import Header from './components/header/Header';
 import "slick-carousel/slick/slick.scss";
 import "slick-carousel/slick/slick-theme.scss";
-import Carousel from './components/carousel/Carousel.jsx';
 
 
 /**
