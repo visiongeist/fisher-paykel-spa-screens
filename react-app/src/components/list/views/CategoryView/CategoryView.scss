@@ -43,7 +43,10 @@
         }
     }
     .slick-arrow {
-        color: blue;
+        &::before {
+            color: black;
+            font-size: 2rem;
+        }
     }
  }
 
