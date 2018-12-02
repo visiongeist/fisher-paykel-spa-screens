@@ -25,7 +25,7 @@ class CategoryView extends Component {
             infinite: true,
             speed: 500,
             slidesToShow: 4,
-            slidesToScroll: 4,
+            swipeToSlide: true,
             arrows: true,
             className: "carousel",
             // accessibility: true
