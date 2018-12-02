@@ -30,18 +30,21 @@ class CategoryView extends Component {
             className: "carousel",
             // accessibility: true
         };
-    	
+        let categoryName = window.location.pathname;
+        categoryName = categoryName.split('/');
+        categoryName = categoryName[categoryName.length - 1].split('.')[0].replace(/-/g,' ')
+            .replace(/\b([a-zA-Z])/g, v => v.toUpperCase());
         return (
             <div className="category-view">
                 <div className="header">
                     <h2>
-                        {this.props.categoryName}
+                        {categoryName}
                     </h2>
                 </div>
                 <div className="carousel-container">
                     <Slider {...settings}>
                     { this.props.items && this.props.items.map((listItem, index) => {
-                		return (<CarouselCard url={listItem.url} title={listItem.title} image={listItem.image} description={listItem.description} />);
+                		return (<CarouselCard key={index} url={listItem.url} title={listItem.title} image={listItem.image} description={listItem.description} />);
                     })}
 
                     </Slider>
