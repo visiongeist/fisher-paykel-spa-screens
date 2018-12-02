@@ -28,11 +28,51 @@
                     jcr:lastModified="{Date}2018-01-29T11:12:44.193+01:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
+<<<<<<< HEAD
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="8"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                    <list
+                        jcr:created="{Date}2018-10-14T10:17:40.142-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-10-14T10:55:25.767-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="spa-screens/components/content/list"
+                        childDepth="1"
+                        linkItems="false"
+                        listFrom="children"
+                        parentPage="/content/spa-screens/react/home/fisher-paykel/cool/cool-drawer"
+                        renderType="ProductView"
+                        showDescription="false"
+                        showModificationDate="false"
+                        sortOrder="asc"
+                        tagsMatch="any"/>
+                </responsivegrid>
+                <navigation
+                    jcr:created="{Date}2018-01-29T11:12:04.131+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-01-29T11:12:44.193+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+=======
+>>>>>>> carousel/dev/carousel-component
                     sling:resourceType="spa-screens/components/structure/navigation"
                     collectAllPages="false"
                     navigationRoot="/content/spa-screens/react/home/fisher-paykel"
                     skipNavigationRoot="true"
                     structureDepth="1"/>
+<<<<<<< HEAD
+=======
                 <list
                     jcr:created="{Date}2018-10-14T10:17:40.142-04:00"
                     jcr:createdBy="admin"
@@ -49,6 +89,7 @@
                     showModificationDate="false"
                     sortOrder="asc"
                     tagsMatch="any"/>
+>>>>>>> carousel/dev/carousel-component
             </responsivegrid>
         </root>
     </jcr:content>

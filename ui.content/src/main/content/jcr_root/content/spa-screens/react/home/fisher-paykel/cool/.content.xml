@@ -2,7 +2,11 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+<<<<<<< HEAD
+        cq:lastModified="{Date}2018-11-26T11:48:40.295+11:00"
+=======
         cq:lastModified="{Date}2018-11-28T12:35:51.065+11:00"
+>>>>>>> carousel/dev/carousel-component
         cq:lastModifiedBy="admin"
         cq:template="/conf/spa-screens/settings/wcm/templates/spa-screens-page-template"
         jcr:isCheckedOut="{Boolean}true"

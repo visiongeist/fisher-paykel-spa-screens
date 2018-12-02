@@ -180,6 +180,9 @@ public class ProductImpl implements Product {
 		productResource = resourceResolver.getResource(productPath);
 		if(productResource != null) {
 			specifications =  productResource.getValueMap().get(Product.PN_SUMMARY, String.class);
+			height = productResource.getValueMap().get(Product.PN_HEIGHT, String.class);
+			depth = productResource.getValueMap().get(Product.PN_DEPTH, String.class);
+			width = productResource.getValueMap().get(Product.PN_WIDTH, String.class);
 			page = pageManager.getContainingPage(resource);
 			product = productResource.adaptTo(com.adobe.cq.commerce.api.Product.class);
 		}
@@ -267,7 +270,7 @@ public class ProductImpl implements Product {
 			ProductFeature feature = new ProductFeatureImpl(featureRes.getValueMap());
 			imageUrl = feature != null ? feature.getImagePath() : null;
 		}
-
+		
 		return imageUrl;
 	}
 	
