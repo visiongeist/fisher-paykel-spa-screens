@@ -103,7 +103,10 @@ public class ProductListItemImpl implements ListItem {
     
     @Override
     public String getImage() {
-    	return product.getImage();
+    	if(StringUtils.EMPTY.equals(product.getCarouselImage())) {
+    		return product.getImage();
+    	}
+    	return product.getCarouselImage();
     }
     
     public Product getProduct() {

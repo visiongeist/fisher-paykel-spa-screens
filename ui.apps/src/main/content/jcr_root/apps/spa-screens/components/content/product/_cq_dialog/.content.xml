@@ -23,6 +23,13 @@
                                 fieldLabel="Product Path"
                                 rootPath="/var/commerce/products/fishers"
                                 name="./productPath"/>
+                            <carouselImage
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                fieldDescription="An image to render on the product carousel (optimised for the carousel view)"
+                                fieldLabel="Carousel Image"
+                                rootPath="/content/dam/fishers"
+                                name="./carouselImage"/>
                         </items>
                     </properties>
                 </items>
