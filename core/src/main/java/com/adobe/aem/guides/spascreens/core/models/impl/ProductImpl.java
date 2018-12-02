@@ -60,6 +60,10 @@ public class ProductImpl implements Product {
 	@ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
 	@Default(values = StringUtils.EMPTY)
 	private String productPath;
+	
+	@ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+	@Default(values = StringUtils.EMPTY)
+	private String carouselImage;
 
 	private List<ProductFeature> features;
 	private PageManager pageManager;
@@ -342,6 +346,11 @@ public class ProductImpl implements Product {
 	@Override
 	public void setReadInspirationAssets(Boolean readInspirationAssets) {
 		this.readInspirationAssets = readInspirationAssets;
+	}
+
+	@Override
+	public String getCarouselImage() {
+		return carouselImage;
 	}
 
 }

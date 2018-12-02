@@ -53,6 +53,12 @@
             xmpMM:DocumentID="adobe:docid:photoshop:45059434-b1c3-1178-974c-ef031cf26bc5"
             xmpMM:InstanceID="xmp.iid:597ee07b-7e7e-442e-8021-0d824d22f41e"
             xmpMM:OriginalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:342772c7-a2fc-1178-9872-a9af068af463"
+                stRef:instanceID="xmp.iid:d2d94c84-3786-4cb4-b436-a73188c2fa05"
+                stRef:originalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d"
+                xmpNodeType="xmpStruct"/>
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}12"
@@ -142,12 +148,6 @@
                     stEvt:when="{Date}2015-10-13T11:59:07.000+13:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="adobe:docid:photoshop:342772c7-a2fc-1178-9872-a9af068af463"
-                stRef:instanceID="xmp.iid:d2d94c84-3786-4cb4-b436-a73188c2fa05"
-                stRef:originalDocumentID="xmp.did:7459337f-ed8a-4a05-a92f-7e799602ac5d"
-                xmpNodeType="xmpStruct"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

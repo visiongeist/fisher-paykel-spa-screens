@@ -2,6 +2,8 @@ import React from 'react';
 import { Page, withModel, EditorContext, Utils } from '@adobe/cq-react-editable-components';
 import { Redirect } from 'react-router';
 import Header from './components/header/Header';
+import "slick-carousel/slick/slick.scss";
+import "slick-carousel/slick/slick-theme.scss";
 
 
 /**
@@ -44,7 +46,7 @@ class App extends Page {
 
         if (canRedirectHome(modelRootPath, locationPathname)) {
             // Redirect to the home url
-            return <Redirect to={ modelRootPath + '/home.html' }/>;
+            return <Redirect to={modelRootPath + '/home.html'} />;
         }
         return null;
     }
@@ -60,7 +62,7 @@ class App extends Page {
                     { this.childPages }
                 </EditorContext.Provider>
             </div>
-          );
+        );
     }
 }
 

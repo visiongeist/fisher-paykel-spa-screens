@@ -286,6 +286,7 @@
             <imageFeatures
                 jcr:primaryType="nt:unstructured"
                 haystack0="{Binary}"/>
+            <imageFeatures/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

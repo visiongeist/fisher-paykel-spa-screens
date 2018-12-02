@@ -1,58 +1,17 @@
 @import '../../styles/shared';
 
-$icon-size-lg: 46px;
-$icon-size-md: 40px;
-$icon-size-sm: 32px;
-
 .Header {
-    background-color: $color-primary;
-    height: $header-height;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 99;
-
-    @include media(tablet,desktop) {
-      height: $header-height-big;
-    }
-
-    &-wrapper {
-        @include content-area();
-        display: flex;
-        justify-content: space-between;
-    }
-
-    &-title {
-        font-family: 'Helvetica';
-        font-size: 20px; 
-        float: left;
-        padding-left: $gutter-padding;
-    
-        @include media(tablet,desktop) {
-          font-size: 24px;
-        }
-    }
-
-    &-title--inverse {
-        color: $color-white;
-    }
-
-    &-tools {
-        padding-top: 8px;
-        padding-right: $gutter-padding;
-    }
-
     &-action {
-        background: $color-white;
-        border-radius: 100%;
-        width:  $icon-size-sm;
-        height:   $icon-size-sm;
+        background: $color-gray;
+        width:  $header-size-sm;
+        height:   $header-size-sm;
         font-size:   18px;
-        color: $color-black;
+        color: $color-white;
         text-align: center;
         align-content: center;
-        float: left;
-        margin-right: 1.5rem;
+        position: fixed;
+        top: 0;
+        left: 0;
         
         &:last-child {
           margin-right: 0;
@@ -60,21 +19,27 @@ $icon-size-sm: 32px;
     
         .svg-inline--fa {
           position:relative;
-          top: 2.5px;
+          top: 3vh;
           right: 1px;
         }
     
     
     
         @include media(desktop) {
-          width:  $icon-size-lg;
-          height:   $icon-size-lg;
+          width:  $header-size-lg;
+          height:   $header-size-lg;
           font-size:   26px;
+          
+          .svg-inline--fa {
+            position:relative;
+            top: $header-size-lg / 4;
+            right: 1px;
+          }
         }
     
         @include media(tablet) {
-          width:  $icon-size-md;
-          height:   $icon-size-md;
+          width:  $header-size-md;
+          height:   $header-size-md;
           font-size:   22px;
         }
       }
