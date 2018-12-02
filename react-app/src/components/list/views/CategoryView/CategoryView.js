@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Slider from 'react-slick';
-import {Link} from 'react-router-dom';
 import CarouselCard from '../../../carousel/components/CarouselCard';
 require('./CategoryView.scss');
 
@@ -26,7 +25,7 @@ class CategoryView extends Component {
             infinite: true,
             speed: 500,
             slidesToShow: 4,
-            slidesToScroll: 4,
+            swipeToSlide: true,
             arrows: true,
             className: "carousel",
             // accessibility: true
