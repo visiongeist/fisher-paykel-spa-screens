@@ -15,6 +15,7 @@ public interface Product extends ComponentExporter {
     public static final String PN_HEIGHT = "productHeight";
     public static final String PN_WIDTH = "productWidth";
     public static final String PN_DEPTH = "productDepth";
+    public static final String PN_CAROUSEL_IMAGE = "carouselImage";
     
 	public String getName();
 	
@@ -25,6 +26,8 @@ public interface Product extends ComponentExporter {
 	public String getCategory();
 	
 	public String getImage();
+	
+	public String getCarouselImage();
 	
 	public List<HotSpot> getHotSpots();
 	

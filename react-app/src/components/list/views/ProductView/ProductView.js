@@ -43,7 +43,7 @@ class ProductView extends Component {
                     <div className="carousel-container">
                         <Slider {...settings}>
                         { this.props.items && this.props.items.map((listItem, index) => {
-                    		return (<CarouselCard url={listItem.product.productPage} title={listItem.product.title} image={listItem.product.image} description={listItem.product.sku} />);
+                    		return (<CarouselCard url={listItem.product.productPage} title={listItem.product.title} image={listItem.image} description={listItem.product.sku} />);
                         })}
 
                         </Slider>
