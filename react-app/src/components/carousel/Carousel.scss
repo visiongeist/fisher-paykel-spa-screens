@@ -30,11 +30,23 @@
 .carousel-container {
     padding: 4vh 45px 4vh 45px;
     background-color: white;
-    height: 72vh;
-    .carousel {
-        .slick-list {
-            .slick-track {
-                height:75vh;
+    @media screen and (orientation:portrait) {
+        height: 30vh;
+        .carousel {
+            .slick-list {
+                .slick-track {
+                    height:35vh;
+                }
+            }
+        }
+      }
+    @media screen and (orientation:landscape) {
+        height:100vh;
+        .carousel {
+            .slick-list {
+                .slick-track {
+                    height:75vh;
+                }
             }
         }
     }
