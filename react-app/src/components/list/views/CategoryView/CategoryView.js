@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Slider from 'react-slick';
-import {Link} from 'react-router-dom';
 import CarouselCard from '../../../carousel/components/CarouselCard';
 require('./CategoryView.scss');
 

@@ -10,10 +10,12 @@
 
 .category-view {
     @media screen and (orientation:portrait) {
+        margin-top: 20vh;
         height: 30vh;
       }
     @media screen and (orientation:landscape) {
-        height:100vh;
+        height: 100vh;
+    // height:100vh;
     }
 }
 .header {
@@ -25,17 +27,19 @@
         margin:0;
         font-weight: normal;
     }
-    height: $header-size-lg;
+    height: 15%;
 }
 
 .carousel-container {
-    padding: 4vh 45px 4vh 45px;
+    padding: 0 45px 0 45px;
     background-color: white;
-    height: 70vh;
+    height:85%;
     .carousel {
+        height:100%;
         .slick-list {
+            height: inherit;
             .slick-track {
-                height:70vh;
+                height:100%;
             }
         }
     }
