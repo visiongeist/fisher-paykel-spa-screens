@@ -32,6 +32,7 @@ import com.adobe.aem.guides.spascreens.core.models.List;
 import com.adobe.cq.export.json.ComponentExporter;
 import com.adobe.cq.export.json.ExporterConstants;
 import com.adobe.cq.wcm.core.components.models.ListItem;
+import com.adobe.cq.wcm.core.components.models.Navigation;
 import com.day.cq.commons.RangeIterator;
 import com.day.cq.search.Predicate;
 import com.day.cq.search.SimpleSearch;
@@ -49,6 +50,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class ListImpl implements List {
 	
 	protected static final String RESOURCE_TYPE = "spa-screens/components/content/list";
+	private static final String PN_NAVIGATION_COMPONENT_REFERENCE = "/root/responsivegrid/navigation";
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ListImpl.class);
 
@@ -61,6 +63,7 @@ public class ListImpl implements List {
     private static final String TAGS_MATCH_ANY_VALUE = "any";
     private static final String DEFAULT_TYPE = "PageView";
     private static final String CATEGORY_TYPE = "CategoryView";
+    private static final String PRODUCT_TYPE = "ProductView";
 
     @ScriptVariable
     private ValueMap properties;
@@ -111,6 +114,10 @@ public class ListImpl implements List {
 
     private PageManager pageManager;
     protected java.util.List<Page> listItems;
+    
+    private String title;
+    private String selectedCategory;
+    private java.util.List<ListItem> navigation;
 
     @PostConstruct
     private void initModel() {
@@ -120,6 +127,7 @@ public class ListImpl implements List {
 
     private void readProperties() {
         // read edit config properties
+    	currentPage = pageManager.getContainingPage(resource);
         startIn = properties.get(PN_SEARCH_IN, currentPage.getPath());
         sortOrder = SortOrder.fromString(properties.get(PN_SORT_ORDER, SortOrder.ASC.value));
         orderBy = OrderBy.fromString(properties.get(PN_ORDER_BY, StringUtils.EMPTY));
@@ -130,7 +138,26 @@ public class ListImpl implements List {
                 PN_SHOW_MODIFICATION_DATE, currentStyle.get(PN_SHOW_MODIFICATION_DATE, SHOW_MODIFICATION_DATE_DEFAULT));
         linkItems = properties.get(PN_LINK_ITEMS, currentStyle.get(PN_LINK_ITEMS, LINK_ITEMS_DEFAULT));
         dateFormatString = properties.get(PN_DATE_FORMAT, currentStyle.get(PN_DATE_FORMAT, PN_DATE_FORMAT_DEFAULT));
-
+        
+        if(renderType.equals(CATEGORY_TYPE)) {
+        	title = currentPage.getTitle();
+            selectedCategory = currentPage.getTitle();
+            Iterator<Page> navPages = currentPage.getParent().listChildren();
+            navigation = new ArrayList<>();
+            while(navPages.hasNext()) {
+            	Page navPage = navPages.next();
+            	navigation.add(new PageListItemImpl(request, navPage));
+            }
+        } else if(renderType.equals(PRODUCT_TYPE)) {
+        	title = currentPage.getTitle();
+            selectedCategory = currentPage.getParent().getTitle();
+            Iterator<Page> navPages = currentPage.getParent().getParent().listChildren();
+            navigation = new ArrayList<>();
+            while(navPages.hasNext()) {
+            	Page navPage = navPages.next();
+            	navigation.add(new PageListItemImpl(request, navPage));
+            }
+        }
     }
 
     @Override
@@ -178,7 +205,9 @@ public class ListImpl implements List {
         Collection<ListItem> listItems = new ArrayList<>();
         Collection<Page> pages = getPages();
         for (Page page : pages) {
-            if (page != null && (renderType.equals(DEFAULT_TYPE) || renderType.equals(CATEGORY_TYPE))) {
+            if (page != null && renderType.equals(DEFAULT_TYPE)) {
+            	listItems.add(new PageListItemImpl(request, page));
+            } else if(renderType.equals(CATEGORY_TYPE)) {
                 listItems.add(new PageListItemImpl(request, page));
             } else if (page != null) {
             	listItems.add(new ProductListItemImpl(request, page));
@@ -427,5 +456,20 @@ public class ListImpl implements List {
             return i;
         }
     }
+
+	@Override
+	public String getTitle() {
+		return title;
+	}
+	
+	@Override
+	public String getSelectedCategory() {
+		return selectedCategory;
+	}
+	
+	@Override
+	public java.util.List<ListItem> getCategories() {
+		return navigation;
+	}
 
 }

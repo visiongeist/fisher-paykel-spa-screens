@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Slider from 'react-slick';
 import CarouselCard from '../../../carousel/components/CarouselCard';
+import Footer from '../../../footer/Footer';
 require('./CategoryView.scss');
 
 /**
@@ -45,6 +46,7 @@ class CategoryView extends Component {
 
                     </Slider>
                 </div>
+                <Footer categories={this.props.categories} selectedCategory={this.props.selectedCategory}/>
             </div>
         );
             

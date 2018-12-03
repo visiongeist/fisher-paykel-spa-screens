@@ -33,7 +33,7 @@ export default class List extends Component {
     	}
     	
         return (
-           <ListView items={this.props.items} listClass={listClass}/>
+           <ListView items={this.props.items} title={this.props.title} selectedCategory={this.props.selectedCategory} categories={this.props.categories} listClass={listClass}/>
         );
     }
 }
