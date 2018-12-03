@@ -1,7 +1,7 @@
 @import '../../styles/variables';
 .footer {
     display: flex;
-    height: auto;
+    height: 13%;
     background-color: $color-dark-gray;
     ul {
         display: flex;
@@ -11,19 +11,22 @@
         align-items: center;
         list-style: none;
         li.footer-item {
-            padding: 5px 20px;
+            padding: 0 20px;
             background-color: $color-dark-gray;
             border-right: 1px solid black;
+            display: flex;
+            align-items: center;
+            height: 100%;
             &:first-child{
                 border-left: 1px solid black;
-            }
-            a {
-                color: white;
-                text-transform: uppercase;
             }
             &.footer-item--active {
                 background-color: $color-blue;
                 color: $color-black;
+            }
+            a {
+                color: white;
+                text-transform: uppercase;
             }
         }
     }
