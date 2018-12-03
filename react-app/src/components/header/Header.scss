@@ -13,6 +13,10 @@
         top: 0;
         left: 0;
         
+        @media screen and (orientation:portrait) {
+        	top: 20vh;
+      	}
+        
         &:last-child {
           margin-right: 0;
         }
@@ -21,6 +25,7 @@
           position:relative;
           top: 3vh;
           right: 1px;
+          
         }
     
     
@@ -34,6 +39,10 @@
             position:relative;
             top: $header-size-lg / 4;
             right: 1px;
+            
+            @media screen and (orientation:portrait) {
+        		top: ($header-size-lg + 20vh) /4;
+      		}
           }
         }
     

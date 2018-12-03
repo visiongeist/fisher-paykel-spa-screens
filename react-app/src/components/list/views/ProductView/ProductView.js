@@ -36,7 +36,7 @@ class ProductView extends Component {
                 <div className="category-view">
                     <div className="header">
                         <h2>
-                            {this.props.categoryName}
+                            {this.props.title}
                         </h2>
                     </div>
                     <div className="carousel-container">
@@ -46,6 +46,18 @@ class ProductView extends Component {
                         })}
 
                         </Slider>
+                    </div>
+                    <div className="footer">
+                    { this.props.categories && this.props.categories.map((categoryItem, index) => {
+                    	let selected = categoryItem.title === this.props.selectedCategory ? 'selected' : '';
+                		return (
+                			<div className={selected}>
+	                			<Link key={categoryItem.path} className="FooterItem" to={categoryItem.url}>
+		        					<div className="textSegment">{categoryItem.title}</div>
+		        				</Link>
+                			</div>
+                		);
+                    })}
                     </div>
                 </div>
             );
