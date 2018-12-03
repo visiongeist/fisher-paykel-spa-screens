@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Slider from 'react-slick';
 import CarouselCard from '../../../carousel/components/CarouselCard';
+import Footer from '../../../footer/Footer';
 require('./CategoryView.scss');
 
 /**
@@ -30,22 +31,22 @@ class CategoryView extends Component {
             className: "carousel",
             // accessibility: true
         };
-    	
         return (
             <div className="category-view">
                 <div className="header">
                     <h2>
-                        {this.props.categoryName}
+                        {this.props.title}
                     </h2>
                 </div>
                 <div className="carousel-container">
                     <Slider {...settings}>
                     { this.props.items && this.props.items.map((listItem, index) => {
-                		return (<CarouselCard url={listItem.url} title={listItem.title} image={listItem.image} description={listItem.description} />);
+                		return (<CarouselCard key={index} url={listItem.url} title={listItem.title} image={listItem.image} description={listItem.description} />);
                     })}
 
                     </Slider>
                 </div>
+                <Footer categories={this.props.categories} selectedCategory={this.props.selectedCategory}/>
             </div>
         );
             
