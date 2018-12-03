@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Link} from "react-router-dom";
 import Slider from 'react-slick';
 import CarouselCard from '../../../carousel/components/CarouselCard';
 import Footer from '../../../footer/Footer';
