@@ -30,15 +30,11 @@ class CategoryView extends Component {
             className: "carousel",
             // accessibility: true
         };
-        let categoryName = window.location.pathname;
-        categoryName = categoryName.split('/');
-        categoryName = categoryName[categoryName.length - 1].split('.')[0].replace(/-/g,' ')
-            .replace(/\b([a-zA-Z])/g, v => v.toUpperCase());
         return (
             <div className="category-view">
                 <div className="header">
                     <h2>
-                        {categoryName}
+                        {this.props.title}
                     </h2>
                 </div>
                 <div className="carousel-container">

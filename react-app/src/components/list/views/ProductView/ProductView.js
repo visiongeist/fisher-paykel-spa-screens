@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Link} from "react-router-dom";
 import Slider from 'react-slick';
 import CarouselCard from '../../../carousel/components/CarouselCard';
+import Footer from '../../../footer/Footer';
 require('../CategoryView/CategoryView.scss');
 require('./ProductView.scss');
 
@@ -32,15 +33,11 @@ class ProductView extends Component {
                 className: "carousel",
                 // accessibility: true
             };
-            let productName = window.location.pathname;
-            productName = productName.split('/');
-            productName = productName[productName.length - 1].split('.')[0].replace(/-/g,' ')
-                .replace(/\b([a-zA-Z])/g, v => v.toUpperCase());
             return (
                 <div className="category-view">
                     <div className="header">
                         <h2>
-                            {productName}
+                            {this.props.title}
                         </h2>
                     </div>
                     <div className="carousel-container">
@@ -48,9 +45,9 @@ class ProductView extends Component {
                         { this.props.items && this.props.items.map((listItem, index) => {
                     		return (<CarouselCard key={index} url={listItem.product.productPage} title={listItem.product.title} image={listItem.image} description={listItem.product.sku} />);
                         })}
-
                         </Slider>
                     </div>
+                    <Footer categories={this.props.categories} selectedCategory={this.props.selectedCategory}/>
                 </div>
             );
     }
