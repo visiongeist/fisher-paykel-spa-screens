@@ -6,6 +6,7 @@ import App from './App';
 import "./components/MappedComponents";
 import ScrollToTop from './utils/RouteHelper';
 import {BrowserRouter} from 'react-router-dom';
+import './fontawesome';
 
 function render(model) {
     ReactDOM.render((
