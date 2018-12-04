@@ -1,23 +1,24 @@
 import React, { Component } from 'react';
 import './Footer.scss';
-import { Link } from 'react-router-dom';
 
 export default class Footer extends Component {
+    
+    /**
+     * Create the class name of a list element depending on if its selected or not
+     * @param {string} categoryItem The item in a map to be checked against the selected item
+     * @returns {string} class name
+     */ 
+    getClasses(categoryItem) {
+        let selected = categoryItem.title === this.props.selectedCategory ? ' footer-item--active' : '';
+        return `footer-item${selected}`
+    }
 
     render() {
         return (
             <div className="footer">
                 <ul>
-                    {this.props.children}
-                    {this.props.categories && this.props.categories.map((categoryItem, index) => {
-                        let c = this.getClasses(categoryItem);
-                        return (
-                            <li key={index} className={c}>
-                                <Link key={categoryItem.path} to={categoryItem.url}>
-                                    <div className="textSegment">{categoryItem.title}</div>
-                                </Link>
-                            </li>
-                        );
+                    {this.props.children && this.props.children.map((categoryItem, index) => {
+                        return React.cloneElement(categoryItem, {className: this.getClasses(categoryItem)});
                     })}
                 </ul>
             </div>

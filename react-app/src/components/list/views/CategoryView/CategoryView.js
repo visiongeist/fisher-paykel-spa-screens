@@ -3,7 +3,6 @@ import Slider from 'react-slick';
 import CarouselCard from '../../../carousel/components/CarouselCard';
 import Footer from '../../../footer/Footer';
 import { Link } from 'react-router-dom';
-
 require('./CategoryView.scss');
 
 /**
@@ -20,11 +19,7 @@ class CategoryView extends Component {
     }
 
 
-    getClasses(categoryItem) {
-        let selected = categoryItem.title === this.props.selectedCategory ? ' footer-item--active' : '';
-        console.log(categoryItem);
-        return `footer-item${selected}`
-    }
+
 
     render() {
         if (!this.props.items) {
@@ -58,9 +53,8 @@ class CategoryView extends Component {
                 <div id="category-footer">
                     <Footer categories={this.props.categories} selectedCategory={this.props.selectedCategory}>
                         {this.props.categories && this.props.categories.map((categoryItem, index) => {
-                            let c = this.getClasses(categoryItem);
                             return (
-                                <li key={index} className={c}>
+                                <li key={index}>
                                     <Link key={categoryItem.path} to={categoryItem.url}>
                                         <div className="textSegment">{categoryItem.title}</div>
                                     </Link>
