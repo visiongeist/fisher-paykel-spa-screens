@@ -46,7 +46,9 @@ class CategoryView extends Component {
 
                     </Slider>
                 </div>
-                <Footer categories={this.props.categories} selectedCategory={this.props.selectedCategory}/>
+                <div id="category-footer">
+                    <Footer categories={this.props.categories} selectedCategory={this.props.selectedCategory}/>
+                </div>
             </div>
         );
             
