@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './ProductPage.scss';
+import Footer from '../footer/Footer';
 
 /**
  * Props:
@@ -36,6 +37,9 @@ export default class ProductPage extends Component {
                     <div className="img-container">
                         <img src={this.props.image} alt={this.props.title} />
                     </div>
+                </div>
+                <div className="footer">
+                    <Footer />
                 </div>
             </div>
         );
