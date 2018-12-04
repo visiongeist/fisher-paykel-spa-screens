@@ -7,6 +7,7 @@
 import React, {Component} from 'react';
 import {MapTo} from '@adobe/cq-react-editable-components';
 import Footer from '../footer/Footer';
+import {Link} from 'react-router-dom';
 require('./Product.scss');
 /**
  * Default Edit configuration for the Product component
@@ -27,6 +28,19 @@ const ProductEditConfig = {
  */
 export default class Product extends Component {
 
+
+    createFooter() {
+        let footer = [];
+        let index = 0;
+        footer.push(
+            <li key={index++} title="product">
+                <Link to='google'>
+                    <div className="textSegment">test</div>
+                </Link>
+            </li>
+        );
+        return footer;
+    }
 
     render() {
         return (<div className="product-page">
@@ -54,8 +68,10 @@ export default class Product extends Component {
                 <img src={this.props.image} alt={this.props.title} />
             </div>
         </div>
-        <div className="footer">
-            <Footer />
+        <div className="bottom">
+            <Footer selectedCategory="product" > 
+               {this.createFooter()}
+            </Footer>
         </div>
     </div>);
     }
