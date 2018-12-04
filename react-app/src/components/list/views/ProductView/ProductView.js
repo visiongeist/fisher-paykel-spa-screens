@@ -51,7 +51,7 @@ class ProductView extends Component {
                     <Footer categories={this.props.categories} selectedCategory={this.props.selectedCategory}>
                         {this.props.categories && this.props.categories.map((categoryItem, index) => {
                             return (
-                                <li key={index}>
+                                <li key={index} title={categoryItem.title}>
                                     <Link key={categoryItem.path} to={categoryItem.url}>
                                         <div className="textSegment">{categoryItem.title}</div>
                                     </Link>

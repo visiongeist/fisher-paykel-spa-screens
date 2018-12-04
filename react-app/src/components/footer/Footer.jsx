@@ -9,7 +9,7 @@ export default class Footer extends Component {
      * @returns {string} class name
      */ 
     getClasses(categoryItem) {
-        let selected = categoryItem.title === this.props.selectedCategory ? ' footer-item--active' : '';
+        let selected = categoryItem === this.props.selectedCategory ? ' footer-item--active' : '';
         return `footer-item${selected}`
     }
 
@@ -18,7 +18,7 @@ export default class Footer extends Component {
             <div className="footer">
                 <ul>
                     {this.props.children && this.props.children.map((categoryItem, index) => {
-                        return React.cloneElement(categoryItem, {className: this.getClasses(categoryItem)});
+                        return React.cloneElement(categoryItem, {className: this.getClasses(categoryItem.props.title)});
                     })}
                 </ul>
             </div>
