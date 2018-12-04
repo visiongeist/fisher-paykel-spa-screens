@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import './Footer.scss';
 
+/**
+ * Props:
+ * - selectedCategory - A string which should match the title prop of the direct children component
+ * - children - list elements with a property of title which is a string
+ */
 export default class Footer extends Component {
     
     /**

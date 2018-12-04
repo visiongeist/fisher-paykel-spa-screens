@@ -51,7 +51,7 @@ class CategoryView extends Component {
                     </Slider>
                 </div>
                 <div id="category-footer">
-                    <Footer categories={this.props.categories} selectedCategory={this.props.selectedCategory}>
+                    <Footer selectedCategory={this.props.selectedCategory}>
                         {this.props.categories && this.props.categories.map((categoryItem, index) => {
                             return (
                                 <li key={index} title={categoryItem.title}>
