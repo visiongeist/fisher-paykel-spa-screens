@@ -25,11 +25,40 @@ const ProductEditConfig = {
 };
 
 /**
+ * Render the product view
+ * @param {any[]} props React props
+ */
+const ProductComponent = (props) => {
+    return (<div className="content">
+        <div className="information">
+            <h5 className="model-number">
+                {props.sku}
+            </h5>
+            <h1 className="title">
+                {props.title}
+            </h1>
+            <h5 className="category">
+                {props.category}
+            </h5>
+            <br />
+            <hr />
+            <br />
+            <div className="description">
+                <strong>
+                    {props.description}
+                </strong>
+            </div>
+        </div>
+        <div className="img-container">
+            <img src={props.image} alt={props.title} />
+        </div>
+    </div>);
+}
+
+/**
  * Product React component
  */
 export default class Product extends Component {
-
-
     createFooter() {
         let index = 0;
         let footer = [
@@ -57,30 +86,11 @@ export default class Product extends Component {
 
     render() {
         return (<div className="product-page">
-            <div className="content">
-                <div className="information">
-                    <h5 className="model-number">
-                        {this.props.sku}
-                    </h5>
-                    <h1 className="title">
-                        {this.props.title}
-                    </h1>
-                    <h5 className="category">
-                        {this.props.category}
-                    </h5>
-                    <br />
-                    <hr />
-                    <br />
-                    <div className="description">
-                        <strong>
-                            {this.props.features[0].description}
-                        </strong>
-                    </div>
-                </div>
-                <div className="img-container">
-                    <img src={this.props.image} alt={this.props.title} />
-                </div>
-            </div>
+            <ProductComponent image={this.props.image}
+                description={this.props.features[0].description}
+                title={this.props.title} 
+                sku={this.props.sku}
+                category={this.props.category}/>
             <div className="bottom">
                 <Footer selectedCategory="product" >
                     {this.createFooter()}
