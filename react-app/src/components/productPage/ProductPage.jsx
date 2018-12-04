@@ -1,34 +1,42 @@
 import React, { Component } from 'react';
 import './ProductPage.scss';
 
+/**
+ * Props:
+ * - model number
+ * - title
+ * - category
+ * - description
+ * - image
+ */
 export default class ProductPage extends Component {
     render() {
         return (
             <div className="product-page">
-                <div className="information">
-                    <div className="model-number">
-                        <h5>
-                            what
+                <div className="content">
+                    <div className="information">
+                        <h5 className="model-number">
+                            {this.props.modelNumber}
                         </h5>
-                    </div>
-                    <div className="title">
-                        <h1>
-                            who
+                        <h1 className="title">
+                            {this.props.title}
                         </h1>
-                    </div>
-                    <div className="category">
-                        <h5>
-                            when
+                        <h5 className="category">
+                            {this.props.category}
                         </h5>
-                    </div>
-                    <hr />
-                    <div className="description">
-                        <strong>
-                            why
+                        <br />
+                        <hr />
+                        <br />
+                        <div className="description">
+                            <strong>
+                                {this.props.description}
                         </strong>
+                        </div>
+                    </div>
+                    <div className="img-container">
+                        <img src={this.props.image} alt={this.props.title} />
                     </div>
                 </div>
-                <div className="img-container"><img src="fridges/fridge-534L.png" alt="none yet"/></div>
             </div>
         );
     }
