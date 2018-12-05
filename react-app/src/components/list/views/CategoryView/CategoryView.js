@@ -1,7 +1,8 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Slider from 'react-slick';
 import CarouselCard from '../../../carousel/components/CarouselCard';
 import Footer from '../../../footer/Footer';
+import { Link } from 'react-router-dom';
 require('./CategoryView.scss');
 
 /**
@@ -10,18 +11,21 @@ require('./CategoryView.scss');
 class CategoryView extends Component {
 
     get date() {
-       if(!this.props.date) {
-           return null;
-       }
+        if (!this.props.date) {
+            return null;
+        }
         let date = new Date(this.props.date);
         return date.toLocaleDateString('en-US');
     }
 
+
+
+
     render() {
-    	if(!this.props.items) {
+        if (!this.props.items) {
             return null;
         }
-    	const settings = {
+        const settings = {
             dots: true,
             infinite: true,
             speed: 500,
@@ -40,16 +44,28 @@ class CategoryView extends Component {
                 </div>
                 <div className="carousel-container">
                     <Slider {...settings}>
-                    { this.props.items && this.props.items.map((listItem, index) => {
-                		return (<CarouselCard key={index} url={listItem.url} title={listItem.title} image={listItem.image} description={listItem.description} />);
-                    })}
+                        {this.props.items && this.props.items.map((listItem, index) => {
+                            return (<CarouselCard key={index} url={listItem.url} title={listItem.title} image={listItem.image} description={listItem.description} />);
+                        })}
 
                     </Slider>
                 </div>
-                <Footer categories={this.props.categories} selectedCategory={this.props.selectedCategory}/>
+                <div id="category-footer">
+                    <Footer selectedCategory={this.props.selectedCategory}>
+                        {this.props.categories && this.props.categories.map((categoryItem, index) => {
+                            return (
+                                <li key={index} title={categoryItem.title}>
+                                    <Link key={categoryItem.path} to={categoryItem.url}>
+                                        <div className="textSegment">{categoryItem.title}</div>
+                                    </Link>
+                                </li>
+                            );
+                        })}
+                    </Footer>
+                </div>
             </div>
         );
-            
+
     }
 }
 

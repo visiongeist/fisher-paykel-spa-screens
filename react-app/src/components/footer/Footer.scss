@@ -1,7 +1,7 @@
 @import '../../styles/variables';
 .footer {
     display: flex;
-    height: 13%;
+    height: 100%;
     background-color: $color-dark-gray;
     ul {
         display: flex;
@@ -24,7 +24,7 @@
                 background-color: $color-blue;
                 color: $color-black;
             }
-            a {
+            a, div {
                 color: white;
                 text-transform: uppercase;
             }

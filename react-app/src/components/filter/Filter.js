@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {MapTo} from '@adobe/cq-react-editable-components';
-import {Link} from "react-router-dom";
 require('./Filter.scss');
 
 
