@@ -157,7 +157,7 @@ export default class Product extends Component {
     /**
      * Create the footer and highlight the item that we're currently on.
      */
-    createFooter() {
+    createFooter(product) {
         let index = 0;
         let footer = [
             (<li key={index++} title="product" onClick={() => this.showProduct()}>
