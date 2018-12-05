@@ -71,7 +71,13 @@ const FeaturesComponent = (props) => {
                 {props.features && props.features.map((feature, index) => {
                     return (
                         <div className="feature">
-                            <img src={feature.imagePath} key={index} alt={index}/>
+                            <div className="image-container">
+                                <img src={feature.imagePath} key={index} alt={index}/>
+                            </div>
+                            <div className="footer-text">
+                                <strong>{feature.title}</strong>
+                                <p>{feature.description}</p>
+                            </div>
                         </div>
                     )
                 })}
