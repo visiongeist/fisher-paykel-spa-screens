@@ -9,7 +9,7 @@ import { MapTo } from '@adobe/cq-react-editable-components';
 import Footer from '../footer/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Slider from 'react-slick';
-import { sendToScreen, receiveMessage } from '../../socket/api';
+import { sendToScreen, receiveMessage, notifySender, receiveMessageLoop } from '../../socket/api';
 require('./Product.scss');
 /**
  * Default Edit configuration for the Product component
@@ -96,7 +96,12 @@ export default class Product extends Component {
         
         // register to receive a message from other screens
         receiveMessage((err, product) => {
+        	notifySender();
         	window.location = product.productPage;
+        });
+        
+        receiveMessageLoop((err) => {
+        	console.log('Close modal');
         });
         
         this.state = {
@@ -136,6 +141,7 @@ export default class Product extends Component {
     
     sendToScreen(product) {
     	sendToScreen(product);
+    	console.log('Show modal');
     }
 
     createFooter(product) {
