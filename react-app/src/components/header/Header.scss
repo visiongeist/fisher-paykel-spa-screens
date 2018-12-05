@@ -1,5 +1,14 @@
 @import '../../styles/shared';
 
+.aem-AuthorLayer-Edit .Header {
+	height: 80px;
+	width: 80px;
+	
+	.svg-inline--fa {
+	  top: 40px;
+	}
+}
+
 .Header {
     &-action {
         background: $color-gray;
