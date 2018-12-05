@@ -9,6 +9,7 @@ import { MapTo } from '@adobe/cq-react-editable-components';
 import Footer from '../footer/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Slider from 'react-slick';
+import { sendToScreen, receiveMessage } from '../../socket/api';
 require('./Product.scss');
 /**
  * Default Edit configuration for the Product component
@@ -85,6 +86,12 @@ const FeaturesComponent = (props) => {
 export default class Product extends Component {
     constructor(props) {
         super(props);
+        
+        // register to receive a message from other screens
+        receiveMessage((err, product) => {
+        	window.location = product.productPage;
+        });
+        
         this.state = {
             currentView: <ProductComponent image={this.props.image}
                 description={this.props.features[0].description}
@@ -119,8 +126,12 @@ export default class Product extends Component {
     showSpecs() {
         this.setState({ selectedCategory: 'specs' })
     }
+    
+    sendToScreen(product) {
+    	sendToScreen(product);
+    }
 
-    createFooter() {
+    createFooter(product) {
         let index = 0;
         let footer = [
             (<li key={index++} title="product" onClick={() => this.showProduct()}>
@@ -135,12 +146,18 @@ export default class Product extends Component {
                     <div className="textSegment">features</div>
                 </div>
             </li>),
-            <li key={index++} title="specs" onClick={() => this.showSpecs()}>
+            (<li key={index++} title="specs" onClick={() => this.showSpecs()}>
                 <div>
                     <FontAwesomeIcon icon={['fa', 'ruler-horizontal']} />
                     <div className="textSegment">specs</div>
                 </div>
-            </li>
+            </li>),
+            (<li key={index++} title="send to screen" onClick={() => this.sendToScreen(product)}>
+            <div>
+                <FontAwesomeIcon icon={['fa', 'ruler-horizontal']} />
+                <div className="textSegment">Send to Screen</div>
+            </div>
+        </li>)
         ];
         return footer;
     }
@@ -150,7 +167,7 @@ export default class Product extends Component {
             {this.state.currentView}
             <div className="bottom">
                 <Footer selectedCategory={this.state.selectedCategory} >
-                    {this.createFooter()}
+                    {this.createFooter(this.props)}
                 </Footer>
             </div>
         </div>);

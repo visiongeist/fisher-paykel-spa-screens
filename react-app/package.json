@@ -23,7 +23,8 @@
     "react-scripts": "2.0.4",
     "react-slick": "^0.23.2",
     "react-styleguidist": "^7.3.10",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "socket.io-client": "^2.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
