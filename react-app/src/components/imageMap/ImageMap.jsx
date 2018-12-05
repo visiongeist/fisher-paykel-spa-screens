@@ -13,6 +13,9 @@ export default class ImageMap extends Component {
         };
     }
 
+    /**
+     * Change the image to the one referenced by the link and add the new area mappings
+     */
     changeImage() {
         console.log('mm');
     }
@@ -20,10 +23,10 @@ export default class ImageMap extends Component {
     render() {
         return (
             <div className="click-map">
-                <img src={this.state.image} alt="image map" usemap="#image-map" />
+                <img src={this.state.image} alt="map" usemap="#image-map" />
                 <map name="image-map">
                     {this.state.mappings && this.state.mappings.map((area, index) => {
-                        return <area key={index} shape={area.shape} coords={area.coords} onClick={() => this.changeImage()} />
+                        return <area key={index} shape={area.shape} coords={area.coords} alt={index} onClick={() => this.changeImage()} />
                     })}
                 </map>
             </div>
