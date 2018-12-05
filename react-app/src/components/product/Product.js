@@ -62,7 +62,8 @@ const FeaturesComponent = (props) => {
         speed: 500,
         slidesToShow: 1,
         swipeToSlide: true,
-        className: "carousel"
+        className: "carousel",
+        dots: true
     };
     console.log(props)
     return (
