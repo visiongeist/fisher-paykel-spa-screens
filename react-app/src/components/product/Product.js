@@ -63,14 +63,17 @@ const FeaturesComponent = (props) => {
         swipeToSlide: true,
         className: "carousel"
     };
+    console.log(props)
     return (
         <div className="features">
             <Slider {...settings}>
-                <div>test</div>
-                <div>test</div>
-                <div>test</div>
-                <div>test</div>
-                <div>test</div>
+                {props.features && props.features.map((feature, index) => {
+                    return (
+                        <div className="feature">
+                            <img src={feature.imagePath} key={index} alt={index}/>
+                        </div>
+                    )
+                })}
             </Slider>
         </div>
     );
@@ -109,7 +112,7 @@ export default class Product extends Component {
     showFeatures() {
         this.setState({
             selectedCategory: 'features',
-            currentView: <FeaturesComponent />
+            currentView: <FeaturesComponent features={this.props.features} />
         })
     }
 
