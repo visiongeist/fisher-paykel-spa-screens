@@ -22,6 +22,12 @@
     @media screen and (orientation:landscape) {
         .portrait { display: none; }
     }
+    .portrait {
+      height:100%;
+      * {
+          height: inherit;
+      }
+    }
     .content{
         height: 75vh;
         padding-top: 12vh;

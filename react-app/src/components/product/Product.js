@@ -10,6 +10,7 @@ import Footer from '../footer/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Slider from 'react-slick';
 import { sendToScreen, receiveMessage, notifySender, receiveMessageLoop } from '../../socket/api';
+import ImageMap from '../imageMap/ImageMap';
 require('./Product.scss');
 /**
  * Default Edit configuration for the Product component
@@ -50,8 +51,11 @@ const ProductComponent = (props) => {
                 </strong>
             </div>
         </div>
-        <div className="img-container">
+        {/* <div className="img-container">
             <img src={props.image} alt={props.title} />
+        </div> */}
+        <div className="img-container">
+            <ImageMap image={props.image} title={props.title} />
         </div>
     </div>);
 }
@@ -200,7 +204,7 @@ export default class Product extends Component {
                     </div>
                 </div>
                 <div className="portrait">
-                    
+                    <ImageMap image={this.props.image} title={this.props.title} />
                 </div>
             </div>
         );

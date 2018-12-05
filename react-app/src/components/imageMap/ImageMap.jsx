@@ -1,13 +1,31 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './ImageMap.scss';
 /**
  * Image map component which swaps images depending on where it is clicked.
  */
 export default class ImageMap extends Component {
-    render(){
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            image: this.props.image,
+            mappings: this.props.mapping,
+        };
+    }
+
+    changeImage() {
+        console.log('mm');
+    }
+
+    render() {
         return (
-            <div className="image-map">
-                <img src={this.props.image} alt={this.props.title} />
+            <div className="click-map">
+                <img src={this.state.image} alt="image map" usemap="#image-map" />
+                <map name="image-map">
+                    {this.state.mappings && this.state.mappings.map((area, index) => {
+                        return <area key={index} shape={area.shape} coords={area.coords} onClick={() => this.changeImage()} />
+                    })}
+                </map>
             </div>
         );
     }
