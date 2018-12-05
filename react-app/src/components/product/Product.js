@@ -8,6 +8,7 @@ import React, { Component } from 'react';
 import { MapTo } from '@adobe/cq-react-editable-components';
 import Footer from '../footer/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Slider from 'react-slick';
 require('./Product.scss');
 /**
  * Default Edit configuration for the Product component
@@ -54,6 +55,27 @@ const ProductComponent = (props) => {
     </div>);
 }
 
+const FeaturesComponent = (props) => {
+    let settings = {
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        swipeToSlide: true,
+        className: "carousel"
+    };
+    return (
+        <div className="features">
+            <Slider {...settings}>
+                <div>test</div>
+                <div>test</div>
+                <div>test</div>
+                <div>test</div>
+                <div>test</div>
+            </Slider>
+        </div>
+    );
+}
+
 /**
  * Product React component
  */
@@ -85,11 +107,14 @@ export default class Product extends Component {
     }
 
     showFeatures() {
-        this.setState({selectedCategory: 'features'})
+        this.setState({
+            selectedCategory: 'features',
+            currentView: <FeaturesComponent />
+        })
     }
 
     showSpecs() {
-        this.setState({selectedCategory: 'specs'})
+        this.setState({ selectedCategory: 'specs' })
     }
 
     createFooter() {
