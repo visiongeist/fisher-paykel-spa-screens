@@ -55,7 +55,7 @@ const ProductComponent = (props) => {
             <img src={props.image} alt={props.title} />
         </div> */}
         <div className="img-container">
-            <ImageMap image={props.image} title={props.title} />
+            <ImageMap image={props.image} title={props.title} hotSpots={props.hotSpots} />
         </div>
     </div>);
 }
@@ -101,7 +101,7 @@ const FeaturesComponent = (props) => {
 export default class Product extends Component {
     constructor(props) {
         super(props);
-        
+        console.log(props);
         // register to receive a message from other screens
         receiveMessage((err, product) => {
         	notifySender();
@@ -117,7 +117,8 @@ export default class Product extends Component {
                 description={this.props.features[0].description}
                 title={this.props.title}
                 sku={this.props.sku}
-                category={this.props.category} />,
+                category={this.props.category} 
+                hotSpots={this.props.hotSpots}/>,
             selectedCategory: 'product'
         };
     }
@@ -131,7 +132,8 @@ export default class Product extends Component {
                 description={this.props.features[0].description}
                 title={this.props.title}
                 sku={this.props.sku}
-                category={this.props.category} />,
+                category={this.props.category}
+                hotSpots={this.props.hotSpots} />,
             selectedCategory: 'product'
         });
     }
@@ -204,7 +206,7 @@ export default class Product extends Component {
                     </div>
                 </div>
                 <div className="portrait">
-                    <ImageMap image={this.props.image} title={this.props.title} />
+                    <ImageMap image={this.props.image} title={this.props.title} hotSpots={this.props.hotSpots} />
                 </div>
             </div>
         );
