@@ -75,6 +75,12 @@
 }
 
 .carousel {
+    .slick-dots{
+        display: block;
+        position: absolute;
+        bottom: 15vh;
+        background-color: transparent;
+    }
     height:100%;
     .slick-list {
         height: inherit;
