@@ -15,11 +15,12 @@
 
 .product-page {
     background-color: white;
+    height: 100vh;
     @media screen and (orientation:portrait) {
-      //
-    }
+        .landscape{ display: none;}
+      }
     @media screen and (orientation:landscape) {
-        height: 100vh;
+        .portrait { display: none; }
     }
     .content{
         height: 75vh;

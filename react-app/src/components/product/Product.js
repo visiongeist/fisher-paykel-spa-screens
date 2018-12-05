@@ -77,7 +77,7 @@ const FeaturesComponent = (props) => {
                     return (
                         <div className="feature">
                             <div className="image-container">
-                                <img src={feature.imagePath} key={index} alt={index}/>
+                                <img src={feature.imagePath} key={index} alt={index} />
                             </div>
                             <div className="footer-text">
                                 <strong>{feature.title}</strong>
@@ -189,14 +189,21 @@ export default class Product extends Component {
     }
 
     render() {
-        return (<div className="product-page">
-            {this.state.currentView}
-            <div className="bottom">
-                <Footer selectedCategory={this.state.selectedCategory} >
-                    {this.createFooter(this.props)}
-                </Footer>
+        return (
+            <div className="product-page">
+                <div className="landscape">
+                    {this.state.currentView}
+                    <div className="bottom">
+                        <Footer selectedCategory={this.state.selectedCategory} >
+                            {this.createFooter()}
+                        </Footer>
+                    </div>
+                </div>
+                <div className="portrait">
+                    
+                </div>
             </div>
-        </div>);
+        );
     }
 }
 
