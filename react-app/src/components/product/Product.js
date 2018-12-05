@@ -69,7 +69,6 @@ const FeaturesComponent = (props) => {
         dots: true,
         dotsClass: 'slick-dots-2'
     };
-    console.log(props)
     return (
         <div className="features">
             <Slider {...settings}>
