@@ -52,6 +52,26 @@
 
 .features{
     height:87vh;
+    .feature {
+        height:100%;
+        .image-container{
+            overflow: hidden;
+            height:85%;
+        }
+        .footer-text{
+            height: 15%;
+            background-color: $color-gray;
+            * {
+                color: white;
+
+            }
+            p {
+                margin-top: 5px;
+            }
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
 }
 
 .carousel {
@@ -60,15 +80,6 @@
         height: inherit;
         .slick-track {
             height:100%;
-            .feature {
-                height: 100%;
-                img {
-                    height: auto;
-                    width:auto;
-                    max-width: 100%;
-                    max-height: 100%;
-                }
-            }
         }
     }
 }
