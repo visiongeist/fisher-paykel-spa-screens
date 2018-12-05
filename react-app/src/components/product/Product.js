@@ -55,6 +55,10 @@ const ProductComponent = (props) => {
     </div>);
 }
 
+/**
+ * Render the Features view
+ * @param {any[]} props React props
+ */
 const FeaturesComponent = (props) => {
     let settings = {
         infinite: true,
@@ -62,7 +66,8 @@ const FeaturesComponent = (props) => {
         slidesToShow: 1,
         swipeToSlide: true,
         className: "carousel",
-        dots: true
+        dots: true,
+        dotsClass: 'slick-dots-2'
     };
     console.log(props)
     return (
@@ -116,6 +121,9 @@ export default class Product extends Component {
         });
     }
 
+    /**
+     * Show the feature view
+     */
     showFeatures() {
         this.setState({
             selectedCategory: 'features',
@@ -123,10 +131,16 @@ export default class Product extends Component {
         })
     }
 
+    /**
+     * Show the specs view
+     */
     showSpecs() {
         this.setState({ selectedCategory: 'specs' })
     }
 
+    /**
+     * Create the footer and highlight the item that we're currently on.
+     */
     createFooter() {
         let index = 0;
         let footer = [
