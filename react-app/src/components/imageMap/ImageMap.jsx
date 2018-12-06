@@ -25,10 +25,12 @@ export default class ImageMap extends Component {
      * Go back to the initial landing state, for when the opened image is clicked.
      */
     loadFirstImage(){
-        this.setState({
-            image: this.startImage,
-            mappings: this.props.hotSpots,
-        });
+        if (this.state.image !== this.startImage){
+            this.setState({
+                image: this.startImage,
+                mappings: this.props.hotSpots,
+            });
+        }
     }
 
     render() {
