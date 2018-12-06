@@ -101,7 +101,6 @@ const FeaturesComponent = (props) => {
 export default class Product extends Component {
     constructor(props) {
         super(props);
-        console.log(props);
         // register to receive a message from other screens
         receiveMessage((err, product) => {
         	notifySender();
