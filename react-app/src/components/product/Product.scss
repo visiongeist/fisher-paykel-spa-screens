@@ -23,10 +23,8 @@
         .portrait { display: none; }
     }
     .portrait {
-      height:100%;
-      * {
-          height: inherit;
-      }
+        height:100%;
+    
     }
     .content{
         height: 75vh;
