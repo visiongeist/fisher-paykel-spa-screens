@@ -186,7 +186,7 @@ export default class Product extends Component {
             </li>),
             (<li key={index++} title="send to screen" onClick={() => this.sendToScreen(product)}>
             <div>
-                <FontAwesomeIcon icon={['fa', 'ruler-horizontal']} />
+                <FontAwesomeIcon icon={['fa', 'share-square']} />
                 <div className="textSegment">Send to Screen</div>
             </div>
         </li>)
