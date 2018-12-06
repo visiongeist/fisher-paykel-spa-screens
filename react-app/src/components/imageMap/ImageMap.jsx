@@ -39,7 +39,7 @@ export default class ImageMap extends Component {
                 <img src={this.state.image} alt="map" useMap="#image-map" />
                 <map name="image-map">
                     {this.state.mappings && this.state.mappings.map((area, index) => {
-                        return <area key={index} shape={area.shape} coords={area.coordinates} alt={index} onClick={() => this.changeImage(area.destinationPath)} />
+                        return <area key={index} shape={area.shape} coords={area.coordinates} alt={index} href="#" onClick={() => this.changeImage(area.destinationPath)} />
                     })}
                 </map>
             </div>
