@@ -1,5 +1,5 @@
 import openSocket from 'socket.io-client';
-const  socket = openSocket('http://ec2-13-58-82-245.us-east-2.compute.amazonaws.com');
+const  socket = openSocket('https://ec2-13-58-82-245.us-east-2.compute.amazonaws.com');
 
 function sendToScreen(product) {
   socket.emit('send-to-screen', product);

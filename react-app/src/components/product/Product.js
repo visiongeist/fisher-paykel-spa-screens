@@ -155,6 +155,7 @@ export default class Product extends Component {
     }
     
     sendToScreen(product) {
+    	console.log(product);
     	sendToScreen(product);
     	console.log('Show modal');
     }
@@ -200,7 +201,7 @@ export default class Product extends Component {
                     {this.state.currentView}
                     <div className="bottom">
                         <Footer selectedCategory={this.state.selectedCategory} >
-                            {this.createFooter()}
+                            {this.createFooter(this.props)}
                         </Footer>
                     </div>
                 </div>
