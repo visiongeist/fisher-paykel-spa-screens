@@ -10,6 +10,7 @@ import Footer from '../footer/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Slider from 'react-slick';
 import { sendToScreen, receiveMessage, notifySender, receiveMessageLoop } from '../../socket/api';
+import ImageMap from '../imageMap/ImageMap';
 require('./Product.scss');
 /**
  * Default Edit configuration for the Product component
@@ -50,8 +51,11 @@ const ProductComponent = (props) => {
                 </strong>
             </div>
         </div>
-        <div className="img-container">
+        {/* <div className="img-container">
             <img src={props.image} alt={props.title} />
+        </div> */}
+        <div className="img-container">
+            <ImageMap image={props.image} title={props.title} hotSpots={props.hotSpots} />
         </div>
     </div>);
 }
@@ -77,7 +81,7 @@ const FeaturesComponent = (props) => {
                     return (
                         <div className="feature">
                             <div className="image-container">
-                                <img src={feature.imagePath} key={index} alt={index}/>
+                                <img src={feature.imagePath} key={index} alt={index} />
                             </div>
                             <div className="footer-text">
                                 <strong>{feature.title}</strong>
@@ -97,7 +101,6 @@ const FeaturesComponent = (props) => {
 export default class Product extends Component {
     constructor(props) {
         super(props);
-        
         // register to receive a message from other screens
         receiveMessage((err, product) => {
         	notifySender();
@@ -113,7 +116,8 @@ export default class Product extends Component {
                 description={this.props.features[0].description}
                 title={this.props.title}
                 sku={this.props.sku}
-                category={this.props.category} />,
+                category={this.props.category} 
+                hotSpots={this.props.hotSpots}/>,
             selectedCategory: 'product'
         };
     }
@@ -127,7 +131,8 @@ export default class Product extends Component {
                 description={this.props.features[0].description}
                 title={this.props.title}
                 sku={this.props.sku}
-                category={this.props.category} />,
+                category={this.props.category}
+                hotSpots={this.props.hotSpots} />,
             selectedCategory: 'product'
         });
     }
@@ -150,6 +155,7 @@ export default class Product extends Component {
     }
     
     sendToScreen(product) {
+    	console.log(product);
     	sendToScreen(product);
     	console.log('Show modal');
     }
@@ -180,7 +186,7 @@ export default class Product extends Component {
             </li>),
             (<li key={index++} title="send to screen" onClick={() => this.sendToScreen(product)}>
             <div>
-                <FontAwesomeIcon icon={['fa', 'ruler-horizontal']} />
+                <FontAwesomeIcon icon={['fa', 'share-square']} />
                 <div className="textSegment">Send to Screen</div>
             </div>
         </li>)
@@ -189,14 +195,21 @@ export default class Product extends Component {
     }
 
     render() {
-        return (<div className="product-page">
-            {this.state.currentView}
-            <div className="bottom">
-                <Footer selectedCategory={this.state.selectedCategory} >
-                    {this.createFooter(this.props)}
-                </Footer>
+        return (
+            <div className="product-page">
+                <div className="landscape">
+                    {this.state.currentView}
+                    <div className="bottom">
+                        <Footer selectedCategory={this.state.selectedCategory} >
+                            {this.createFooter(this.props)}
+                        </Footer>
+                    </div>
+                </div>
+                <div className="portrait">
+                    <ImageMap image={this.props.image} title={this.props.title} hotSpots={this.props.hotSpots} />
+                </div>
             </div>
-        </div>);
+        );
     }
 }
 
