@@ -13,7 +13,7 @@ function render(model) {
         <BrowserRouter>
             <ScrollToTop>
                 <App cqChildren={ model[Constants.CHILDREN_PROP] } cqItems={ model[Constants.ITEMS_PROP] } cqItemsOrder={ model[Constants.ITEMS_ORDER_PROP] }
-                    cqPath={ ModelManager.rootPath } locationPathname={ window.location.pathname }/>
+                    cqPath={ ModelManager.rootPath } locationPathname={ window.location.pathname } title="" />
             </ScrollToTop>
         </BrowserRouter>), 
         document.getElementById('root'));

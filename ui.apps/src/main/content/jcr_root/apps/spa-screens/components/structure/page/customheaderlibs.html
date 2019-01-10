@@ -9,4 +9,8 @@ Custom Headerlibs for React Site
     data-sly-use.page="com.adobe.aem.guides.spascreens.core.models.HierarchyPage" 
     content="${page.rootUrl}"/>
 <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+<sly data-sly-call="${clientlib.js @ categories='spa-screens.ceddl'}"/>
 <sly data-sly-call="${clientlib.css @ categories='spa-screens.react'}"/>
+<script>
+    var digitalData = {};
+</script>

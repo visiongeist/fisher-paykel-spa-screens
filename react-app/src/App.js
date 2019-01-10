@@ -5,6 +5,7 @@ import Header from './components/header/Header';
 import "slick-carousel/slick/slick.scss";
 import "slick-carousel/slick/slick-theme.scss";
 
+var ceddl = ceddl || '';
 
 /**
  * Returns a model path from the given URL
@@ -50,6 +51,13 @@ class App extends Page {
         }
         return null;
     }
+
+    componentDidUpdate(prevProps, prevState) {
+        if(this.state.pageRouteChange) {
+            this.state.pageRouteChange = false;
+            window.ceddl.initialize();
+        }
+      }
 
     render() {
         return (
